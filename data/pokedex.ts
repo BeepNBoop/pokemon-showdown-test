@@ -11,6 +11,22 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		evos: ["Ivysaur"],
 		eggGroups: ["Monster", "Grass"],
+		otherFormes: ["Bulbasaur-Delta"],
+		formeOrder: ["Bulbasaur", "Bulbasaur-Delta"]
+	},
+	bulbasaurdelta: {
+		num: 1,
+		name: "Bulbasaur-Delta",
+		baseSpecies: "Bulbasaur",
+		forme: "Delta",
+		types: ["Fairy", "Psychic"],
+		baseStats: {hp: 45, atk: 49, def: 49, spa: 65, spd: 65, spe: 45},
+		abilities: {0: "Psycho Call", H: "Regenerator"},
+		heightm: 0.7,
+		weightkg: 6.9,
+		color: "Pink",
+		evos: ["Ivysaur-Delta"],
+		eggGroups: ["Undiscovered"],
 	},
 	ivysaur: {
 		num: 2,
