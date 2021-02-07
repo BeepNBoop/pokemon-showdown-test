@@ -908,8 +908,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	scizor: {
 		name: "Scizor",
 	},
+	deltascizor: {
+		name: "Scizor-Delta",
+	},
 	scizormega: {
 		name: "Scizor-Mega",
+	},
+	deltascizormega: {
+		name: "Scizor-Mega-Delta",
 	},
 	shuckle: {
 		name: "Shuckle",
