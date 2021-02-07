@@ -328,13 +328,17 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
 		shortDesc: "If held by a Clamperl, its Sp. Atk is doubled.",
 	},
-	deltavenusaurite: {
-		name: "Delta Venusaurite",
-		desc: "If held by Delta Venusaur, this item allows it to Mega Evolve in battle.",
+	deltablastoisinite: {
+		name: "Delta Blastoisinite",
+		desc: "If held by Delta Blastoise, this item allows it to Mega Evolve in battle.",
 	},
 	deltacharizardite: {
 		name: "Delta Charizardite",
 		desc: "If held by Delta Charizard, this item allows it to Mega Evolve in battle.",
+	},
+	deltavenusaurite: {
+		name: "Delta Venusaurite",
+		desc: "If held by Delta Venusaur, this item allows it to Mega Evolve in battle.",
 	},
 	destinyknot: {
 		name: "Destiny Knot",
