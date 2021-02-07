@@ -1142,6 +1142,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 226,
 		gen: 3,
 	},
+	deltavenusaurite: {
+		name: "Delta Venusaurite",
+		spritenum: 576,
+		megaStone: "Venusaur-Delta-Mega",
+		megaEvolves: "Venusaur-Delta",
+		itemUser: ["Venusaur-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1230,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		spritenum: 95,
