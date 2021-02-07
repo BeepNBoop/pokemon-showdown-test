@@ -282,6 +282,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Charizard-Delta-Mega"],
 		formeOrder: ["Charizard-Delta-Mega"],
+		tier: "UU",
 	},
 	charizarddeltamega: {
 		num: 6,
@@ -297,6 +298,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Charizardite",
+		tier: "UU",
 	},
 	squirtle: {
 		num: 7,
