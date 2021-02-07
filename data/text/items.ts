@@ -328,6 +328,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "If held by a Clamperl, its Sp. Atk is doubled. Evolves Clamperl into Huntail when traded.",
 		shortDesc: "If held by a Clamperl, its Sp. Atk is doubled.",
 	},
+	deltabisharpite: {
+		name: "Delta Bisharpite",
+		desc: "If held by Delta Bisharp, this item allows it to Mega Evolve in battle.",
+	},
 	deltablastoisinite: {
 		name: "Delta Blastoisinite",
 		desc: "If held by Delta Blastoise, this item allows it to Mega Evolve in battle.",
