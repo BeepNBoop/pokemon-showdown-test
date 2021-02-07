@@ -2357,8 +2357,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pawniard: {
 		name: "Pawniard",
 	},
+	deltapawniard: {
+		name: "Pawniard-Delta",
+	},
 	bisharp: {
 		name: "Bisharp",
+	},
+	bisharpmega: {
+		name: "Bisharp-Mega",
+	},
+	deltabisharp: {
+		name: "Bisharp-Delta",
+	},
+	deltabisharpmega: {
+		name: "Bisharp-Delta-Mega",
 	},
 	bouffalant: {
 		name: "Bouffalant",
