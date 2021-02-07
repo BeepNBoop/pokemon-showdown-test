@@ -1634,8 +1634,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	combee: {
 		name: "Combee",
 	},
+	deltacombee: {
+		name: "Combee-Delta",
+	},
 	vespiquen: {
 		name: "Vespiquen",
+	},
+	deltavespiquen: {
+		name: "Vespiquen-Delta",
 	},
 	pachirisu: {
 		name: "Pachirisu",
