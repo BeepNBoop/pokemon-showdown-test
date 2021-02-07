@@ -1064,6 +1064,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Psychic Surge",
 		shortDesc: "On switch-in, this Pokemon summons Psychic Terrain.",
 	},
+	psychocall: {
+		name: "Psycho Call",
+		desc: "When a Pokemon with Psycho Call uses a Psychic-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Psychic-type moves ina pinch",
+	},
 	punkrock: {
 		name: "Punk Rock",
 		desc: "This Pokemon's sound-based moves have their power multiplied by 1.3. This Pokemon takes halved damage from sound-based moves.",
