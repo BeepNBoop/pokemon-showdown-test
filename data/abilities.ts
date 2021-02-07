@@ -3526,7 +3526,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Spirit Call",
 		rating: 2,
 		num: 269,
-	}
+	},
 	stakeout: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender) {
