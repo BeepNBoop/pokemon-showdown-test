@@ -119,6 +119,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Binding Band",
 		desc: "Holder's partial-trapping moves deal 1/6 max HP per turn instead of 1/8.",
 	},
+	bisharpite: {
+		name: "Bisharpite",
+		desc: "If held by Bisharp, this item allows it to Mega Evolve in battle.",
+	},
 	blackbelt: {
 		name: "Black Belt",
 		desc: "Holder's Fighting-type attacks have 1.2x power.",

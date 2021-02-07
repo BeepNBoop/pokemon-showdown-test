@@ -420,6 +420,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 544,
 		gen: 5,
 	},
+	bisharpite: {
+		name: "Bisharpite",
+		spritenum: 583,
+		megaStone: "Bisharp-Mega",
+		megaEvolves: "Bisharp",
+		itemUser: ["Bisharp"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1234,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	blackbelt: {
 		name: "Black Belt",
 		spritenum: 32,
