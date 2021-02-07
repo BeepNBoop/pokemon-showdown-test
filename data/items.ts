@@ -1142,6 +1142,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 226,
 		gen: 3,
 	},
+	deltablastoisinite: {
+		name: "Delta Blastoisinite",
+		spritenum: 576,
+		megaStone: "Blastoise-Delta-Mega",
+		megaEvolves: "Blastoise-Delta",
+		itemUser: ["Blastoise-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1232,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltacharizardite: {
 		name: "Delta Charizardite",
 		spritenum: 576,
