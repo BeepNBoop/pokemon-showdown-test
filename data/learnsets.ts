@@ -138,7 +138,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			babydolleyes: ["8L3"],
 			confusion: ["8L7"],
 			fairywind: ["8L9"],
-			leechwind: ["8L13"],
+			leechseed: ["8L13"],
 			hypnosis: ["8L13"],
 			psybeam: ["8L15"],
 			drainingkiss: ["8L19"],
