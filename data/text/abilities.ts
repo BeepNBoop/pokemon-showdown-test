@@ -882,6 +882,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "No Guard",
 		shortDesc: "Every move used by or against this Pokemon will always hit.",
 	},
+	noctem: {
+		name: "Noctem",
+		desc: "Noctem summons darkness in battle as soon as a Pokemon with Noctem enters the battle. Its effects are the same as the move New Moon.",
+		shortDesc: "The Pokemon summons darkness and blots out the sky as it enters the battle.",
+	},
 	normalize: {
 		name: "Normalize",
 		desc: "This Pokemon's moves are changed to be Normal type and have their power multiplied by 1.2. This effect comes before other effects that change a move's type.",

@@ -2338,6 +2338,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 5,
 		num: 256,
 	},
+	noctem: {
+		onStart(source) {
+			this.field.setWeather('newmoon');
+		},
+		name: "Noctem",
+		rating: 4,
+		num: 271,
+	},
 	noguard: {
 		onAnyInvulnerabilityPriority: 1,
 		onAnyInvulnerability(target, source, move) {
