@@ -2723,8 +2723,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bergmite: {
 		name: "Bergmite",
 	},
+	deltabergmite: {
+		name: "Bergmite-Delta",
+	},
 	avalugg: {
 		name: "Avalugg",
+	},
+	deltaavalugg: {
+		name: "Avalugg-Delta",
 	},
 	noibat: {
 		name: "Noibat",
