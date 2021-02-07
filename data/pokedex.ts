@@ -27,6 +27,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		evos: ["Ivysaur-Delta"],
 		eggGroups: ["Undiscovered"],
+		tier: "LC",
 	},
 	ivysaur: {
 		num: 2,
@@ -60,6 +61,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 16,
 		evos: ["Venusaur-Delta"],
 		eggGroups: ["Undiscovered"],
+		tier: "NFE",
 	},
 	venusaur: {
 		num: 3,
@@ -124,6 +126,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Venusaur-Delta-Mega"],
 		formeOrder: ["Venusaur-Delta-Mega"],
+		tier: "UU",
 	},
 	venusaurdeltamega: {
 		num: 3,
@@ -138,6 +141,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Venusaurite",
+		tier: "OU",
 	},
 	charmander: {
 		num: 4,
@@ -168,6 +172,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Grey",
 		evos: ["Charmeleon-Delta"],
 		eggGroups: ["Undiscovered"],
+		tier: "LC",
 	},
 	charmeleon: {
 		num: 5,
@@ -202,6 +207,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 16,
 		evos: ["Charizard-Delta"],
 		eggGroups: ["Undiscovered"],
+		tier: "NFE",
 	},
 	charizard: {
 		num: 6,
@@ -298,7 +304,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Charizardite",
-		tier: "UU",
+		tier: "OU",
 	},
 	squirtle: {
 		num: 7,
@@ -446,6 +452,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscoverd"],
 		requiredItem: "Delta Blastoisinite",
+		tier: "OU",
 	},
 	caterpie: {
 		num: 10,
