@@ -1811,6 +1811,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gallademega: {
 		name: "Gallade-Mega",
 	},
+	deltagallade: {
+		name: "Gallade-Delta",
+	},
+	deltagallademega: {
+		name: "Gallade-Delta-Mega",
+	},
 	probopass: {
 		name: "Probopass",
 	},
