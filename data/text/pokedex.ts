@@ -2180,8 +2180,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	scraggy: {
 		name: "Scraggy",
 	},
+	deltascraggy: {
+		name: "Scraggy-Delta",
+	},
 	scrafty: {
 		name: "Scrafty",
+	},
+	deltascrafty: {
+		name: "Scrafty-Delta",
 	},
 	sigilyph: {
 		name: "Sigilyph",
