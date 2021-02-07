@@ -1077,7 +1077,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	psychocall: {
 		name: "Psycho Call",
 		desc: "When a Pokemon with Psycho Call uses a Psychic-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
-		shortDesc: "Powers up Psychic-type moves ina pinch",
+		shortDesc: "Powers up Psychic-type moves in a pinch",
 	},
 	punkrock: {
 		name: "Punk Rock",
@@ -1362,6 +1362,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Speed Boost",
 		desc: "This Pokemon's Speed is raised by 1 stage at the end of each full turn it has been on the field.",
 		shortDesc: "This Pokemon's Speed is raised 1 stage at the end of each full turn on the field.",
+	},
+	spiritcall: {
+		name: "Spirit Call",
+		desc: "When a Pokemon with Spirit Call uses a Ghost-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Ghost-type moves in a pinch",
 	},
 	stakeout: {
 		name: "Stakeout",
