@@ -527,6 +527,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Heavy Metal",
 		shortDesc: "This Pokemon's weight is doubled.",
 	},
+	hubris: {
+		name: "Hubris",
+		desc: "When a Pokemon with Hubris causes another Pokemon (including allies) to faint through direct damage, its Special Attack rises by one stage.",
+		shortDesc: "Boosts Special Attack after knocking out.",
+	},
 	honeygather: {
 		name: "Honey Gather",
 		shortDesc: "No competitive use.",
