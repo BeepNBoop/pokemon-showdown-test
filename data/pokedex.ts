@@ -10912,7 +10912,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 52,
 		eggGroups: ["Undiscoverd"],
 		otherFormes: ["Bisharp-Delta-Mega"],
-		formeOrder: ["Bisharp-Delta", "Bisharp-Delta-Mega"]
+		formeOrder: ["Bisharp-Delta", "Bisharp-Delta-Mega"],
+		tier: "UUBL",
 	},
 	bisharpdeltamega: {
 		num: 625,
@@ -10927,6 +10928,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Bisharpite",
+		tier: "OU",
 	},
 	bouffalant: {
 		num: 626,
