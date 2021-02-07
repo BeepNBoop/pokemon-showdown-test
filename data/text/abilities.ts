@@ -1680,6 +1680,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "White Smoke",
 		shortDesc: "Prevents other Pokemon from lowering this Pokemon's stat stages.",
 	},
+	windforce: {
+		name: "Wind Force",
+		desc: "This Pokemon is immune to Flying-type moves and raises its Speed by 1 stage when hit by an Flying-type move.",
+		shortDesc: "Flying-type moves boost this Pokemon's speed; Flying immunity.",
+	},
 	wimpout: {
 		name: "Wimp Out",
 		desc: "When this Pokemon has more than 1/2 its maximum HP and takes damage bringing it to 1/2 or less of its maximum HP, it immediately switches out to a chosen ally. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect. This effect applies to both direct and indirect damage, except Curse and Substitute on use, Belly Drum, Pain Split, and confusion damage.",

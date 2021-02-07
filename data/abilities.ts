@@ -4340,6 +4340,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 73,
 	},
+	windforce: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Flying') {
+				if (!this.boost({spe: 1})) {
+					this.add('-immune', target, '[from] ability: Wind Force');
+				}
+				return null;
+			}
+		},
+		name: "Wind Force",
+		rating: 2,
+		num: 273,
+	},
 	wimpout: {
 		onEmergencyExit(target) {
 			if (!this.canSwitch(target.side) || target.forceSwitchFlag || target.switchFlag) return;
