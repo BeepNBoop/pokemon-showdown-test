@@ -332,6 +332,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Venusaurite",
 		desc: "If held by Delta Venusaur, this item allows it to Mega Evolve in battle.",
 	},
+	deltacharizardite: {
+		name: "Delta Charizardite",
+		desc: "If held by Delta Charizard, this item allows it to Mega Evolve in battle.",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		desc: "If holder becomes infatuated, the other Pokemon also becomes infatuated.",
