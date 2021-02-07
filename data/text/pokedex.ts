@@ -29,8 +29,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	charmander: {
 		name: "Charmander",
 	},
+	deltacharmander: {
+		name: "Charmander-Delta",
+	},
 	charmeleon: {
 		name: "Charmeleon",
+	},
+	deltacharmeleon: {
+		name: "Charmeleon-Delta",
 	},
 	charizard: {
 		name: "Charizard",
@@ -43,6 +49,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	charizardgmax: {
 		name: "Charizard-Gmax",
+	},
+	deltacharizard: {
+		name: "Charizard-Delta",
+	},
+	deltacharizardmega: {
+		name: "Charizard-Delta-Mega",
 	},
 	squirtle: {
 		name: "Squirtle",
