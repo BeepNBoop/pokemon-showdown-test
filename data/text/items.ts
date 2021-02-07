@@ -352,6 +352,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Galladite",
 		desc: "If held by Delta Gallade, this item allows it to Mega Evolve in battle.",
 	},
+	deltasunflorite: {
+		name: "Delta Sunflorite",
+		desc: "If held by Delta Sunflora, this item allows it to Mega Evolve in battle.",
+	},
 	deltavenusaurite: {
 		name: "Delta Venusaurite",
 		desc: "If held by Delta Venusaur, this item allows it to Mega Evolve in battle.",

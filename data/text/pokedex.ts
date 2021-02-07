@@ -827,8 +827,23 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sunkern: {
 		name: "Sunkern",
 	},
+	deltasunkern: {
+		name: "Sunkern-Delta",
+	},
 	sunflora: {
 		name: "Sunflora",
+	},
+	sunfloramegaf: {
+		name: "Sunflora-Mega-F",
+	},
+	sunfloramegam: {
+		name: "Sunflora-Mega-M",
+	},
+	deltasunflora: {
+		name: "Sunflora-Delta",
+	},
+	deltasunfloramega: {
+		name: "Sunflora-Delta-Mega",
 	},
 	yanma: {
 		name: "Yanma",
