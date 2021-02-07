@@ -2810,7 +2810,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Psycho Call",
 		rating: 2,
-		num: -100,
+		num: 268,
 	},
 	punkrock: {
 		onBasePowerPriority: 7,
@@ -3508,6 +3508,25 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 3,
 	},
+	spiritcall: {
+		onModifyAtkPriority: 5,
+		onModifyAtk(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Spirit Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		onModifySpAPriority: 5,
+		onModifySpA(atk, attacker, defender, move) {
+			if (move.type === 'Ghost' && attacker.hp <= attacker.maxhp / 3) {
+				this.debug('Spirit Call boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Spirit Call",
+		rating: 2,
+		num: 269,
+	}
 	stakeout: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender) {
