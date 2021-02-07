@@ -59,8 +59,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	squirtle: {
 		name: "Squirtle",
 	},
+	deltasquirtle: {
+		name: "Squirtle-Delta",
+	},
 	wartortle: {
 		name: "Wartortle",
+	},
+	deltawartortle: {
+		name: "Wartortle-Delta",
 	},
 	blastoise: {
 		name: "Blastoise",
@@ -70,6 +76,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	blastoisegmax: {
 		name: "Blastoise-Gmax",
+	},
+	deltablastoise: {
+		name: "Blastoise-Delta",
+	},
+	deltablastoisemega: {
+		name: "Blastoise-Delta-Mega",
 	},
 	caterpie: {
 		name: "Caterpie",
