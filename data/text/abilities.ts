@@ -1244,6 +1244,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Serene Grace",
 		shortDesc: "This Pokemon's moves have their secondary effect chance doubled.",
 	},
+	shadowcall: {
+		name: "Shadow Call",
+		desc: "When a Pokemon with Shadow Call uses a Dark-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		shortDesc: "Powers up Dark-type moves in a pinch",
+	},
 	shadowshield: {
 		name: "Shadow Shield",
 		desc: "If this Pokemon is at full HP, damage taken from attacks is halved. Moongeist Beam, Sunsteel Strike, and the Mold Breaker, Teravolt, and Turboblaze Abilities cannot ignore this Ability.",
