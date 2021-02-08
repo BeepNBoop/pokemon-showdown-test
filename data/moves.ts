@@ -15776,7 +15776,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		secondary: {
 			chance: 30,
-			status: 'psn',
+			onHit(source, target) {
+				if (!source.hasAbility('venomous')) this.add('tox', target, '[from] ability: Venomous');
+			else 'psn'},
 		},
 		target: "normal",
 		type: "Poison",
