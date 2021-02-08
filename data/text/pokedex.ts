@@ -347,8 +347,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	growlithe: {
 		name: "Growlithe",
 	},
+	growlithedelta: {
+		name: "Growlithe-Delta",
+	},
 	arcanine: {
 		name: "Arcanine",
+	},
+	arcaninedelta: {
+		name: "Arcanine-Delta",
 	},
 	poliwag: {
 		name: "Poliwag",
