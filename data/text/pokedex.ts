@@ -110,14 +110,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pidgey: {
 		name: "Pidgey",
 	},
+	pidgeydelta: {
+		name: "Pidgey-Delta",
+	},
 	pidgeotto: {
 		name: "Pidgeotto",
+	},
+	pidgeottodelta: {
+		name: "Pidgeotto-Delta",
 	},
 	pidgeot: {
 		name: "Pidgeot",
 	},
 	pidgeotmega: {
 		name: "Pidgeot-Mega",
+	},
+	pidgeotdelta: {
+		name: "Pidgeot-Delta",
+	},
+	pidgeotdeltamega: {
+		name: "Pidgeot-Delta-Mega",
 	},
 	rattata: {
 		name: "Rattata",
