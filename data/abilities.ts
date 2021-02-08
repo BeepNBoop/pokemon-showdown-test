@@ -2990,6 +2990,38 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 144,
 	},
+	regurgitation: {
+		onPrepareHit(source, target, move) {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
+				move.multihit = 2;
+				move.multihitType = 'parentalbond';
+			}
+		},
+		onModifyType(move, pokemon) {
+			if (move.multihitType === 'parentalbond' && move.hit > 1) {
+				chance: 16.7
+				move.type = 'Water';
+				chance: 16.7
+				move.type = 'Fire';
+				chance: 16.7
+				move.type = 'Grass';
+				chance: 16.7
+				move.type = 'Dark';
+				chance: 16.7
+				move.type = 'Normal';
+				chance: 16.7
+				move.type = 'Psychic';
+			}
+		},
+		onBasePowerPriority: 7,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.multihitType === 'parentalbond' && move.hit > 1) return (40);
+		},
+		name: "Regurgitation",
+		rating: 4.5,
+		num: 184,
+	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
 			if (!effect) return;

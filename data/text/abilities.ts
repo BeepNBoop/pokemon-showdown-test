@@ -1151,6 +1151,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Regenerator",
 		shortDesc: "This Pokemon restores 1/3 of its maximum HP, rounded down, when it switches out.",
 	},
+	regurgitation: {
+		name: "Regurgitation",
+		desc: "Releases an additional 40 base power Dark, Grass, Water, Fore, Normal, or Psychic-type attack after successfully using an attack.",
+		shortDesc: "This Pokemon's damaging moves hit alongside a random 40 base power move."
+	},
 	ripen: {
 		name: "Ripen",
 		// TODO Needs research. Following berries aren't supported currently:
