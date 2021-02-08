@@ -15775,7 +15775,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
 		onModifyMove(move, pokemon) {
-			if (pokemon.hasAbility('naturalcure')) return;
+			if (pokemon.hasAbility('')) return;
 			move.secondaries = [];
 			if (pokemon.hasAbility('venomous')) {
 				move.secondaries.push({
