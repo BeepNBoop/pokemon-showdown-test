@@ -15774,11 +15774,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {bullet: 1, protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (pokemon.hasAbility('-venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 30,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 30,
-			onHit(source, target) {
-				if (!source.hasAbility('venomous')) this.add('tox', target, '[from] ability: Venomous');
-			else 'psn'},
+			status: 'psn',
 		},
 		target: "normal",
 		type: "Poison",

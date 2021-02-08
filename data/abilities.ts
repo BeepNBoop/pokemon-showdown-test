@@ -4173,12 +4173,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 274,
 	},
 	venomous: {
-		onTryAddVolatile(status, source, target) {
-			if (status.id &&
-				!(source.hasAbility('venomous') && ['psn'].includes(status.id))) {
-			this.add('tox', target, '[from] ability: Venomous');;
-			}
-		},
 		name: "Venomous",
 		rating: 2,
 		num: 275,
