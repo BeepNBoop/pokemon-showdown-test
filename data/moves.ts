@@ -943,6 +943,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 						delete source.volatiles['lockedmove'];
 					}
 				}
+				if (source.hasAbility('venomous')) {
+					source.trySetStatus('tox', target);
+				}
 				if (move.flags['contact']) {
 					source.trySetStatus('psn', target);
 				}
@@ -951,6 +954,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onHit(target, source, move) {
 				if (move.isZOrMaxPowered && move.flags['contact']) {
 					source.trySetStatus('psn', target);
+				}
+				if (source.hasAbility('venomous')) {
+					source.trySetStatus('tox', target);
 				}
 			},
 		},
@@ -2810,6 +2816,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 10,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 10,
 			status: 'psn',
@@ -7506,6 +7522,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 30,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 30,
 			status: 'psn',
@@ -12634,8 +12660,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 40,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
-		status: 'psn',
-		secondary: null,
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 100,
+					status: 'tox',
+				});
+			}
+		},
+		secondary: {
+			chance: 100,
+			status: 'psn',
+		},
 		target: "allAdjacentFoes",
 		type: "Poison",
 		zMove: {boost: {def: 1}},
@@ -12650,6 +12688,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 30,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 30,
 			status: 'psn',
@@ -12667,8 +12715,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 35,
 		priority: 0,
 		flags: {powder: 1, protect: 1, reflectable: 1, mirror: 1},
-		status: 'psn',
-		secondary: null,
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 100,
+					status: 'tox',
+				});
+			}
+		},
+		secondary: {
+			chance: 100,
+			status: 'psn',
+		},
 		target: "normal",
 		type: "Poison",
 		zMove: {boost: {def: 1}},
@@ -12683,6 +12743,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 35,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 30,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 30,
 			status: 'psn',
@@ -12700,6 +12770,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 25,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 10,
+					status: 'tox',
+				});
+			}
+		},
 		critRatio: 2,
 		secondary: {
 			chance: 10,
@@ -15116,6 +15196,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (physical > special || (physical === special && this.random(2) === 0)) {
 				move.category = 'Physical';
 				move.flags.contact = 1;
+			};
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 20,
+					status: 'tox',
+				});
 			}
 		},
 		onHit(target, source, move) {
@@ -15757,6 +15845,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 30,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 30,
 			status: 'psn',
@@ -15801,6 +15899,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 10,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 10,
 			status: 'psn',
@@ -15900,6 +16008,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 40,
+					status: 'tox',
+				});
+			}
+		},
 		secondary: {
 			chance: 40,
 			status: 'psn',
@@ -18376,11 +18494,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
-		status: 'psn',
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 100,
+					status: 'tox',
+				});
+			}
+		},
 		boosts: {
 			spe: -1,
 		},
-		secondary: null,
+		secondary: {
+			chance: 100,
+			status: 'psn',
+		},
 		target: "normal",
 		type: "Poison",
 		zMove: {boost: {spe: 1}},
@@ -18650,6 +18780,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (!pokemon.hasAbility('venomous')) return;
+			move.secondaries = [];
+			if (pokemon.hasAbility('venomous')) {
+				move.secondaries.push({
+					chance: 20,
+					status: 'tox',
+				});
+			}
+		},
 		multihit: 2,
 		secondary: {
 			chance: 20,
