@@ -1613,11 +1613,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	turtwig: {
 		name: "Turtwig",
 	},
+	turtwigdelta: {
+		name: "Turtwig-Delta",
+	},
 	grotle: {
 		name: "Grotle",
 	},
+	grotledelta: {
+		name: "Grotle-Delta",
+	},
 	torterra: {
 		name: "Torterra",
+	},
+	torterradelta: {
+		name: "Torterra-Delta",
 	},
 	chimchar: {
 		name: "Chimchar",
