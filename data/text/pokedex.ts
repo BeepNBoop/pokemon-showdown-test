@@ -302,11 +302,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	diglettalola: {
 		name: "Diglett-Alola",
 	},
+	diglettdelta: {
+		name: "Diglett-Delta",
+	},
 	dugtrio: {
 		name: "Dugtrio",
 	},
 	dugtrioalola: {
 		name: "Dugtrio-Alola",
+	},
+	dugtriodelta: {
+		name: "Dugtrio-Delta",
 	},
 	meowth: {
 		name: "Meowth",
