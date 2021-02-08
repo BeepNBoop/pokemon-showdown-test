@@ -2995,11 +2995,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
 			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
 				move.multihit = 2;
-				move.multihitType = 'parentalbond';
+				move.multihitType = 'Fire';
 			}
 		},
 		onModifyType(move, pokemon) {
-			if (move.multihitType === 'parentalbond' && move.hit > 1) {
+			if (move.multihitType === 'Fire' && move.hit > 1) {
 				chance: 16.7
 				move.type = 'Water';
 				chance: 16.7
@@ -3016,7 +3016,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onBasePowerPriority: 7,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.multihitType === 'parentalbond' && move.hit > 1) return (40);
+			if (move.multihitType === 'Fire' && move.hit > 1) return (40);
 		},
 		name: "Regurgitation",
 		rating: 4.5,
