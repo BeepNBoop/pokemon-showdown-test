@@ -539,11 +539,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	koffing: {
 		name: "Koffing",
 	},
+	deltakoffing: {
+		name: "Koffing-Delta",
+	},
 	weezing: {
 		name: "Weezing",
 	},
 	weezinggalar: {
 		name: "Weezing-Galar",
+	},
+	deltaweezing: {
+		name: "Weezing-Delta",
 	},
 	rhyhorn: {
 		name: "Rhyhorn",
