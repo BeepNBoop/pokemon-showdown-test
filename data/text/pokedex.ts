@@ -2663,7 +2663,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	froakie: {
 		name: "Froakie",
 	},
+	froakiedelta: {
+		name: "Froakie",
+	},
 	frogadier: {
+		name: "Frogadier",
+	},
+	frogadierdelta: {
 		name: "Frogadier",
 	},
 	greninja: {
@@ -2671,6 +2677,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	greninjaash: {
 		name: "Greninja-Ash",
+	},
+	greninjadelta: {
+		name: "Greninja",
 	},
 	bunnelby: {
 		name: "Bunnelby",
