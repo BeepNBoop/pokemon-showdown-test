@@ -890,6 +890,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	misdreavus: {
 		name: "Misdreavus",
 	},
+	misdreavusdelta: {
+		name: "Misdreavus-Delta",
+	},
 	unown: {
 		name: "Unown",
 	},
@@ -1741,6 +1744,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	mismagius: {
 		name: "Mismagius",
+	},
+	mismagiusdelta: {
+		name: "Mismagius-Delta",
 	},
 	honchkrow: {
 		name: "Honchkrow",

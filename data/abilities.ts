@@ -3020,7 +3020,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Regurgitation",
 		rating: 4.5,
-		num: 184,
+		num: 276,
 	},
 	ripen: {
 		onTryHeal(damage, target, source, effect) {
@@ -4420,6 +4420,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Wind Force",
 		rating: 2,
 		num: 273,
+	},
+	winterjoy: {
+		onModifyAtk(Atk, pokemon) {
+			if (pokemon.hasAbility('winterjoy')) {
+				return this.chainModify(1.4);
+			}
+		},
+		onModifySpA(spa, pokemon) {
+			if (pokemon.hasAbility('winterjoy')) {
+				return this.chainModify(1.4);
+			}
+		},
+		name: "Winter Joy",
+		rating: 3,
+		num: 277,
 	},
 	wimpout: {
 		onEmergencyExit(target) {
