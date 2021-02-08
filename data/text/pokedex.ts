@@ -1706,8 +1706,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	drifloon: {
 		name: "Drifloon",
 	},
+	drifloondelta: {
+		name: "Drifloon-Delta",
+	},
 	drifblim: {
 		name: "Drifblim",
+	},
+	drifblimdelta: {
+		name: "Drifblim-Delta",
 	},
 	buneary: {
 		name: "Buneary",
