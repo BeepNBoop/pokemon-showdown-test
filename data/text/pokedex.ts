@@ -683,6 +683,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	snorlaxgmax: {
 		name: "Snorlax-Gmax",
 	},
+	snorlaxdelta: {
+		name: "Snorlax-Delta",
+	},
 	articuno: {
 		name: "Articuno",
 	},
@@ -1792,6 +1795,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	munchlax: {
 		name: "Munchlax",
+	},
+	munchlaxdelta: {
+		name: "Munchlax-Delta",
 	},
 	riolu: {
 		name: "Riolu",
