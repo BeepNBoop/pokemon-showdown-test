@@ -4170,7 +4170,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		name: "Vampiric",
 		rating: 2,
-		num: 260,
+		num: 274,
+	},
+	venomous: {
+		onModifyMove(move) {
+			if (!move.secondaries) {
+				move.secondaries = [{status: 'psn'}];
+			}
+			move.secondaries.push({
+				status: 'tox',
+				ability: this.dex.getAbility('venomous'),
+			});
+		},
+		name: "Venomous",
+		rating: 2,
+		num: 275,
 	},
 	victorystar: {
 		onAnyModifyAccuracyPriority: -1,
