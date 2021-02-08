@@ -4173,14 +4173,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 274,
 	},
 	venomous: {
-		onModifyMove(move) {
-			if (!move.secondaries) {
-				move.secondaries = [{status: 'psn'}];
-			}
-			move.secondaries.push({
-				status: 'tox',
-				ability: this.dex.getAbility('venomous'),
-			});
+		onTryAddVolatile(status, target) {
+			if (status.id === 'pns') return (status.id === 'tox');
 		},
 		name: "Venomous",
 		rating: 2,
