@@ -1198,6 +1198,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltafroslassite: {
+		name: "Delta Froslassite",
+		spritenum: 576,
+		megaStone: "Frosslass-Delta-Mega",
+		megaEvolves: "Frosslass-Delta",
+		itemUser: ["Frosslass-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1240,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltagardevoirite: {
 		name: "Delta Gardevoirite",
 		spritenum: 576,
@@ -1223,6 +1237,20 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 1236,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltaglalitite: {
+		name: "Delta Glalitite",
+		spritenum: 576,
+		megaStone: "Glalie-Delta-Mega",
+		megaEvolves: "Glalie-Delta",
+		itemUser: ["Glalie-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1239,
 		gen: 6,
 		isNonstandard: "Past",
 	},

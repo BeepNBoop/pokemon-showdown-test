@@ -1439,11 +1439,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	snorunt: {
 		name: "Snorunt",
 	},
+	deltasnorunt: {
+		name: "Snorunt-Delta",
+	},
 	glalie: {
 		name: "Glalie",
 	},
+	deltaglalie: {
+		name: "Glalie-Delta",
+	},
 	glaliemega: {
 		name: "Glalie-Mega",
+	},
+	deltaglaliemega: {
+		name: "Glalie-Delta-Mega",
 	},
 	spheal: {
 		name: "Spheal",
@@ -1858,6 +1867,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	froslass: {
 		name: "Froslass",
+	},
+	deltafroslass: {
+		name: "Froslass-Delta",
 	},
 	rotom: {
 		name: "Rotom",
