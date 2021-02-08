@@ -1109,14 +1109,23 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	torchic: {
 		name: "Torchic",
 	},
+	torchicdelta: {
+		name: "Torchic-Delta",
+	},
 	combusken: {
 		name: "Combusken",
+	},
+	combuskendelta: {
+		name: "Combusken-Delta",
 	},
 	blaziken: {
 		name: "Blaziken",
 	},
 	blazikenmega: {
 		name: "Blaziken-Mega",
+	},
+	blazikendelta: {
+		name: "Blaziken-Delta",
 	},
 	mudkip: {
 		name: "Mudkip",
