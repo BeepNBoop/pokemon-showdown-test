@@ -2024,8 +2024,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	purrloin: {
 		name: "Purrloin",
 	},
+	deltapurrloin: {
+		name: "Purrloin-Delta",
+	},
 	liepard: {
 		name: "Liepard",
+	},
+	deltaliepard: {
+		name: "Liepard-Delta",
 	},
 	pansage: {
 		name: "Pansage",
