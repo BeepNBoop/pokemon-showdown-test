@@ -1607,11 +1607,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shinx: {
 		name: "Shinx",
 	},
+	deltashinx: {
+		name: "Shinx-Delta",
+	},
 	luxio: {
 		name: "Luxio",
 	},
+	deltaluxio: {
+		name: "Luxio-Delta",
+	},
 	luxray: {
 		name: "Luxray",
+	},
+	deltaluxray: {
+		name: "Luxray-Delta",
 	},
 	budew: {
 		name: "Budew",

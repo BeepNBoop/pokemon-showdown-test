@@ -1625,6 +1625,15 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "All of this Pokemon's moves that make contact bypass protection.",
 		shortDesc: "All contact moves hit through protection.",
 	},
+	vampiric: {
+		name: "Vampiric",
+		desc: "Allows the user to regain 25% of the damage inflicted when using a contact move. That amount of HP recovered is unaffected by Big Root. If the effects of Heal Block are active then Vampiric cannot restore HP.",
+		shortDesc: "Recovers a little HP with contact moves.",
+	},
+	venomous: {
+		name: "Venomous",
+		desc: "This Pokemon always badly poisons.",
+	},
 	victorystar: {
 		name: "Victory Star",
 		shortDesc: "This Pokemon and its allies' moves have their accuracy multiplied by 1.1.",

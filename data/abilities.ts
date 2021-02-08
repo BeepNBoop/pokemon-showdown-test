@@ -4164,6 +4164,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 260,
 	},
+	vampiric: {
+		onModifyMove(move, target) {
+			if (move.flags['contact']) this.heal(target.baseMaxhp / 4);
+		},
+		name: "Vampiric",
+		rating: 2,
+		num: 260,
+	},
 	victorystar: {
 		onAnyModifyAccuracyPriority: -1,
 		onAnyModifyAccuracy(accuracy, target, source) {
