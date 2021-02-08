@@ -863,8 +863,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	wooper: {
 		name: "Wooper",
 	},
+	wooperdelta: {
+		name: "Wooper-Delta",
+	},
 	quagsire: {
 		name: "Quagsire",
+	},
+	quagsiredelta: {
+		name: "Quagsire-Delta",
 	},
 	espeon: {
 		name: "Espeon",
