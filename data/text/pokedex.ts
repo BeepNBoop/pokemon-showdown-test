@@ -2,13 +2,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bulbasaur: {
 		name: "Bulbasaur",
 	},
-	deltabulbasaur: {
+	bulbasaurdelta: {
 		name: "Bulbasaur-Delta",
 	},
 	ivysaur: {
 		name: "Ivysaur",
 	},
-	deltaivysaur: {
+	ivysaurdelta: {
 		name: "Ivysaur-Delta",
 	},
 	venusaur: {
@@ -20,22 +20,22 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	venusaurgmax: {
 		name: "Venusaur-Gmax",
 	},
-	deltavenusaur: {
+	venusaurdelta: {
 		name: "Venusaur-Delta",
 	},
-	deltavenusaurmega: {
+	venusaurdeltamega: {
 		name: "Venusaur-Delta-Mega",
 	},
 	charmander: {
 		name: "Charmander",
 	},
-	deltacharmander: {
+	charmanderdelta: {
 		name: "Charmander-Delta",
 	},
 	charmeleon: {
 		name: "Charmeleon",
 	},
-	deltacharmeleon: {
+	charmeleondelta: {
 		name: "Charmeleon-Delta",
 	},
 	charizard: {
@@ -50,22 +50,22 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	charizardgmax: {
 		name: "Charizard-Gmax",
 	},
-	deltacharizard: {
+	charizarddelta: {
 		name: "Charizard-Delta",
 	},
-	deltacharizardmega: {
+	charizarddeltamega: {
 		name: "Charizard-Delta-Mega",
 	},
 	squirtle: {
 		name: "Squirtle",
 	},
-	deltasquirtle: {
+	squirtledelta: {
 		name: "Squirtle-Delta",
 	},
 	wartortle: {
 		name: "Wartortle",
 	},
-	deltawartortle: {
+	wartortledelta: {
 		name: "Wartortle-Delta",
 	},
 	blastoise: {
@@ -77,10 +77,10 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	blastoisegmax: {
 		name: "Blastoise-Gmax",
 	},
-	deltablastoise: {
+	blastoisedelta: {
 		name: "Blastoise-Delta",
 	},
-	deltablastoisemega: {
+	blastoisedeltamega: {
 		name: "Blastoise-Delta-Mega",
 	},
 	caterpie: {
@@ -539,7 +539,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	koffing: {
 		name: "Koffing",
 	},
-	deltakoffing: {
+	koffingdelta: {
 		name: "Koffing-Delta",
 	},
 	weezing: {
@@ -548,7 +548,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	weezinggalar: {
 		name: "Weezing-Galar",
 	},
-	deltaweezing: {
+	weezingdelta: {
 		name: "Weezing-Delta",
 	},
 	rhyhorn: {
@@ -833,7 +833,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sunkern: {
 		name: "Sunkern",
 	},
-	deltasunkern: {
+	sunkerndelta: {
 		name: "Sunkern-Delta",
 	},
 	sunflora: {
@@ -845,10 +845,10 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sunfloramegam: {
 		name: "Sunflora-Mega-M",
 	},
-	deltasunflora: {
+	sunfloradelta: {
 		name: "Sunflora-Delta",
 	},
-	deltasunfloramega: {
+	sunfloramegadelta: {
 		name: "Sunflora-Delta-Mega",
 	},
 	yanma: {
@@ -914,13 +914,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	scizor: {
 		name: "Scizor",
 	},
-	deltascizor: {
+	scizordelta: {
 		name: "Scizor-Delta",
 	},
 	scizormega: {
 		name: "Scizor-Mega",
 	},
-	deltascizormega: {
+	scizormegadelta: {
 		name: "Scizor-Mega-Delta",
 	},
 	shuckle: {
@@ -1439,19 +1439,19 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	snorunt: {
 		name: "Snorunt",
 	},
-	deltasnorunt: {
+	snoruntdelta: {
 		name: "Snorunt-Delta",
 	},
 	glalie: {
 		name: "Glalie",
 	},
-	deltaglalie: {
+	glaliedelta: {
 		name: "Glalie-Delta",
 	},
 	glaliemega: {
 		name: "Glalie-Mega",
 	},
-	deltaglaliemega: {
+	glaliemegadelta: {
 		name: "Glalie-Delta-Mega",
 	},
 	spheal: {
@@ -1607,19 +1607,19 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shinx: {
 		name: "Shinx",
 	},
-	deltashinx: {
+	shinxdelta: {
 		name: "Shinx-Delta",
 	},
 	luxio: {
 		name: "Luxio",
 	},
-	deltaluxio: {
+	luxiodelta: {
 		name: "Luxio-Delta",
 	},
 	luxray: {
 		name: "Luxray",
 	},
-	deltaluxray: {
+	luxraydelta: {
 		name: "Luxray-Delta",
 	},
 	budew: {
@@ -1658,13 +1658,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	combee: {
 		name: "Combee",
 	},
-	deltacombee: {
+	combeedelta: {
 		name: "Combee-Delta",
 	},
 	vespiquen: {
 		name: "Vespiquen",
 	},
-	deltavespiquen: {
+	vespiquendelta: {
 		name: "Vespiquen-Delta",
 	},
 	pachirisu: {
@@ -1862,10 +1862,10 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gallademega: {
 		name: "Gallade-Mega",
 	},
-	deltagallade: {
+	galladedelta: {
 		name: "Gallade-Delta",
 	},
-	deltagallademega: {
+	galladedeltamega: {
 		name: "Gallade-Delta-Mega",
 	},
 	probopass: {
@@ -1877,8 +1877,11 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	froslass: {
 		name: "Froslass",
 	},
-	deltafroslass: {
+	froslassdelta: {
 		name: "Froslass-Delta",
+	},
+	froslassdeltamega: {
+		name: "Froslass-Delta-Mega",
 	},
 	rotom: {
 		name: "Rotom",
@@ -2045,13 +2048,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	purrloin: {
 		name: "Purrloin",
 	},
-	deltapurrloin: {
+	purrloindelta: {
 		name: "Purrloin-Delta",
 	},
 	liepard: {
 		name: "Liepard",
 	},
-	deltaliepard: {
+	lieparddelta: {
 		name: "Liepard-Delta",
 	},
 	pansage: {
@@ -2219,13 +2222,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	scraggy: {
 		name: "Scraggy",
 	},
-	deltascraggy: {
+	scraggydelta: {
 		name: "Scraggy-Delta",
 	},
 	scrafty: {
 		name: "Scrafty",
 	},
-	deltascrafty: {
+	scraftydelta: {
 		name: "Scrafty-Delta",
 	},
 	sigilyph: {
@@ -2429,7 +2432,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pawniard: {
 		name: "Pawniard",
 	},
-	deltapawniard: {
+	pawniarddelta: {
 		name: "Pawniard-Delta",
 	},
 	bisharp: {
@@ -2438,10 +2441,10 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bisharpmega: {
 		name: "Bisharp-Mega",
 	},
-	deltabisharp: {
+	bisharpdelta: {
 		name: "Bisharp-Delta",
 	},
-	deltabisharpmega: {
+	bisharpdeltamega: {
 		name: "Bisharp-Delta-Mega",
 	},
 	bouffalant: {
@@ -2744,13 +2747,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	phantump: {
 		name: "Phantump",
 	},
-	deltaphantump: {
+	phantumpdelta: {
 		name: "Phantump-Delta",
 	},
 	trevenant: {
 		name: "Trevenant",
 	},
-	deltatrevenant: {
+	trevenantdelta: {
 		name: "Trevenant-Delta",
 	},
 	pumpkaboo: {
@@ -2780,13 +2783,13 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	bergmite: {
 		name: "Bergmite",
 	},
-	deltabergmite: {
+	bergmitedelta: {
 		name: "Bergmite-Delta",
 	},
 	avalugg: {
 		name: "Avalugg",
 	},
-	deltaavalugg: {
+	avaluggdelta: {
 		name: "Avalugg-Delta",
 	},
 	noibat: {
