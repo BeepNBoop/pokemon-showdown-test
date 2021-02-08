@@ -2723,8 +2723,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	phantump: {
 		name: "Phantump",
 	},
+	deltaphantump: {
+		name: "Phantump-Delta",
+	},
 	trevenant: {
 		name: "Trevenant",
+	},
+	deltatrevenant: {
+		name: "Trevenant-Delta",
 	},
 	pumpkaboo: {
 		name: "Pumpkaboo",
