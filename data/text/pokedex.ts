@@ -1277,6 +1277,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	roselia: {
 		name: "Roselia",
 	},
+	roseliadelta: {
+		name: "Roselia-Delta",
+	},
 	gulpin: {
 		name: "Gulpin",
 	},
@@ -1625,8 +1628,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	budew: {
 		name: "Budew",
 	},
+	budewdelta: {
+		name: "Budew-Delta",
+	},
 	roserade: {
 		name: "Roserade",
+	},
+	roseradedelta: {
+		name: "Roserade-Delta",
 	},
 	cranidos: {
 		name: "Cranidos",

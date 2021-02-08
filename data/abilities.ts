@@ -1400,6 +1400,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0,
 		num: 134,
 	},
+	heliophobia: {
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === 'newmoon') {
+				this.heal(target.baseMaxhp / 8);
+			} else if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.damage(target.baseMaxhp / 8, target, target);
+			}
+		},
+		name: "Heliophobia",
+		rating: 3,
+		num: 87,
+	},
 	hubris: {
 		onSourceAfterFaint(length, target, source, effect) {
 			if (effect && effect.effectType === 'Move') {
@@ -3257,6 +3270,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		name: "Shadow Call",
+		rating: 2,
+		num: 272,
+	},
+	shadowdance: {
+		onModifySpe(spe, pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Shadow Dance",
 		rating: 2,
 		num: 272,
 	},

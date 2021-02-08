@@ -1246,8 +1246,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	shadowcall: {
 		name: "Shadow Call",
-		desc: "When a Pokemon with Shadow Call uses a Dark-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining",
+		desc: "When a Pokemon with Shadow Call uses a Dark-type movve, the power will increase by 1.5x if the user has less than or equal to 1/3 of its maximum HP remaining.",
 		shortDesc: "Powers up Dark-type moves in a pinch",
+	},
+	shadowdance: {
+		name: "Shadow Dance",
+		desc: "During intense darkness, the Speed stat of Pokemon with this Ability is doubled.",
 	},
 	shadowshield: {
 		name: "Shadow Shield",
