@@ -2792,8 +2792,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	noibat: {
 		name: "Noibat",
 	},
+	noibatdelta: {
+		name: "Noibat-Delta",
+	},
 	noivern: {
 		name: "Noivern",
+	},
+	noiverndelta: {
+		name: "Noivern-Delta",
 	},
 	xerneas: {
 		name: "Xerneas",
