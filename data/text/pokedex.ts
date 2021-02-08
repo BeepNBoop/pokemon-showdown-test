@@ -728,11 +728,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cyndaquil: {
 		name: "Cyndaquil",
 	},
+	cyndaquildelta: {
+		name: "Cyndaquil-Delta",
+	},
 	quilava: {
 		name: "Quilava",
 	},
+	quilavadelta: {
+		name: "Quilava-Delta",
+	},
 	typhlosion: {
 		name: "Typhlosion",
+	},
+	typhlosionmega: {
+		name: "Typhlosion-Mega",
+	},
+	typhlosiondelta: {
+		name: "Typhlosion-Delta",
+	},
+	typhlosiondeltamega: {
+		name: "Typhlosion-Delta-Mega",
 	},
 	totodile: {
 		name: "Totodile",

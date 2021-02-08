@@ -3831,6 +3831,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 21,
 	},
+	supercell: {
+		onModifySpA(SpA, pokemon) {
+			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Super Cell",
+		rating: 3,
+		num: 105,
+	},
 	superluck: {
 		onModifyCritRatio(critRatio) {
 			return critRatio + 1;
