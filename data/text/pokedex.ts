@@ -1088,14 +1088,23 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	treecko: {
 		name: "Treecko",
 	},
+	treeckodelta: {
+		name: "Treecko-Delta",
+	},
 	grovyle: {
 		name: "Grovyle",
+	},
+	grovyledelta: {
+		name: "Grovyle-Delta",
 	},
 	sceptile: {
 		name: "Sceptile",
 	},
 	sceptilemega: {
 		name: "Sceptile-Mega",
+	},
+	sceptiledelta: {
+		name: "Sceptile-Delta",
 	},
 	torchic: {
 		name: "Torchic",
