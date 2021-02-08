@@ -2087,11 +2087,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	snivy: {
 		name: "Snivy",
 	},
+	snivydelta: {
+		name: "Snivy-Delta",
+	},
 	servine: {
 		name: "Servine",
 	},
+	servinedelta: {
+		name: "Servine-Delta",
+	},
 	serperior: {
 		name: "Serperior",
+	},
+	serperiordelta: {
+		name: "Serperior-Delta",
 	},
 	tepig: {
 		name: "Tepig",
