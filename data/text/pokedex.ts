@@ -614,6 +614,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tangela: {
 		name: "Tangela",
 	},
+	tangeladelta: {
+		name: "Tangela-Delta",
+	},
 	kangaskhan: {
 		name: "Kangaskhan",
 	},
@@ -1954,6 +1957,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	tangrowth: {
 		name: "Tangrowth",
+	},
+	tangrowthdelta: {
+		name: "Tangrowth-Delta",
 	},
 	electivire: {
 		name: "Electivire",
