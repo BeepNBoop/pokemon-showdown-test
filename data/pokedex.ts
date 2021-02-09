@@ -4339,7 +4339,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 170,
 		name: "Chinchou-Delta",
 		baseSpecies: "Chinchou",
-		forme: "Delta"
+		forme: "Delta",
 		types: ["Ghost", "Fire"],
 		baseStats: {hp: 75, atk: 38, def: 38, spa: 56, spd: 56, spe: 67},
 		abilities: {0: "Flash Fire", 1: "Unnerve", H: "Levitate"},
