@@ -1617,7 +1617,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Shiftrite",
 		desc: "If held by a Shiftry, this item allows it to Mega Evolve in battle.",
 
-	}m
+	},
 	shockdrive: {
 		name: "Shock Drive",
 		desc: "Holder's Techno Blast is Electric type.",
