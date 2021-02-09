@@ -1415,7 +1415,7 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sableyedelta: {
 		name: "Sableye-Delta",
 	},
-	sableyemega: {
+	sableyedeltamega: {
 		name: "Sableye-Delta-Mega",
 	},
 	mawile: {
@@ -1423,6 +1423,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	mawilemega: {
 		name: "Mawile-Mega",
+	},
+	mawiledelta: {
+		name: "Mawile-Delta",
+	},
+	mawiledeltamega: {
+		name: "Mawile-Delta-Mega",
 	},
 	aron: {
 		name: "Aron",
