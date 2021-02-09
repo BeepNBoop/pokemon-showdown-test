@@ -965,6 +965,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	yanma: {
 		name: "Yanma",
 	},
+	yanmadelta: {
+		name: "Yanma-Delta",
+	},
 	wooper: {
 		name: "Wooper",
 	},
@@ -2014,6 +2017,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	yanmega: {
 		name: "Yanmega",
+	},
+	yanmegadelta: {
+		name: "Yanmega-Delta",
 	},
 	leafeon: {
 		name: "Leafeon",
