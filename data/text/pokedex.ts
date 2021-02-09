@@ -1310,11 +1310,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	seedot: {
 		name: "Seedot",
 	},
+	seedotdelta: {
+		name: "Seedot-Delta",
+	},
 	nuzleaf: {
 		name: "Nuzleaf",
 	},
+	nuzleafdelta: {
+		name: "Nuzleaf-Delta",
+	},
 	shiftry: {
 		name: "Shiftry",
+	},
+	shiftrydelta: {
+		name: "Shiftry-Delta",
 	},
 	taillow: {
 		name: "Taillow",

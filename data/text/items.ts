@@ -1605,6 +1605,11 @@ export const ItemsText: {[k: string]: ItemText} = {
 		desc: "Evolves Togetic into Togekiss, Roselia into Roserade, Minccino into Cinccino, and Floette into Florges when used.",
 		shortDesc: "Evolves certain species of Pokemon when used.",
 	},
+	shiftrite: {
+		name: "Shiftrite",
+		desc: "If held by a Shiftry, this item allows it to Mega Evolve in battle.",
+
+	}m
 	shockdrive: {
 		name: "Shock Drive",
 		desc: "Holder's Techno Blast is Electric type.",
