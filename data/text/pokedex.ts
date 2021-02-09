@@ -209,11 +209,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	pikachuworld: {
 		name: "Pikachu-World",
 	},
+	pikachudelta: {
+		name: "Pikachu-Delta",
+	},
 	raichu: {
 		name: "Raichu",
 	},
 	raichualola: {
 		name: "Raichu-Alola",
+	},
+	raichudelta: {
+		name: "Raichu-Delta",
 	},
 	sandshrew: {
 		name: "Sandshrew",
