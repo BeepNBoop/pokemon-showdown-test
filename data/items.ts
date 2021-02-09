@@ -5149,7 +5149,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	},
 	shinystone: {
 		name: "Shiny Stone",
 		spritenum: 439,
