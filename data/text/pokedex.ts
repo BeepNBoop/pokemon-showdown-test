@@ -1055,6 +1055,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shuckle: {
 		name: "Shuckle",
 	},
+	shuckledelta: {
+		name: "Shuckle-Delta",
+	},
 	heracross: {
 		name: "Heracross",
 	},
