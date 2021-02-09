@@ -686,6 +686,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	ditto: {
 		name: "Ditto",
 	},
+	dittodelta: {
+		name: "Ditto-Delta",
+	},
 	eevee: {
 		name: "Eevee",
 	},
