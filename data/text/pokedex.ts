@@ -410,17 +410,26 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	geodudealola: {
 		name: "Geodude-Alola",
 	},
+	geodudedelta: {
+		name: "Geodude-Delta",
+	},
 	graveler: {
 		name: "Graveler",
 	},
 	graveleralola: {
 		name: "Graveler-Alola",
 	},
+	gravelerdelta: {
+		name: "Graveler-Delta",
+	},
 	golem: {
 		name: "Golem",
 	},
 	golemalola: {
 		name: "Golem-Alola",
+	},
+	golemdelta: {
+		name: "Golem-Delta",
 	},
 	ponyta: {
 		name: "Ponyta",
