@@ -479,8 +479,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	doduo: {
 		name: "Doduo",
 	},
+	doduodelta: {
+		name: "Doduo-Delta",
+	},
 	dodrio: {
 		name: "Dodrio",
+	},
+	dodriodelta: {
+		name: "Dodrio-Delta",
 	},
 	seel: {
 		name: "Seel",
