@@ -1198,6 +1198,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltaetigirafarigite: {
+		name: "Delta Etigirafarigite",
+		spritenum: 576,
+		megaStone: "Girafarig-Delta-Mega",
+		megaEvolves: "Girafarig-Delta",
+		itemUser: ["Girafarig-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1231,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltafroslassite: {
 		name: "Delta Froslassite",
 		spritenum: 576,

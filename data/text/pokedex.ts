@@ -1007,6 +1007,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	girafarig: {
 		name: "Girafarig",
 	},
+	girafarigdelta: {
+		name: "Girafarig-Delta",
+	},
 	pineco: {
 		name: "Pineco",
 	},
