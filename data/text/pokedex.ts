@@ -1019,6 +1019,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dunsparce: {
 		name: "Dunsparce",
 	},
+	dunsparcedelta: {
+		name: "Dunsparce-Delta",
+	},
 	gligar: {
 		name: "Gligar",
 	},
