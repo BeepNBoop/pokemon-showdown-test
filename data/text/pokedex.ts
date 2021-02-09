@@ -662,8 +662,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	electabuzz: {
 		name: "Electabuzz",
 	},
+	electabuzzdelta: {
+		name: "Electabuzz-Delta",
+	},
 	magmar: {
 		name: "Magmar",
+	},
+	magmardelta: {
+		name: "Magmar-Delta",
 	},
 	pinsir: {
 		name: "Pinsir",
@@ -1151,8 +1157,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	elekid: {
 		name: "Elekid",
 	},
+	elekiddelta: {
+		name: "Elekid-Delta",
+	},
 	magby: {
 		name: "Magby",
+	},
+	magbydelta: {
+		name: "Magby-Delta",
 	},
 	miltank: {
 		name: "Miltank",
@@ -2024,8 +2036,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	electivire: {
 		name: "Electivire",
 	},
+	electiviredelta: {
+		name: "Electivire-Delta",
+	},
 	magmortar: {
 		name: "Magmortar",
+	},
+	magmortardelta: {
+		name: "Magmortar-Delta",
 	},
 	togekiss: {
 		name: "Togekiss",
