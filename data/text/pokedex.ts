@@ -833,8 +833,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hoothoot: {
 		name: "Hoothoot",
 	},
+	hoothootdelta: {
+		name: "Hoothoot-Delta",
+	},
 	noctowl: {
 		name: "Noctowl",
+	},
+	noctowldelta: {
+		name: "Noctowl-Delta",
 	},
 	ledyba: {
 		name: "Ledyba",
