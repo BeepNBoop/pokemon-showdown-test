@@ -401,8 +401,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tentacool: {
 		name: "Tentacool",
 	},
+	tentacooldelta: {
+		name: "Tentacool-Delta",
+	},
 	tentacruel: {
 		name: "Tentacruel",
+	},
+	tentacrueldelta: {
+		name: "Tentacruel-Delta",
 	},
 	geodude: {
 		name: "Geodude",
