@@ -755,11 +755,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dratini: {
 		name: "Dratini",
 	},
+	dratinidelta: {
+		name: "Dratini-Delta",
+	},
 	dragonair: {
 		name: "Dragonair",
 	},
+	dragonairdelta: {
+		name: "Dragonair-Delta",
+	},
 	dragonite: {
 		name: "Dragonite",
+	},
+	dragonitedelta: {
+		name: "Dragonite-Delta",
 	},
 	mewtwo: {
 		name: "Mewtwo",
