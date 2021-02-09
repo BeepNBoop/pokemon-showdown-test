@@ -938,6 +938,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	aipom: {
 		name: "Aipom",
 	},
+	aipomdelta: {
+		name: "Aipom-Delta",
+	},
 	sunkern: {
 		name: "Sunkern",
 	},
@@ -1846,6 +1849,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	ambipom: {
 		name: "Ambipom",
+	},
+	ambipomdelta: {
+		name: "Ambipom-Delta",
 	},
 	drifloon: {
 		name: "Drifloon",
