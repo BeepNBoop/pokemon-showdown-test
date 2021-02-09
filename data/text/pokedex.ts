@@ -860,8 +860,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chinchou: {
 		name: "Chinchou",
 	},
+	chinchoudelta: {
+		name: "Chinchou-Delta",
+	},
 	lanturn: {
 		name: "Lanturn",
+	},
+	lanturndelta: {
+		name: "Lanturn-Delta",
 	},
 	pichu: {
 		name: "Pichu",
