@@ -1094,8 +1094,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	remoraid: {
 		name: "Remoraid",
 	},
+	remoraiddelta: {
+		name: "Remoraid-Delta",
+	},
 	octillery: {
 		name: "Octillery",
+	},
+	octillerydelta: {
+		name: "Octillery-Delta",
 	},
 	delibird: {
 		name: "Delibird",
