@@ -1292,11 +1292,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	lotad: {
 		name: "Lotad",
 	},
+	lotaddelta: {
+		name: "Lotad-Delta",
+	},
 	lombre: {
 		name: "Lombre",
 	},
+	lombredelta: {
+		name: "Lombre-Delta",
+	},
 	ludicolo: {
 		name: "Ludicolo",
+	},
+	ludicolodelta: {
+		name: "Ludicolo-Delta",
 	},
 	seedot: {
 		name: "Seedot",
