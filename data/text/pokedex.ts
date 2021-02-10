@@ -2120,8 +2120,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	croagunk: {
 		name: "Croagunk",
 	},
+	croagunkdelta: {
+		name: "Croagunk-Delta",
+	},
 	toxicroak: {
 		name: "Toxicroak",
+	},
+	toxicroakdelta: {
+		name: "Toxicroak-Delta",
 	},
 	carnivine: {
 		name: "Carnivine",
