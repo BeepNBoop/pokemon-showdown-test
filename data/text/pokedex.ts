@@ -1433,14 +1433,23 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	aron: {
 		name: "Aron",
 	},
+	arondelta: {
+		name: "Aron-Delta",
+	},
 	lairon: {
 		name: "Lairon",
+	},
+	lairondelta: {
+		name: "Lairon-Delta",
 	},
 	aggron: {
 		name: "Aggron",
 	},
 	aggronmega: {
 		name: "Aggron-Mega",
+	},
+	aggrondelta: {
+		name: "Aggron-Delta",
 	},
 	meditite: {
 		name: "Meditite",
