@@ -1520,8 +1520,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	wailmer: {
 		name: "Wailmer",
 	},
+	wailmerdelta: {
+		name: "Wailmer-Delta",
+	},
 	wailord: {
 		name: "Wailord",
+	},
+	wailorddelta: {
+		name: "Wailord-Delta",
 	},
 	numel: {
 		name: "Numel",
