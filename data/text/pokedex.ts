@@ -1712,11 +1712,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	clamperl: {
 		name: "Clamperl",
 	},
+	clamperldelta: {
+		name: "Clamperl-Delta",
+	},
 	huntail: {
 		name: "Huntail",
 	},
+	huntaildelta: {
+		name: "Huntail-Delta",
+	},
 	gorebyss: {
 		name: "Gorebyss",
+	},
+	gorebyssdelta: {
+		name: "Gorebyss-Delta",
 	},
 	relicanth: {
 		name: "Relicanth",
