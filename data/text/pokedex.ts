@@ -1520,11 +1520,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	numel: {
 		name: "Numel",
 	},
+	numeldelta: {
+		name: "Numel-Delta",
+	},
 	camerupt: {
 		name: "Camerupt",
 	},
 	cameruptmega: {
 		name: "Camerupt-Mega",
+	},
+	cameruptdelta: {
+		name: "Camerupt-Delta",
+	},
+	cameruptdeltamega: {
+		name: "Camerupt-Delta-Mega",
 	},
 	torkoal: {
 		name: "Torkoal",
