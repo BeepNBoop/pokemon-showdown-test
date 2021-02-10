@@ -2009,11 +2009,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	buneary: {
 		name: "Buneary",
 	},
+	bunearydelta: {
+		name: "Buneary-Delta",
+	},
 	lopunny: {
 		name: "Lopunny",
 	},
 	lopunnymega: {
 		name: "Lopunny-Mega",
+	},
+	lopunnydelta: {
+		name: "Lopunny-Delta",
+	},
+	lopunnydeltamega: {
+		name: "Lopunny-Delta-Mega",
 	},
 	mismagius: {
 		name: "Mismagius",
