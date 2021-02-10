@@ -1481,8 +1481,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	plusle: {
 		name: "Plusle",
 	},
+	plusledelta: {
+		name: "Plusle-Delta",
+	},
 	minun: {
 		name: "Minun",
+	},
+	minundelta: {
+		name: "Minun-Delta",
 	},
 	volbeat: {
 		name: "Volbeat",
