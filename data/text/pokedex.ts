@@ -1748,14 +1748,41 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	beldum: {
 		name: "Beldum",
 	},
+	beldumdeltaspider: {
+		name: "Beldum-Delta-Spider",
+	},
+	beldumdeltaruin: {
+		name: "Beldum-Delta-Ruin",
+	},
 	metang: {
 		name: "Metang",
+	},
+	metangdeltaspider: {
+		name: "Metang-Delta-Spider",
+	},
+	metangdeltaruin: {
+		name: "Metang-Delta-Ruin",
 	},
 	metagross: {
 		name: "Metagross",
 	},
 	metagrossmega: {
 		name: "Metagross-Mega",
+	},
+	metagrossdeltaspider: {
+		name: "Metagross-Delta-Spider",
+	},
+	metagrossdeltaspidermega: {
+		name: "Metagross-Delta-Spider-Mega",
+	},
+	metagrossdeltaruin: {
+		name: "Metagross-Delta-Ruin",
+	},
+	metagrossdeltaruinmega: {
+		name: "Metagross-Delta-Ruin-Mega",
+	},
+	metagrossdeltaruincrystal: {
+		name: "Metagross-Delta-Ruin-Crystal",
 	},
 	regirock: {
 		name: "Regirock",
