@@ -1454,11 +1454,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	meditite: {
 		name: "Meditite",
 	},
+	medititedelta: {
+		name: "Meditite-Delta",
+	},
 	medicham: {
 		name: "Medicham",
 	},
 	medichammega: {
 		name: "Medicham-Mega",
+	},
+	medichamdelta: {
+		name: "Medicham-Delta",
+	},
+	medichamdeltamega: {
+		name: "Medicham-Delta-Mega",
 	},
 	electrike: {
 		name: "Electrike",

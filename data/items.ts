@@ -1282,6 +1282,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltamedichamite: {
+		name: "Delta Medichamite",
+		spritenum: 576,
+		megaStone: "Medicham-Delta-Mega",
+		megaEvolves: "Medicham-Delta",
+		itemUser: ["Medicham-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltasablenite: {
 		name: "Delta Sablenite",
 		spritenum: 576,
