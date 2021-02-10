@@ -85,6 +85,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "As One (Spectrier)",
 		shortDesc: "The combination of Unnerve and Grim Neigh.",
 	},
+	athenian: {
+		name: "Athenian",
+		shortDesc: "Doubles the Pokemon's Special Attack stat.",
+	},
 	aurabreak: {
 		name: "Aura Break",
 		desc: "While this Pokemon is active, the effects of the Dark Aura and Fairy Aura Abilities are reversed, multiplying the power of Dark- and Fairy-type moves, respectively, by 3/4 instead of 1.33.",

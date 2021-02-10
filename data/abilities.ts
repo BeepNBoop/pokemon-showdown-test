@@ -210,6 +210,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3.5,
 		num: 267,
 	},
+	athenian: {
+		onModifySpAPriority: 5,
+		onModifySpA(SpA) {
+			return this.chainModify(2);
+		},
+		name: "Athenian",
+		rating: 5,
+		num: 37,
+	},
 	aurabreak: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Aura Break');
