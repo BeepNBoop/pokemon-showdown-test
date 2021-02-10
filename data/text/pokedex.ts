@@ -2090,11 +2090,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	riolu: {
 		name: "Riolu",
 	},
+	rioludelta: {
+		name: "Riolu-Delta",
+	},
 	lucario: {
 		name: "Lucario",
 	},
 	lucariomega: {
 		name: "Lucario-Mega",
+	},
+	lucariodelta: {
+		name: "Lucario-Delta",
+	},
+	lucariodeltamega: {
+		name: "Lucario-Delta-Mega",
 	},
 	hippopotas: {
 		name: "Hippopotas",
