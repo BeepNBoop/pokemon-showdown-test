@@ -1296,6 +1296,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	deltamilotite: {
+		name: "Delta Milotite",
+		spritenum: 576,
+		megaStone: "Milotic-Delta-Mega",
+		megaEvolves: "Milotic-Delta",
+		itemUser: ["Milotic-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	deltasablenite: {
 		name: "Delta Sablenite",
 		spritenum: 576,
@@ -3702,6 +3716,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 209,
 		gen: 4,
+	},
+	milotite: {
+		name: "Milotite",
+		spritenum: 576,
+		megaStone: "Milotic-Mega",
+		megaEvolves: "Milotic",
+		itemUser: ["Milotic"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+		isNonstandard: "Past",
 	},
 	mimikiumz: {
 		name: "Mimikium Z",

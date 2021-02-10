@@ -1628,8 +1628,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	feebas: {
 		name: "Feebas",
 	},
+	feebasdelta: {
+		name: "Feebas-Delta",
+	},
 	milotic: {
 		name: "Milotic",
+	},
+	miloticdelta: {
+		name: "Milotic-Delta",
 	},
 	castform: {
 		name: "Castform",

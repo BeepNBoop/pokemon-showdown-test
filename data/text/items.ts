@@ -372,6 +372,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Medichamite",
 		desc: "If held by Delta Medicham, this item allows it to Mega Evolve in battle.",
 	},
+	deltamilotite: {
+		name: "Delta Milotite",
+		desc: "If held by a Delta Milotic, this item allows it to Mega Evolve in battle.",
+	},
 	deltasablenite: {
 		name: "Delta Sablenite",
 		desc: "If held by Delta Sableye, this item allows it to Mega Evolve in battle.",
@@ -1161,6 +1165,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	micleberry: {
 		name: "Micle Berry",
 		desc: "Holder's next move has 1.2x accuracy when at 1/4 max HP or less. Single use.",
+	},
+	milotite: {
+		name: "Milotite",
+		desc: "If held by a Milotic, this item allows it to Mega Evolve in battle.",
 	},
 	mimikiumz: {
 		name: "Mimikium Z",
