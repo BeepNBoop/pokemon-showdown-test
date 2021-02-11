@@ -35,6 +35,10 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "  The effects of the weather disappeared.",
 	},
+	amplifier: {
+		name: "Amplifier",
+		shortDesc: "Sound-based moves are boostered by 1.25x.",
+	},
 	analytic: {
 		name: "Analytic",
 		desc: "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",

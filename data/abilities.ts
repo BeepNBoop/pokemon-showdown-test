@@ -109,6 +109,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 76,
 	},
+	amplifier: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['sound']) {
+				this.debug('Punk Rock boost');
+				return this.chainModify(1.25);
+			}
+		},
+		name: "Amplifier",
+		rating: 3,
+		num: 277,
+	},
 	analytic: {
 		onBasePowerPriority: 21,
 		onBasePower(basePower, pokemon) {
