@@ -2807,11 +2807,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	litwick: {
 		name: "Litwick",
 	},
+	litwickdelta: {
+		name: "Litwick-Delta",
+	},
 	lampent: {
 		name: "Lampent",
 	},
+	lampentdelta: {
+		name: "Lampent-Delta",
+	},
 	chandelure: {
 		name: "Chandelure",
+	},
+	chandeluredelta: {
+		name: "Chandelure-Delta",
 	},
 	axew: {
 		name: "Axew",
