@@ -2918,6 +2918,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	heatmor: {
 		name: "Heatmor",
 	},
+	heatmordelta: {
+		name: "Heatmor-Delta",
+	},
 	durant: {
 		name: "Durant",
 	},
