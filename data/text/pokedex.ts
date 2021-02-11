@@ -2750,8 +2750,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	foongus: {
 		name: "Foongus",
 	},
+	foongusdelta: {
+		name: "Foongus-Delta",
+	},
 	amoonguss: {
 		name: "Amoonguss",
+	},
+	amoongussdelta: {
+		name: "Amoonguss-Delta",
 	},
 	frillish: {
 		name: "Frillish",
