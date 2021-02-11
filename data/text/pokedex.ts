@@ -2516,11 +2516,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	venipede: {
 		name: "Venipede",
 	},
+	venipededelta: {
+		name: "Venipede-Delta",
+	},
 	whirlipede: {
 		name: "Whirlipede",
 	},
+	whirlipededelta: {
+		name: "Whirlipede-Delta",
+	},
 	scolipede: {
 		name: "Scolipede",
+	},
+	scolipededelta: {
+		name: "Scolipede-Delta",
 	},
 	cottonee: {
 		name: "Cottonee",
