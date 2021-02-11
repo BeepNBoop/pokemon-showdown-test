@@ -2540,8 +2540,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	petilil: {
 		name: "Petilil",
 	},
+	petilildeltawater: {
+		name: "Petilil-Delta-Water",
+	},
+	petilildeltafairy: {
+		name: "Petilil-Delta-Fairy",
+	},
 	lilligant: {
 		name: "Lilligant",
+	},
+	lilligantdeltawater: {
+		name: "Lilligant-Delta-Water",
+	},
+	lilligantdeltafairy: {
+		name: "Lilligant-Delta-Fairy",
 	},
 	basculin: {
 		name: "Basculin",
