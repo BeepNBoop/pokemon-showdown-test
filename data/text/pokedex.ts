@@ -2603,8 +2603,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	dwebble: {
 		name: "Dwebble",
 	},
+	dwebbledeltaberry: {
+		name: "Dwebble-Delta-Berry",
+	},
+	dwebbledeltacake: {
+		name: "Dwebble-Delta-Cake",
+	},
 	crustle: {
 		name: "Crustle",
+	},
+	crustledeltaberry: {
+		name: "Crustle-Delta-Berry",
+	},
+	crustledeltacake: {
+		name: "Crustle-Delta-Cake",
 	},
 	scraggy: {
 		name: "Scraggy",
