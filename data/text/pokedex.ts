@@ -2945,8 +2945,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	larvesta: {
 		name: "Larvesta",
 	},
+	larvestadelta: {
+		name: "Larvesta-Delta",
+	},
 	volcarona: {
 		name: "Volcarona",
+	},
+	volcaronadelta: {
+		name: "Volcarona-Delta",
+	},
+	armoredvolcaronadelta: {
+		name: "Armored-Volcarona-Delta",
 	},
 	cobalion: {
 		name: "Cobalion",
