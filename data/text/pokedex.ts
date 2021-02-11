@@ -3224,11 +3224,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	goomy: {
 		name: "Goomy",
 	},
+	goomydelta: {
+		name: "Goomy-Delta",
+	},
 	sliggoo: {
 		name: "Sliggoo",
 	},
+	sliggoodelta: {
+		name: "Sliggoo-Delta",
+	},
 	goodra: {
 		name: "Goodra",
+	},
+	goodradelta: {
+		name: "Goodra-Delta",
 	},
 	klefki: {
 		name: "Klefki",
