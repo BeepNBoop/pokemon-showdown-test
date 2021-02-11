@@ -2639,8 +2639,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	yamaskgalar: {
 		name: "Yamask-Galar",
 	},
+	yamaskdelta: {
+		name: "Yamask-Delta",
+	},
 	cofagrigus: {
 		name: "Cofagrigus",
+	},
+	cofagrigusdelta: {
+		name: "Cofagrigus-Delta",
 	},
 	tirtouga: {
 		name: "Tirtouga",
