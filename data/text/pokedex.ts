@@ -3200,8 +3200,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	amaura: {
 		name: "Amaura",
 	},
+	amauradelta: {
+		name: "Amaura-Delta",
+	},
 	aurorus: {
 		name: "Aurorus",
+	},
+	aurorusdelta: {
+		name: "Aurorus-Delta",
 	},
 	sylveon: {
 		name: "Sylveon",
