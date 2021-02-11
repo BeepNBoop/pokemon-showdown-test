@@ -1787,11 +1787,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	regirock: {
 		name: "Regirock",
 	},
+	regirockdelta: {
+		name: "Regirock-Delta",
+	},
 	regice: {
 		name: "Regice",
 	},
+	regicedelta: {
+		name: "Regice-Delta",
+	},
 	registeel: {
 		name: "Registeel",
+	},
+	registeeldelta: {
+		name: "Registeel-Delta",
 	},
 	latias: {
 		name: "Latias",
