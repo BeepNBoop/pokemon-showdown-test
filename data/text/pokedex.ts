@@ -2927,11 +2927,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	deino: {
 		name: "Deino",
 	},
+	deinodelta: {
+		name: "Deino-Delta",
+	},
 	zweilous: {
 		name: "Zweilous",
 	},
+	zweilousdelta: {
+		name: "Zweilous-Delta",
+	},
 	hydreigon: {
 		name: "Hydreigon",
+	},
+	hydreigondelta: {
+		name: "Hydreigon-Delta",
 	},
 	larvesta: {
 		name: "Larvesta",
