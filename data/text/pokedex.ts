@@ -2738,8 +2738,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	karrablast: {
 		name: "Karrablast",
 	},
+	karrablastdelta: {
+		name: "Karrablast-Delta",
+	},
 	escavalier: {
 		name: "Escavalier",
+	},
+	escavalierdelta: {
+		name: "Escavalier-Delta",
 	},
 	foongus: {
 		name: "Foongus",
