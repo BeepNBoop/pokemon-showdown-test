@@ -2597,6 +2597,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	maractus: {
 		name: "Maractus",
 	},
+	maractusdelta: {
+		name: "Maractus-Delta",
+	},
 	dwebble: {
 		name: "Dwebble",
 	},
