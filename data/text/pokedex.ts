@@ -2666,11 +2666,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	solosis: {
 		name: "Solosis",
 	},
+	solosisdelta: {
+		name: "Solosis-Delta",
+	},
 	duosion: {
 		name: "Duosion",
 	},
+	duosiondelta: {
+		name: "Duosion-Delta",
+	},
 	reuniclus: {
 		name: "Reuniclus",
+	},
+	reuniclusdelta: {
+		name: "Reuniclus-Delta",
 	},
 	ducklett: {
 		name: "Ducklett",
