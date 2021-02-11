@@ -2825,11 +2825,20 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	axew: {
 		name: "Axew",
 	},
+	axewdelta: {
+		name: "Axew-Delta",
+	},
 	fraxure: {
 		name: "Fraxure",
 	},
+	fraxuredelta: {
+		name: "Fraxure-Delta",
+	},
 	haxorus: {
 		name: "Haxorus",
+	},
+	haxorusdelta: {
+		name: "Haxorus-Delta",
 	},
 	cubchoo: {
 		name: "Cubchoo",
