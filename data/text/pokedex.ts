@@ -2576,6 +2576,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	darumakagalar: {
 		name: "Darumaka-Galar",
 	},
+	darumakadelta: {
+		name: "Darumaka-Delta",
+	},
 	darmanitan: {
 		name: "Darmanitan",
 	},
@@ -2587,6 +2590,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	darmanitangalarzen: {
 		name: "Darmanitan-Galar-Zen",
+	},
+	darmanitandelta: {
+		name: "Darmanitan-Delta",
 	},
 	maractus: {
 		name: "Maractus",
