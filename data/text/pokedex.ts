@@ -3020,6 +3020,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	meloettapirouette: {
 		name: "Meloetta-Pirouette",
 	},
+	meloettadelta: {
+		name: "Meloetta-Delta",
+	},
+	meloettadeltamagician: {
+		name: "Meloetta-Delta-Magician",
+	},
 	genesect: {
 		name: "Genesect",
 	},
@@ -3340,6 +3346,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	hoopaunbound: {
 		name: "Hoopa-Unbound",
+	},
+	hoopadelta: {
+		name: "Hoopa-Delta",
+	},
+	hoopadeltaunleashed: {
+		name: "Hoopa-Delta-Unleashed",
 	},
 	volcanion: {
 		name: "Volcanion",
