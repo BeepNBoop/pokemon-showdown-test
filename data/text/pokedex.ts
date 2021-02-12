@@ -1628,6 +1628,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cacturne: {
 		name: "Cacturne",
 	},
+	cacturnemega: {
+		name: "Cacturne-Mega",
+	},
 	swablu: {
 		name: "Swablu",
 	},

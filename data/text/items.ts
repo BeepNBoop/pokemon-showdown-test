@@ -193,6 +193,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Burn Drive",
 		desc: "Holder's Techno Blast is Fire type.",
 	},
+	cacturnite: {
+		name: "Cacturnite",
+		desc: "If held by a Cacturne, this item allows it to Mega Evolve in battle.",
+	},
 	cameruptite: {
 		name: "Cameruptite",
 		desc: "If held by a Camerupt, this item allows it to Mega Evolve in battle.",
