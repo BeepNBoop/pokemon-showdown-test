@@ -936,6 +936,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Jaw Fossil",
 		desc: "Can be revived into Tyrunt.",
 	},
+	jirachite: {
+		name: "Jirachite",
+		desc: "If held by a Jirachi, this item allows it to Mega Evolve in battle.",
+	},
 	kasibberry: {
 		name: "Kasib Berry",
 		desc: "Halves damage taken from a supereffective Ghost-type attack. Single use.",
