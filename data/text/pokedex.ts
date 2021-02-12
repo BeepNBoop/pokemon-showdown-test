@@ -2540,6 +2540,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	zebstrika: {
 		name: "Zebstrika",
 	},
+	zebstrikamega: {
+		name: "Zebstrika-Mega",
+	},
 	roggenrola: {
 		name: "Roggenrola",
 	},
