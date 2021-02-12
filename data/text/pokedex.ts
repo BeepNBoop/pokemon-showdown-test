@@ -2309,6 +2309,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	froslass: {
 		name: "Froslass",
 	},
+	froslassmega: {
+		name: "Froslass-Mega",
+	},
 	froslassdelta: {
 		name: "Froslass-Delta",
 	},

@@ -717,6 +717,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Friend Ball",
 		desc: "A Poke Ball that makes caught Pokemon more friendly.",
 	},
+	froslassite: {
+		name: "Froslassite",
+		desc: "If held by a Froslass, this item allows it to Mega Evolve in battle.",
+	},
 	fullincense: {
 		name: "Full Incense",
 		desc: "Holder moves last in its priority bracket.",
