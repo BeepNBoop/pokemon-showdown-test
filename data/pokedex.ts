@@ -6788,6 +6788,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Field", "Grass"],
 		requiredItem: "Shiftrite",
+		tier: "RUBL",
 	},
 	shiftrydelta: {
 		num: 275,
