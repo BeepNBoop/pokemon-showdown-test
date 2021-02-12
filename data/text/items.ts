@@ -224,6 +224,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Charti Berry",
 		desc: "Halves damage taken from a supereffective Rock-type attack. Single use.",
 	},
+	chatotite: {
+		name: "Chatotite",
+		desc: "If held by a Chatot, this item allows it to Mega Evolve in battle.",
+	},
 	cheriberry: {
 		name: "Cheri Berry",
 		desc: "Holder cures itself if it is paralyzed. Single use.",

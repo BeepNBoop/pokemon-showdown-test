@@ -753,6 +753,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 195,
 		gen: 4,
 	},
+	chatotite: {
+		name: "Chatotite",
+		spritenum: 578,
+		megaStone: "Chatot-Mega",
+		megaEvolves: "Chatot",
+		itemUser: ["Chatot"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 667,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	cheriberry: {
 		name: "Cheri Berry",
 		spritenum: 63,

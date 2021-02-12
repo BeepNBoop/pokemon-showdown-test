@@ -2144,6 +2144,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	chatot: {
 		name: "Chatot",
 	},
+	chatotmega: {
+		name: "Chatot-Mega",
+	},
 	spiritomb: {
 		name: "Spiritomb",
 	},
