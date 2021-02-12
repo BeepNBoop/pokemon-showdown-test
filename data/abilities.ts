@@ -4286,9 +4286,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
-		onResidual(pokemon, target) {
-			if (pokemon.hasType('Water')) {
-				this.damage(target.baseMaxhp / 8, target, target);
+		onResidual(pokemon) {
+			if (!pokemon.hp) return;
+			for (const target of pokemon.side.foe.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Water')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
 			}
 		},
 		name: "Vaporization",
