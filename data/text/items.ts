@@ -1780,6 +1780,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Steelixite",
 		desc: "If held by a Steelix, this item allows it to Mega Evolve in battle.",
 	},
+	steelixitefire: {
+		name: "Steelixite Fire",
+		desc: "If held by a Steelix, this item allows it to Mega Evolve in battle.",
+	},
 	steelgem: {
 		name: "Steel Gem",
 		desc: "Holder's first successful Steel-type attack will have 1.3x power. Single use.",

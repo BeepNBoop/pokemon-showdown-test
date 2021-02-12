@@ -5703,6 +5703,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	steelixitefire: {
+		name: "Steelixite Fire",
+		spritenum: 621,
+		megaStone: "Steelix-Mega-Fire",
+		megaEvolves: "Steelix",
+		itemUser: ["Steelix"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 761,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	steelgem: {
 		name: "Steel Gem",
 		spritenum: 473,
