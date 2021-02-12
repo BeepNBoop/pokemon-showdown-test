@@ -1108,6 +1108,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Maranga Berry",
 		desc: "Raises holder's Sp. Def by 1 stage after it is hit by a special attack. Single use.",
 	},
+	marowite: {
+		name: "Marowite",
+		desc: "If held by a Marowak, this item allows it to Mega Evolve in battle.",
+	},
 	marshadiumz: {
 		name: "Marshadium Z",
 		desc: "If held by Marshadow with Spectral Thief, it can use Soul-Stealing 7-Star Strike.",
