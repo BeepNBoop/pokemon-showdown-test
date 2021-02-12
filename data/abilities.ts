@@ -4300,6 +4300,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 274,
 	},
 	venomous: {
+		// The Toxic part of this mechanic is implemented in move that inflict poison under `onModifyMove` in moves.ts
 		name: "Venomous",
 		rating: 2,
 		num: 275,
