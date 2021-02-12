@@ -1814,6 +1814,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Sudowoodite",
 		desc: "If held by a Sudowoodo, this item allows it to Mega Evolve in battle.",
 	},
+	sunflorite: {
+		name: "Sunflorite",
+		desc: "If held by a Sunflora, this item allows it to Mega Evolve in battle.",
+	},
 	sunstone: {
 		name: "Sun Stone",
 		desc: "Evolves Gloom into Bellossom, Sunkern into Sunflora, Cottonee into Whimsicott, Petilil into Lilligant, and Helioptile into Heliolisk when used.",
