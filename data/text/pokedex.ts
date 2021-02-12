@@ -1664,6 +1664,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	crawdaunt: {
 		name: "Crawdaunt",
 	},
+	crawdauntmega: {
+		name: "Crawdaunt-Mega",
+	},
 	baltoy: {
 		name: "Baltoy",
 	},

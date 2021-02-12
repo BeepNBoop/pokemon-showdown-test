@@ -1044,6 +1044,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1253,
 		gen: 8,
 	},
+	crawdite: {
+		name: "Crawdite",
+		spritenum: 622,
+		megaStone: "Crawdaunt-Mega",
+		megaEvolves: "Crawdaunt",
+		itemUser: ["Crawdaunt"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 762,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		spritenum: 86,

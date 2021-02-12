@@ -292,6 +292,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cracked Pot",
 		desc: "Evolves Sinistea into Polteageist when used.",
 	},
+	crawdite: {
+		name: "Crawdite",
+		desc: "If held by a Crawdaunt, this item allows it to Mega Evolve in battle.",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use.",
