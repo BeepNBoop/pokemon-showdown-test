@@ -821,6 +821,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	meganium: {
 		name: "Meganium",
 	},
+	meganiummega: {
+		name: "Meganium-Mega",
+	},
 	cyndaquil: {
 		name: "Cyndaquil",
 	},
