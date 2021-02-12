@@ -5204,6 +5204,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 254,
 		gen: 3,
 	},
+	shadowmewtwonite: {
+		name: "Shadow Mewtwonite",
+		spritenum: 601,
+		megaStone: "Shadow-Mewtwo-Mega",
+		megaEvolves: "Shadow-Mewtwo",
+		itemUser: ["Shadow-Mewtwo"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 663,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	sharpbeak: {
 		name: "Sharp Beak",
 		spritenum: 436,

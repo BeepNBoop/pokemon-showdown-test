@@ -800,6 +800,15 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	mewtwomegay: {
 		name: "Mewtwo-Mega-Y",
 	},
+	shadowmewtwo: {
+		name: "Shadow-Mewtwo",
+	},
+	shadowmewtwomega: {
+		name: "Shadow-Mewtwo-Mega",
+	},
+	armoredmewtwo: {
+		name: "Armored-Mewtwo",
+	},
 	mew: {
 		name: "Mew",
 	},
