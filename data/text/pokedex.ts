@@ -713,6 +713,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	eeveestarter: {
 		name: "Eevee-Starter",
 	},
+	eeveemega: {
+		name: "Eevee-Mega",
+	},
 	eeveegmax: {
 		name: "Eevee-Gmax",
 	},

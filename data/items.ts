@@ -1642,6 +1642,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 4,
 		isNonstandard: "Unobtainable",
 	},
+	eevite: {
+		name: "Eevite",
+		spritenum: 590,
+		megaStone: "Eevee-Mega",
+		megaEvolves: "Eevee",
+		itemUser: ["Eevee"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 680,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	eeviumz: {
 		name: "Eevium Z",
 		spritenum: 657,

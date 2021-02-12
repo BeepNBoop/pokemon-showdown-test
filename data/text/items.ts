@@ -492,6 +492,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Earth Plate",
 		desc: "Holder's Ground-type attacks have 1.2x power. Judgment is Ground type.",
 	},
+	eevite: {
+		name: "Eevite",
+		desc: "If held by a Eevee, this item allows it to Mega Evolve in battle.",
+	},
 	eeviumz: {
 		name: "Eevium Z",
 		desc: "If held by an Eevee with Last Resort, it can use Extreme Evoboost.",
