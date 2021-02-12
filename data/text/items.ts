@@ -547,6 +547,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "No competitive use.",
 		},
 	},
+	etigirafarigite: {
+		name: "Etigirafarigite",
+		desc: "If held by a Girafarig, this item allows it to Mega Evolve in battle.",
+	},
 	eviolite: {
 		name: "Eviolite",
 		desc: "If holder's species can evolve, its Defense and Sp. Def are 1.5x.",

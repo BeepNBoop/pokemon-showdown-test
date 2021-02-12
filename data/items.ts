@@ -1824,6 +1824,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 208,
 		gen: 3,
 	},
+	etigirafarigite: {
+		name: "Etigirafarigite",
+		spritenum: 576,
+		megaStone: "Girafarig-Mega",
+		megaEvolves: "Girafarig",
+		itemUser: ["Girafarig"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1231,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	eviolite: {
 		name: "Eviolite",
 		spritenum: 130,
