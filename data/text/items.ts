@@ -1561,6 +1561,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Repeat Ball",
 		desc: "A Poke Ball that works well on Pokemon species that were previously caught.",
 	},
+	reuniclite: {
+		name: "Reuniclite",
+		desc: "If held by a Reuniclus, this item allows it to Mega Evolve in battle.",
+	},
 	ribbonsweet: {
 		name: "Ribbon Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",

@@ -2801,6 +2801,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	reuniclus: {
 		name: "Reuniclus",
 	},
+	reuniclusmega: {
+		name: "Reuniclus-Mega",
+	},
 	reuniclusdelta: {
 		name: "Reuniclus-Delta",
 	},
