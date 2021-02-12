@@ -943,21 +943,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 						delete source.volatiles['lockedmove'];
 					}
 				}
-				if (source.hasAbility('venomous')) {
+				if (source.hasAbility('venomous') && move.flags['contact']) {
 					source.trySetStatus('tox', target);
 				}
-				if (move.flags['contact']) {
+				else if (move.flags['contact']) {
 					source.trySetStatus('psn', target);
 				}
 				return this.NOT_FAIL;
 			},
 			onHit(target, source, move) {
-				if (move.isZOrMaxPowered && move.flags['contact']) {
-					source.trySetStatus('psn', target);
-				}
-				if (source.hasAbility('venomous')) {
+				if (source.hasAbility('venomous') && move.flags['contact']) {
 					source.trySetStatus('tox', target);
 				}
+				else if (move.isZOrMaxPowered && move.flags['contact']) {
+					source.trySetStatus('psn', target);
+				}	
 			},
 		},
 		secondary: null,
