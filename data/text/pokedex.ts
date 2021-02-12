@@ -1370,6 +1370,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shiftry: {
 		name: "Shiftry",
 	},
+	shiftrymega: {
+		name: "Shiftry-Mega",
+	},
 	shiftrydelta: {
 		name: "Shiftry-Delta",
 	},
