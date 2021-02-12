@@ -6881,6 +6881,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	typhlosionite: {
+		name: "Typhlosionite",
+		spritenum: 576,
+		megaStone: "Typhlosion-Mega",
+		megaEvolves: "Typhlosion",
+		itemUser: ["Typhlosion"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1241,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	ultraball: {
 		name: "Ultra Ball",
 		spritenum: 521,
