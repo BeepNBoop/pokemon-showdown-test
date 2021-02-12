@@ -4278,7 +4278,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	vaporization: {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
-				if (!this.boost({spa: 1})) {
+				if (!this.boost({spa: 0})) {
 					this.add('-immune', target, '[from] ability: Vaporization');
 				}
 				return null;
@@ -4288,7 +4288,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidualSubOrder: 1,
 		onResidual(pokemon, target) {
 			if (pokemon.hasType('water')) {
-				this.damage(target.baseMaxhp / 8);
+				this.damage(target.baseMaxhp / 8, target);
 			}
 		},
 		name: "Vaporization",
