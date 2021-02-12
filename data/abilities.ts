@@ -4287,7 +4287,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,
 		onResidual(pokemon, target) {
-			if (pokemon.hasType('water')) {
+			if (pokemon.hasType('Water')) {
 				this.damage(target.baseMaxhp / 8, target);
 			}
 		},
