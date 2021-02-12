@@ -2765,6 +2765,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	zoroark: {
 		name: "Zoroark",
 	},
+	zoroarkmega: {
+		name: "Zoroark-Mega",
+	},
 	minccino: {
 		name: "Minccino",
 	},
