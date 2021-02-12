@@ -1694,8 +1694,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	milotic: {
 		name: "Milotic",
 	},
+	miloticmega: {
+		name: "Milotic",
+	},
 	miloticdelta: {
 		name: "Milotic-Delta",
+	},
+	miloticdeltamega: {
+		name: "Milotic-Delta-Mega",
 	},
 	castform: {
 		name: "Castform",

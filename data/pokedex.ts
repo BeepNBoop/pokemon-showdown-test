@@ -8353,7 +8353,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Water", "Dragon"],
 		requiredItem: "Milotite",
-		tier: "UUBL",
+		tier: "OU",
 	},
 	miloticdelta: {
 		num: 350,
