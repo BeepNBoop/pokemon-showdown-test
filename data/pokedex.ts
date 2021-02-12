@@ -14368,6 +14368,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Haxorite",
+		tier: "Uber",
 	},
 	haxorusdelta: {
 		num: 612,

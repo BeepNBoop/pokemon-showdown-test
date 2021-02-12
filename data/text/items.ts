@@ -852,6 +852,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Rock-type attacks have 1.1x power.",
 		},
 	},
+	haxorite: {
+		name: "Haxorite",
+		desc: "If held by a Haxorus, this item allows it to Mega Evolve in battle.",
+	},
 	healball: {
 		name: "Heal Ball",
 		desc: "A remedial Poke Ball that restores the caught Pokemon's HP and status problem.",

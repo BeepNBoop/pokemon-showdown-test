@@ -2936,6 +2936,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	haxorus: {
 		name: "Haxorus",
 	},
+	haxorusmega: {
+		name: "Haxorus-Mega",
+	},
 	haxorusdelta: {
 		name: "Haxorus-Delta",
 	},

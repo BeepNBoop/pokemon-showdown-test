@@ -2737,6 +2737,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 238,
 		gen: 2,
 	},
+	haxorite: {
+		name: "Haxorite",
+		spritenum: 622,
+		megaStone: "Haxorus-Mega",
+		megaEvolves: "Haxorus",
+		itemUser: ["Haxorus"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 762,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	healball: {
 		name: "Heal Ball",
 		spritenum: 188,
