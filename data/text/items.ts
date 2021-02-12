@@ -1067,6 +1067,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Macho Brace",
 		desc: "Holder's Speed is halved. The Klutz Ability does not ignore this effect.",
 	},
+	magcargonite: {
+		name: "Magcargonite",
+		desc: "If held by a Magcargo, this item allows it to Mega Evolve in battle.",
+	},
 	magmarizer: {
 		name: "Magmarizer",
 		desc: "Evolves Magmar into Magmortar when traded.",

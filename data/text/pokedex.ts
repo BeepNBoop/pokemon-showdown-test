@@ -1085,6 +1085,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	magcargo: {
 		name: "Magcargo",
 	},
+	magcargomega: {
+		name: "Magcargo-Mega",
+	},
 	swinub: {
 		name: "Swinub",
 	},
