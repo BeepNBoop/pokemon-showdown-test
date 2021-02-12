@@ -1657,6 +1657,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Allows the user to regain 25% of the damage inflicted when using a contact move. That amount of HP recovered is unaffected by Big Root. If the effects of Heal Block are active then Vampiric cannot restore HP.",
 		shortDesc: "Recovers a little HP with contact moves.",
 	},
+	vaporization: {
+		name: "Vaporization",
+		desc: "Causes damage-dealing Water-type moves and targetable Water-type status moves to fail when used. Damages all Water-type Pokémon for ⅛ of their maximum HP at the end of each every turn.",
+		shortDesc: "Vaporizes Water Moves and damages water types.",
+	},
 	venomous: {
 		name: "Venomous",
 		desc: "This Pokemon always badly poisons",

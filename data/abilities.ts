@@ -4275,6 +4275,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 274,
 	},
+	vaporization: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Water') {
+				if (!this.boost({spa: 1})) {
+					this.add('-immune', target, '[from] ability: Vaporization');
+				}
+				return null;
+			}
+		},
+		onResidualOrder: 26,
+		onResidualSubOrder: 1,
+		onResidual(pokemon, target) {
+			if (pokemon.hasType('water')) {
+				this.damage(target.baseMaxhp / 8);
+			}
+		},
+		name: "Vaporization",
+		rating: 3,
+		num: 274,
+	},
 	venomous: {
 		name: "Venomous",
 		rating: 2,
