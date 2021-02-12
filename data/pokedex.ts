@@ -14664,6 +14664,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Bisharpite",
+		tier: "OU",
 	},
 	bisharpdelta: {
 		num: 625,
