@@ -1214,6 +1214,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	miltank: {
 		name: "Miltank",
 	},
+	miltankmega: {
+		name: "Miltank-Mega",
+	},
 	blissey: {
 		name: "Blissey",
 	},

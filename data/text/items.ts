@@ -1206,6 +1206,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Milotite",
 		desc: "If held by a Milotic, this item allows it to Mega Evolve in battle.",
 	},
+	miltankite: {
+		name: "Miltankite",
+		desc: "If held by a Miltank, this item allows it to Mega Evolve in battle.",
+	},
 	mimikiumz: {
 		name: "Mimikium Z",
 		desc: "If held by a Mimikyu with Play Rough, it can use Let's Snuggle Forever.",
