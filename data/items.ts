@@ -6008,6 +6008,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1109,
 		gen: 8,
 	},
+	stunfiskite: {
+		name: "Stunfiskite",
+		spritenum: 622,
+		megaStone: "Stunfisk-Mega",
+		megaEvolves: "Stunfisk",
+		itemUser: ["Stunfisk"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 762,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	sudowoodite: {
 		name: "Sudowoodite",
 		spritenum: 576,
