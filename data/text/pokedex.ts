@@ -2150,6 +2150,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	spiritomb: {
 		name: "Spiritomb",
 	},
+	spiritombmega: {
+		name: "Spiritomb-Mega",
+	},
 	gible: {
 		name: "Gible",
 	},

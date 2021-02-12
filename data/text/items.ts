@@ -1783,6 +1783,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Spelon Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",
 	},
+	spiritombite: {
+		name: "Spiritombite",
+		desc: "If held by a Spiritomb, this item allows it to Mega Evolve in battle.",
+	},
 	splashplate: {
 		name: "Splash Plate",
 		desc: "Holder's Water-type attacks have 1.2x power. Judgment is Water type.",
