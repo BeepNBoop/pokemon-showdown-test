@@ -5784,6 +5784,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1109,
 		gen: 8,
 	},
+	sudowoodite: {
+		name: "Sudowoodite",
+		spritenum: 576,
+		megaStone: "Sudowoodo-Mega",
+		megaEvolves: "Sudowoodo",
+		itemUser: ["Sudowoodo"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1241,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	sunstone: {
 		name: "Sun Stone",
 		spritenum: 480,

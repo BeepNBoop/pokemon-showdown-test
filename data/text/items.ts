@@ -1806,6 +1806,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Strawberry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
 	},
+	sudowoodite: {
+		name: "Sudowoodite",
+		desc: "If held by a Sudowoodo, this item allows it to Mega Evolve in battle.",
+	},
 	sunstone: {
 		name: "Sun Stone",
 		desc: "Evolves Gloom into Bellossom, Sunkern into Sunflora, Cottonee into Whimsicott, Petilil into Lilligant, and Helioptile into Heliolisk when used.",

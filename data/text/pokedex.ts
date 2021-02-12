@@ -953,6 +953,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	sudowoodo: {
 		name: "Sudowoodo",
 	},
+	sudowoodomega: {
+		name: "Sudowoodo-Mega",
+	},
 	politoed: {
 		name: "Politoed",
 	},
