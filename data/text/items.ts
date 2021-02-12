@@ -1357,6 +1357,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Poke Ball",
 		desc: "A device for catching wild Pokemon. It is designed as a capsule system.",
 	},
+	poliwrathite: {
+		name: "Poliwrathite",
+		desc: "If held by a Poliwrath, this item allows it to Mega Evolve in battle.",
+	},
 	pomegberry: {
 		name: "Pomeg Berry",
 		desc: "Cannot be eaten by the holder. No effect when eaten with Bug Bite or Pluck.",

@@ -4331,6 +4331,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 1,
 		isPokeball: true,
 	},
+	poliwrathite: {
+		name: "Poliwrathite",
+		spritenum: 590,
+		megaStone: "Poliwrath-Mega",
+		megaEvolves: "Poliwrath",
+		itemUser: ["Poliwrath"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 680,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	pomegberry: {
 		name: "Pomeg Berry",
 		spritenum: 351,

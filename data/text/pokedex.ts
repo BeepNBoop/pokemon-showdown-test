@@ -371,6 +371,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	poliwrath: {
 		name: "Poliwrath",
 	},
+	poliwrathmega: {
+		name: "Poliwrath-Mega",
+	},
 	abra: {
 		name: "Abra",
 	},
