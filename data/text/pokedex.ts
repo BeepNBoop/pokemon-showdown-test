@@ -3047,6 +3047,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	hydreigon: {
 		name: "Hydreigon",
 	},
+	hydreigonmega: {
+		name: "Hydreigon-Mega",
+	},
 	hydreigondelta: {
 		name: "Hydreigon-Delta",
 	},

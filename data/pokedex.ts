@@ -14892,6 +14892,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Dragon"],
 		requiredItem: "Hydreigonite",
+		tier: "Uber",
 	},
 	hydreigondelta: {
 		num: 635,
