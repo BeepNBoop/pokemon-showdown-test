@@ -5253,7 +5253,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Etigirafarigite",
-		tier: "UU",
+		tier: "RU",
 	},
 	pineco: {
 		num: 204,
@@ -7286,6 +7286,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Sablenite",
+		tier: "NU",
 	},
 	mawile: {
 		num: 303,
@@ -7343,6 +7344,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Mawilite",
+		tier: "Uber",
 	},
 	aron: {
 		num: 304,
@@ -7540,6 +7542,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Medichamite",
+		tier: "OU",
 	},
 	electrike: {
 		num: 309,
@@ -7912,7 +7915,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Cameruptite",
-		tier: "NU",
+		tier: "RU",
 	},
 	torkoal: {
 		num: 324,
@@ -9047,6 +9050,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Metagrossite (Spider)",
+		tier: "OU",
 	},
 	metagrossdeltaruin: {
 		num: 376,
@@ -9080,6 +9084,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Metagrossite (Ruin)",
+		tier: "OU",
 	},
 	metagrossdeltaruincrystal: {
 		num: 376,
@@ -9095,6 +9100,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Crystal Fragment",
+		tier: "Uber",
 	},
 	regirock: {
 		num: 377,
@@ -10332,7 +10338,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Grey",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Lopunnite",
-		tier: "UU",
+		tier: "OU",
 	},
 	mismagius: {
 		num: 429,
@@ -10754,6 +10760,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Delta Lucarionite",
+		tier: "UUBL",
 	},
 	hippopotas: {
 		num: 449,

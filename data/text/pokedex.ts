@@ -1088,14 +1088,14 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	scizor: {
 		name: "Scizor",
 	},
-	scizordelta: {
-		name: "Scizor-Delta",
-	},
 	scizormega: {
 		name: "Scizor-Mega",
 	},
-	scizormegadelta: {
-		name: "Scizor-Mega-Delta",
+	scizordelta: {
+		name: "Scizor-Delta",
+	},
+	scizordeltamega: {
+		name: "Scizor-Delta-Mega",
 	},
 	shuckle: {
 		name: "Shuckle",
@@ -1399,6 +1399,12 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	gardevoirmega: {
 		name: "Gardevoir-Mega",
+	},
+	gardevoirdelta: {
+		name: "Gardevoir-Delta",
+	},
+	gardevoirdeltamega: {
+		name: "Gardevoir-Delta-Mega",
 	},
 	surskit: {
 		name: "Surskit",
