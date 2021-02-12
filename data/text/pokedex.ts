@@ -2966,6 +2966,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	stunfiskgalar: {
 		name: "Stunfisk-Galar",
 	},
+	stunfiskmega: {
+		name: "Stunfisk-Mega",
+	},
 	mienfoo: {
 		name: "Mienfoo",
 	},

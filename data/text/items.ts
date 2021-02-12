@@ -1869,6 +1869,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Strawberry Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
 	},
+	stunfiskite: {
+		name: "Stunfiskite",
+		desc: "If held by a Stunfisk, this item allows it to Mega Evolve in battle.",
+	},
 	sudowoodite: {
 		name: "Sudowoodite",
 		desc: "If held by a Sudowoodo, this item allows it to Mega Evolve in battle.",
