@@ -2948,6 +2948,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	cryogonal: {
 		name: "Cryogonal",
 	},
+	cryogonalmega: {
+		name: "Cryogonal-Mega",
+	},
 	shelmet: {
 		name: "Shelmet",
 	},

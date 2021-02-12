@@ -300,6 +300,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Crawdite",
 		desc: "If held by a Crawdaunt, this item allows it to Mega Evolve in battle.",
 	},
+	cryogonalite: {
+		name: "Cryogonalite",
+		desc: "If held by a Cryogonal, this item allows it to Mega Evolve in battle.",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use.",
