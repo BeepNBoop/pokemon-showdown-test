@@ -420,6 +420,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Dome Fossil",
 		desc: "Can be revived into Kabuto.",
 	},
+	donphanite: {
+		name: "Donphanite",
+		desc: "If held by a Donphan, this item allows it to Mega Evolve in battle.",
+	},
 	dousedrive: {
 		name: "Douse Drive",
 		desc: "Holder's Techno Blast is Water type.",

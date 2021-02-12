@@ -1178,6 +1178,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	donphan: {
 		name: "Donphan",
 	},
+	donphanmega: {
+		name: "Donphan-Mega",
+	},
 	porygon2: {
 		name: "Porygon2",
 	},
