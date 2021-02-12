@@ -362,7 +362,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	deltafroslassite: {
 		name: "Delta Froslassite",
-		desc: "If held by Delta Frosslass, this item allows it to Mega Evolve in battle.",
+		desc: "If held by Delta Froslass, this item allows it to Mega Evolve in battle.",
 	},
 	deltagardevoirite: {
 		name: "Delta Gardevoirite",
