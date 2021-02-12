@@ -1373,6 +1373,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Poke Ball",
 		desc: "A device for catching wild Pokemon. It is designed as a capsule system.",
 	},
+	politoedite: {
+		name: "Politoedite",
+		desc: "If held by a Politoed, this item allows it to Mega Evolve in battle.",
+	},
 	poliwrathite: {
 		name: "Poliwrathite",
 		desc: "If held by a Poliwrath, this item allows it to Mega Evolve in battle.",

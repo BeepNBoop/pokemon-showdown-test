@@ -959,6 +959,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	politoed: {
 		name: "Politoed",
 	},
+	politoedmega: {
+		name: "Politoed-Mega",
+	},
 	hoppip: {
 		name: "Hoppip",
 	},

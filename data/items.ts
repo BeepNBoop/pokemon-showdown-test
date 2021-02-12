@@ -4387,6 +4387,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 1,
 		isPokeball: true,
 	},
+	politoedite: {
+		name: "Politoedite",
+		spritenum: 576,
+		megaStone: "Politoad-Mega",
+		megaEvolves: "Politoad",
+		itemUser: ["Politoad"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1241,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	poliwrathite: {
 		name: "Poliwrathite",
 		spritenum: 590,
