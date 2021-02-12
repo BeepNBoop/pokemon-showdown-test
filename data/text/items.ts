@@ -571,6 +571,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Fast Ball",
 		desc: "A Poke Ball that makes it easier to catch Pokemon which are quick to run away.",
 	},
+	feraligatite: {
+		name: "Feraligatite",
+		desc: "If held by a Feraligatr, this item allows it to Mega Evolve in battle.",
+	},
 	fightinggem: {
 		name: "Fighting Gem",
 		desc: "Holder's first successful Fighting-type attack will have 1.3x power. Single use.",

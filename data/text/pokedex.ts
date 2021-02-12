@@ -857,6 +857,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	feraligatr: {
 		name: "Feraligatr",
 	},
+	feraligatrmega: {
+		name: "Feraligatr-Mega",
+	},
 	sentret: {
 		name: "Sentret",
 	},
