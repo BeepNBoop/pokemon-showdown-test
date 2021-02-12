@@ -776,6 +776,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Gold Bottle Cap",
 		desc: "Used for Hyper Training. All of a Pokemon's stats are calculated with an IV of 31.",
 	},
+	gothitite: {
+		name: "Gothitite",
+		desc: "If held by a Gothitelle, this item allows it to Mega Evolve in battle.",
+	},
 	grassgem: {
 		name: "Grass Gem",
 		desc: "Holder's first successful Grass-type attack will have 1.3x power. Single use.",

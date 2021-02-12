@@ -2783,6 +2783,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	gothitelle: {
 		name: "Gothitelle",
 	},
+	gothitellemega: {
+		name: "Gothitelle-Mega",
+	},
 	solosis: {
 		name: "Solosis",
 	},

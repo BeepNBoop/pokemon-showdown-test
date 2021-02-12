@@ -2498,6 +2498,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 796,
 		gen: 7,
 	},
+	gothitite: {
+		name: "Gothitite",
+		spritenum: 576,
+		megaStone: "Gothitelle-Mega",
+		megaEvolves: "Gothitelle",
+		itemUser: ["Gothitelle"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1240,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	grassgem: {
 		name: "Grass Gem",
 		spritenum: 172,
