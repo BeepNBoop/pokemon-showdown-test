@@ -2144,6 +2144,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1113,
 		gen: 8,
 	},
+	flygonite: {
+		name: "Flygonite",
+		spritenum: 622,
+		megaStone: "Flygon-Mega",
+		megaEvolves: "Flygon",
+		itemUser: ["Flygon"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 762,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	flyinggem: {
 		name: "Flying Gem",
 		spritenum: 149,

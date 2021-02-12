@@ -648,6 +648,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Flower Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
 	},
+	flygonite: {
+		name: "Flygonite",
+		desc: "If held by a Flygon, this item allows it to Mega Evolve in battle."
+	},
 	flyinggem: {
 		name: "Flying Gem",
 		desc: "Holder's first successful Flying-type attack will have 1.3x power. Single use.",
@@ -1679,8 +1683,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	shiftrite: {
 		name: "Shiftrite",
-		desc: "If held by a Shiftry, this item allows it to Mega Evolve in battle.",
-
+		desc: "If held by a Shiftry, this item allows it to Mega Evolve in battle."
 	},
 	shockdrive: {
 		name: "Shock Drive",
