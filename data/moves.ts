@@ -946,7 +946,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (source.hasAbility('venomous') && move.flags['contact']) {
 					source.trySetStatus('tox', target);
 				}
-				else if (move.flags['contact']) {
+				else if (!source.hasAbility('venomous') && move.flags['contact']) {
 					source.trySetStatus('psn', target);
 				}
 				return this.NOT_FAIL;
