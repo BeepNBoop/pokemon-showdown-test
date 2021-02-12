@@ -5588,7 +5588,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Magcargo",
 		forme: "Mega",
 		types: ["Fire", "Rock"],
-		baseStats: {hp: 75, atk: 125, def: 230, spa: 55, spd: 95, spe: 30},
+		baseStats: {hp: 60, atk: 70, def: 100, spa: 150, spd: 100, spe: 60},
 		abilities: {0: "Vaporization"},
 		heightm: 0.8,
 		weightkg: 55,
