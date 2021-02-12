@@ -20393,6 +20393,19 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		changesFrom: "Calyrex",
 	},
+	ufi: {
+		num: 899,
+		name: "UFI",
+		types: ["Psychic", "Electric"],
+		gender: "N",
+		baseStats: {hp: 100, atk: 100, def: 100, spa: 100, spd: 100, spe: 100},
+		abilities: {0: "Event Horizon"},
+		heightm: .3,
+		weightkg: 9,
+		color: "Black",
+		eggGroups: ["Undiscovered"],
+		tier: "OU",
+	},
 	missingno: {
 		num: 0,
 		name: "MissingNo.",
@@ -20403,6 +20416,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 1590.8,
 		color: "Gray",
 		eggGroups: ["Undiscovered"],
+		tier: "PU",
 	},
 	syclar: {
 		num: -1,
