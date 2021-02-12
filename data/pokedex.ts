@@ -14438,7 +14438,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Crygonal",
 		forme: "Mega",
 		types: ["Ice"],
-		baseStats: {hp: 70, atk: 50, def: 65, spa: 115, spd: 150, spe: 135},
+		baseStats: {hp: 80, atk: 50, def: 80, spa: 130, spd: 150, spe: 135},
 		abilities: {0: "Sleet"},
 		heightm: 1.1,
 		weightkg: 148,
