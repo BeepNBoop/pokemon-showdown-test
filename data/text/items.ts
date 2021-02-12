@@ -2274,6 +2274,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Tyranitarite",
 		desc: "If held by a Tyranitar, this item allows it to Mega Evolve in battle.",
 	},
+	typhlosionite: {
+		name: "Typhlosionite",
+		desc: "If held by a Typhlosion, this item allows it to Mega Evolve in battle.",
+	},
 	ultraball: {
 		name: "Ultra Ball",
 		desc: "An ultra-performance Ball that provides a higher catch rate than a Great Ball.",
