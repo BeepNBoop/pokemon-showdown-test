@@ -3644,7 +3644,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		condition:{
 			duration: 5,
 			onStart(target, source) {
-				this.add('-fieldstart', 'trickroom', '[of] ' + source);
+				this.field.addPseudoWeather('trickroom');
 			},
 			onRestart(target, source) {
 				this.field.removePseudoWeather('trickroom');
