@@ -3628,6 +3628,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 43,
 	},
+	spectraljaws: {
+		onModifyMove(move, pokemon, target) {
+			if (move.flags['bite']) {
+				move.category = 'Special';
+				return this.chainModify(1.3);
+			}
+		},
+		name: "Spectral Jaws",
+		rating: 1.5,
+		num: 43,
+	},
 	speedboost: {
 		onResidualOrder: 26,
 		onResidualSubOrder: 1,

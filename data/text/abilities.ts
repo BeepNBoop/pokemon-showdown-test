@@ -1385,6 +1385,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "This Pokemon is immune to sound-based moves, including Heal Bell.",
 		},
 	},
+	spectraljaws: {
+		name: "Spectral Jaws",
+		desc: "Spectral Jaws causes all biting moves used by the Pokémon to be reclassified as Special moves and receive a 30% boost.		",
+		shortDesc: "All biting moves are Special.",
+	},
 	speedboost: {
 		name: "Speed Boost",
 		desc: "This Pokemon's Speed is raised by 1 stage at the end of each full turn it has been on the field.",
