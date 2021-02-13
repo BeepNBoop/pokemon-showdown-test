@@ -3641,8 +3641,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 3,
 	},
 	speedswap: {
-		onStart(source) {
-			this.field.setWeather('trickroom');
+		condition:{
+			duration: 5,
+			onStart(target, source) {
+				this.add('-fieldstart', 'trickroom', '[of] ' + source);
+			},
+			onRestart(target, source) {
+				this.field.removePseudoWeather('trickroom');
+			},
+			// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
+			onResidualOrder: 23,
+			onEnd() {
+				this.add('-fieldend', 'trickroom');
+			}
 		},
 		name: "Speed Swap",
 		rating: 4,
