@@ -4245,6 +4245,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 84,
 	},
 	unleafed: {
+		onStart(pokemon) {
+			pokemon.addVolatile('unleafed');
+		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['unleafed'];
+			this.add('-end', pokemon, 'Unleafed', '[silent]');
+		},
 		condition: {
 			duration: 1,
 			durationCallback(pokemon, effect) {
