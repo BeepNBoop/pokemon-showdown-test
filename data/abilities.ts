@@ -3874,7 +3874,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	supercell: {
 		onResidualOrder: 27,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion-Delta' || pokemon.transformed) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion-Delta') {
 				return;
 			}
 			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && !['Active'].includes(pokemon.species.forme)) {
