@@ -4446,13 +4446,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 				return 1;
 			},
-			onStart(target, pokemon) {
+			onStart(target) {
 				this.add('-start', target, 'ability: Unleafed');
-				this.boost({atk: 1}, pokemon);
-				this.boost({def: 1}, pokemon);
-				this.boost({spa: 1}, pokemon);
-				this.boost({spd: 1}, pokemon);
-				this.boost({spe: 1}, pokemon);
 			},
 			onModifyAtk(atk, pokemon) {
 				if (pokemon.hasAbility('unleafed')) {
