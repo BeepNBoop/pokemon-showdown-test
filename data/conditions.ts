@@ -698,7 +698,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		effectType: 'Weather',
 		duration: 5,
 		onStart(target, source) {
-			this.add('-fieldstart', 'Ability: Speed Swap', '[of] ' + source);
+			this.add('-fieldstart', 'Trick Room', '[of] ' + source);
 		},
 		onRestart(target, source) {
 			this.field.removePseudoWeather('trickroom');
@@ -706,7 +706,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
 		onResidualOrder: 23,
 		onEnd() {
-			this.add('-fieldend', 'Ability: Speed Swap');
+			this.add('-fieldend', 'Trick Room');
 		},
 	},
 	deltastream: {
