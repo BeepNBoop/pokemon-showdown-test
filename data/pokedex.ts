@@ -16703,7 +16703,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Grass", "Steel"],
 		baseStats: {hp: 85, atk: 70, def: 80, spa: 97, spd: 80, spe: 123},
-		abilities: {0: "Chlorophyll", 1: "Natural Cure", H: "Flower Gift"},
+		abilities: {0: "Chlorophyll", 1: "Natural Cure"},
 		heightm: 1.5,
 		weightkg: 85,
 		color: "Green",
