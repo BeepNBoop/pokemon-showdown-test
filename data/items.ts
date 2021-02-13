@@ -6050,10 +6050,24 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
-	sunflorite: {
-		name: "Sunflorite",
+	sunfloritef: {
+		name: "Sunflorite F",
 		spritenum: 576,
-		megaStone: "Sunflora-Mega",
+		megaStone: "Sunflora-Mega-F",
+		megaEvolves: "Sunflora",
+		itemUser: ["Sunflora"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1237,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	sunfloritem: {
+		name: "Sunflorite M",
+		spritenum: 576,
+		megaStone: "Sunflora-Mega-M",
 		megaEvolves: "Sunflora",
 		itemUser: ["Sunflora"],
 		onTakeItem(item, source) {
