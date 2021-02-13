@@ -4461,7 +4461,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			},
 			onEnd(target) {
-				this.add('-end', target, 'Unleafed');
+				if (!target.side.pokemon[1].fainted && !target.side.pokemon[2].fainted && !target.side.pokemon[3].fainted && !target.side.pokemon[4].fainted && !target.side.pokemon[5].fainted && target.side.pokemon[6].fainted && target.activeTurns == 2) {
+					this.add('-end', target, 'Unleafed');
+				}
+				else this.add('-start', target, 'ability: Unleafed');
 			},
 		},
 		name: "Unleafed",
