@@ -1640,6 +1640,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon loses its held item for any reason, its Speed is doubled. This boost is lost if it switches out or gains a new item or Ability.",
 		shortDesc: "Speed is doubled on held item loss; boost is lost if it switches, gets new item/Ability.",
 	},
+	unleafed: {
+		name: "Unleafed",
+		desc: "When Mega Evolving or on switch-in, boosts Attack, Defense, Special Attack, Special Defense, and Speed by one stage each. These boosts last X + 1 turns, where X is the number of fainted Pokémon on this Pokémon´s team at the time of the ability's activation. After X + 1 turns, the boosts disappear.",
+		shortDesc: "This Pokémon avenges its friends by unloading its power.",
+	},
 	unnerve: {
 		name: "Unnerve",
 		desc: "While this Pokemon is active, it prevents opposing Pokemon from using their Berries. Activation message broadcasts before other Abilities regardless of the Pokemon's Speed tiers.",
