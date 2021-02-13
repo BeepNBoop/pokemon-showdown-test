@@ -4447,11 +4447,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.boost({spd: 1}, pokemon);
 				this.boost({spe: 1}, pokemon);
 			},
+			onModifyAtk(atk) {
+				this.boost({atk: 1});
+			},
 			onEnd(target) {
 				this.add('-end', target, 'Unleafed');
 			},
 		},
-		name: "Unburden",
+		name: "Unleafed",
 		rating: 3.5,
 		num: 84,
 	},
