@@ -3640,6 +3640,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 3,
 	},
+	speedswap: {
+		onStart(source) {
+			this.field.getPseudoWeather('trickroom');
+		},
+		name: "Speed Swap",
+		rating: 4,
+		num: 226,
+	},
 	spiritcall: {
 		onModifyAtkPriority: 5,
 		onModifyAtk(atk, attacker, defender, move) {
