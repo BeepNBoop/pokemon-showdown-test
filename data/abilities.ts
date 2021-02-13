@@ -4255,8 +4255,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.add('-end', pokemon, 'Unleafed', '[silent]');
 		},
 		condition: {
-			duration: 1,
-			onModifyDuration(pokemon) {
+			onDuration(pokemon) {
 				if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
 					return 1;
 				}
@@ -4454,6 +4453,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			onModifyAtk(atk, pokemon) {
 				if (pokemon.hasAbility('unleafed')) {
 					this.boost({atk: 1}, pokemon);
+				}
+			},
+			onModifySpA(spa, pokemon) {
+				if (pokemon.hasAbility('unleafed')) {
+					this.boost({spa: 1}, pokemon);
 				}
 			},
 			onEnd(target) {
