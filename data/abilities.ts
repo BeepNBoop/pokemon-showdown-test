@@ -3642,7 +3642,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	speedswap: {
 		onStart(source) {
-			this.field.getPseudoWeather('trickroom');
+			this.field.setWeather('trickroom');
 		},
 		name: "Speed Swap",
 		rating: 4,

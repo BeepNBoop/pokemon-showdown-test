@@ -693,6 +693,20 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.add('-weather', 'none');
 		},
 	},
+	trickroom: {
+		duration: 5,
+		onStart(target, source) {
+			this.add('-fieldstart', 'Ability: Speed Swap', '[of] ' + source);
+		},
+		onRestart(target, source) {
+			this.field.removePseudoWeather('trickroom');
+		},
+		// Speed modification is changed in Pokemon.getActionSpeed() in sim/pokemon.js
+		onResidualOrder: 23,
+		onEnd() {
+			this.add('-fieldend', 'move: Trick Room');
+		},
+	},
 	deltastream: {
 		name: 'DeltaStream',
 		effectType: 'Weather',
