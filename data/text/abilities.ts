@@ -1545,6 +1545,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			desc: "If another Pokemon burns, paralyzes, or poisons this Pokemon, that Pokemon receives the same non-volatile status condition. If another Pokemon badly poisons this Pokemon, that Pokemon becomes poisoned.",
 		},
 	},
+	syntheticalloy: {
+		name: "Synthetic Alloy",
+		desc: "Pokemon with Synthetic Alloy take neutral damage from Fire-type attacks regardless of their type-specific weaknesses.",
+		shortDesc: "This Pokemon takes neutral damage from Fire-type attacks.",
+	},
 	tangledfeet: {
 		name: "Tangled Feet",
 		shortDesc: "This Pokemon's evasiveness is doubled as long as it is confused.",
