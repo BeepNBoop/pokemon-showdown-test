@@ -3872,6 +3872,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 21,
 	},
 	supercell: {
+		onResidualOrder: 27,
+		onResidual(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion-Delta-Mega' || pokemon.transformed) {
+				return;
+			}
+			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && !['Active'].includes(pokemon.species.forme)) {
+				pokemon.addVolatile('supercell');
+			} else if (!['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && ['Active'].includes(pokemon.species.forme)) {
+				pokemon.addVolatile('supercell');
+				pokemon.removeVolatile('supercell');
+			}
+		},
 		onModifySpA(SpA, pokemon) {
 			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather())) {
 				return this.chainModify(1.5);
@@ -3979,6 +3991,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
 		},
 		name: "Synchronize",
+		rating: 2,
+		num: 28,
+	},
+	syntheticalloy: {
+		onEffectiveness(typeMod, target, type, move) {
+			if (move.type == 'fire') return 0;
+		},
+		name: "Synthetic Alloy",
 		rating: 2,
 		num: 28,
 	},
