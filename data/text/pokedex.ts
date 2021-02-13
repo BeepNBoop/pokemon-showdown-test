@@ -848,6 +848,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	typhlosiondeltamega: {
 		name: "Typhlosion-Delta-Mega",
 	},
+	typhlosiondeltamegaactive: {
+		name: "Typhlosion-Delta-Mega-Active",
+	},
 	totodile: {
 		name: "Totodile",
 	},
