@@ -4304,195 +4304,195 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		condition: {
 			onDuration(pokemon) {
 				if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 1;
+					return this.effectData.duration = 1;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (!pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 2;
+					return this.effectData.duration = 2;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 3;
+					return this.effectData.duration = 3;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 4;
+					return this.effectData.duration = 4;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 5;
+					return this.effectData.duration = 5;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
 				else if (pokemon.side.pokemon[1].fainted && pokemon.side.pokemon[2].fainted && pokemon.side.pokemon[3].fainted && pokemon.side.pokemon[4].fainted && pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
-					return 6;
+					return this.effectData.duration = 6;
 				}
-				return 1;
+				return this.effectData.duration = 1;
 			},
 			onStart(target) {
 				this.add('-start', target, 'ability: Unleafed');
@@ -4508,10 +4508,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 			},
 			onEnd(target) {
-				if (!target.side.pokemon[1].fainted && !target.side.pokemon[2].fainted && !target.side.pokemon[3].fainted && !target.side.pokemon[4].fainted && !target.side.pokemon[5].fainted && target.side.pokemon[6].fainted && target.activeTurns == 2) {
-					this.add('-end', target, 'Unleafed');
-				}
-				else this.add('-start', target, 'ability: Unleafed');
+				this.add('-end', target, 'Unleafed');
 			},
 		},
 		name: "Unleafed",
