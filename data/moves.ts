@@ -7587,6 +7587,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		weather: 'hail',
+		onTry() {
+			return (!this.field.isWeather('sleet'));
+		},
 		secondary: null,
 		target: "all",
 		type: "Ice",
@@ -10482,7 +10485,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		isMax: true,
 		self: {
 			onHit(source) {
-				if (!source.volatiles['dynamax']) return;
+				if (!source.volatiles['dynamax'] && !this.field.isWeather('sleet')) return;
 				this.field.setWeather('hail');
 			},
 		},
@@ -11535,6 +11538,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'hail':
 				factor = 0.25;
 				break;
+			case 'sleet':
+				factor = 0.25;
+				break;
 			}
 			return !!this.heal(this.modify(pokemon.maxhp, factor));
 		},
@@ -11564,6 +11570,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
+				factor = 0.25;
+				break;
+			case 'sleet':
 				factor = 0.25;
 				break;
 			}
@@ -16215,7 +16224,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			if (['raindance', 'primordialsea', 'sandstorm', 'hail'].includes(pokemon.effectiveWeather())) {
+			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'sleet'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
 			}
@@ -16251,7 +16260,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			return null;
 		},
 		onBasePower(basePower, pokemon, target) {
-			if (['raindance', 'primordialsea', 'sandstorm', 'hail'].includes(pokemon.effectiveWeather())) {
+			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'sleet'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
 			}
@@ -17644,6 +17653,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
+				factor = 0.25;
+				break;
+			case 'sleet':
 				factor = 0.25;
 				break;
 			}
@@ -19305,6 +19317,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'hail':
 				move.type = 'Ice';
 				break;
+			case 'sleet':
+				move.type = 'Ice';
+				break;
 			}
 		},
 		onModifyMove(move, pokemon) {
@@ -19321,6 +19336,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.basePower *= 2;
 				break;
 			case 'hail':
+				move.basePower *= 2;
+				break;
+			case 'sleet':
 				move.basePower *= 2;
 				break;
 			}
