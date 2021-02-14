@@ -775,7 +775,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1},
 		sideCondition: 'auroraveil',
 		onTry() {
-			return this.field.isWeather('hail');
+			return this.field.isWeather('hail' || 'sleet');
 		},
 		condition: {
 			duration: 5,
