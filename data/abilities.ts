@@ -1799,6 +1799,36 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 89,
 	},
+	irrelephant: {
+		onModifyMovePriority: -5,
+		onModifyMove(move) {
+			if (!move.ignoreImmunity) move.ignoreImmunity = {};
+			if (move.ignoreImmunity !== true) {
+				move.ignoreImmunity['Bug'] = true;
+				move.ignoreImmunity['Dark'] = true;
+				move.ignoreImmunity['Dragon'] = true;
+				move.ignoreImmunity['Electric'] = true;
+				move.ignoreImmunity['Fairy'] = true;
+				move.ignoreImmunity['Fighting'] = true;
+				move.ignoreImmunity['Fire'] = true;
+				move.ignoreImmunity['Flying'] = true;
+				move.ignoreImmunity['Ghost'] = true;
+				move.ignoreImmunity['Grass'] = true;
+				move.ignoreImmunity['Ground'] = true;
+				move.ignoreImmunity['Ice'] = true;
+				move.ignoreImmunity['Normal'] = true;
+				move.ignoreImmunity['Poison'] = true;
+				move.ignoreImmunity['Psychic'] = true;
+				move.ignoreImmunity['Rock'] = true;
+				move.ignoreImmunity['Steel'] = true;
+				move.ignoreImmunity['Water'] = true;
+				move.ignoreImmunity['Crystal'] = true;
+			}
+		},
+		name: "Irrelephant",
+		rating: 3,
+		num: 280,
+	},
 	justified: {
 		onDamagingHit(damage, target, source, move) {
 			if (move.type === 'Dark') {

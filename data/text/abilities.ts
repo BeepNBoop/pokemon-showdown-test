@@ -663,6 +663,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "This Pokemon's punch-based attacks have their power multiplied by 1.2.",
 		shortDesc: "This Pokemon's punch-based attacks have 1.2x power. Sucker Punch is not boosted.",
 	},
+	irrelephant: {
+		name: "Irrelephant",
+		desc: "Irrelephant ignores type-based immunities. For example, a Pokémon with Irrelephant can hit Flying-type foes with Earthquake. Therefore, both Talonflame and Skarmory will take super effective damage from a Ground-type move used by a Pokémon with Irrelephant.",
+		shortDesc: "Immunities are irrelephant to this Pokémon's attacks.",
+	},
 	justified: {
 		name: "Justified",
 		shortDesc: "This Pokemon's Attack is raised by 1 stage after it is damaged by a Dark-type move.",
