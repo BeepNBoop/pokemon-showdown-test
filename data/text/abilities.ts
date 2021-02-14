@@ -972,6 +972,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
 		shortDesc: "If this Pokemon has no item and is hit by a contact move, it steals the attacker's item.",
 	},
+	phototroph: {
+		name: "Phototroph",
+		desc: "Pokémon with Phototroph restore 1/16 of their total HP at the end of each turn. The effects of Phototroph are doubled during harsh sunlight and are completely negated when the sky is dark or heavy rain is in effect.",
+		shortDesc: "The Pokémon gradually regains HP in sunny weather.",
+	},
 	pickup: {
 		name: "Pickup",
 		shortDesc: "If this Pokemon has no item, it finds one used by an adjacent Pokemon this turn.",

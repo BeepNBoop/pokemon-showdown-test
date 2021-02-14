@@ -2621,6 +2621,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 253,
 	},
+	phototroph: {
+		onWeather(target, source, effect) {
+			if (target.hasItem('utilityumbrella')) return;
+			if (effect.id === '') {
+				this.heal(target.baseMaxhp / 16);
+			} else if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+				this.heal(target.baseMaxhp / 8, target, target);
+			} else if (effect.id === 'newmoon' || effect.id === 'raindance' || effect.id === 'primordialsea') {
+				this.heal(target.baseMaxhp / 0);
+			}
+		},
+		name: "Phototroph",
+		rating: 2,
+		num: 253,
+	},
 	pickpocket: {
 		onAfterMoveSecondary(target, source, move) {
 			if (source && source !== target && move?.flags['contact']) {
