@@ -3247,7 +3247,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 2,
 			onImmunity(type, pokemon) {
-				if (type === 'sandstorm' || type === 'hail') return false;
+				if (type === 'sandstorm' || type === 'hail' || type === 'sleet') return false;
 			},
 			onInvulnerability(target, source, move) {
 				if (['earthquake', 'magnitude'].includes(move.id)) {
