@@ -629,11 +629,11 @@ export const Conditions: {[k: string]: ConditionData} = {
 			return 5;
 		},
 		onStart(battle, source, effect) {
-			if (effect?.effectType === 'Ability') {
+			if (effect.id === 'sleet') {
+				return;
+			} else if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
 				this.add('-weather', 'Hail', '[from] ability: ' + effect, '[of] ' + source);
-			} else if (effect.id === 'sleet') {
-				this.effectData.duration = 0;
 			} else {
 				this.add('-weather', 'Hail');
 			}
