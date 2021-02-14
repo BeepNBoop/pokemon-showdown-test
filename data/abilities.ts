@@ -3373,7 +3373,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	shadowsynergy: {
 		onModifyDamage(damage, source, target, move) {
-			if (['Fire'].includes(move.type)) {
+			if (['Dark'].includes(move.type)) {
 				this.debug('Shadow Synergy boost');
 				return this.chainModify(1.5);
 			}
