@@ -3502,6 +3502,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 92,
 	},
+	sleet: {
+		onStart(source) {
+			this.field.setWeather('sleet');
+		},
+		name: "Sleet",
+		rating: 4,
+		num: 117,
+	},
 	slowstart: {
 		onStart(pokemon) {
 			pokemon.addVolatile('slowstart');

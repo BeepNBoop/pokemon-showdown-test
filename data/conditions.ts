@@ -632,6 +632,8 @@ export const Conditions: {[k: string]: ConditionData} = {
 			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
 				this.add('-weather', 'Hail', '[from] ability: ' + effect, '[of] ' + source);
+			} else if (effect.id === 'sleet') {
+				this.effectData.duration = 0;
 			} else {
 				this.add('-weather', 'Hail');
 			}
@@ -643,6 +645,36 @@ export const Conditions: {[k: string]: ConditionData} = {
 		},
 		onWeather(target) {
 			this.damage(target.baseMaxhp / 16);
+		},
+		onEnd() {
+			this.add('-weather', 'none');
+		},
+	},
+	sleet: {
+		name: 'Sleet',
+		effectType: 'Weather',
+		duration: 5,
+		durationCallback(source, effect) {
+			if (source?.hasItem('icyrock')) {
+				return 8;
+			}
+			return 5;
+		},
+		onStart(battle, source, effect) {
+			if (effect?.effectType === 'Ability') {
+				if (this.gen <= 5) this.effectData.duration = 0;
+				this.add('-weather', 'Sleet', '[from] ability: ' + effect, '[of] ' + source);
+			} else {
+				this.add('-weather', 'Sleet');
+			}
+		},
+		onResidualOrder: 1,
+		onResidual() {
+			this.add('-weather', 'Sleet', '[upkeep]');
+			if (this.field.isWeather('sleet')) this.eachEvent('Weather');
+		},
+		onWeather(target) {
+			this.damage(target.baseMaxhp / 5);
 		},
 		onEnd() {
 			this.add('-weather', 'none');

@@ -1334,6 +1334,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Skill Link",
 		shortDesc: "This Pokemon's multi-hit attacks always hit the maximum number of times.",
 	},
+	sleet: {
+		name: "Sleet",
+		desc: "Sleet summons and increases the damage of hail. Pokémon that are not immune to hail damage are damaged for 20% of their maximum HP at the end of each turn while Sleet is active. Sleet's effects are removed when Pokémon with Sleet are no longer on the field or hail stops. If hail stops but becomes active again while a Pokémon with Sleet is on the field, Sleet will immediately begin modifying the damage of hail.",
+		shortDesc: "On switch-in, this Pokemon summons Sleet.",
+	},
 	slowstart: {
 		name: "Slow Start",
 		shortDesc: "On switch-in, this Pokemon's Attack and Speed are halved for 5 turns.",
