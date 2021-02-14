@@ -2873,7 +2873,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 168,
 	},
 	proteanmaxima: {
-		onPrepareHit(source, target, move) {
+		onBeforeMove(source, target, move) {
 			if (move.hasBounced || move.sourceEffect === 'snatch') return;
 			if (move.type === 'water') {
 				source.formeChange('vaporean');
