@@ -651,6 +651,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Intrepid Sword",
 		shortDesc: "On switch-in, this Pokemon's Attack is raised by 1 stage.",
 	},
+	intoxicate: {
+		name: "Intoxicate",
+		desc: "Intoxicate causes all Normal-type moves used by the Pokémon to become Poison-type and receive a 30% power boost.",
+		shortDesc: "Normal-type moves become Poison-type moves.",
+	},
 	ironbarbs: {
 		name: "Iron Barbs",
 		desc: "Pokemon making contact with this Pokemon lose 1/8 of their maximum HP, rounded down.",
