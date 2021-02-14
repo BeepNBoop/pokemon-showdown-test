@@ -3371,6 +3371,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 272,
 	},
+	shadowsynergy: {
+		onModifyDamage(damage, source, target, move) {
+			if (['Fire'].includes(move.type)) {
+				this.debug('Shadow Synergy boost');
+				return this.chainModify(1.5);
+			}
+		},
+		name: "Shadow Synergy",
+		rating: 2,
+		num: 272,
+	},
 	shadowshield: {
 		onSourceModifyDamage(damage, source, target, move) {
 			if (target.hp >= target.maxhp) {

@@ -1269,7 +1269,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	shadowdance: {
 		name: "Shadow Dance",
-		desc: "During intense darkness, the Speed stat of Pokemon with this Ability is doubled.",
+		shortDesc: "During intense darkness, the Speed stat of Pokemon with this Ability is doubled.",
+	},
+	shadowsynergy: {
+		name: "Shadow Synergy",
+		shortDesc: "Boosts the power of the user's Dark-type moves by 50%.",
 	},
 	shadowshield: {
 		name: "Shadow Shield",
