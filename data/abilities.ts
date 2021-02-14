@@ -2873,39 +2873,39 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 168,
 	},
 	proteanmaxima: {
-		onBeforeMove(source, target, move) {
+		onBeforeMove(pokemon, target, move) {
 			if (move.hasBounced || move.sourceEffect === 'snatch') return;
 			if (move.type === 'water') {
-				source.formeChange('vaporean');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('vaporean', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'electric') {
-				source.formeChange('jolteon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('jolteon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'fire') {
-				source.formeChange('flareon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('flareon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'psychic') {
-				source.formeChange('espeon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('espeon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'dark') {
-				source.formeChange('umbreon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('umbreon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'grass') {
-				source.formeChange('leafeon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('leafeon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'ice') {
-				source.formeChange('glaceon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('glaceon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 			else if (move.type === 'fairy') {
-				source.formeChange('sylveon');
-				this.add('-ability', source, 'Protean Maxima');
+				pokemon.formeChange('sylveon', this.effect, false);
+				this.add('-ability', pokemon, 'Protean Maxima');
 			}
 		},
 		name: "Protean Maxima",
