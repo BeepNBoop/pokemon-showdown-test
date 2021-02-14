@@ -775,7 +775,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1},
 		sideCondition: 'auroraveil',
 		onTry() {
-			return this.field.isWeather('hail' || 'sleet');
+			return (this.field.isWeather('hail') || this.field.isWeather('sleet'));
 		},
 		condition: {
 			duration: 5,
@@ -1333,7 +1333,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onModifyMove(move) {
-			if (this.field.isWeather('hail' || 'sleet')) move.accuracy = true;
+			if (this.field.isWeather('hail') || this.field.isWeather('sleet')) move.accuracy = true;
 		},
 		secondary: {
 			chance: 10,
