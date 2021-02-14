@@ -1081,6 +1081,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	protean: {
 		name: "Protean",
 		desc: "This Pokemon's type changes to match the type of the move it is about to use. This effect comes after all effects that change a move's type.",
+		shortDesc: "The Pokémon changes form, stats and ability based on the type of move it uses.",
+	},
+	proteanmaxima: {
+		name: "Protean Maxima",
+		desc: "Depending on the moves Eevee uses, it changes into another Eevee forme complete with type, stats (including HP) and ability.",
 		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
 	},
 	psychicsurge: {

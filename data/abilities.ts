@@ -2872,6 +2872,46 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4.5,
 		num: 168,
 	},
+	proteanmaxima: {
+		onPrepareHit(source, target, move) {
+			if (move.hasBounced || move.sourceEffect === 'snatch') return;
+			if (move.type === 'water') {
+				source.formeChange('vaporean');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'electric') {
+				source.formeChange('jolteon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'fire') {
+				source.formeChange('flareon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'psychic') {
+				source.formeChange('espeon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'dark') {
+				source.formeChange('umbreon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'grass') {
+				source.formeChange('leafeon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'ice') {
+				source.formeChange('glaceon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+			else if (move.type === 'fairy') {
+				source.formeChange('sylveon');
+				this.add('-ability', source, 'Protean Maxima');
+			}
+		},
+		name: "Protean Maxima",
+		rating: 5,
+		num: 168,
+	},
 	psychicsurge: {
 		onStart(source) {
 			this.field.setTerrain('psychicterrain');
