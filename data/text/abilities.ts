@@ -960,6 +960,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		name: "Pastel Veil",
 		shortDesc: "This Pokemon and its allies cannot be poisoned. On switch-in, cures poisoned allies.",
 	},
+	pendulum: {
+		name: "Pendulum",
+		desc: "Boosts the power of moves used repeatedly. Each time a move is used consecutively, its power is boosted by 20% up to a maximum increase of 100%. Switching or using another move returns the move's power to normal. Multi-strike moves are counted by the number of turns on which they are used, not the number of hits made. It also stacks with Metronome, which offers an identical power boost for every consecutive usage.",
+		shortDesc: "Consecutively using the same move increases its damage.",
+	},
 	perishbody: {
 		name: "Perish Body",
 		desc: "Making contact with this Pokemon starts the Perish Song effect for it and the attacker. This effect does not happen if this Pokemon already has a perish count.",
