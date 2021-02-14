@@ -1333,7 +1333,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
 		onModifyMove(move) {
-			if (this.field.isWeather('hail')) move.accuracy = true;
+			if (this.field.isWeather('hail' || 'sleet')) move.accuracy = true;
 		},
 		secondary: {
 			chance: 10,
