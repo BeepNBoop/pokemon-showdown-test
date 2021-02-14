@@ -1257,6 +1257,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 4,
 		num: 206,
 	},
+	glitch: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+			this.damage(target.baseMaxhp / 1, target, target);
+			}
+		},
+		name: "Glitch",
+		rating: 4,
+		num: 206,
+	},
 	gluttony: {
 		name: "Gluttony",
 		rating: 1.5,
