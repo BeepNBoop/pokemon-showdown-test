@@ -576,13 +576,13 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	icebody: {
 		name: "Ice Body",
-		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP, rounded down, at the end of each turn. This Pokemon takes no damage from Hail.",
-		shortDesc: "If Hail is active, this Pokemon heals 1/16 of its max HP each turn; immunity to Hail.",
+		desc: "If Hail is active, this Pokemon restores 1/16 of its maximum HP and 1/8 of its maximum HP if Sleet is active, rounded down, at the end of each turn. This Pokemon takes no damage from Hail or Sleet.",
+		shortDesc: "If Hail is active, this Pokemon heals 1/16 of its max HP each turn; If Sleet is active, this Pokemon heals 1/8 of its max HP each turn; immunity to Hail and Sleet.",
 	},
 	iceface: {
 		name: "Ice Face",
-		desc: "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Hail begins or when Eiscue switches in while Hail is active. Confusion damage also breaks the ice face.",
-		shortDesc: "If Eiscue, the first physical hit it takes deals 0 damage. This effect is restored in Hail.",
+		desc: "If this Pokemon is an Eiscue, the first physical hit it takes in battle deals 0 neutral damage. Its ice face is then broken and it changes forme to Noice Face. Eiscue regains its Ice Face forme when Hail or Sleet begins or when Eiscue switches in while Hail or Sleet is active. Confusion damage also breaks the ice face.",
+		shortDesc: "If Eiscue, the first physical hit it takes deals 0 damage. This effect is restored in Hail or Sleet.",
 	},
 	icescales: {
 		name: "Ice Scales",
@@ -1348,7 +1348,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	slushrush: {
 		name: "Slush Rush",
-		shortDesc: "If Hail is active, this Pokemon's Speed is doubled.",
+		shortDesc: "If Hail or Sleet are active, this Pokemon's Speed is doubled.",
 	},
 	sniper: {
 		name: "Sniper",
@@ -1356,12 +1356,12 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 	},
 	snowcloak: {
 		name: "Snow Cloak",
-		desc: "If Hail is active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Hail.",
-		shortDesc: "If Hail is active, this Pokemon's evasiveness is 1.25x; immunity to Hail.",
+		desc: "If Hail or Sleet are active, this Pokemon's evasiveness is multiplied by 1.25. This Pokemon takes no damage from Hail or Sleet.",
+		shortDesc: "If Hail or Sleet are active, this Pokemon's evasiveness is 1.25x; immunity to Hail and Sleet.",
 	},
 	snowwarning: {
 		name: "Snow Warning",
-		shortDesc: "On switch-in, this Pokemon summons Hail.",
+		shortDesc: "On switch-in, this Pokemon summons Hail. Fails if Sleet is active.",
 	},
 	solarpower: {
 		name: "Solar Power",
