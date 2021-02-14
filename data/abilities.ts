@@ -1133,6 +1133,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			case 'hail':
 				if (pokemon.species.id !== 'castformsnowy') forme = 'Castform-Snowy';
 				break;
+			case 'sleet':
+				if (pokemon.species.id !== 'castformsnowy') forme = 'Castform-Snowy';
+				break;
 			default:
 				if (pokemon.species.id !== 'castform') forme = 'Castform';
 				break;
@@ -1533,12 +1536,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	icebody: {
 		onWeather(target, source, effect) {
-			if (effect.id === 'hail') {
+			if (effect.id === 'sleet') {
+				this.heal(target.baseMaxhp / 8);
+			}
+			else if (effect.id === 'hail') {
 				this.heal(target.baseMaxhp / 16);
 			}
 		},
 		onImmunity(type, pokemon) {
-			if (type === 'hail') return false;
+			if (type === 'hail' || type === 'sleet') return false;
 		},
 		name: "Ice Body",
 		rating: 1,
@@ -1547,6 +1553,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	iceface: {
 		onStart(pokemon) {
 			if (this.field.isWeather('hail') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
+				this.add('-activate', pokemon, 'ability: Ice Face');
+				this.effectData.busted = false;
+				pokemon.formeChange('Eiscue', this.effect, true);
+			}
+			else if (this.field.isWeather('sleet') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
 				this.add('-activate', pokemon, 'ability: Ice Face');
 				this.effectData.busted = false;
 				pokemon.formeChange('Eiscue', this.effect, true);
@@ -1586,6 +1597,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			const pokemon = this.effectData.target;
 			if (!pokemon.hp) return;
 			if (this.field.isWeather('hail') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
+				this.add('-activate', pokemon, 'ability: Ice Face');
+				this.effectData.busted = false;
+				pokemon.formeChange('Eiscue', this.effect, true);
+			}
+			else if (this.field.isWeather('sleet') && pokemon.species.id === 'eiscuenoice' && !pokemon.transformed) {
 				this.add('-activate', pokemon, 'ability: Ice Face');
 				this.effectData.busted = false;
 				pokemon.formeChange('Eiscue', this.effect, true);
@@ -2467,7 +2483,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	overcoat: {
 		onImmunity(type, pokemon) {
-			if (type === 'sandstorm' || type === 'hail' || type === 'powder') return false;
+			if (type === 'sandstorm' || type === 'hail' || type === 'sleet' || type === 'powder') return false;
 		},
 		onTryHitPriority: 1,
 		onTryHit(target, source, move) {
@@ -3507,7 +3523,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.field.setWeather('sleet');
 		},
 		onSwitchOut(pokemon) {
-			this.field.setWeather('none')
+			this.field.clearWeather();
 		},
 		name: "Sleet",
 		rating: 4,
@@ -3543,7 +3559,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	slushrush: {
 		onModifySpe(spe, pokemon) {
-			if (this.field.isWeather('hail')) {
+			if (this.field.isWeather('hail') || this.field.isWeather('sleet')) {
 				return this.chainModify(2);
 			}
 		},
@@ -3564,12 +3580,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	snowcloak: {
 		onImmunity(type, pokemon) {
-			if (type === 'hail') return false;
+			if (type === 'hail' || type === 'sleet') return false;
 		},
 		onModifyAccuracyPriority: -1,
 		onModifyAccuracy(accuracy) {
 			if (typeof accuracy !== 'number') return;
-			if (this.field.isWeather('hail')) {
+			if (this.field.isWeather('hail') || this.field.isWeather('sleet')) {
 				this.debug('Snow Cloak - decreasing accuracy');
 				return this.chainModify([0x0CCD, 0x1000]);
 			}
@@ -3580,7 +3596,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	snowwarning: {
 		onStart(source) {
-			this.field.setWeather('hail');
+			if (!this.field.isWeather('sleet')){
+				this.field.setWeather('hail');
+			}
 		},
 		name: "Snow Warning",
 		rating: 4,
