@@ -3523,7 +3523,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.field.setWeather('sleet');
 		},
 		onSwitchOut(pokemon) {
-			this.field.clearWeather();
+			if (this.field.isWeather('sleet'))
+				this.field.clearWeather();
 		},
 		name: "Sleet",
 		rating: 4,
