@@ -6145,6 +6145,21 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster"],
 		requiredItem: "Tyranitarite",
 	},
+	tyranitararmored: {
+		num: 248,
+		name: "Tyranitar-Armored",
+		baseSpecies: "Tyranitar",
+		forme: "Armored",
+		types: ["Rock", "Dark"],
+		baseStats: {hp: 100, atk: 134, def: 143, spa: 95, spd: 130, spe: 61},
+		abilities: {0: "Sand Stream", H: "Unnerve"},
+		heightm: 2.5,
+		weightkg: 255,
+		color: "Green",
+		eggGroups: ["Monster"],
+		requiredItem: "Tyranitar Armor",
+		tier: "OU",
+	},
 	lugia: {
 		num: 249,
 		name: "Lugia",
@@ -11612,6 +11627,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Crystal Piece",
+		tier: "Uber",
 	},
 	giratina: {
 		num: 487,
@@ -11659,6 +11675,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Crystal Piece",
 		changesFrom: "Giratina",
+		tier: "AG",
 	},
 	cresselia: {
 		num: 488,
@@ -12044,6 +12061,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Crystal Piece",
 		changesFrom: "Arceus",
+		tier: "AG",
 	},
 	victini: {
 		num: 494,
