@@ -2612,9 +2612,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 12,
 	},
 	omnitype: {
-		onStart(pokemon) {
-			this.add('-start', pokemon, 'typechange', 'Omnitype');
-		},
 		onModifyMove(move) {
 			if (move.type === 'Dragon' || move.type === 'Ghost')
 				move.stab = 1.5;
