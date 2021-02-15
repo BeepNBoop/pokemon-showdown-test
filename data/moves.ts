@@ -456,6 +456,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Rock",
 		contestType: "Tough",
 	},
+	ancientroar: {
+		num: 828,
+		accuracy: 100,
+		basePower: 80,
+		category: "Special",
+		name: "Ancient Roar",
+		pp: 24,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1},
+		secondary: null,
+		target: "normal",
+		type: "Rock"
+	},
 	appleacid: {
 		num: 787,
 		accuracy: 100,
