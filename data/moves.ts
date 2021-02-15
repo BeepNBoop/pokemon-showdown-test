@@ -3269,6 +3269,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dark",
 		contestType: "Cool",
 	},
+	darkmatter: {
+		num: 850,
+		accuracy: 90,
+		basePower: 150,
+		category: "Special",
+		name: "Dark Matter",
+		pp: 8,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, recharge: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dark"
+	},
 	darkpulse: {
 		num: 399,
 		accuracy: 100,
