@@ -12996,6 +12996,58 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
+	permafrost: {
+		num: 859,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Permafrost",
+		pp: 24,
+		priority: 0,
+		flags: {reflectable: 1, nonsky: 1},
+		sideCondition: 'permafrost',
+		condition: {
+			// this is a side condition
+			onStart: function (side) {
+				this.add('-sidestart', side, 'Permafrost');
+				this.effectData.layers = 1;
+			},
+			onRestart: function (side) {
+				if (this.effectData.layers >= 5)
+					return false;
+				this.add('-sidestart', side, 'Permafrost');
+				this.effectData.layers++;
+			},
+			onSwitchIn: function (pokemon) {
+				if (!pokemon.isGrounded())
+					return;
+				if (pokemon.hasAbility('Levitate')) {
+					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
+					pokemon.side.removeSideCondition('permafrost');
+				}
+				if (pokemon.hasType('ice')) {
+					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
+					pokemon.side.removeSideCondition('permafrost');
+				}
+				if (pokemon.hasType('fire')) {
+					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
+					pokemon.side.removeSideCondition('permafrost');
+				} else if (pokemon.hasType('ice') || pokemon.hasItem('heavydutyboots')) {
+					return;
+				} else if (pokemon.hasType('fire') || pokemon.hasItem('heavydutyboots')) {
+					return;
+				} else if (this.effectData.layers >= 5) {
+					if (this.random(50) * this.effectData.layers) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				}
+			}
+		},
+		secondary: null,
+		target: "foeSide",
+		type: "Ice",
+		zMove: {boost: {spd: 1}}
+	},
 	petalblizzard: {
 		num: 572,
 		accuracy: 100,
@@ -14623,6 +14675,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 				return this.chainModify(2);
 			}
 		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		contestType: "Cool",
+	},
+	retrograde: {
+		num: 863,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Retrograde",
+		pp: 30,
+		priority: 0,
+		flags: {},
 		secondary: null,
 		target: "normal",
 		type: "Normal",
