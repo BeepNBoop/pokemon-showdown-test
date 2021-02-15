@@ -17159,6 +17159,111 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {def: 1}},
 		contestType: "Tough",
 	},
+	spiritaway: {
+		num: 864,
+		accuracy: 100,
+		basePower: 60,
+		category: "Physical",
+		isNonstandard: "Past",
+		name: "Spirit Away",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, charge: 1, protect: 1, mirror: 1, gravity: 1, distance: 1},
+		onModifyMove(move, source) {
+			if (!source.volatiles['spiritaway']) {
+				move.accuracy = true;
+				move.flags.contact = 0;
+			}
+		},
+		onMoveFail(target, source) {
+			if (source.volatiles['twoturnmove'] && source.volatiles['twoturnmove'].duration === 1) {
+				source.removeVolatile('spiritaway');
+				source.removeVolatile('twoturnmove');
+				this.add('-end', target, 'Spirit Away', '[interrupt]');
+			}
+		},
+		onTry(source, target) {
+			return !target.fainted;
+		},
+		onTryHit(target, source, move) {
+			if (source.removeVolatile(move.id)) {
+				if (target !== source.volatiles['twoturnmove'].source) return false;
+
+			} else {
+				if (target.volatiles['substitute'] || target.side === source.side) {
+					return false;
+				}
+				if (target.getWeight() >= 2000) {
+					this.add('-fail', target, 'move: Spirit Away', '[heavy]');
+					return null;
+				}
+
+				this.add('-prepare', source, move.name, target);
+				source.addVolatile('twoturnmove', target);
+				return null;
+			}
+		},
+		onHit(target, source) {
+			if (target.hp) this.add('-end', target, 'Spirit Away');
+		},
+		condition: {
+			duration: 2,
+			onAnyDragOut(pokemon) {
+				if (pokemon === this.effectData.target || pokemon === this.effectData.source) return false;
+			},
+			onFoeTrapPokemonPriority: -15,
+			onFoeTrapPokemon(defender) {
+				if (defender !== this.effectData.source) return;
+				defender.trapped = true;
+			},
+			onFoeBeforeMovePriority: 12,
+			onFoeBeforeMove(attacker, defender, move) {
+				if (attacker === this.effectData.source) {
+					attacker.activeMoveActions--;
+					this.debug('Spirit away nullifying.');
+					return null;
+				}
+			},
+			onRedirectTargetPriority: 99,
+			onRedirectTarget(target, source, source2) {
+				if (source !== this.effectData.target) return;
+				if (this.effectData.source.fainted) return;
+				return this.effectData.source;
+			},
+			onAnyInvulnerability(target, source, move) {
+				if (target !== this.effectData.target && target !== this.effectData.source) {
+					return;
+				}
+				if (source === this.effectData.target && target === this.effectData.source) {
+					return;
+				}
+				if (['gust', 'twister', 'skyuppercut', 'thunder', 'hurricane', 'smackdown', 'thousandarrows'].includes(move.id)) {
+					return;
+				}
+				return false;
+			},
+			onAnyBasePower(basePower, target, source, move) {
+				if (target !== this.effectData.target && target !== this.effectData.source) {
+					return;
+				}
+				if (source === this.effectData.target && target === this.effectData.source) {
+					return;
+				}
+				if (move.id === 'gust' || move.id === 'twister') {
+					return this.chainModify(2);
+				}
+			},
+			onFaint(target) {
+				if (target.volatiles['spiritaway'] && target.volatiles['twoturnmove'].source) {
+					this.add('-end', target.volatiles['twoturnmove'].source, 'Spirit Away', '[interrupt]');
+				}
+			},
+		},
+		secondary: null,
+		target: "any",
+		type: "Fairy",
+		contestType: "Tough",
+	},
 	spiritbreak: {
 		num: 789,
 		accuracy: 100,
