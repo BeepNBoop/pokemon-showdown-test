@@ -2852,6 +2852,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	emolgadelta: {
 		name: "Emolga-Delta",
 	},
+	emolgadeltablaze: {
+		name: "Emolga-Delta-Blaze",
+	},
 	karrablast: {
 		name: "Karrablast",
 	},

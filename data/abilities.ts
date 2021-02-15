@@ -405,6 +405,40 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 66,
 	},
+	blazeboost: {
+		onPrepareHit(source, target, move) {
+			if (source.baseSpecies.baseSpecies !== 'Emolga' || source.transformed) {
+				return;
+			}
+			if (move.type === 'Fire')
+				source.addVolatile('blazeboostform'); 
+		},
+		condition: {
+			onStart(pokemon) {
+				if (!pokemon.species.name.includes('Galar')) {
+					if (pokemon.species.id !== 'emolgadeltablaze') pokemon.formeChange('Emolga-Delta-Blaze');
+				}
+				this.boost({atk: 1});
+				this.boost({spa: 1});
+				this.boost({spe: 1});
+			},
+			onDamagingHit(damage, target, source, move) {
+				if (move.flags['contact']) {
+					if (this.randomChance(1, 10)) {
+						source.trySetStatus('brn', target);
+					}
+				}
+			},
+			onEnd(pokemon) {
+				if (['Blaze'].includes(pokemon.species.forme)) {
+					pokemon.formeChange(pokemon.species.battleOnly as string);
+				}
+			},
+		},
+		name: "Blaze Boost",
+		rating: 2,
+		num: 66,
+	},
 	bulletproof: {
 		onTryHit(pokemon, target, move) {
 			if (move.flags['bullet']) {

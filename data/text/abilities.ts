@@ -160,6 +160,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "At 1/3 or less of its max HP, this Pokemon's Fire-type attacks have 1.5x power.",
 		},
 	},
+	blazeboost: {
+		name: "Blaze Boost",
+		desc: "Immediately before the user uses a Fire-type attack its Attack, Special Attack, and Speed are increased by 1 stage. When Blaze Boost is activated by Delta Emolga, its form changes. When in this form, there is a 10% chance that Pokémon using a contact move against Delta Emolga will become burned.",
+		shortDesc: "Fire moves up its stats. May burn on contact.",
+	},
 	bulletproof: {
 		name: "Bulletproof",
 		desc: "This Pokemon is immune to ballistic moves. Ballistic moves include Bullet Seed, Octazooka, Barrage, Rock Wrecker, Zap Cannon, Acid Spray, Aura Sphere, Focus Blast, and all moves with Ball or Bomb in their name.",
