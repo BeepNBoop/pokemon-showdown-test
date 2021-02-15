@@ -4145,6 +4145,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Fighting",
 		contestType: "Tough",
 	},
+	drakonvoice: {
+		num: 853,
+		accuracy: 85,
+		basePower: 105,
+		category: "Special",
+		name: "Drakon Voice",
+		pp: 16,
+		priority: 0,
+		flags: {protect: 1, mirror: 1, sound: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dragon"
+	},
 	dreameater: {
 		num: 138,
 		accuracy: 100,
