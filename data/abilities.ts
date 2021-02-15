@@ -512,6 +512,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2,
 		num: 13,
 	},
+	chlorofury: {
+		name: "Chlorofury",
+		rating: 2,
+		num: 200,
+	},
 	colorchange: {
 		onAfterMoveSecondary(target, source, move) {
 			if (!target.hp) return;

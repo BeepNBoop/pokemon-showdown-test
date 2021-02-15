@@ -198,6 +198,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 
 		start: "#airlock",
 	},
+	chlorofury: {
+		name: "Chlorofury",
+		desc: "When Mega Evolving or on switch-in, Chlorofury raises the user's Speed by 1 stage and its Special Attack by X stages for 2 turns. X is equal to the number of fainted teammates on this Pokémon's team.",
+		shortDesc: "Boosts its stats to avenge its allies.",
+	},
 	colorchange: {
 		name: "Color Change",
 		desc: "This Pokemon's type changes to match the type of the last move that hit it, unless that type is already one of its types. This effect applies after all hits from a multi-hit move; Sheer Force prevents it from activating if the move has a secondary effect.",
