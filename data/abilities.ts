@@ -2560,6 +2560,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1.5,
 		num: 12,
 	},
+	omnitype: {
+		onStart(pokemon) {
+			this.add('-start', pokemon, 'typechange', 'Omnitype');
+		},
+		onModifyMove(move) {
+			if (move.type === 'Dragon' || move.type === 'Ghost')
+				move.stab = 1.5;
+		},
+		name: "Omnitype",
+		rating: 5,
+		num: 290,
+	},
 	overcoat: {
 		onImmunity(type, pokemon) {
 			if (type === 'sandstorm' || type === 'hail' || type === 'sleet' || type === 'powder') return false;

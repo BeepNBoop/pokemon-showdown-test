@@ -2366,11 +2366,17 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	regigigas: {
 		name: "Regigigas",
 	},
+	regigigasprimal: {
+		name: "Regigigas-Primal",
+	},
 	giratina: {
 		name: "Giratina",
 	},
 	giratinaorigin: {
 		name: "Giratina-Origin",
+	},
+	giratinaprimal: {
+		name: "Giratina-Primal",
 	},
 	cresselia: {
 		name: "Cresselia",
@@ -2443,6 +2449,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	arceuswater: {
 		name: "Arceus-Water",
+	},
+	arceusprimal: {
+		name: "Arceus-Primal",
 	},
 	victini: {
 		name: "Victini",
