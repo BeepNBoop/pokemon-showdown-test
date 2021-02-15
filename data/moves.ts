@@ -4033,6 +4033,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Dragon",
 		contestType: "Tough",
 	},
+	dragonify: {
+		num: 852,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Dragonify",
+		pp: 32,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mystery: 1},
+		onHit(target) {
+			if (target.getTypes().join() === 'Dragon' || !target.setType('Dragon')) {
+				this.add('-fail', target);
+				return null;
+			}
+			this.add('-start', target, 'typechange', 'Dragon');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dragon",
+		zMove: {boost: {spa: 1}}
+	},
 	dragonpulse: {
 		num: 406,
 		accuracy: 100,
