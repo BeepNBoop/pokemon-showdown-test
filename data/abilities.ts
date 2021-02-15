@@ -2804,6 +2804,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 253,
 	},
+	periodicorbit: {
+		name: "Periodic Orbit",
+		rating: 3,
+		num: 253,
+	},
 	perishbody: {
 		onDamagingHit(damage, target, source, move) {
 			if (!move.flags['contact'] || source.hasItem('protectivepads')) return;

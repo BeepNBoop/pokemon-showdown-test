@@ -1019,6 +1019,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Boosts the power of moves used repeatedly. Each time a move is used consecutively, its power is boosted by 20% up to a maximum increase of 100%. Switching or using another move returns the move's power to normal. Multi-strike moves are counted by the number of turns on which they are used, not the number of hits made. It also stacks with Metronome, which offers an identical power boost for every consecutive usage.",
 		shortDesc: "Consecutively using the same move increases its damage.",
 	},
+	periodicorbit: {
+		name: "Periodic Orbit",
+		desc: "When the moves Doom Desire, Future Sight, or Wish are used, they will activate twice after a single use. Wish will activate one and three turns after the move is originally used. Doom Desire and Future Sight will activate two and five turns after the move is originally used, and each will block further uses of Doom Desire or Future Sight until the second activation lands.",
+		shortDesc: "Delayed moves will orbit and activate twice.",
+	},
 	perishbody: {
 		name: "Perish Body",
 		desc: "Making contact with this Pokemon starts the Perish Song effect for it and the attacker. This effect does not happen if this Pokemon already has a perish count.",
