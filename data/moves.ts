@@ -20352,6 +20352,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {atk: 1}},
 		contestType: "Tough",
 	},
+	wormhole: {
+		num: 861,
+		accuracy: 100,
+		basePower: 40,
+		category: "Special",
+		name: "Wormhole",
+		pp: 16,
+		priority: 1,
+		flags: {},
+		secondary: null,
+		target: "normal",
+		type: "psychic"
+	},
 	worryseed: {
 		num: 388,
 		accuracy: 100,
