@@ -304,6 +304,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Cryogonalite",
 		desc: "If held by a Cryogonal, this item allows it to Mega Evolve in battle.",
 	},
+	crystalpiece: {
+		name: "Crystal Piece",
+		desc: "Changes the form of Arceus, Giratina, and Regigigas.",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		desc: "Holder moves first in its priority bracket when at 1/4 max HP or less. Single use.",

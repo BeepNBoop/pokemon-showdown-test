@@ -1086,6 +1086,40 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	crystalpiece: {
+		name: "Crystal Piece",
+		spritenum: 390,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Arceus') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Giratina') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Regigigas') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+		},
+		onPrimal(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Arceus') {
+				pokemon.formeChange('Arceus-Primal', this.effect, true);
+			}
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Giratina') {
+				pokemon.formeChange('Giratina-Primal', this.effect, true);
+			}
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Regigigas') {
+				pokemon.formeChange('Regigigas-Primal', this.effect, true);
+			}
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Arceus' || source.baseSpecies.baseSpecies === 'Giratina' || source.baseSpecies.baseSpecies === 'Regigigas') return false;
+			return true;
+		},
+		itemUser: ["Arceus", "Giratina", "Regigigas"],
+		num: 534,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	custapberry: {
 		name: "Custap Berry",
 		spritenum: 86,
