@@ -44,6 +44,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "The power of this Pokemon's move is multiplied by 1.3 if it is the last to move in a turn. Does not affect Doom Desire and Future Sight.",
 		shortDesc: "This Pokemon's attacks have 1.3x power if it is the last to move in a turn.",
 	},
+	ancientpresence: {
+		name: "Ancient Presence",
+		desc: "All damaging moves which follow the standard damage formula gain the same-type attack bonus even if the moves are not the same type as the user. All damaging moves used by the wielder of Ancient Presence will always deal neutral damage, meaning all attacks ignore standard type-effectiveness relationships. Moves used under the effects of Ancient Presence still adhere to item or ability-based type-immunity such as Air Balloon or Levitate.",
+		shortDesc: "User's moves are user's type and become neutral.",
+	},
 	angerpoint: {
 		name: "Anger Point",
 		desc: "If this Pokemon, but not its substitute, is struck by a critical hit, its Attack is raised by 12 stages.",

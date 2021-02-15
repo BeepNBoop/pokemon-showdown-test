@@ -143,6 +143,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 2.5,
 		num: 148,
 	},
+	ancientpresence: {
+		onModifyMove(move) {
+			if (move.type === 'Bug' || move.type === 'Dark' || move.type === 'Dragon' || 
+			move.type === 'Electric' || move.type === 'Fairy' || move.type === 'Fighting' || 
+			move.type === 'Fire' || move.type === 'Flying' || move.type === 'Ghost' || 
+			move.type === 'Grass' || move.type === 'Ground' || move.type === 'Ice' || 
+			move.type === 'Normal' || move.type === 'Poison' || move.type === 'Psychic' || 
+			move.type === 'Rock' || move.type === 'Steel' || move.type === 'Water' || move.type === 'Crystal')
+				move.stab = 1.5;
+			},
+		onSourceEffectiveness() {
+			return 0;
+		},
+		name: "Ancient Presence",
+		rating: 3,
+		num: 277,
+	},
 	angerpoint: {
 		onHit(target, source, move) {
 			if (!target.hp) return;
