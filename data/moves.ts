@@ -2942,6 +2942,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 140},
 		contestType: "Tough",
 	},
+	crystalrush: {
+		num: 830,
+		accuracy: 100,
+		basePower: 45,
+		category: "Physical",
+		name: "Crystal Rush",
+		pp: 48,
+		priority: 1,
+		flags: {contact: 1, protect: 1},
+		secondary: null,
+		target: "normal",
+		type: "Crystal"
+	},
 	curse: {
 		num: 174,
 		accuracy: true,
