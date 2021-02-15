@@ -16761,10 +16761,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onSwitchIn(pokemon) {
 				if (pokemon.hasItem('heavydutyboots')) return;
-				if (pokemon.side.getSideConditionData('move: Stealth Rock')) {
+				if (this.dex.getActiveMove('Stealth Rock')) {
 					const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
 					this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
-				} else if (pokemon.side.getSideConditionData('move: Stealth Rock Fire')) {
+				} else if (this.dex.getActiveMove('Stealth Rock Fire')) {
 					const fireHazard = this.dex.getActiveMove('Stealth Rock Fire');
 					fireHazard.type = 'Fire';
 					const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
