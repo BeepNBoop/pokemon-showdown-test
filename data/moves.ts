@@ -12265,6 +12265,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Clever",
 	},
+	nanorepair: {
+		num: 857,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Nano Repair",
+		pp: 10,
+		priority: 0,
+		flags: {snatch: 1, heal: 1},
+		heal: [1, 2],
+		secondary: {
+			chance: 100,
+			boosts: {
+				def: 1
+			}
+		},
+		target: "self",
+		type: "Steel",
+		zMove: {effect: 'clearnegativeboost'},
+		contestType: "Cute"
+	},
 	naturalgift: {
 		num: 363,
 		accuracy: 100,
