@@ -12398,6 +12398,21 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Ghost",
 		contestType: "Cool",
 	},
+	newmoon: {
+		num: 858,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "New Moon",
+		pp: 16,
+		priority: 0,
+		flags: {},
+		weather: 'newmoon',
+		secondary: null,
+		target: "all",
+		type: "Dark",
+		zMove: {boost: {spa: 1}}
+	},
 	nightdaze: {
 		num: 539,
 		accuracy: 95,
