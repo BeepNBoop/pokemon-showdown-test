@@ -11256,6 +11256,27 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {atk: 1}},
 		contestType: "Beautiful",
 	},
+	medusaray: {
+		num: 856,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Medusa Ray",
+		pp: 32,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1, mystery: 1},
+		onHit(target) {
+			if (target.getTypes().join() === 'Rock' || !target.setType('Rock')) {
+				this.add('-fail', target);
+				return null;
+			}
+			this.add('-start', target, 'typechange', 'Rock');
+		},
+		secondary: null,
+		target: "normal",
+		type: "Rock",
+		zMove: {boost: {spa: 1}}
+	},
 	mefirst: {
 		num: 382,
 		accuracy: true,
