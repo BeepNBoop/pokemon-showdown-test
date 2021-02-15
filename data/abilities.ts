@@ -994,6 +994,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	etherealshroud: {
+		onStart(pokemon) {
+			this.add('-start', pokemon, 'typeadd', 'Ghost');
+		},
+		onModifyMove(move) {
+			if (move.type === 'Ghost')
+				move.stab = 0;
+		},
+		name: "Ethereal Shroud",
+		rating: 1,
+		num: 194,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Fairy Aura');
