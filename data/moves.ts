@@ -10332,6 +10332,42 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {boost: {evasion: 1}},
 		contestType: "Cute",
 	},
+	lunarcannon: {
+		num: 855,
+		accuracy: 100,
+		basePower: 105,
+		category: "Special",
+		name: "Lunar Cannon",
+		pp: 16,
+		priority: 0,
+		flags: {charge: 1, protect: 1, mirror: 1},
+		onTryMove(attacker, defender, move) {
+			if (attacker.removeVolatile(move.id)) {
+				return;
+			}
+			this.add('-prepare', attacker, move.name);
+			if (['newmoon'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			}
+			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+				return;
+			}
+			attacker.addVolatile('twoturnmove', defender);
+			return null;
+		},
+		onBasePower(basePower, pokemon, target) {
+			if (['raindance', 'sunnyday', 'desolateland', 'sandstorm', 'hail'].includes(pokemon.effectiveWeather())) {
+				this.debug('weakened by weather');
+				return this.chainModify(0.5);
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Dark",
+		contestType: "Cool"
+	},
 	lunardance: {
 		num: 461,
 		accuracy: true,
