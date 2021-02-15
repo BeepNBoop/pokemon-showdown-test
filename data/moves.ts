@@ -82,43 +82,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 24,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		onEffectiveness: function (typeMod, target, type) {
-			if (type === 'Water')
-				return 1;
-			else if (type === 'Fire')
-				return 1;
-			else if (type === 'Grass')
-				return 1;
-			else if (type === 'Steel')
-				return 1;
-			else if (type === 'Flying')
-				return 1;
-			else if (type === 'Bug')
-				return 1;
-			else if (type === 'Dark')
-				return 1;
-			else if (type === 'Dragon')
-				return 1;
-			else if (type === 'Electric')
-				return 1;
-			else if (type === 'Fairy')
-				return 1;
-			else if (type === 'Fighting')
-				return 1;
-			else if (type === 'Ghost')
-				return 1;
-			else if (type === 'Ground')
-				return 1;
-			else if (type === 'Ice')
-				return 1;
-			else if (type === 'Normal')
-				return 1;
-			else if (type === 'Poison')
-				return 1;
-			else if (type === 'Psychic')
-				return 1;
-			else if (type === 'Rock')
-				return 1;
+		onEffectiveness(typeMod) {
+			return 1;
 		},
 		secondary: null,
 		target: "normal",
@@ -2607,6 +2572,23 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
+	},
+	corrode: {
+		num: 829,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		name: "Corrode",
+		pp: 16,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		onEffectiveness (typeMod, target, type) {
+			if (type === 'Steel')
+				return 1;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Poison"
 	},
 	corrosivegas: {
 		num: 810,
