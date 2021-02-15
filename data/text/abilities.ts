@@ -449,6 +449,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		activate: "  [TARGET]'s [MOVE] was revealed!",
 		activateNoTarget: "  [POKEMON]'s Forewarn alerted it to [MOVE]!",
 	},
+	foundry: {
+		name: "Foundry",
+		desc: "Foundry causes all Rock-type moves used by the Pokémon with this Ability to become Fire-type and receive a 30% damage boost, in addition to all other modifiers. Furthermore, Foundry also causes Stealth Rock to become a Fire-type entry hazard that stacks with the normal, Rock-type Stealth Rock.",
+		shortDesc: "Rock-type moves, when used, melt and become Fire Type.",
+	},
 	friendguard: {
 		name: "Friend Guard",
 		shortDesc: "This Pokemon's allies receive 3/4 damage from other Pokemon's attacks.",

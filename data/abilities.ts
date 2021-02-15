@@ -1177,6 +1177,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 108,
 	},
+	foundry: {
+		onModifyTypePriority: -1,
+		onModifyType(move, pokemon) {
+			const noModifyType = [
+				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
+			];
+			if (move.type === 'Rock' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+				move.type = 'Fire';
+				move.foundryBoosted = true;
+			}
+		},
+		onBasePowerPriority: 23,
+		onBasePower(basePower, pokemon, target, move) {
+			if (move.foundryBoosted) return this.chainModify([0x14CD, 0x1000]);
+		},
+		// The Stealth Rocks part of Foundry is defined in moves.ts
+		name: "Foundry",
+		rating: 3,
+		num: 108,
+	},
 	friendguard: {
 		name: "Friend Guard",
 		onAnyModifyDamage(damage, source, target, move) {
