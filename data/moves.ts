@@ -20558,4 +20558,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	zombiestrike: {
+		num: 862,
+		accuracy: 90,
+		basePower: 90,
+		category: "Physical",
+		name: "Zombie Strike",
+		pp: 24,
+		priority: 0,
+		flags: {contact: 1, protect: 1},
+		secondary: null,
+		target: "normal",
+		type: "Ghost"
+	},
 };
