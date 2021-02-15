@@ -20190,6 +20190,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Tough",
 	},
+	wildfire: {
+		num: 860,
+		accuracy: 70,
+		basePower: 0,
+		category: "Status",
+		name: "Wildfire",
+		pp: 16,
+		priority: 0,
+		flags: {protect: 1, reflectable: 1},
+		status: 'brn',
+		target: "foeSide",
+		type: "fire",
+		zMove: {boost: {atk: 1}}
+	},
 	willowisp: {
 		num: 261,
 		accuracy: 85,
