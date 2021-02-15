@@ -12087,7 +12087,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {mystery: 1},
 		onHit(target, pokemon) {
-			if (!pokemon.transformInto(target)) {
+			if (!pokemon.deltatransformInto(target)) {
 				return false;
 			}
 		},
