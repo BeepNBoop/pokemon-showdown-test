@@ -10178,11 +10178,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (pokemon.hasAbility('Levitate')) {
 					this.add('-sideend', pokemon.side, 'move: Livewire', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('livewire');
-				} else if (pokemon.hasType('electric') || pokemon.hasItem('heavydutyboots')) {
+				} if (pokemon.hasType('Electric') || pokemon.hasItem('heavydutyboots')) {
 					return;
-				} else if (pokemon.hasType('ground') || pokemon.hasItem('heavydutyboots')) {
+				} if (pokemon.hasType('Ground') || pokemon.hasItem('heavydutyboots')) {
 					return;
-				} else if (this.effectData.layers >= 5) {
+				} if (this.effectData.layers >= 5) {
 					if (this.random(50) * this.effectData.layers) {
 						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
 					}
