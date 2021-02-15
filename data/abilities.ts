@@ -2008,6 +2008,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 0.5,
 		num: 102,
 	},
+	lernean: {
+		name: "Lernean",
+		rating: 4,
+		num: 102,
+	},
 	levitate: {
 		// airborneness implemented in sim/pokemon.js:Pokemon#isGrounded
 		name: "Levitate",

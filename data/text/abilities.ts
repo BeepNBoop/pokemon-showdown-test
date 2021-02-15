@@ -737,6 +737,11 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 			shortDesc: "If Sunny Day is active, this Pokemon cannot be statused, but Rest works normally.",
 		},
 	},
+	lernean: {
+		name: "Lernean",
+		desc: "Pokémon with Lernean will gain more heads if their HP decreases below 80%, 60%, 40%, or 20%, gaining multiple heads if their HP falls below multiple of these thresholds at once. Restoring HP does not remove heads and more heads will not generate if a threshold has previously been reached. Lernean then splits the power of the user's damaging moves across each head.",
+		shortDesc: "Grows more heads when it loses HP.",
+	},
 	levitate: {
 		name: "Levitate",
 		desc: "This Pokemon is immune to Ground-type attacks and the effects of Spikes, Toxic Spikes, Sticky Web, and the Arena Trap Ability. The effects of Gravity, Ingrain, Smack Down, Thousand Arrows, and Iron Ball nullify the immunity.",
