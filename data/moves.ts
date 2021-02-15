@@ -26,6 +26,8 @@ sound: Has no effect on Pokemon with the Soundproof Ability.
 
 */
 
+import { PokemonSources } from "../sim/team-validator";
+
 export const Moves: {[moveid: string]: MoveData} = {
 	"10000000voltthunderbolt": {
 		num: 719,
@@ -82,8 +84,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 24,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		onEffectiveness(typeMod) {
-			return 1;
+		onEffectiveness(typeMod, target, type, move) {
+			if (move.type !== 'Normal') return;
+			if (!target) return; // avoid crashing when called from a chat plugin
+			// ignore effectiveness if the target is Flying type and immune to Ground
+			if (!target.hasType('Ghost')) {
+				return 1;
+			}
 		},
 		secondary: null,
 		target: "normal",
