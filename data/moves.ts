@@ -3886,6 +3886,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Cool",
 	},
+	dracojet: {
+		num: 851,
+		accuracy: 100,
+		basePower: 40,
+		category: "Physical",
+		name: "Draco Jet",
+		pp: 24,
+		priority: 1,
+		flags: {contact: 1, protect: 1},
+		secondary: null,
+		target: "normal",
+		type: "Dragon"
+	},
 	dracometeor: {
 		num: 434,
 		accuracy: 90,
