@@ -1011,6 +1011,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 1,
 		num: 194,
 	},
+	eventhorizon: {
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+			source.addVolatile('trapped', source, move, 'trapper');
+			}
+		},
+		name: "Event Horizon",
+		rating: 4.5,
+		num: 194,
+	},
 	fairyaura: {
 		onStart(pokemon) {
 			this.add('-ability', pokemon, 'Fairy Aura');
@@ -2761,7 +2771,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	pendulum: {
 		onStart(pokemon) {
-			pokemon.addVolatile('metronome');
+			pokemon.addVolatile('pendulum');
 		},
 		condition: {
 			onStart(pokemon) {
