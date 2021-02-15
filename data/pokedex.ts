@@ -6128,8 +6128,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Pupitar",
 		evoLevel: 55,
 		eggGroups: ["Monster"],
-		otherFormes: ["Tyranitar-Mega"],
-		formeOrder: ["Tyranitar", "Tyranitar-Mega"],
+		otherFormes: ["Tyranitar-Mega", "Tyranitar-Armored"],
+		formeOrder: ["Tyranitar", "Tyranitar-Mega", "Tyranitar-Armored"],
 	},
 	tyranitarmega: {
 		num: 248,
