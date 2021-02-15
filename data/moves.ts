@@ -12077,6 +12077,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'clearnegativeboost'},
 		contestType: "Beautiful",
 	},
+	morph: {
+		num: 144,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Morph",
+		pp: 10,
+		priority: 0,
+		flags: {mystery: 1},
+		onHit(target, pokemon) {
+			if (!pokemon.transformInto(target)) {
+				return false;
+			}
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		zMove: {effect: 'heal'},
+		contestType: "Clever",
+	},
 	mudbomb: {
 		num: 426,
 		accuracy: 85,
