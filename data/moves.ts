@@ -19397,6 +19397,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (source?.hasAbility('persistent')) {
 					this.add('-activate', source, 'ability: Persistent', effect);
 					return 7;
+				} if (source?.hasItem('trickrock')) {
+					return 8;
 				}
 				return 5;
 			},
