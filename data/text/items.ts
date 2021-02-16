@@ -333,6 +333,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Darkinium Z",
 		desc: "If holder has a Dark move, this item allows it to use a Dark Z-Move.",
 	},
+	darkrock: {
+		name: "Dark Rock",
+		desc: "	Lengthens duration of New Moon and Noctem from 5 turns to 8 turns when used by the holder.",
+	},
 	dawnstone: {
 		name: "Dawn Stone",
 		desc: "Evolves male Kirlia into Gallade and female Snorunt into Froslass when used.",
@@ -2369,6 +2373,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	tr99: {
 		name: "TR99",
 		desc: "Teaches certain Pokemon the move Body Press. One use.",
+	},
+	trickrock: {
+		name: "Trick Rock",
+		desc: "Lengthens duration of Trick Room from 5 turns to 8 turns when used by the holder.",
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",

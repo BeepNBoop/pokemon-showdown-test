@@ -1194,6 +1194,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 7,
 		isNonstandard: "Past",
 	},
+	darkrock: {
+		name: "Dark Rock",
+		spritenum: 193,
+		fling: {
+			basePower: 60,
+		},
+		num: 284,
+		gen: 4,
+	},
 	dawnstone: {
 		name: "Dawn Stone",
 		spritenum: 92,
@@ -7229,6 +7238,15 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 722,
 		num: 1229,
 		gen: 8,
+	},
+	trickrock: {
+		name: "Trick Rock",
+		spritenum: 193,
+		fling: {
+			basePower: 60,
+		},
+		num: 284,
+		gen: 4,
 	},
 	twistedspoon: {
 		name: "Twisted Spoon",
