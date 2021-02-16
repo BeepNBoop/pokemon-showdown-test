@@ -15249,7 +15249,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Zekrom-Armored"],
-		formeOrder: ["Zekrom", "Zekrom-Armoed"],
+		formeOrder: ["Zekrom", "Zekrom-Armored"],
 	},
 	zekromarmored: {
 		num: 644,
