@@ -424,6 +424,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 		name: "Delta Venusaurite",
 		desc: "If held by Delta Venusaur, this item allows it to Mega Evolve in battle.",
 	},
+	deltavolcaronaarmor: {
+		name: "Delta Volcarona Armor",
+		desc: "Increases Delta Volcarona's base Defense stat from 65 to 85 and base Special Defense stat from 105 to 137 when held.",
+	},
 	destinyknot: {
 		name: "Destiny Knot",
 		desc: "If holder becomes infatuated, the other Pokemon also becomes infatuated.",
@@ -667,6 +671,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	flowersweet: {
 		name: "Flower Sweet",
 		desc: "Evolves Milcery into Alcremie when held and spun around.",
+	},
+	flygonarmor: {
+		name: "Flygon Armor",
+		desc: "Increases Flygon's base Defense stat from 80 to 104 and base Special Defense stat from 80 to 104 when held.",
 	},
 	flygonite: {
 		name: "Flygonite",
@@ -1028,6 +1036,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Evolves Gloom into Vileplume, Weepinbell into Victreebel, Exeggcute into Exeggutor or Alolan Exeggutor, Nuzleaf into Shiftry, and Pansage into Simisage when used.",
 		},
 	},
+	leavannyarmor: {
+		name: "Leavanny Armor",
+		desc: "Increases Leavanny's base Defense stat from 80 to 104 and base Special Defense stat from 80 to 104 when held.",
+	},
 	leek: {
 		name: "Leek",
 		desc: "If held by a Farfetch’d or Sirfetch’d, its critical hit ratio is raised by 2 stages.",
@@ -1241,6 +1253,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	mewtwonitey: {
 		name: "Mewtwonite Y",
 		desc: "If held by a Mewtwo, this item allows it to Mega Evolve in battle.",
+	},
+	mewtwoarmor: {
+		name: "Mewtwo Armor",
+		desc: "Changes Mewtwo's ability to Hubris when held. Does not offer any increase to defensive stats.",
 	},
 	micleberry: {
 		name: "Micle Berry",
@@ -2361,6 +2377,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 			desc: "Holder's Psychic-type attacks have 1.1x power.",
 		},
 	},
+	tyranitararmor: {
+		name: "Tyranitar Armor",
+		desc: "Increases Tyranitar's base Defense stat from 110 to 143 and base Special Defense stat from 100 to 130 when held.",
+	},
 	tyranitarite: {
 		name: "Tyranitarite",
 		desc: "If held by a Tyranitar, this item allows it to Mega Evolve in battle.",
@@ -2472,6 +2492,10 @@ export const ItemsText: {[k: string]: ItemText} = {
 	zebstrikite: {
 		name: "Zebstrikite",
 		desc: "If held by a Zebstrika, this item allows it to Mega Evolve in battle.",
+	},
+	zekromarmor: {
+		name: "Zekrom Armor",
+		desc: "Increases Zekrom's base Defense stat from 120 to 156 and base Special Defense stat from 100 to 130 when held.",
 	},
 	zoomlens: {
 		name: "Zoom Lens",
