@@ -3961,8 +3961,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Armored-Mewtwo"],
-		formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Armored-Mewtwo"],
+		otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Mewtwo-Armored"],
+		formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Mewtwo-Armored"],
 	},
 	mewtwomegax: {
 		num: 150,
@@ -4024,9 +4024,10 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		tier: "Uber",
 	},
-	armoredmewtwo: {
+	mewtwoarmored: {
 		num: 150,
-		name: "Armored-Mewtwo",
+		name: "Mewtwo-Armored",
+		baseSpecies: "Mewtwo",
 		forme: "Armored",
 		types: ["Psychic"],
 		gender: "N",
@@ -4036,6 +4037,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		requiredItem: "Mewtwo Armor",
 		tier: "Uber",
 	},
 	mew: {
