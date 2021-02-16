@@ -1244,6 +1244,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	tyranitarmega: {
 		name: "Tyranitar-Mega",
 	},
+	tyranitararmored: {
+		name: "Tyranitar-Armored",
+	},
 	lugia: {
 		name: "Lugia",
 	},
@@ -1630,6 +1633,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	flygonmega: {
 		name: "Flygon-Mega",
+	},
+	flygonarmored: {
+		name: "Flygon-Armored",
 	},
 	cacnea: {
 		name: "Cacnea",
@@ -2621,6 +2627,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	leavanny: {
 		name: "Leavanny",
 	},
+	leavannyarmored: {
+		name: "Leavanny-Armored",
+	},
 	venipede: {
 		name: "Venipede",
 	},
@@ -3115,6 +3124,9 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	},
 	zekrom: {
 		name: "Zekrom",
+	},
+	zekromarmored: {
+		name: "Zekrom-Armored",
 	},
 	landorus: {
 		name: "Landorus",
