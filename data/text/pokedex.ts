@@ -806,8 +806,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	shadowmewtwomega: {
 		name: "Shadow-Mewtwo-Mega",
 	},
-	armoredmewtwo: {
-		name: "Armored-Mewtwo",
+	mewtwoarmored: {
+		name: "Mewtwo-Armored",
 	},
 	mew: {
 		name: "Mew",
@@ -3086,8 +3086,8 @@ export const PokedexText: {[k: string]: PokedexText} = {
 	volcaronadelta: {
 		name: "Volcarona-Delta",
 	},
-	armoredvolcaronadelta: {
-		name: "Armored-Volcarona-Delta",
+	volcaronadeltaarmored: {
+		name: "Volcarona-Delta-Armored",
 	},
 	cobalion: {
 		name: "Cobalion",
