@@ -54311,6 +54311,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shinxdelta: {
 		learnset: {
+			psychicfangs: ["8L1"],
+			corrosivegas: ["8L1"],
+			lashout: ["8L1"],
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
 			tackle: ["8L1"],
 			leer: ["8L1"],
 			poisongas: ["8L1"],
@@ -54452,6 +54457,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxiodelta: {
 		learnset: {
+			psychicfangs: ["8L1"],
+			corrosivegas: ["8L1"],
+			lashout: ["8L1"],
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
 			tackle: ["8L1"],
 			leer: ["8L1"],
 			poisongas: ["8L1"],
@@ -54602,6 +54612,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxraydelta: {
 		learnset: {
+			psychicfangs: ["8L1"],
+			corrosivegas: ["8L1"],
+			lashout: ["8L1"],
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
 			hyperbeam: ["8L1"],
 			rockclimb: ["8L1"],
 			outrage: ["8L1"],
