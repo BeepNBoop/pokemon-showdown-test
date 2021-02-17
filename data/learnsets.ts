@@ -39983,6 +39983,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raltsdelta: {
 		learnset: {
+			risingvoltage: ["8L1"],
+			tripleaxel: ["8L1"],
+			auroraveil: ["8L1"],
 			growl: ["8L1"],
 			powdersnow: ["8L1"],
 			thundershock: ["8L1"],
@@ -40148,6 +40151,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kirliadelta: {
 		learnset: {
+			risingvoltage: ["8L1"],
+			tripleaxel: ["8L1"],
+			auroraveil: ["8L1"],
 			growl: ["8L1"],
             powdersnow: ["8L1"],
             thundershock: ["8L1"],
@@ -40328,6 +40334,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gardevoirdelta: {
 		learnset: {
+			risingvoltage: ["8L1"],
+			tripleaxel: ["8L1"],
+			auroraveil: ["8L1"],
 			electricterrain: ["8L1"],
 			moonblast: ["8L1"],
 			growl: ["8L1"],
@@ -40550,6 +40559,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	galladedelta: {
 		learnset:{
+			risingvoltage: ["8L1"],
+			tripleaxel: ["8L1"],
+			auroraveil: ["8L1"],
+			throatchop: ["8L1"],
+			zingzap: ["8L1"],
+			smartstrike: ["8L1"],
+			solarblade: ["8L1"],
 			leafblade: ["8L1"],
 			nightslash: ["8L1"],
 			leer: ["8L1"],
