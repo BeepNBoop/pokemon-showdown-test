@@ -23916,6 +23916,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	munchlaxdelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			brutalswing: ["8L1"],
+			branchpoke: ["8L1"],
+			lifedew: ["8L1"],
+			grassyglide: ["8L1"],
 			playrough: ["8L1"],
 			absorb: ["8L1"],
 			razorleaf: ["8L1"],
@@ -24131,6 +24136,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snorlaxdelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			brutalswing: ["8L1"],
+			branchpoke: ["8L1"],
+			lifedew: ["8L1"],
+			grassyglide: ["8L1"],
 			woodhammer: ["8L1"],
 			grasswhistle: ["8L1"],
 			absorb: ["8L1"],
