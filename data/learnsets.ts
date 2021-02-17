@@ -36963,7 +36963,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			psywave: ["8L1"],
 			psybeam: ["8L1"],
 			futuresight: ["8L1"],
-			move: ["8L1"],
 			furycutter: ["8L1"],
 			signalbeam: ["8L1"],
 			knockoff: ["8L1"],
