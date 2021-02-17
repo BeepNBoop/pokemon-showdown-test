@@ -26408,6 +26408,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cyndaquildelta: {
 		learnset: {
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
+			hurricane: ["8L1"],
+			risingvoltage: ["8L1"],
 			thunderwave: ["8L1"],
 			thundershock: ["8L1"],
 			spark: ["8L1"],
@@ -26545,6 +26549,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilavadelta: {
 		learnset: {
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
+			hurricane: ["8L1"],
+			risingvoltage: ["8L1"],
 			thunderwave: ["8L1"],
 			thundershock: ["8L1"],
 			spark: ["8L1"],
@@ -26724,6 +26732,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typhlosiondelta: {
 		learnset: {
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
+			hurricane: ["8L1"],
+			risingvoltage: ["8L1"],
 			thunder: ["8L1"],
 			thunderwave: ["8L1"],
 			thundershock: ["8L1"],
