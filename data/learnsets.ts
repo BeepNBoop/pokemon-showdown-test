@@ -11783,6 +11783,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	geodudedelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			bodypress: ["8L1"],
+			meteorbeam: ["8L1"],
+			steelroller: ["8L1"],
+			expandingforce: ["8L1"],
 			seismictoss: ["8L1"],
 			submission: ["8L1"],
 			hammerarm: ["8L1"],
@@ -12049,6 +12058,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gravelerdelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			bodypress: ["8L1"],
+			meteorbeam: ["8L1"],
+			steelroller: ["8L1"],
+			expandingforce: ["8L1"],
 			seismictoss: ["8L1"],
 			submission: ["8L1"],
 			hammerarm: ["8L1"],
@@ -12329,6 +12347,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golemdelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			bodypress: ["8L1"],
+			meteorbeam: ["8L1"],
+			steelroller: ["8L1"],
+			expandingforce: ["8L1"],
 			circlethrow: ["8L1"],
 			seismictoss: ["8L1"],
 			submission: ["8L1"],
