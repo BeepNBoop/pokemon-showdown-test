@@ -14421,6 +14421,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimerdelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			bodypress: ["8L1"],
+			skittersmack: ["8L1"],
+			scorchingsands: ["8L1"],
+			shoreup: ["8L1"],
 			quash: ["8L1"],
 			sandattack: ["8L1"],
 			mudslap: ["8L1"],
@@ -14691,6 +14696,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mukdelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			bodypress: ["8L1"],
+			skittersmack: ["8L1"],
+			scorchingsands: ["8L1"],
+			shoreup: ["8L1"],
 			quash: ["8L1"],
 			submission: ["8L1"],
 			sandattack: ["8L1"],
