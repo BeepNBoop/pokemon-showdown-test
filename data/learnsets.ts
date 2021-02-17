@@ -83211,6 +83211,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noibatdelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			smartstrike: ["8L1"],
+			solarblade: ["8L1"],
+			bodypress: ["8L1"],
+			grassyglide: ["8L1"],
+			skittersmack: ["8L1"],
+			steelbeam: ["8L1"],
 			leechseed: ["8L1"],
 			screech: ["8L1"],
 			grasswhistle: ["8L1"],
@@ -83386,6 +83393,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noiverndelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			smartstrike: ["8L1"],
+			solarblade: ["8L1"],
+			bodypress: ["8L1"],
+			grassyglide: ["8L1"],
+			skittersmack: ["8L1"],
+			steelbeam: ["8L1"],
 			grassyterrain: ["8L1"],
 			petaldance: ["8L1"],
 			boomburst: ["8L1"],
