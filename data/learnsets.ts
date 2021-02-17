@@ -732,6 +732,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmanderdelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			powertrip: ["8L1"],
+			shadowbone: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			scaleshot: ["8L1"],
+			poltergeist: ["8L1"],
 			scratch: ["8L1"],
 			growl: ["8L1"],
 			twister: ["8L1"],
@@ -922,6 +930,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmeleondelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			powertrip: ["8L1"],
+			shadowbone: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			scaleshot: ["8L1"],
+			poltergeist: ["8L1"],
 			growl: ["8L1"],
 			twister: ["8L1"],
 			confuseray: ["8L1"],
@@ -1159,6 +1175,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charizarddelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			powertrip: ["8L1"],
+			shadowbone: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			scaleshot: ["8L1"],
+			poltergeist: ["8L1"],
 			growl: ["8L1"],
 			twister: ["8L1"],
 			confuseray: ["8L1"],
