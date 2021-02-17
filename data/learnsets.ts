@@ -82355,6 +82355,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phantumpdelta: {
 		learnset: {
+			auroraveil: ["8L1"],
+			icehammer: ["8L1"],
+			stompingtantrum: ["8L1"],
 			tackle: ["8L1"],
 			flowershield: ["8L1"],
 			fairywind: ["8L1"],
@@ -82527,6 +82530,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trevenantdelta: {
 		learnset: {
+			auroraveil: ["8L1"],
+			icehammer: ["8L1"],
+			stompingtantrum: ["8L1"],
 			sacredsword: ["8L1"],
 			closecombat: ["8L1"],
 			tackle: ["8L1"],
