@@ -2958,7 +2958,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 109,
 		name: "Koffing-Delta",
 		baseSpecies: "Koffin",
-		forme: "Koffin-Delta",
+		forme: "Delta",
 		types: ["Electric", "Flying"],
 		baseStats: {hp: 40, atk: 65, def: 95, spa: 60, spd: 45, spe: 35},
 		abilities: {0: "Cloud Nine", 1: "Amplifier", H: "Volt Absorb"},
@@ -17048,6 +17048,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	hoopadelta: {
 		num: 720,
 		name: "Hoopa-Delta",
+		baseSpecies: "Hoopa",
+		forme: "Delta",
 		baseForme: "Confined",
 		types: ["Flying"],
 		gender: "N",
