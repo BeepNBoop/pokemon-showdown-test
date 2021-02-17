@@ -69848,7 +69848,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 35, isHidden: true},
 		],
 	},
-	amoongusdelta: {
+	amoongussdelta: {
 		learnset: {
 			faketears: ["8L1"],
 			feintattack: ["8L1"],
@@ -80248,7 +80248,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			aquaring: ["8L1"],
 			muddywater: ["8L1"],
 			hydropump: ["8L1"],
-			fire: ["8L1"],
 			energyball: ["8L1"],
 			grassknot: ["8L1"],
 			bulldoze: ["8L1"],
