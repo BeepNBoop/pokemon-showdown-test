@@ -88847,6 +88847,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kommoo: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			aerialace: ["7M"],
@@ -90105,6 +90106,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozma: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			darkmatter: ["8L1"],
@@ -95141,6 +95143,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regidrago: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			ancientpower: ["8L12"],
