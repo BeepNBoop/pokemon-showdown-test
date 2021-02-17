@@ -61016,6 +61016,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snivydelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			hurricane: ["8L1"],
+			flipturn: ["8L1"],
+			liquidation: ["8L1"],
 			twister: ["8L1"],
 			dragondance: ["8L1"],
 			shockwave: ["8L1"],
@@ -61144,6 +61148,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	servinedelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			hurricane: ["8L1"],
+			flipturn: ["8L1"],
+			liquidation: ["8L1"],
 			twister: ["8L1"],
 			dragondance: ["8L1"],
 			shockwave: ["8L1"],
@@ -61291,6 +61299,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	serperiordelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			hurricane: ["8L1"],
+			flipturn: ["8L1"],
+			liquidation: ["8L1"],
+			breakingswipe: ["8L1"],
+			skittersmack: ["8L1"],
+			scaleshot: ["8L1"],
 			dragontail: ["8L1"],
 			twister: ["8L1"],
 			dragondance: ["8L1"],
