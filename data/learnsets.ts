@@ -82800,6 +82800,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bergmitedelta: {
 		learnset: {
+			accelerock: ["8L1"],
+			dragonhammer: ["8L1"],
+			smartstrike: ["8L1"],
+			stompingtantrum: ["8L1"],
+			bodypress: ["8L1"],
+			meteorbeam: ["8L1"],
+			scaleshot: ["8L1"],
+			steelroller: ["8L1"],
 			irondefense: ["8L1"],
 			crunch: ["8L1"],
 			skullbash: ["8L1"],
@@ -82946,6 +82954,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	avaluggdelta: {
 		learnset: {
+			accelerock: ["8L1"],
+			dragonhammer: ["8L1"],
+			smartstrike: ["8L1"],
+			stompingtantrum: ["8L1"],
+			bodypress: ["8L1"],
+			meteorbeam: ["8L1"],
+			scaleshot: ["8L1"],
+			steelroller: ["8L1"],
 			irondefense: ["8L1"],
 			crunch: ["8L1"],
 			skullbash: ["8L1"],
