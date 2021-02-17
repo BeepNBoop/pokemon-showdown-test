@@ -20002,6 +20002,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scytherdelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			smartstrike: ["8L1"],
+			throatchop: ["8L1"],
+			lashout: ["8L1"],
+			tripleaxel: ["8L1"],
 			vacuumwave: ["8L1"],
 			iceshard: ["8L1"],
 			haze: ["8L1"],
@@ -20190,6 +20196,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scizordelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			smartstrike: ["8L1"],
+			throatchop: ["8L1"],
+			lashout: ["8L1"],
+			tripleaxel: ["8L1"],
 			vacuumwave: ["8L1"],
 			iceshard: ["8L1"],
 			haze: ["8L1"],
