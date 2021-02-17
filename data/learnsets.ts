@@ -46738,6 +46738,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vibrava: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
 			ancientroar: ["8L1"],
@@ -46826,6 +46827,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flygon: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
 			ancientroar: ["8L1"],
@@ -46938,6 +46940,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flygonarmored: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
 			ancientroar: ["8L1"],
@@ -52662,6 +52665,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	latias: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -52794,6 +52798,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	latios: {
 		learnset: {
+			drakonvoice: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
