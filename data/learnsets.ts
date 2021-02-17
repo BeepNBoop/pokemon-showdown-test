@@ -13908,6 +13908,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	doduodelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			psychicterrain: ["8L1"],
+			laserfocus: ["8L1"],
+			terrainpulse: ["8L1"],
+			lashout: ["8L1"],
 			peck: ["8L1"],
 			pluck: ["8L1"],
 			drillpeck: ["8L1"],
@@ -14069,6 +14074,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dodriodelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			psychicterrain: ["8L1"],
+			laserfocus: ["8L1"],
+			terrainpulse: ["8L1"],
+			lashout: ["8L1"],
 			peck: ["8L1"],
 			pluck: ["8L1"],
 			drillpeck: ["8L1"],
