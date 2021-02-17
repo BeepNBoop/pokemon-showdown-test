@@ -20192,7 +20192,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Tough",
 	},
-	wildfire: {
+	wildefire: {
 		num: 860,
 		accuracy: 70,
 		basePower: 0,
