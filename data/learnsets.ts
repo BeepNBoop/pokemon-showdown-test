@@ -53026,6 +53026,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	turtwigdelta: {
 		learnset: {
+			liquidation: ["8L1"],
+			shoreup: ["8L1"],
+			flipturn: ["8L1"],
 			curse: ["8L1"],
 			mudslap: ["8L1"],
 			mudshot: ["8L1"],
@@ -53153,6 +53156,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grotledelta: {
 		learnset: {
+			liquidation: ["8L1"],
+			shoreup: ["8L1"],
+			flipturn: ["8L1"],
 			curse: ["8L1"],
 			mudslap: ["8L1"],
 			mudshot: ["8L1"],
@@ -53302,6 +53308,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torterradelta: {
 		learnset: {
+			liquidation: ["8L1"],
+			shoreup: ["8L1"],
+			flipturn: ["8L1"],
 			curse: ["8L1"],
 			mudslap: ["8L1"],
 			mudshot: ["8L1"],
