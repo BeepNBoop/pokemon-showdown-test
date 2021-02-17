@@ -49491,6 +49491,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snoruntdelta: {
 		learnset: {
+			firelash: ["8L1"],
+			bodypress: ["8L1"],
+			burningjealousy: ["8L1"],
+			scorchingsands: ["8L1"],
 			ember: ["8L1"],
 			leer: ["8L1"],
 			doubleteam: ["8L1"],
@@ -49629,6 +49633,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glaliedelta: {
 		learnset: {
+			firelash: ["8L1"],
+			bodypress: ["8L1"],
+			burningjealousy: ["8L1"],
+			scorchingsands: ["8L1"],
+			accelerock: ["8L1"],
+			meteorbeam: ["8L1"],
+			steelroller: ["8L1"],
 			headsmash: ["8L1"],
 			ember: ["8L1"],
 			leer: ["8L1"],
@@ -49797,6 +49808,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froslassdelta: {
 		learnset: {
+			firelash: ["8L1"],
+			bodypress: ["8L1"],
+			burningjealousy: ["8L1"],
+			scorchingsands: ["8L1"],
+			mysticalfire: ["8L1"],
+			poltergeist: ["8L1"],
 			inferno: ["8L1"],
 			ember: ["8L1"],
 			leer: ["8L1"],
