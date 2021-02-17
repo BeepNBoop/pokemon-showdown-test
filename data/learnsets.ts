@@ -31336,6 +31336,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreavusdelta: {
 		learnset: {
+			lifedew: ["8L1"],
+			mistyexplosion: ["8L1"],
 			fairywind: ["8L1"],
 			disarmingvoice: ["8L1"],
 			moonblast: ["8L1"],
@@ -31498,6 +31500,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mismagiusdelta: {
 		learnset: {
+			lifedew: ["8L1"],
+			mistyexplosion: ["8L1"],
 			mistyterrain: ["8L1"],
 			fairywind: ["8L1"],
 			fly: ["8L1"],
