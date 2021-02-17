@@ -9737,6 +9737,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	growlithedelta: {
 		learnset: {
+			bodypress: ["8L1"],
+			scaleshot: ["8L1"],
+			terrainpulse: ["8L1"],
 			bite: ["8L1"],
 			crunch: ["8L1"],
 			dragonrage: ["8L1"],
@@ -9920,6 +9923,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arcaninedelta: {
 		learnset: {
+			bodypress: ["8L1"],
+			scaleshot: ["8L1"],
+			terrainpulse: ["8L1"],
 			bite: ["8L1"],
 			dragonbreath: ["8L1"],
 			roar: ["8L1"],
