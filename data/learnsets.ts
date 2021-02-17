@@ -89361,6 +89361,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solgaleo: {
 		learnset: {
+			ancientroar: ["8L1"],
 			agility: ["8M"],
 			bulldoze: ["8M", "7M"],
 			calmmind: ["8M", "7M"],
@@ -92674,6 +92675,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxtricity: {
 		learnset: {
+			ancientroar: ["8L1"],
 			acid: ["8L1"],
 			acidspray: ["8L1"],
 			attract: ["8M"],
