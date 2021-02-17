@@ -77876,6 +77876,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froakiedelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			branchpoke: ["8L1"],
+			grassyglide: ["8L1"],
 			absorb: ["8L1"],
 			megadrain: ["8L1"],
 			grasswhistle: ["8L1"],
@@ -78014,6 +78018,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	frogadierdelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			branchpoke: ["8L1"],
+			grassyglide: ["8L1"],
 			absorb: ["8L1"],
 			megadrain: ["8L1"],
 			grasswhistle: ["8L1"],
@@ -78246,6 +78254,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	greninjadelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			branchpoke: ["8L1"],
+			grassyglide: ["8L1"],
+			burnup: ["8L1"],
+			burningjealousy: ["8L1"],
+			firelash: ["8L1"],
 			suckerpunch: ["8L1"],
 			thief: ["8L1"],
 			snatch: ["8L1"],
