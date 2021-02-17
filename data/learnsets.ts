@@ -36473,8 +36473,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 5, level: 10, gender: "M", isHidden: true, moves: ["pound", "leer", "absorb"]},
 		],
 	},
-	treekodelta: {
+	treeckodelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			coaching: ["8L1"],
+			skittersmack: ["8L1"],
 			dragondance: ["8L1"],
 			karatechop: ["8L1"],
 			brickbreak: ["8L1"],
@@ -36646,6 +36652,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grovyledelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			coaching: ["8L1"],
+			skittersmack: ["8L1"],
 			dragonbreath: ["8L1"],
 			dragondance: ["8L1"],
 			karatechop: ["8L1"],
@@ -36851,6 +36863,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sceptiledelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			coaching: ["8L1"],
+			skittersmack: ["8L1"],
 			dracometeor: ["8L1"],
 			dragonbreath: ["8L1"],
 			dragondance: ["8L1"],
