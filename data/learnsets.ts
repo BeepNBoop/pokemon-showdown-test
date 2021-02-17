@@ -67193,6 +67193,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scraggydelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			grassyglide: ["8L1"],
 			leer: ["8L1"],
 			grassknot: ["8L1"],
 			sandattack: ["8L1"],
@@ -67373,6 +67376,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scraftydelta: {
 		learnset: {
+			strengthsap: ["8L1"],
+			stompingtantrum: ["8L1"],
+			grassyglide: ["8L1"],
 			leer: ["8L1"],
 			grassknot: ["8L1"],
 			sandattack: ["8L1"],
