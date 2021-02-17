@@ -11587,6 +11587,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	geodudealola: {
 		learnset: {
+			livewire: ["8L1"],
 			attract: ["7M"],
 			autotomize: ["7E"],
 			bide: ["8V"],
@@ -11857,6 +11858,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	graveleralola: {
 		learnset: {
+			livewire: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M"],
 			bide: ["8V"],
@@ -12127,6 +12129,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golemalola: {
 		learnset: {
+			livewire: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M"],
 			bide: ["8V"],
@@ -84899,6 +84902,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grubbin: {
 		learnset: {
+			livewire: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
 			attract: ["8M", "7M"],
 			bite: ["8L15", "7L10"],
@@ -84947,6 +84951,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charjabug: {
 		learnset: {
+			livewire: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
 			attract: ["8M", "7M"],
 			bite: ["8L15", "7L1"],
@@ -84998,6 +85003,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vikavolt: {
 		learnset: {
+			livewire: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
 			agility: ["8M", "8L57", "7L49"],
@@ -88150,6 +88156,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togedemaru: {
 		learnset: {
+			livewire: ["8L1"],
 			afteryou: ["7T"],
 			agility: ["8M"],
 			assurance: ["8M"],
@@ -89037,6 +89044,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapukoko: {
 		learnset: {
+			livewire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
 			agility: ["8M", "8L35", "7L53", "7S0", "7S1"],
@@ -89820,6 +89828,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xurkitree: {
 		learnset: {
+			livewire: ["8L1"],
 			darkmatter: ["8L1"],
 			bind: ["7T"],
 			brutalswing: ["8M", "8S2", "7M"],
@@ -90759,6 +90768,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zeraora: {
 		learnset: {
+			livewire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
 			agility: ["8M", "8L80"],
@@ -92122,6 +92132,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yamper: {
 		learnset: {
+			livewire: ["8L1"],
 			attract: ["8M"],
 			bite: ["8L10"],
 			charge: ["8L35"],
@@ -92164,6 +92175,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	boltund: {
 		learnset: {
+			livewire: ["8L1"],
 			agility: ["8M"],
 			attract: ["8M"],
 			bite: ["8L1"],
@@ -92713,6 +92725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxel: {
 		learnset: {
+			livewire: ["8L1"],
 			acid: ["8L1", "8S0"],
 			attract: ["8M"],
 			belch: ["8L1"],
@@ -92739,6 +92752,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxtricity: {
 		learnset: {
+			livewire: ["8L1"],
 			corrode: ["8L1"],
 			ancientroar: ["8L1"],
 			acid: ["8L1"],
@@ -93588,6 +93602,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pincurchin: {
 		learnset: {
+			livewire: ["8L1"],
 			acupressure: ["8L55"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -93916,6 +93931,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	morpeko: {
 		learnset: {
+			livewire: ["8L1"],
 			agility: ["8M", "8L40"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -94095,6 +94111,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dracozolt: {
 		learnset: {
+			livewire: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			aerialace: ["8L14"],
@@ -94163,6 +94180,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctozolt: {
 		learnset: {
+			livewire: ["8L1"],
 			ancientpower: ["8L21"],
 			avalanche: ["8M", "8L35"],
 			blizzard: ["8M", "8L77"],
@@ -95092,6 +95110,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regieleki: {
 		learnset: {
+			livewire: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M"],
