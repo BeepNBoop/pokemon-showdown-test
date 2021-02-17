@@ -5454,6 +5454,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	scizordelta: {
 		num: 212,
 		name: "Scizor-Delta",
+		baseSpecies: "Scizor",
+		forme: "Delta",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 70, atk: 130, def: 100, spa: 55, spd: 80, spe: 65},
 		abilities: {0: "Tough Claws", 1: "Slush Rush", H: "Super Luck"},
@@ -10451,6 +10453,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mismagiusdelta: {
 		num: 429,
 		name: "Mismagius-Delta",
+		baseSpecies: "Mismagius",
+		forme: "Delta",
 		types: ["Ice", "Fairy"],
 		baseStats: {hp: 60, atk: 60, def: 60, spa: 105, spd: 105, spe: 105},
 		abilities: {0: "Magic Gaurd", H: "Winter Joy"},
