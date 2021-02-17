@@ -62095,6 +62095,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	purrloindelta: {
 		learnset: {
+			firstimpression: ["8L1"],
+			powertrip: ["8L1"],
+			burningjealousy: ["8L1"],
+			poltergeist: ["8L1"],
+			lashout: ["8L1"],
 			astonish: ["8L1"],
 			growl: ["8L1"],
 			smog: ["8L1"],
@@ -62287,6 +62292,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lieparddelta: {
 		learnset: {
+			firstimpression: ["8L1"],
+			powertrip: ["8L1"],
+			burningjealousy: ["8L1"],
+			poltergeist: ["8L1"],
+			lashout: ["8L1"],
 			astonish: ["8L1"],
 			growl: ["8L1"],
 			nightslash: ["8L1"],
