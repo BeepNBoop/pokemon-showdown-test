@@ -55269,6 +55269,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combeedelta: {
 		learnset: {
+			burnup: ["8L1"],
+			firelash: ["8L1"],
+			firstimpression: ["8L1"],
+			laserfocus: ["8L1"],
+			bodypress: ["8L1"],
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
+			tarshot: ["8L1"],
 			metalsound: ["8L1"],
 			ember: ["8L1"],
 			mirrorshot: ["8L1"],
@@ -55367,6 +55375,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vespiquendelta: {
 		learnset: {
+			burnup: ["8L1"],
+			firelash: ["8L1"],
+			firstimpression: ["8L1"],
+			laserfocus: ["8L1"],
+			bodypress: ["8L1"],
+			steelbeam: ["8L1"],
+			steelroller: ["8L1"],
+			tarshot: ["8L1"],
 			flareblitz: ["8L1"],
 			shiftgear: ["8L1"],
 			metalsound: ["8L1"],
