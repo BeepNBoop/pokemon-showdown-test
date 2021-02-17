@@ -2957,7 +2957,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	koffingdelta: {
 		num: 109,
 		name: "Koffing-Delta",
-		baseSpecies: "Koffin",
+		baseSpecies: "Koffing",
 		forme: "Delta",
 		types: ["Electric", "Flying"],
 		baseStats: {hp: 40, atk: 65, def: 95, spa: 60, spd: 45, spe: 35},
@@ -15437,6 +15437,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	meloettadelta: {
 		num: 648,
 		name: "Meloetta-Delta",
+		baseSpecies: "Meloetta",
+		forme: "Delta",
 		baseForme: "Mime",
 		types: ["Dark", "Fairy"],
 		gender: "N",
@@ -15454,7 +15456,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		num: 648,
 		name: "Meloetta-Delta-Magician",
 		baseSpecies: "Meloetta",
-		forme: "Magician",
+		forme: "Delta-Magician",
 		types: ["Dark", "Psychic"],
 		gender: "N",
 		baseStats: {hp: 100, atk: 128, def: 90, spa: 77, spd: 77, spe: 128},
