@@ -44375,6 +44375,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	budewdelta: {
 		learnset: {
+			tearfullook: ["8L1"],
+			mysticalfire: ["8L1"],
+			tripleaxel: ["8L1"],
+			lashout: ["8L1"],
 			faketears: ["8L1"],
 			disarmingvoice: ["8L1"],
 			babydolleyes: ["8L1"],
@@ -44536,6 +44540,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roseliadelta: {
 		learnset: {
+			tearfullook: ["8L1"],
+			mysticalfire: ["8L1"],
+			tripleaxel: ["8L1"],
+			lashout: ["8L1"],
 			pursuit: ["8L1"],
 			feintattack: ["8L1"],
 			newmoon: ["8L1"],
@@ -44708,6 +44716,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roseradedelta: {
 		learnset: {
+			tearfullook: ["8L1"],
+			mysticalfire: ["8L1"],
+			tripleaxel: ["8L1"],
+			lashout: ["8L1"],
 			pursuit: ["8L1"],
 			feintattack: ["8L1"],
 			newmoon: ["8L1"],
