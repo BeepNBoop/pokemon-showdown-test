@@ -73743,6 +73743,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pawniarddelta: {
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			smartstrike: ["8L1"],
+			throatchop: ["8L1"],
+			bodypress: ["8L1"],
+			dualwingbeat: ["8L1"],
+			tripleaxel: ["8L1"],
 			whirlwind: ["8L1"],
 			feint: ["8L1"],
 			focusenergy: ["8L1"],
@@ -73919,6 +73926,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bisharpdelta:{
 		learnset: {
+			brutalswing: ["8L1"],
+			laserfocus: ["8L1"],
+			smartstrike: ["8L1"],
+			throatchop: ["8L1"],
+			bodypress: ["8L1"],
+			dualwingbeat: ["8L1"],
+			tripleaxel: ["8L1"],
 			whirlwind: ["8L1"],
 			machpunch: ["8L1"],
 			feint: ["8L1"],
