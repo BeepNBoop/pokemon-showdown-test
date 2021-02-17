@@ -33736,6 +33736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corsolagalar: {
 		learnset: {
+			darkmatter: ["8L1"],
 			amnesia: ["8M"],
 			ancientpower: ["8L20"],
 			astonish: ["8L5", "8S0"],
@@ -33810,6 +33811,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cursola: {
 		learnset: {
+			darkmatter: ["8L1"],
 			amnesia: ["8M"],
 			ancientpower: ["8L20"],
 			astonish: ["8L1"],
@@ -67784,6 +67786,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	runerigus: {
 		learnset: {
+			darkmatter: ["8L1"],
 			allyswitch: ["8M"],
 			amnesia: ["8M"],
 			astonish: ["8L1"],
@@ -84027,6 +84030,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	decidueye: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			airslash: ["8M"],
 			astonish: ["8L1", "7L11"],
@@ -84236,6 +84240,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	incineroar: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			assurance: ["8M"],
 			attract: ["8M", "7M"],
@@ -84991,6 +84996,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vikavolt: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
 			agility: ["8M", "8L57", "7L49"],
 			airslash: ["8M", "7L1"],
@@ -87659,6 +87665,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	palossand: {
 		learnset: {
+			darkmatter: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			afteryou: ["7T"],
 			amnesia: ["8M"],
@@ -87832,6 +87839,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silvally: {
 		learnset: {
+			darkmatter: ["8L1"],
 			corrode: ["8L1"],
 			aerialace: ["8L1", "7M", "7L20"],
 			airslash: ["8M", "8L30", "7L60"],
@@ -87926,6 +87934,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minior: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["7M"],
 			ancientpower: ["7L17"],
 			attract: ["7M"],
@@ -89366,6 +89375,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solgaleo: {
 		learnset: {
+			darkmatter: ["8L1"],
 			ancientroar: ["8L1"],
 			agility: ["8M"],
 			bulldoze: ["8M", "7M"],
@@ -89460,6 +89470,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lunala: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
 			agility: ["8M"],
@@ -89553,6 +89564,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nihilego: {
 		learnset: {
+			darkmatter: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8L5", "7L1"],
 			acidspray: ["8L15", "8S2", "7L47", "7S0", "7S1"],
@@ -89787,6 +89799,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xurkitree: {
 		learnset: {
+			darkmatter: ["8L1"],
 			bind: ["7T"],
 			brutalswing: ["8M", "8S2", "7M"],
 			calmmind: ["8M", "7M"],
@@ -89855,6 +89868,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	celesteela: {
 		learnset: {
+			darkmatter: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			acrobatics: ["8M", "7M"],
 			airslash: ["8M", "7L1"],
@@ -90071,6 +90085,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozma: {
 		learnset: {
+			darkmatter: ["8L1"],
 			aerialace: ["7M"],
 			allyswitch: ["8M", "7T"],
 			autotomize: ["8L80", "8S3", "7L47"],
@@ -90484,6 +90499,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	naganadel: {
 		learnset: {
+			darkmatter: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8L1", "7L1"],
 			acrobatics: ["8M", "7M"],
@@ -90641,6 +90657,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blacephalon: {
 		learnset: {
+			darkmatter: ["8L1"],
 			afteryou: ["7T"],
 			astonish: ["8L1", "7L1"],
 			calmmind: ["8M", "8L50", "7M", "7L31"],
@@ -91312,6 +91329,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	inteleon: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M", "8L1"],
 			agility: ["8M"],
 			airslash: ["8M"],
@@ -91665,6 +91683,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	orbeetle: {
 		learnset: {
+			darkmatter: ["8L1"],
 			afteryou: ["8L40"],
 			agility: ["8M", "8L12"],
 			allyswitch: ["8M", "8L24"],
@@ -93236,6 +93255,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	impidimp: {
 		learnset: {
+			darkmatter: ["8L1"],
 			assurance: ["8M", "8L16"],
 			attract: ["8M"],
 			bite: ["8L4"],
@@ -93327,6 +93347,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimmsnarl: {
 		learnset: {
+			darkmatter: ["8L1"],
 			assurance: ["8M", "8L16"],
 			attract: ["8M"],
 			bite: ["8L1"],
@@ -94363,6 +94384,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drakloak: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L24"],
 			allyswitch: ["8M"],
@@ -94417,6 +94439,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragapult: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L24"],
 			allyswitch: ["8M"],
@@ -94620,6 +94643,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eternatus: {
 		learnset: {
+			darkmatter: ["8L1"],
 			corrode: ["8L1"],
 			agility: ["8M", "8L1"],
 			assurance: ["8M"],
@@ -95017,6 +95041,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regieleki: {
 		learnset: {
+			darkmatter: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M"],
 			ancientpower: ["8L12"],
@@ -95168,6 +95193,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spectrier: {
 		learnset: {
+			darkmatter: ["8L1"],
 			agility: ["8M", "8L48"],
 			assurance: ["8M"],
 			bodyslam: ["8M"],
@@ -95395,6 +95421,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	calyrexshadow: {
 		learnset: {
+			darkmatter: ["8L1"],
 			agility: ["8M", "8L1", "8S0"],
 			allyswitch: ["8M"],
 			aromatherapy: ["8L40"],
