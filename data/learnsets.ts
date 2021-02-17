@@ -134,6 +134,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bulbasaurdelta: {
 		learnset: {
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			bodypress: ["8L1"],
+			expandingforce: ["8L1"],
+			mistyexplosion: ["8L1"],
+			terrainpulse: ["8L1"],
 			tackle: ["8L1"],
 			babydolleyes: ["8L3"],
 			confusion: ["8L7"],
@@ -300,6 +306,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ivysaurdelta: {
 		learnset:{
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			bodypress: ["8L1"],
+			expandingforce: ["8L1"],
+			mistyexplosion: ["8L1"],
+			terrainpulse: ["8L1"],
 			tackle: ["8L1"],
 			babydolleyes: ["8L1"],
 			leechseed: ["8L1"],
@@ -488,6 +500,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venusaurdelta: {
 		learnset: {
+			psychicterrain: ["8L1"],
+			speedswap: ["8L1"],
+			bodypress: ["8L1"],
+			expandingforce: ["8L1"],
+			mistyexplosion: ["8L1"],
+			terrainpulse: ["8L1"],
 			tackle: ["8L1"],
 			babydolleyes: ["8L1"],
 			leechseed: ["8L1"],
