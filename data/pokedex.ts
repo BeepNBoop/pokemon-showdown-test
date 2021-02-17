@@ -161,7 +161,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charmanderdelta: {
 		num: 4,
 		name: "Charmander-Delta",
-		baseForme: "Charmander",
+		baseSpecies: "Charmander",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -194,7 +194,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charmeleondelta: {
 		num: 5,
 		name: "Charmeleon-Delta",
-		baseForme: "Charmeleon",
+		baseSpecies: "Charmeleon",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -274,7 +274,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddelta: {
 		num: 6,
 		name: "Charizard-Delta",
-		baseForme: "Charizard",
+		baseSpecies: "Charizard",
 		forme: "Delta",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -324,7 +324,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	squirtledelta: {
 		num: 7,
 		name: "Squirtle-Delta",
-		baseForme: "Squirtle",
+		baseSpecies: "Squirtle",
 		forme: "Delta",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -357,7 +357,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	wartortledelta: {
 		num: 8,
 		name: "Wartortle-Delta",
-		baseForme: "Wartortle",
+		baseSpecies: "Wartortle",
 		forme: "Delta",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -422,7 +422,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedelta: {
 		num: 9,
 		name: "Blastoise-Delta",
-		baseForme: "Blastoise",
+		baseSpecies: "Blastoise",
 		forme: "Delta",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
