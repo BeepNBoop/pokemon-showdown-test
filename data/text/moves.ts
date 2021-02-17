@@ -26,6 +26,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "No additional effect.",
 		shortDesc: "Usually goes first.",
 	},
+	achillesheel: {
+		name: "Achilles Heel",
+		desc: "The user identifies a weaknesses in its target, dealing Super Effective damage to all that are not immune to this move.",
+		shortDesc: "Always deal super effective (2x) damage, except against types that would normally be immune to it.",
+	},
 	acid: {
 		name: "Acid",
 		desc: "Has a 10% chance to lower the target's Special Defense by 1 stage.",
@@ -133,6 +138,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Ancient Power",
 		desc: "Has a 10% chance to raise the user's Attack, Defense, Special Attack, Special Defense, and Speed by 1 stage.",
 		shortDesc: "10% chance to raise all stats by 1 (not acc/eva).",
+	},
+	ancientroar: {
+		name: "Ancient Roar",
+		desc: "The user's voice shakes with a primal roar, damaging its foes with pure fear.",
+		shortDesc: "Ancient Roar deals damage and has no secondary effect.",
 	},
 	appleacid: {
 		name: "Apple Acid",
@@ -943,6 +953,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Corkscrew Crash",
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
+	corrode: {
+		name: "Corrode",
+		desc: "Corrode deals damage and has no secondary effect. If used on Steel type Pokémon, this move ignores the type effectiveness of this move's type against Steel and treats it as being super effective against Steel types instead (even during Inverse Battles or if Corrode's type is changed).",
+		shortDesc: "This move ignores the type effectiveness of this move's type against Steel",
+	},
 	corrosivegas: {
 		name: "Corrosive Gas",
 		desc: "The target loses its held item. This move cannot cause Pokemon with the Sticky Hold Ability to lose their held item or cause a Kyogre, a Groudon, a Giratina, an Arceus, a Genesect, a Silvally, a Zacian, or a Zamazenta to lose their Blue Orb, Red Orb, Griseous Orb, Plate, Drive, Memory, Rusted Sword, or Rusted Shield respectively. Items lost to this move cannot be regained with Recycle or the Harvest Ability.",
@@ -1055,6 +1070,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Power is equal to 120 * (target's current HP / target's maximum HP) + 1, rounded down.",
 		},
 	},
+	crystalrush: {
+		name: "Crystal Rush",
+		desc: "Crystal Rush inflicts damage, and is an increased priority move. If the target does not use an increased priority move during the round that it is used, Crystal Rush will go first regardless of the user's or target's speed.",
+		shortDesc: "The user turns to solid crystal, hitting first.",
+	},
 	curse: {
 		name: "Curse",
 		desc: "If the user is not a Ghost type, lowers the user's Speed by 1 stage and raises the user's Attack and Defense by 1 stage. If the user is a Ghost type, the user loses 1/2 of its maximum HP, rounded down and even if it would cause fainting, in exchange for the target losing 1/4 of its maximum HP, rounded down, at the end of each turn while it is active. If the target uses Baton Pass, the replacement will continue to be affected. Fails if there is no target or if the target is already affected.",
@@ -1077,6 +1097,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Darkest Lariat",
 		desc: "Ignores the target's stat stage changes, including evasiveness.",
 		shortDesc: "Ignores the target's stat stage changes.",
+	},
+	darkmatter: {
+		name: "Dark Matter",
+		desc: "Dark Matter inflicts damage. A recharge turn is required on the turn after damage is done, during which no action may be performed.",
+		shortDesc: "The unknown forces of the world are unleashed. The user must recharge next turn.",
 	},
 	darkpulse: {
 		name: "Dark Pulse",
@@ -1341,6 +1366,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Raises the user's evasiveness by 1 stage.",
 		shortDesc: "Raises the user's evasiveness by 1.",
 	},
+	dracojet: {
+		name: "Draco Jet",
+		desc: "If the target does not use an increased priority move during the round that it is used, Draco Jet will go first regardless of the user's or target's speed.",
+		shortDesc: "A draconic fury in which the user always attacks first.",
+	},
 	dracometeor: {
 		name: "Draco Meteor",
 		desc: "Lowers the user's Special Attack by 2 stages.",
@@ -1381,6 +1411,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Dragon Hammer",
 		shortDesc: "No additional effect.",
 	},
+	dragonify: {
+		name: "Dragonify",
+		desc: "Dragonify changes the target's type to pure Dragon; the effect lasts as long as the target is in battle, and changing form or transforming will also remove the effect.",
+		shortDesc: "Reptillian blood taints the foe, turning them into the Dragon-type.",
+	},
 	dragonpulse: {
 		name: "Dragon Pulse",
 		shortDesc: "No additional effect.",
@@ -1414,6 +1449,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		gen4: {
 			desc: "The user recovers 1/2 the HP lost by the target, rounded down. If Big Root is held by the user, the HP recovered is 1.3x normal, rounded down.",
 		},
+	},
+	drakonvoice: {
+		name: "Drakon Voice",
+		desc: "The sheer force of the user's voice obliterates everything in its path.",
+		shortDesc: "Drakon Voice deals damage and has no secondary effect.",
 	},
 	dreameater: {
 		name: "Dream Eater",
@@ -3091,6 +3131,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Prevents the user and the target from switching out. The user and the target can still switch out if either of them is holding Shed Shell or uses Baton Pass, Flip Turn, Parting Shot, Teleport, U-turn, or Volt Switch. The effect ends if either the user or the target leaves the field.",
 		shortDesc: "Prevents both user and target from switching out.",
 	},
+	jetstream: {
+		name: "Jet Stream",
+		desc: "The user creates a stream of supercharged air that allows their team to move first next round.",
+		shortDesc: "Increases the priority of the user and its allies' moves by 1 during the next turn.",
+	},
 	judgment: {
 		name: "Judgment",
 		desc: "This move's type depends on the user's held Plate.",
@@ -3305,6 +3350,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "Has a 20% chance to lower the target's Defense by 1 stage.",
 		shortDesc: "20% chance to lower the target's Defense by 1.",
 	},
+	livewire: {
+		name: "Livewire",
+		desc: "Livewire sets an entry hazard around the target Pokémon, which will paralyze them upon switching in. It can stack up to 5 times, with each layer adding a 20% chance of incoming Pokemon being paralyzed upon switching in. This chance is doubled in the Rain.",
+		shortDesc: "Causes Pokemon that are switched in to be immediately Paralyzed.",
+	},
 	lockon: {
 		name: "Lock-On",
 		desc: "Until the end of the next turn, the target cannot avoid the user's moves, even if the target is in the middle of a two-turn move. The effect ends if either the user or the target leaves the field. Fails if this effect is active for the user.",
@@ -3344,6 +3394,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  Lucky Chant shielded [TEAM] from critical hits!",
 		end: "  [TEAM]'s Lucky Chant wore off!",
+	},
+	lunarcannon: {
+		name: "Low Sweep",
+		desc: "Lunar Cannon forces the user to charge on the first turn and then deals damage on the following turn. It will not need a turn to charge if used during a New Moon.",
+		shortDesc: "A two-turn attack. The user gathers darkness, then blasts a bundled beam on the second turn.",
 	},
 	lunardance: {
 		name: "Lunar Dance",
@@ -3589,6 +3644,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Meditate",
 		desc: "Raises the user's Attack by 1 stage.",
 		shortDesc: "Raises the user's Attack by 1.",
+	},
+	medusaray: {
+		name: "Medusaray",
+		desc: "Medusa Ray changes the target's type to pure Rock. The effect lasts as long as the target is in battle, although changing form or transforming will remove the effect.",
+		shortDesc: "The user glares and petrifies the foe, making them Rock-type.",
 	},
 	mefirst: {
 		name: "Me First",
@@ -3911,6 +3971,11 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "The user restores 1/2 of its maximum HP if no weather conditions are in effect, all of its HP if the weather is Sunny Day, and 1/4 of its maximum HP if the weather is Rain Dance or Sandstorm, all rounded down.",
 		},
 	},
+	morph: {
+		name: "Morph",
+		desc: "Morph functions the same as Transform; however, if a Delta species of the target exists, the user will turn into that instead. If the target has multiple Delta Species, it will select one of them at random.",
+		shortDesc: "If a delta version of the opponent exists, the user morphs into that. Otherwise, Transforms.",
+	},
 	mudbomb: {
 		name: "Mud Bomb",
 		desc: "Has a 30% chance to lower the target's accuracy by 1 stage.",
@@ -3958,6 +4023,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Nasty Plot",
 		desc: "Raises the user's Special Attack by 2 stages.",
 		shortDesc: "Raises the user's Sp. Atk by 2.",
+	},
+	nanorepair: {
+		name: "Nanorepair",
+		desc: "Restores up to 50% of the user's maximum HP and increases the user's Defense by 1 stage. The Defense boost is applied even if the user's current HP is already equal to its maximum HP.",
+		shortDesc: "The user activates a nanobotic repair system that heals and boosts Defense.",
 	},
 	naturalgift: {
 		name: "Natural Gift",
@@ -4180,6 +4250,11 @@ export const MovesText: {[k: string]: MoveText} = {
 
 		start: "  All Pok\u00E9mon that heard the song will faint in three turns!",
 		activate: "  [POKEMON]'s perish count fell to [NUMBER].",
+	},
+	permafrost: {
+		name: "Permafrost",
+		desc: "Permafrost sets an entry hazard around the target Pokémon, which will Freeze them upon switching in. It can stack up to 5 times, with each layer adding a 10% chance of incoming Pokemon being frozen upon switching in. This chance is doubled under Hail.",
+		shortDesc: "Frost covers the ground around the foe, randomly freezing foes who switch in. Max 5 Layers.",
 	},
 	petalblizzard: {
 		name: "Petal Blizzard",
@@ -4743,6 +4818,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Retaliate",
 		desc: "Power doubles if one of the user's party members fainted last turn.",
 		shortDesc: "Power doubles if an ally fainted last turn.",
+	},
+	retrograde: {
+		name: "Retrograde",
+		desc: "The target, if they are a Mega Pokémon, is reverted to its basic form.",
+		shortDesc: "Retrograde reverts Mega Evolved Pokémon back to their base form.",
 	},
 	return: {
 		name: "Return",
@@ -5602,6 +5682,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		},
 
 		damage: "#roughskin",
+	},
+	spiritaway: {
+		name: "Spirit Away",
+		desc: "On the turn it is selected, Spirit Away takes the target away. While away, the target cannot act. While away, both the user and the target avoid any move targeted at them. The next turn, the target is brought back and receives damage. Spirit Away will fail if the target is behind a substitute, or if used on a target that is already semi-invulnerable due to moves such as Fly, Bounce, Sky Drop, or another Spirit Away.",
+		shortDesc: "The target is whisked away, returning on the next turn. The target cannot attack during this time.",
 	},
 	spiritbreak: {
 		name: "Spirit Break",
@@ -6701,6 +6786,11 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "If the target lost HP, the user takes recoil damage equal to 1/4 the HP lost by the target, rounded half up, but not less than 1 HP.",
 		shortDesc: "Has 1/4 recoil.",
 	},
+	wildefire: {
+		name: "Wildfire",
+		desc: "Wildfire is a status move that inflicts burns on the target if it manages to hit them. It will hit both targets in double battles. Additionally, if the target is a Grass-type Pokémon, Wildfire will also burn every Pokémon in the target player's party that possesses a weakness to Fire-type attacks.",
+		shortDesc: "Burns the foe. If it is a Grass-type Pokemon, burns all Pokemon in their party weak to fire.",
+	}
 	willowisp: {
 		name: "Will-O-Wisp",
 		desc: "Burns the target.",
@@ -6744,6 +6834,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Work Up",
 		desc: "Raises the user's Attack and Special Attack by 1 stage.",
 		shortDesc: "Raises the user's Attack and Sp. Atk by 1.",
+	},
+	wormhole: {
+		name: "Wormhole",
+		shortDesc: "Wormhole inflicts damage. It has a priority of +1, so it is used before all moves that do not have increased priority.",
 	},
 	worryseed: {
 		name: "Worry Seed",
@@ -6829,5 +6923,10 @@ export const MovesText: {[k: string]: MoveText} = {
 			desc: "Will always result in a critical hit.",
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
+	},
+	zombiestrike: {
+		name: "Zombie Strike",
+		desc: "As Zombie Strike cannot currently be taught to the player's Pokémon through level up, using TMs or move tutors, the only instance where it can be encountered in-game is against Waiter Franklin's Marowak in the Memory Chamber.",
+		shortDesc: "Zombie Strike inflicts damage and has no secondary effect.",
 	},
 };
