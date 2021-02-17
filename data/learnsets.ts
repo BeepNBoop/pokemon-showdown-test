@@ -56131,6 +56131,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifloondelta: {
 		learnset: {
+			mysticalfire: ["8L1"],
+			strengthsap: ["8L1"],
+			scorchingsands: ["8L1"],
 			vacuumwave: ["8L1"],
 			ember: ["8L1"],
 			flameburst: ["8L1"],
@@ -56302,6 +56305,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifblimdelta: {
 		learnset: {
+			mysticalfire: ["8L1"],
+			strengthsap: ["8L1"],
+			scorchingsands: ["8L1"],
 			vacuumwave: ["8L1"],
 			heatwave: ["8L1"],
 			ember: ["8L1"],
