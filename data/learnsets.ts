@@ -87946,6 +87946,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minior: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["7M"],
 			ancientpower: ["7L17"],
@@ -89497,6 +89498,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lunala: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			darkmatter: ["8L1"],
@@ -90115,6 +90117,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozma: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -90233,6 +90236,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magearna: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			afteryou: ["7T"],
 			agility: ["8M"],
 			aurasphere: ["8M", "8L66", "7L81"],
@@ -94111,6 +94115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dracozolt: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			livewire: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -94180,6 +94185,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctozolt: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			livewire: ["8L1"],
 			ancientpower: ["8L21"],
 			avalanche: ["8M", "8L35"],
@@ -94303,6 +94309,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctovish: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			ancientpower: ["8L21"],
 			auroraveil: ["8L35"],
 			avalanche: ["8M"],
@@ -94356,6 +94363,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duraludon: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			attract: ["8M"],
@@ -95266,6 +95274,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spectrier: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
 			agility: ["8M", "8L48"],
 			assurance: ["8M"],
@@ -95494,6 +95503,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	calyrexshadow: {
 		learnset: {
+			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
 			agility: ["8M", "8L1", "8S0"],
 			allyswitch: ["8M"],
