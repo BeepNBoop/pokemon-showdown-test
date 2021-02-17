@@ -30787,6 +30787,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooperdelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			grassyglide: ["8L1"],
 			snatch: ["8L1"],
 			thief: ["8L1"],
 			ember: ["8L1"],
@@ -30970,11 +30972,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quagsiredelta: {
 		learnset: {
+			stompingtantrum: ["8L1"],
+			grassyglide: ["8L1"],
+			mysticalfire: ["8L1"],
 			snatch: ["8L1"],
 			thief: ["8L1"],
 			ember: ["8L1"],
 			willowisp: ["8L1"],
-			mysticalfire: ["8L1"],
 			heatcrash: ["8L1"],
 			trickortreat: ["8L1"],
 			leechseed: ["8L1"],
