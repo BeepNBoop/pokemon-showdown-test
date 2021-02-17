@@ -11379,6 +11379,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacooldelta: {
 		learnset: {
+			firstimpression: ["8L1"],
+			strengthsap: ["8L1"],
+			corrosivegas: ["8L1"],
+			snaptrap: ["8L1"],
 			infestation: ["8L1"],
 			vinewhip: ["8L1"],
 			razorleaf: ["8L1"],
@@ -11543,6 +11547,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacrueldelta: {
 		learnset: {
+			firstimpression: ["8L1"],
+			strengthsap: ["8L1"],
+			corrosivegas: ["8L1"],
+			snaptrap: ["8L1"],
 			infestation: ["8L1"],
 			vinewhip: ["8L1"],
 			razorleaf: ["8L1"],
