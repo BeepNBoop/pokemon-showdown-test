@@ -37064,6 +37064,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torchicdelta: {
 		learnset: {
+			psychicterrain: ["8L1"],
+			throatchop: ["8L1"],
+			expandingforce: ["8L1"],
+			mysticalfire: ["8L1"],
 			peck: ["8L1"],
 			scratch: ["8L1"],
 			growl: ["8L1"],
@@ -37251,6 +37255,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combuskendelta: {
 		learnset: {
+			psychicterrain: ["8L1"],
+			throatchop: ["8L1"],
+			expandingforce: ["8L1"],
+			mysticalfire: ["8L1"],
 			peck: ["8L1"],
 			scratch: ["8L1"],
 			growl: ["8L1"],
@@ -37474,6 +37482,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blazikendelta: {
 		learnset: {
+			psychicterrain: ["8L1"],
+			throatchop: ["8L1"],
+			expandingforce: ["8L1"],
+			mysticalfire: ["8L1"],
+			dualwingbeat: ["8L1"],
 			airslash: ["8L1"],
 			hurricane: ["8L1"],
 			peck: ["8L1"],
