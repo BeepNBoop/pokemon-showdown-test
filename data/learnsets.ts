@@ -85916,6 +85916,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			bite: ["8L10", "7L9"],
 			blizzard: ["8M", "7M"],
 			brine: ["8M"],
+			corrode: ["8L1"],
 			confide: ["7M"],
 			covet: ["7T"],
 			doubleteam: ["7M"],
@@ -85978,6 +85979,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxapex: {
 		learnset: {
+			corrode: ["8L1"],
 			afteryou: ["7T"],
 			attract: ["8M", "7M"],
 			banefulbunker: ["8L0", "7L1"],
@@ -86650,6 +86652,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salandit: {
 		learnset: {
+			corrode: ["8L1"],
 			attract: ["8M", "7M"],
 			beatup: ["8M"],
 			belch: ["8E", "7E"],
@@ -86718,6 +86721,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salazzle: {
 		learnset: {
+			corrode: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			attract: ["8M", "7M"],
 			beatup: ["8M"],
@@ -87828,6 +87832,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silvally: {
 		learnset: {
+			corrode: ["8L1"],
 			aerialace: ["8L1", "7M", "7L20"],
 			airslash: ["8M", "8L30", "7L60"],
 			bite: ["8L1", "7L15"],
@@ -89548,6 +89553,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nihilego: {
 		learnset: {
+			corrode: ["8L1"],
 			acid: ["8L5", "7L1"],
 			acidspray: ["8L15", "8S2", "7L47", "7S0", "7S1"],
 			allyswitch: ["8M", "7T"],
@@ -90430,6 +90436,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poipole: {
 		learnset: {
+			corrode: ["8L1"],
 			acid: ["8L1", "8S2", "7L1"],
 			charm: ["8M", "8L21", "7L19", "7S0"],
 			confide: ["7M"],
@@ -90477,6 +90484,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	naganadel: {
 		learnset: {
+			corrode: ["8L1"],
 			acid: ["8L1", "7L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
@@ -92675,6 +92683,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxtricity: {
 		learnset: {
+			corrode: ["8L1"],
 			ancientroar: ["8L1"],
 			acid: ["8L1"],
 			acidspray: ["8L1"],
@@ -94611,6 +94620,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eternatus: {
 		learnset: {
+			corrode: ["8L1"],
 			agility: ["8M", "8L1"],
 			assurance: ["8M"],
 			brutalswing: ["8M"],
