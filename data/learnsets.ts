@@ -2289,6 +2289,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeydelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			brutalswing: ["8L1"],
+			smartstrike: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			lashout: ["8L1"],
+			dualwingbeat: ["8L1"],
 			snarl: ["8L1"],
 			pursuit: ["8L1"],
 			suckerpunch: ["8L1"],
@@ -2469,6 +2477,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeottodelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			brutalswing: ["8L1"],
+			smartstrike: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			lashout: ["8L1"],
+			dualwingbeat: ["8L1"],
 			snarl: ["8L1"],
 			pursuit: ["8L1"],
 			suckerpunch: ["8L1"],
@@ -2648,6 +2664,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeotdelta: {
 		learnset: {
+			laserfocus: ["8L1"],
+			brutalswing: ["8L1"],
+			smartstrike: ["8L1"],
+			bodypress: ["8L1"],
+			breakingswipe: ["8L1"],
+			burningjealousy: ["8L1"],
+			lashout: ["8L1"],
+			dualwingbeat: ["8L1"],
 			snarl: ["8L1"],
 			pursuit: ["8L1"],
 			suckerpunch: ["8L1"],
