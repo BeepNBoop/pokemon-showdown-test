@@ -8341,6 +8341,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diglettdelta: {
 		learnset: {
+			auroraveil: ["8L1"],
+			smartstrike: ["8L1"],
+			psychicfangs: ["8L1"],
+			terrainpulse: ["8L1"],
+			skittersmack: ["8L1"],
 			astonish: ["8L1"],
 			dig: ["8L1"],
 			powdersnow: ["8L1"],
@@ -8569,6 +8574,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dugtriodelta: {
 		learnset: {
+			auroraveil: ["8L1"],
+			smartstrike: ["8L1"],
+			psychicfangs: ["8L1"],
+			terrainpulse: ["8L1"],
+			skittersmack: ["8L1"],
 			astonish: ["8L1"],
 			rototiller: ["8L1"],
 			dig: ["8L1"],
