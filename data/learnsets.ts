@@ -27062,6 +27062,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chikorita: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			ancientpower: ["7E", "7V", "6E", "5E", "4T", "4E", "3E", "3S1"],
 			aromatherapy: ["7L42", "7E", "6L42", "6E", "5L42", "5E", "4L42", "4E"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27139,6 +27141,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bayleef: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			aromatherapy: ["7L50", "6L50", "5L50", "4L50"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27203,6 +27207,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meganium: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			aromatherapy: ["7L60", "6L60", "5L60", "4L60"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27281,6 +27287,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cyndaquil: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27359,6 +27367,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cyndaquildelta: {
 		learnset: {
+			custommove: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27434,6 +27443,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilava: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27501,6 +27512,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilavadelta: {
 		learnset: {
+			custommove: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27589,6 +27601,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typhlosion: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -27685,6 +27699,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typhlosiondelta: {
 		learnset: {
+			custommove: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27785,6 +27800,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	totodile: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["7E", "7V", "6E", "5E", "4T", "4E", "3E"],
@@ -27884,6 +27901,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	croconaw: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["4T"],
@@ -27973,6 +27992,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	feraligatr: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -28080,6 +28101,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sentret: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			amnesia: ["7L36", "7V", "6L36", "5L36", "4L36", "3L49"],
 			aquatail: ["7T", "6T", "5T", "4T"],
 			assist: ["7E", "6E", "5E", "4E", "3E"],
@@ -28176,6 +28199,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	furret: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L1"],
 			amnesia: ["7L42", "7V", "6L42", "5L42", "4L42", "3L59"],
@@ -28275,6 +28300,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoothoot: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "7E", "6E", "5E", "4E"],
@@ -28370,6 +28397,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoothootdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			auroraveil: ["8L1"],
 			dualwingbeat: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -28438,6 +28466,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noctowl: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],
@@ -28528,6 +28558,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noctowldelta: {
 		learnset: {
+			custommove: ["8L1"],
 			auroraveil: ["8L1"],
 			dualwingbeat: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -28598,6 +28629,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ledyba: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M", "3S0"],
@@ -28683,6 +28716,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ledian: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -28765,6 +28800,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spinarak: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["7L5"],
 			agility: ["7L33", "7V", "6L33", "5L33", "4L33", "3L45"],
@@ -28847,6 +28884,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ariados: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["7L1"],
 			agility: ["7L37", "7V", "6L37", "5L37", "4L37", "3L53"],
@@ -28925,6 +28964,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chinchou: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M", "7E", "6E", "5E", "4E"],
@@ -29000,6 +29041,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chinchoudelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burningjealousy: ["8L1"],
 			poltergeist: ["8L1"],
 			tailglow: ["8L1"],
@@ -29075,6 +29117,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lanturn: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -29160,6 +29204,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lanturndelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burningjealousy: ["8L1"],
 			poltergeist: ["8L1"],
 			tailglow: ["8L1"],
@@ -29242,6 +29287,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togepi: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			aerialace: ["8E"],
@@ -29353,6 +29400,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togetic: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -29475,6 +29524,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togekiss: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -29599,6 +29650,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	natu: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M", "3S0"],
 			aircutter: ["4T"],
@@ -29700,6 +29753,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xatu: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aircutter: ["4T"],
@@ -29802,6 +29857,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mareep: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			afteryou: ["7T", "7E", "6T", "6E", "5T", "5E"],
 			agility: ["7E", "6E", "5E"],
@@ -29877,6 +29934,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flaaffy: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -29954,6 +30013,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ampharos: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			dragonify: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -30040,6 +30101,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	azurill: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8E"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -30116,6 +30179,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marill: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "7E", "7V", "6E", "5E", "4E", "3E"],
 			aquajet: ["8E", "7E", "6E", "5E", "5D", "4E"],
@@ -30218,6 +30283,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	azumarill: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M"],
 			aquaring: ["8L30", "7L31", "6L31", "5L27", "4L27"],
@@ -30317,6 +30384,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bonsly: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
 			block: ["8L12", "7T", "7L29", "6T", "6L26", "5T", "5L22", "4T", "4L22"],
@@ -30382,6 +30451,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sudowoodo: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			block: ["8L12", "7T", "7L29", "6T", "6L26", "5T", "5L22", "4T", "4L22", "3L33"],
@@ -30473,6 +30544,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoppip: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L28", "6M", "6L28", "5M", "5L28"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -30548,6 +30621,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skiploom: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L32", "6M", "6L32", "5M", "5L32"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -30614,6 +30689,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jumpluff: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L34", "6M", "6L34", "5M", "5L34"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -30683,6 +30760,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aipom: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["7L29", "7E", "7V", "6L29", "6E", "5L29", "5E", "4L29", "4E", "3L50", "3E"],
@@ -30793,6 +30872,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aipomdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			stompingtantrum: ["8L1"],
 			poltergeist: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -30917,6 +30997,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ambipom: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			agility: ["7L29", "6L29", "5L29", "4L29"],
@@ -31005,6 +31087,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ambipomdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			stompingtantrum: ["8L1"],
 			poltergeist: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -31132,6 +31215,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunkern: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S0"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -31194,6 +31279,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunkerndelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			strengthsap: ["8L1"],
@@ -31276,6 +31362,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunflora: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -31338,6 +31426,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunfloradelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			strengthsap: ["8L1"],
@@ -31431,6 +31520,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanma: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aircutter: ["4T"],
@@ -31499,6 +31590,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmadelta: {
 		learnset: {
+			custommove: ["8L1"],
 			dualwingbeat: ["8L1"],
 			solarblade: ["8L1"],
 			grassyglide: ["8L1"],
@@ -31580,6 +31672,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmega: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dragonify: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -31649,6 +31743,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmegadelta: {
 		learnset: {
+			custommove: ["8L1"],
 			dualwingbeat: ["8L1"],
 			solarblade: ["8L1"],
 			grassyglide: ["8L1"],
@@ -31736,6 +31831,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooper: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidspray: ["8E", "7E", "6E", "5E"],
 			afteryou: ["8E", "7T", "7E", "6T", "6E", "5T", "5E"],
@@ -31823,6 +31920,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooperdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			snatch: ["8L1"],
@@ -31911,6 +32009,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quagsire: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			amnesia: ["8M", "8L40", "7L24", "7V", "6L24", "5L24", "4L24", "3L23"],
@@ -32009,6 +32109,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quagsiredelta: {
 		learnset: {
+			custommove: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			mysticalfire: ["8L1"],
@@ -32109,6 +32210,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	murkrow: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -32199,6 +32302,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	honchkrow: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -32275,6 +32380,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreavus: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -32370,6 +32477,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreavusdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			darkmatter: ["8L1"],
 			lifedew: ["8L1"],
 			mistyexplosion: ["8L1"],
@@ -32457,6 +32565,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mismagius: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -32537,6 +32647,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mismagiusdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			lifedew: ["8L1"],
 			mistyexplosion: ["8L1"],
 			mistyterrain: ["8L1"],
@@ -32630,6 +32741,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	unown: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			hiddenpower: ["7M", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
 		encounters: [
@@ -32641,6 +32754,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wynaut: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			amnesia: ["8M", "8L1"],
 			charm: ["8M", "8L1", "7L1", "6L1", "5L1", "4L1", "3L1", "3S0"],
 			counter: ["8L1", "7L15", "6L15", "5L15", "4L15", "3L15"],
@@ -32657,6 +32772,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wobbuffet: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			amnesia: ["8M", "8L1"],
 			charm: ["8M", "8L1", "5D"],
 			counter: ["8L0", "7L1", "7V", "6L1", "6S2", "6S3", "5L1", "4L1", "3L1", "3S0", "3S1"],
@@ -32679,6 +32796,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	girafarig: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			agility: ["7L23", "7V", "6L14", "5L14", "4L14", "3L31"],
 			allyswitch: ["7T"],
 			amnesia: ["7E", "7V", "6E", "5E", "4E", "3E"],
@@ -32781,6 +32900,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	girafarigdelta: {
 		learnset: {
+			custommove: ["8L1"],
 			psychicfangs: ["8L1"],
 			smartstrike: ["8L1"],
 			corrosivegas: ["8L1"],
@@ -32887,6 +33007,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pineco: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7L20", "7V", "6L20", "5L20", "4L17", "3L29"],
 			bodyslam: ["3T"],
@@ -32962,6 +33084,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	forretress: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			autotomize: ["7L1", "6L32", "5L32"],
@@ -33044,6 +33168,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dunsparce: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M", "7E", "6E", "5E", "4E"],
@@ -33148,6 +33274,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dunsparcedelta: {
 		learnset: {
+			custommove: ["8L1"],
 			firstimpression: ["8L1"],
 			liquidation: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -33250,6 +33377,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gligar: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["7M", "7L22", "6M", "6L22", "5M", "5L27"],
@@ -33350,6 +33479,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gliscor: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["7M", "7L22", "6M", "6L22", "5M", "5L27"],
@@ -33436,6 +33567,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snubbull: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -33543,6 +33676,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	granbull: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -33654,6 +33789,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	qwilfish: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
 			acidspray: ["8E", "7E", "6E", "5E"],
@@ -33751,6 +33888,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shuckle: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			acid: ["8E", "7E", "6E", "5E"],
 			acupressure: ["8E", "7E", "6E", "5E", "4E"],
 			afteryou: ["7T", "6T", "5T"],
@@ -33840,6 +33979,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shuckledelta: {
 		learnset: {
+			custommove: ["8L1"],
 			brutalswing: ["8L1"],
 			coaching: ["8L1"],
 			steelbeam: ["8L1"],
@@ -33931,6 +34071,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heracross: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			aerialace: ["8L15", "7M", "7L10", "6M", "6L10", "5M", "5L13", "4M", "4L13"],
 			armthrust: ["7L1", "6L1"],
 			assurance: ["8M"],
@@ -34029,6 +34171,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sneasel: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -34144,6 +34288,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weavile: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -34252,6 +34398,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	teddiursa: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			babydolleyes: ["7L1", "6L1"],
@@ -34358,6 +34506,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ursaring: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			avalanche: ["4M"],
@@ -34460,6 +34610,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slugma: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			acidarmor: ["7E", "7V", "6E", "5E", "4E", "3E"],
 			afteryou: ["7T", "6T", "5T"],
@@ -34530,6 +34682,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magcargo: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			amnesia: ["7L36", "7V", "6L32", "5L32", "4L31", "3L29"],
@@ -34615,6 +34769,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swinub: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L35", "7L48", "7V", "6L48", "5L49", "4L49", "3L55"],
 			ancientpower: ["8E", "7E", "7V", "6E", "5E", "5D", "4T", "4E", "3E", "3S0"],
@@ -34691,6 +34847,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	piloswine: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L37", "7L58", "7V", "6L58", "5L65", "4L65", "3L70"],
 			ancientpower: ["8L1", "7L1", "6L1", "5L1", "4T", "4L1"],
@@ -34772,6 +34930,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mamoswine: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L37"],
 			ancientpower: ["8L1", "7L1", "6L1", "5L1", "4T", "4L1"],
@@ -34858,6 +35018,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corsola: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "7E", "7V", "6E", "5E", "4E", "3E"],
 			ancientpower: ["8L20", "7L17", "7V", "6L17", "5L32", "4T", "4L32", "3L45"],
@@ -34962,6 +35124,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corsolagalar: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
 			amnesia: ["8M"],
@@ -35038,6 +35202,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cursola: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -35114,6 +35280,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	remoraid: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			permafrost: ["8L1"],
 			acidspray: ["8E", "7E", "6E", "5E"],
@@ -35192,6 +35360,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	remoraiddelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burnup: ["8L1"],
 			bodypress: ["8L1"],
 			octolock: ["8L1"],
@@ -35270,6 +35439,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	octillery: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			permafrost: ["8L1"],
 			assurance: ["8M"],
@@ -35362,6 +35533,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	octillerydelta: {
 		learnset: {
+			custommove: ["8L1"],
 			burnup: ["8L1"],
 			bodypress: ["8L1"],
 			octolock: ["8L1"],
@@ -35458,6 +35630,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	delibird: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],
@@ -35552,6 +35726,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mantyke: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -35621,6 +35797,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mantine: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -35717,6 +35895,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skarmory: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -35806,6 +35986,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndour: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -35898,6 +36080,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndoom: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			darkmatter: ["8L1"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -35988,6 +36172,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phanpy: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			ancientpower: ["7E", "7V", "6E", "5E", "4T", "4E", "3E"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bodyslam: ["7E", "7V", "6E", "5E", "4E", "3T", "3E"],
@@ -36059,6 +36245,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	donphan: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			assurance: ["7L15", "6L15", "5L31", "4L31"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -36138,6 +36326,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stantler: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			astonish: ["7L7", "6L7", "5L7", "4L7", "3L11"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bite: ["7E", "7V", "6E", "5E", "4E", "3E"],
@@ -36232,6 +36422,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	smeargle: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			captivate: ["5D"],
 			falseswipe: ["5S1"],
 			flamethrower: ["6S2"],
@@ -36251,6 +36443,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	miltank: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["8M", "7M", "7V", "6M", "6S0", "5M", "4M", "3M"],
@@ -36358,6 +36552,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raikou: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
 			aurasphere: ["8M", "4S3"],
@@ -36458,6 +36654,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	entei: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			agility: ["8M"],
 			bite: ["8L12", "7L1", "7V", "7S5", "7S6", "6L1", "5L1", "4L1", "3L1"],
@@ -36559,6 +36757,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	suicune: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
 			agility: ["8M"],
@@ -36659,6 +36859,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	larvitar: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			ancientpower: ["8E", "7E", "7V", "6E", "5E", "4T", "4E", "3E"],
 			assurance: ["8M", "7E", "6E", "5E", "4E"],
@@ -36742,6 +36944,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pupitar: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			ancientpower: ["4T"],
 			assurance: ["8M"],
@@ -36819,6 +37023,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyranitar: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			dracojet: ["8L1"],
@@ -36966,6 +37172,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyranitararmored: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			lunarcannon: ["8L1"],
 			dracojet: ["8L1"],
@@ -37112,6 +37320,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lugia: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -37248,6 +37458,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hooh: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -37370,6 +37582,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	celebi: {
 		learnset: {
+			custommove: ["8L1"],
+			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			allyswitch: ["8M", "7T"],
 			ancientpower: ["8L30", "7L28", "7V", "7S7", "6L28", "5L28", "4T", "4L28", "3L20", "3S1", "3S3"],
