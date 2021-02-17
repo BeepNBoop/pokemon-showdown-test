@@ -17375,6 +17375,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	koffingdelta: {
 		learnset: {
+			zingzap: ["8L1"],
+			overdrive: ["8L1"],
+			risingvoltage: ["8L1"],
+			steelroller: ["8L1"],
 			charge: ["8L1"],
 			tackle: ["8L1"],
 			gust: ["8L1"],
@@ -17606,6 +17610,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weezingdelta: {
 		learnset: {
+			zingzap: ["8L1"],
+			overdrive: ["8L1"],
+			risingvoltage: ["8L1"],
+			steelroller: ["8L1"],
 			bellydrum: ["8L1"],
 			charge: ["8L1"],
 			tackle: ["8L1"],
