@@ -84136,6 +84136,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	litten: {
 		learnset: {
+			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			attract: ["8M", "7M"],
 			bite: ["8L15", "7L22"],
@@ -84198,6 +84199,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torracat: {
 		learnset: {
+			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			attract: ["8M", "7M"],
 			bite: ["8L15", "7L24"],
@@ -84258,6 +84260,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	incineroar: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -85665,7 +85668,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanroc: {
 		learnset: {
-			newmoon: ["8L1"],
+			wildfire: ["8L1"],
 			accelerock: ["8L1", "7L1"],
 			agility: ["8M"],
 			assurance: ["8M"],
@@ -85735,6 +85738,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanrocmidnight: {
 		learnset: {
+			wildfire: ["8L1"],
+			newmoon: ["8L1"],
 			attract: ["8M", "7M"],
 			bite: ["8L20", "7L1"],
 			brickbreak: ["8M", "7M"],
@@ -85816,6 +85821,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanrocdusk: {
 		learnset: {
+			wildfire: ["8L1"],
 			accelerock: ["8L1", "7L1"],
 			attract: ["8M", "7M"],
 			bite: ["8L20", "7L1"],
@@ -86688,6 +86694,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salandit: {
 		learnset: {
+			wildfire: ["8L1"],
 			corrode: ["8L1"],
 			attract: ["8M", "7M"],
 			beatup: ["8M"],
@@ -86757,6 +86764,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salazzle: {
 		learnset: {
+			wildfire: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			corrode: ["8L1"],
@@ -87633,6 +87641,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandygast: {
 		learnset: {
+			wildfire: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			afteryou: ["7T"],
 			amnesia: ["8M", "7E"],
@@ -87697,6 +87706,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	palossand: {
 		learnset: {
+			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			afteryou: ["7T"],
@@ -88092,6 +88102,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	turtonator: {
 		learnset: {
+			wildfire: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			attract: ["8M", "7M"],
@@ -88332,6 +88343,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mimikyu: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			afteryou: ["7T"],
 			astonish: ["8L1", "7L1", "7S0", "7S1"],
@@ -89072,6 +89084,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapukoko: {
 		learnset: {
+			wildfire: ["8L1"],
 			livewire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
@@ -90425,6 +90438,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marshadow: {
 		learnset: {
+			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			agility: ["8M"],
 			assurance: ["8M", "8L36", "7L1"],
@@ -90726,6 +90740,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blacephalon: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
 			afteryou: ["7T"],
@@ -91147,6 +91162,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scorbunny: {
 		learnset: {
+			wildfire: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L20"],
 			allyswitch: ["8M"],
@@ -91249,6 +91265,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cinderace: {
 		learnset: {
+			wildfire: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L24"],
 			allyswitch: ["8M"],
@@ -91813,6 +91830,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nickit: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			agility: ["8M"],
 			assurance: ["8M", "8L16"],
@@ -91853,6 +91871,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	thievul: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M"],
@@ -92260,6 +92279,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rolycoly: {
 		learnset: {
+			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
 			attract: ["8M"],
 			block: ["8E"],
@@ -92300,6 +92320,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carkol: {
 		learnset: {
+			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
 			attract: ["8M"],
 			bodypress: ["8M"],
@@ -92350,6 +92371,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	coalossal: {
 		learnset: {
+			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
 			attract: ["8M"],
 			bodypress: ["8M"],
@@ -92922,6 +92944,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sizzlipede: {
 		learnset: {
+			wildfire: ["8L1"],
 			attract: ["8M"],
 			bite: ["8L10"],
 			brutalswing: ["8M"],
@@ -92963,6 +92986,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	centiskorch: {
 		learnset: {
+			wildfire: ["8L1"],
 			attract: ["8M"],
 			bite: ["8L1"],
 			brutalswing: ["8M"],
@@ -93348,6 +93372,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	impidimp: {
 		learnset: {
+			wildfire: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
 			assurance: ["8M", "8L16"],
@@ -93393,6 +93418,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	morgrem: {
 		learnset: {
+			wildfire: ["8L1"],
 			permafrost: ["8L1"],
 			newmoon: ["8L1"],
 			assurance: ["8M", "8L16"],
@@ -93443,6 +93469,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimmsnarl: {
 		learnset: {
+			wildfire: ["8L1"],
 			permafrost: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -94413,6 +94440,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duraludon: {
 		learnset: {
+			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -94771,6 +94799,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eternatus: {
 		learnset: {
+			wildfire: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
 			darkmatter: ["8L1"],
