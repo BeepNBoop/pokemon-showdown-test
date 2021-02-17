@@ -30140,6 +30140,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunkerndelta: {
 		learnset: {
+			burnup: ["8L1"],
+			firelash: ["8L1"],
+			strengthsap: ["8L1"],
+			tearfullook: ["8L1"],
+			corrosivegas: ["8L1"],
+			burningjealousy: ["8L1"],
 			absorb: ["8L1"],
 			growth: ["8L1"],
 			ingrain: ["8L1"],
@@ -30278,6 +30284,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunfloradelta: {
 		learnset: {
+			burnup: ["8L1"],
+			firelash: ["8L1"],
+			strengthsap: ["8L1"],
+			tearfullook: ["8L1"],
+			corrosivegas: ["8L1"],
+			burningjealousy: ["8L1"],
 			pound: ["8L1"],
 			absorb: ["8L1"],
 			growth: ["8L1"],
