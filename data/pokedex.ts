@@ -13556,6 +13556,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cofagrigusdelta: {
 		num: 563,
 		name: "Cofagrigus-Delta",
+		baseSpecies: "Cofagrigus",
+		forme: "Delta",
 		types: ["Steel", "Poison"],
 		baseStats: {hp: 58, atk: 50, def: 145, spa: 95, spd: 105, spe: 30},
 		abilities: {0: "Aftermath", 1: "Infiltrator", H: "Wonder Skin"},
