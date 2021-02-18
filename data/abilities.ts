@@ -3326,7 +3326,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regurgitation: {
 		onResidual(pokemon) {
-			if (pokemon.species.baseSpecies !== 'Muk-Delta' || pokemon.transformed) return;
+			if (pokemon.species.baseSpecies !== ('Muk' || 'Muk-Delta') || pokemon.transformed) return;
 			const result = this.random(6);
 				if (result === 0) {
 					pokemon.formeChange('mukdeltawater');
