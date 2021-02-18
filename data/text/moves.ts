@@ -4803,8 +4803,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
 		shortDesc: "User cures its burn, poison, or paralysis.",
 	},
-	regurgitation: {
-		name: "Regurgitation",
+	regurgitate: {
+		name: "Regurgitate",
 		shortDesc: "Delta Muk's ability's corresponding move.",
 	},
 	relicsong: {

@@ -3345,8 +3345,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onAfterHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
 			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
-				let move = 'regurgitation';
-				this.useMove(move, target);
+				let move = 'regurgitate';
+				this.useMove(move, target, source);
 				return null;
 			}
 		},
