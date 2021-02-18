@@ -17982,7 +17982,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Oranguru",
 		types: ["Normal", "Psychic"],
 		baseStats: {hp: 90, atk: 60, def: 80, spa: 90, spd: 110, spe: 60},
-		abilities: {0: "Inner Focus", 1: "Telepathy", H: "Symbiosis"},
+		abilities: {0: "Athenian", 1: "Telepathy", H: "Symbiosis"},
 		heightm: 1.5,
 		weightkg: 76,
 		color: "White",
