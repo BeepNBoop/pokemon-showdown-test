@@ -87513,6 +87513,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["8L1"],
 			zenheadbutt: ["8L1"],
 		},
+		eventOnly: true,
 	},
 	hoopaunbound: {
 		eventOnly: true,
