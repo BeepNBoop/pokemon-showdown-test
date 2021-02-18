@@ -8575,7 +8575,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	diglettdelta: {
 		learnset: {
 			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			auroraveil: ["8L1"],
 			smartstrike: ["8L1"],
 			psychicfangs: ["8L1"],
@@ -13922,7 +13921,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
-			livewire: ["8L1"],
 			livewire: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			barrier: ["7L1", "6L1", "5L1", "4L1"],
@@ -20897,7 +20895,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	scizordelta: {
 		learnset: {
 			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],
@@ -47211,8 +47208,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
-			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			wildefire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			amnesia: ["7L19", "6L19", "5L31", "4L25", "3L31"],
@@ -50073,10 +50068,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
-			brutalswing: ["8L1"],
-			skittersmack: ["8L1"],
 			poltergeist: ["8L1"],
-			tripleaxel: ["8L1"],
 			aquaring: ["8L12", "7L17", "6L21", "5L49", "4L49"],
 			aquatail: ["8L32", "7T", "7L31", "6T", "6L29", "5T", "5L29", "4T", "4L29"],
 			attract: ["8M", "8L16", "7M", "7L34", "6M", "6L37", "5M", "5L41", "4M", "4L41", "3M", "3L45"],
@@ -55164,7 +55156,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	grotledelta: {
 		learnset: {
 			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			liquidation: ["8L1"],
 			shoreup: ["8L1"],
 			flipturn: ["8L1"],
@@ -67949,7 +67940,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			ember: ["8L1"],
 			willowisp: ["8L1"],
 			flameburst: ["8L1"],
-			mysticalfire: ["8L1"],
 			mist: ["8L1"],
 			recover: ["8L1"],
 			reflecttype: ["8L1"],
@@ -68229,7 +68219,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			entrainment: ["8L1"],
 			flameburst: ["8L1"],
 			mist: ["8L1"],
-			mysticalfire: ["8L1"],
 			reflecttype: ["8L1"],
 			signalbeam: ["8L1"],
 			heatwave: ["8L1"],
@@ -86470,7 +86459,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	avaluggdelta: {
 		learnset: {
 			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			accelerock: ["8L1"],
 			dragonhammer: ["8L1"],
 			smartstrike: ["8L1"],
@@ -99786,7 +99774,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	ufi: {
 		learnset: {
 			custommove: ["8L1"],
-			achillesheel: ["8L1"],
 			psychicterrain: ["8L1"],
 			zingzap: ["8L1"],
 			meteorbeam: ["8L1"],
