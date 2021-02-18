@@ -3342,12 +3342,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					pokemon.formeChange('mukdeltapsychic');
 				}
 		},
-		onAfterHit(source, target, move) {
-			if (['mukdeltawater' || 'mukdeltagrass' || 'mukdeltafire' || 'mukdeltadark' || 'mukdeltanormal' || 'mukdeltapsychic'].includes(source.species.id)) {
-				let move = 'regurgitate';
-				this.useMove(move, target, source);
-				return null;
-			}
+		onAfterHit(source, target) {
+			let move = 'regurgitate';
+			this.useMove(move, target, source);
+			return null;
 		},
 		name: "Regurgitation",
 		rating: 4.5,
