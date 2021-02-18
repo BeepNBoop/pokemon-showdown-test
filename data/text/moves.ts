@@ -6790,7 +6790,7 @@ export const MovesText: {[k: string]: MoveText} = {
 		name: "Wildfire",
 		desc: "Wildfire is a status move that inflicts burns on the target if it manages to hit them. It will hit both targets in double battles. Additionally, if the target is a Grass-type Pokémon, Wildfire will also burn every Pokémon in the target player's party that possesses a weakness to Fire-type attacks.",
 		shortDesc: "Burns the foe. If it is a Grass-type Pokemon, burns all Pokemon in their party weak to fire.",
-	}
+	},
 	willowisp: {
 		name: "Will-O-Wisp",
 		desc: "Burns the target.",
