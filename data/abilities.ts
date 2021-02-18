@@ -3344,22 +3344,22 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onPrepareHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
-			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater'].includes(target.species.id)) {
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Water';
-			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltagrass'].includes(target.species.id)) {
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltagrass'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Grass';
-			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltafire'].includes(target.species.id)) {
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltafire'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Fire';
-			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltadark'].includes(target.species.id)) {
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltadark'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Dark';
-			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltanormal'].includes(target.species.id)) {
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltanormal'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Normal';
-			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltapsychic'].includes(target.species.id)) {
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltapsychic'].includes(source.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Psychic';
 			}
