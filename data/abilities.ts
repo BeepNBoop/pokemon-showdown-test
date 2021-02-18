@@ -3326,7 +3326,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regurgitation: {
 		onResidual(pokemon) {
-			if (pokemon.species.baseSpecies !== ('Muk' || 'Muk-Delta') || pokemon.transformed) return;
+			if (pokemon.species.baseSpecies !== ('Muk' || 'Muk-Delta')) return;
 			const result = this.random(6);
 				if (result === 0) {
 					pokemon.formeChange('mukdeltawater');
@@ -3361,6 +3361,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				move.multihitType = 'Normal';
 			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltapsychic'].includes(source.species.id)) {
 				move.multihit = 2;
+				move.type = 'Psychic',
 				move.multihitType = 'Psychic';
 			}
 		},
