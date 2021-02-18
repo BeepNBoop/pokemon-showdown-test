@@ -3342,9 +3342,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 					pokemon.formeChange('mukdeltapsychic');
 				}
 		},
-		onHit(source, target, move) {
+		onAfterHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
-			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater' || 'mukdeltagrass' || 'mukdeltafire' || 'mukdeltadark' || 'mukdeltanormal' || 'mukdeltapsychic'].includes(source.species.id)) {
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
 				let move = 'regurgitation';
 				this.useMove(move, target);
 				return null;
