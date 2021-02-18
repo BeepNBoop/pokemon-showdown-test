@@ -3345,8 +3345,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
 			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater' || 'mukdeltagrass' || 'mukdeltafire' || 'mukdeltadark' || 'mukdeltanormal' || 'mukdeltapsychic'].includes(source.species.id)) {
-				const regurgitation = this.dex.getMove('regurgitation');
-				this.useMove(regurgitation, target);
+				let move = 'regurgitation';
+				this.useMove(move, target);
 				return null;
 			}
 		},

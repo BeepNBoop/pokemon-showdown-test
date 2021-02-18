@@ -14625,16 +14625,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 	},
 	regurgitation: {
 		num: 865,
-		accuracy: true,
+		accuracy: 100,
 		basePower: 40,
 		category: "Physical",
 		name: "Regurgitation",
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1},
-		onTry(source) {
-			if (!source.hasAbility('regurgitation') || source.species.name === 'Muk-Delta') return false;
-		},
 		onModifyType(move, pokemon) {
 			if (pokemon.species.name === 'Muk-Delta-Water') {
 				move.type = 'Water';
