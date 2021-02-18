@@ -3326,7 +3326,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regurgitation: {
 		onResidual(pokemon) {
-			if (pokemon.species.id !== ('muk' || 'mukdelta' || 'mukdeltawater' || 'mukdeltagrass' || 'mukdeltafire' || 'mukdeltadark' || 'mukdeltanormal' || 'mukdeltapsychic')) return;
+			if (pokemon.species.baseSpecies !== ('Muk' || 'Muk-Delta' || 'Muk-Delta-Water' || 'Muk-Delta-Grass' || 'Muk-Delta-Fire' || 'Muk-Delta-Dark' || 'Muk-Delta-Normal' || 'Muk-Delta-Psychic')) return;
 			const result = this.random(6);
 				if (result === 0) {
 					pokemon.formeChange('mukdeltawater');
