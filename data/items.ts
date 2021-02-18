@@ -1086,6 +1086,20 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 6,
 		isNonstandard: "Past",
 	},
+	crystalfragment: {
+		name: "Crystal Fragment",
+		spritenum: 618,
+		megaStone: "Metagross-Delta-Ruin-Crystal",
+		megaEvolves: "Metagross-Delta-Ruin",
+		itemUser: ["Metagross-Delta-Ruin"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 758,
+		gen: 6,
+		isNonstandard: "Past",
+	},
 	crystalpiece: {
 		name: "Crystal Piece",
 		spritenum: 390,
@@ -1420,6 +1434,34 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: 1233,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltametagrossiteruin: {
+		name: "Delta Metagrossite (Ruin)",
+		spritenum: 618,
+		megaStone: "Metagross-Delta-Ruin-Mega",
+		megaEvolves: "Metagross-Delta-Ruin",
+		itemUser: ["Metagross-Delta-Ruin"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 758,
+		gen: 6,
+		isNonstandard: "Past",
+	},
+	deltametagrossitespider: {
+		name: "Delta Metagrossite (Spider)",
+		spritenum: 618,
+		megaStone: "Metagross-Delta-Spider-Mega",
+		megaEvolves: "Metagross-Delta-Spider",
+		itemUser: ["Metagross-Delta-Spider"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 758,
 		gen: 6,
 		isNonstandard: "Past",
 	},
