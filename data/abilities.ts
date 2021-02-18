@@ -3326,7 +3326,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	regurgitation: {
 		onResidual(pokemon) {
-			if (pokemon.species.baseSpecies !== ('Muk' || 'Muk-Delta' || 'Muk-Delta-Water' || 'Muk-Delta-Grass' || 'Muk-Delta-Fire' || 'Muk-Delta-Dark' || 'Muk-Delta-Normal' || 'Muk-Delta-Psychic')) return;
+			if (pokemon.species.baseSpecies !== 'Muk'|| pokemon.transformed) return;
 			const result = this.random(6);
 				if (result === 0) {
 					pokemon.formeChange('mukdeltawater');
@@ -3345,7 +3345,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
 			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater' || 'mukdeltagrass' || 'mukdeltafire' || 'mukdeltadark' || 'mukdeltanormal' || 'mukdeltapsychic'].includes(source.species.id)) {
-				this.useMove('regurgitation', target);
+				const regurgitation = this.dex.getMove('regurgitation');
+				this.useMove(regurgitation, target);
+				return null;
 			}
 		},
 		name: "Regurgitation",

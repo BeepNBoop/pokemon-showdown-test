@@ -2587,7 +2587,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltawater: {
 		num: 89,
 		name: "Muk-Delta-Water",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Water",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
@@ -2605,7 +2605,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltagrass: {
 		num: 89,
 		name: "Muk-Delta-Grass",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Grass",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
@@ -2623,7 +2623,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltafire: {
 		num: 89,
 		name: "Muk-Delta-Fire",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Fire",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
@@ -2641,7 +2641,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltadark: {
 		num: 89,
 		name: "Muk-Delta-Dark",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Dark",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
@@ -2659,7 +2659,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltanormal: {
 		num: 89,
 		name: "Muk-Delta-Normal",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Normal",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
@@ -2677,7 +2677,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mukdeltapsychic: {
 		num: 89,
 		name: "Muk-Delta-Psychic",
-		baseSpecies: "Muk-Delta",
+		baseSpecies: "Muk",
 		forme: "Delta-Psychic",
 		types: ["Ground"],
 		baseStats: {hp: 105, atk: 105, def: 75, spa: 65, spd: 100, spe: 50},
