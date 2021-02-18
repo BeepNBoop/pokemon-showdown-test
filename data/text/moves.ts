@@ -4803,6 +4803,10 @@ export const MovesText: {[k: string]: MoveText} = {
 		desc: "The user cures its burn, poison, or paralysis. Fails if the user is not burned, poisoned, or paralyzed.",
 		shortDesc: "User cures its burn, poison, or paralysis.",
 	},
+	regurgitation: {
+		name: "Regurgitation",
+		shortDesc: "Delta Muk's ability's corresponding move.",
+	},
 	relicsong: {
 		name: "Relic Song",
 		desc: "Has a 10% chance to cause the target to fall asleep. If this move is successful on at least one target and the user is a Meloetta, it changes to Pirouette Forme if it is currently in Aria Forme, or changes to Aria Forme if it is currently in Pirouette Forme. This forme change does not happen if the Meloetta has the Sheer Force Ability. The Pirouette Forme reverts to Aria Forme when Meloetta is not active.",

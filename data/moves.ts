@@ -14623,6 +14623,38 @@ export const Moves: {[moveid: string]: MoveData} = {
 		zMove: {effect: 'heal'},
 		contestType: "Cute",
 	},
+	regurgitation: {
+		num: 865,
+		accuracy: true,
+		basePower: 40,
+		category: "Physical",
+		name: "Regurgitation",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1},
+		onTry(source) {
+			if (!source.hasAbility('regurgitation') || source.species.name === 'Muk-Delta') return false;
+		},
+		onModifyType(move, pokemon) {
+			if (pokemon.species.name === 'Muk-Delta-Water') {
+				move.type = 'Water';
+			} else if (pokemon.species.name === 'Muk-Delta-Grass') {
+				move.type = 'Grass';
+			} else if (pokemon.species.name === 'Muk-Delta-Fire') {
+				move.type = 'Fire';
+			} else if (pokemon.species.name === 'Muk-Delta-Dark') {
+				move.type = 'Dark';
+			} else if (pokemon.species.name === 'Muk-Delta-Normal') {
+				move.type = 'Normal';
+			} else if (pokemon.species.name === 'Muk-Delta-Psychic') {
+				move.type = 'Psychic';
+			}
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		contestType: "Tough",
+	},
 	relicsong: {
 		num: 547,
 		accuracy: 100,
