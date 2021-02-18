@@ -29,7 +29,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	achillesheel: {
 		name: "Achilles Heel",
 		desc: "The user identifies a weaknesses in its target, dealing Super Effective damage to all that are not immune to this move.",
-		shortDesc: "Always deal super effective (2x) damage, except against types that would normally be immune to it.",
+		shortDesc: "Deals super effective damage, unless immune.",
 	},
 	acid: {
 		name: "Acid",
@@ -142,7 +142,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	ancientroar: {
 		name: "Ancient Roar",
 		desc: "The user's voice shakes with a primal roar, damaging its foes with pure fear.",
-		shortDesc: "Ancient Roar deals damage and has no secondary effect.",
+		shortDesc: "No additional effect.",
 	},
 	appleacid: {
 		name: "Apple Acid",
@@ -956,7 +956,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	corrode: {
 		name: "Corrode",
 		desc: "Corrode deals damage and has no secondary effect. If used on Steel type Pokémon, this move ignores the type effectiveness of this move's type against Steel and treats it as being super effective against Steel types instead (even during Inverse Battles or if Corrode's type is changed).",
-		shortDesc: "This move ignores the type effectiveness of this move's type against Steel",
+		shortDesc: "Super effective against Steel types.",
 	},
 	corrosivegas: {
 		name: "Corrosive Gas",
@@ -1073,7 +1073,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	crystalrush: {
 		name: "Crystal Rush",
 		desc: "Crystal Rush inflicts damage, and is an increased priority move. If the target does not use an increased priority move during the round that it is used, Crystal Rush will go first regardless of the user's or target's speed.",
-		shortDesc: "The user turns to solid crystal, hitting first.",
+		shortDesc: "Usually goes first.",
 	},
 	curse: {
 		name: "Curse",
@@ -1101,7 +1101,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	darkmatter: {
 		name: "Dark Matter",
 		desc: "Dark Matter inflicts damage. A recharge turn is required on the turn after damage is done, during which no action may be performed.",
-		shortDesc: "The unknown forces of the world are unleashed. The user must recharge next turn.",
+		shortDesc: "User cannot move next turn.",
 	},
 	darkpulse: {
 		name: "Dark Pulse",
@@ -1369,7 +1369,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	dracojet: {
 		name: "Draco Jet",
 		desc: "If the target does not use an increased priority move during the round that it is used, Draco Jet will go first regardless of the user's or target's speed.",
-		shortDesc: "A draconic fury in which the user always attacks first.",
+		shortDesc: "Usually goes first..",
 	},
 	dracometeor: {
 		name: "Draco Meteor",
@@ -1414,7 +1414,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	dragonify: {
 		name: "Dragonify",
 		desc: "Dragonify changes the target's type to pure Dragon; the effect lasts as long as the target is in battle, and changing form or transforming will also remove the effect.",
-		shortDesc: "Reptillian blood taints the foe, turning them into the Dragon-type.",
+		shortDesc: "Changes the target's type to Dragon.",
 	},
 	dragonpulse: {
 		name: "Dragon Pulse",
@@ -1453,7 +1453,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	drakonvoice: {
 		name: "Drakon Voice",
 		desc: "The sheer force of the user's voice obliterates everything in its path.",
-		shortDesc: "Drakon Voice deals damage and has no secondary effect.",
+		shortDesc: "Has no secondary effect.",
 	},
 	dreameater: {
 		name: "Dream Eater",
@@ -3134,7 +3134,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	jetstream: {
 		name: "Jet Stream",
 		desc: "The user creates a stream of supercharged air that allows their team to move first next round.",
-		shortDesc: "Increases the priority of the user and its allies' moves by 1 during the next turn.",
+		shortDesc: "Increases team priority by 1 during the next turn.",
 	},
 	judgment: {
 		name: "Judgment",
@@ -3353,7 +3353,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	livewire: {
 		name: "Livewire",
 		desc: "Livewire sets an entry hazard around the target Pokémon, which will paralyze them upon switching in. It can stack up to 5 times, with each layer adding a 20% chance of incoming Pokemon being paralyzed upon switching in. This chance is doubled in the Rain.",
-		shortDesc: "Causes Pokemon that are switched in to be immediately Paralyzed.",
+		shortDesc: "Paralyzes grounded foes on switch-in. Max 5 layers.",
 	},
 	lockon: {
 		name: "Lock-On",
@@ -3398,7 +3398,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	lunarcannon: {
 		name: "Low Sweep",
 		desc: "Lunar Cannon forces the user to charge on the first turn and then deals damage on the following turn. It will not need a turn to charge if used during a New Moon.",
-		shortDesc: "A two-turn attack. The user gathers darkness, then blasts a bundled beam on the second turn.",
+		shortDesc: "Charges turn 1. Hits turn 2. No charge in darkness.",
 	},
 	lunardance: {
 		name: "Lunar Dance",
@@ -3648,7 +3648,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	medusaray: {
 		name: "Medusaray",
 		desc: "Medusa Ray changes the target's type to pure Rock. The effect lasts as long as the target is in battle, although changing form or transforming will remove the effect.",
-		shortDesc: "The user glares and petrifies the foe, making them Rock-type.",
+		shortDesc: "Changes the target's type to Rock.",
 	},
 	mefirst: {
 		name: "Me First",
@@ -3974,7 +3974,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	morph: {
 		name: "Morph",
 		desc: "Morph functions the same as Transform; however, if a Delta species of the target exists, the user will turn into that instead. If the target has multiple Delta Species, it will select one of them at random.",
-		shortDesc: "If a delta version of the opponent exists, the user morphs into that. Otherwise, Transforms.",
+		shortDesc: "Will prioritize delta morphs. Otherwise, Transforms.",
 	},
 	mudbomb: {
 		name: "Mud Bomb",
@@ -4027,7 +4027,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	nanorepair: {
 		name: "Nanorepair",
 		desc: "Restores up to 50% of the user's maximum HP and increases the user's Defense by 1 stage. The Defense boost is applied even if the user's current HP is already equal to its maximum HP.",
-		shortDesc: "The user activates a nanobotic repair system that heals and boosts Defense.",
+		shortDesc: "Heals the user by 50% of its max HP. Defense +1.",
 	},
 	naturalgift: {
 		name: "Natural Gift",
@@ -4075,6 +4075,11 @@ export const MovesText: {[k: string]: MoveText} = {
 	neverendingnightmare: {
 		name: "Never-Ending Nightmare",
 		shortDesc: "Power is equal to the base move's Z-Power.",
+	},
+	newmoon: {
+		name: "Night Daze",
+		desc: "Has a 40% chance to lower the target's accuracy by 1 stage.",
+		shortDesc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
 	},
 	nightdaze: {
 		name: "Night Daze",
@@ -4254,7 +4259,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	permafrost: {
 		name: "Permafrost",
 		desc: "Permafrost sets an entry hazard around the target Pokémon, which will Freeze them upon switching in. It can stack up to 5 times, with each layer adding a 10% chance of incoming Pokemon being frozen upon switching in. This chance is doubled under Hail.",
-		shortDesc: "Frost covers the ground around the foe, randomly freezing foes who switch in. Max 5 Layers.",
+		shortDesc: "Freezes grounded foes on switch-in. Max 5 layers.",
 	},
 	petalblizzard: {
 		name: "Petal Blizzard",
@@ -4822,7 +4827,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	retrograde: {
 		name: "Retrograde",
 		desc: "The target, if they are a Mega Pokémon, is reverted to its basic form.",
-		shortDesc: "Retrograde reverts Mega Evolved Pokémon back to their base form.",
+		shortDesc: "Reverts Mega Evolved Pokémon back to their base form.",
 	},
 	return: {
 		name: "Return",
@@ -5686,7 +5691,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	spiritaway: {
 		name: "Spirit Away",
 		desc: "On the turn it is selected, Spirit Away takes the target away. While away, the target cannot act. While away, both the user and the target avoid any move targeted at them. The next turn, the target is brought back and receives damage. Spirit Away will fail if the target is behind a substitute, or if used on a target that is already semi-invulnerable due to moves such as Fly, Bounce, Sky Drop, or another Spirit Away.",
-		shortDesc: "The target is whisked away, returning on the next turn. The target cannot attack during this time.",
+		shortDesc: "User and foe are taken away turn 1. Damages on turn 2.",
 	},
 	spiritbreak: {
 		name: "Spirit Break",
@@ -6789,7 +6794,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	wildefire: {
 		name: "Wildfire",
 		desc: "Wildfire is a status move that inflicts burns on the target if it manages to hit them. It will hit both targets in double battles. Additionally, if the target is a Grass-type Pokémon, Wildfire will also burn every Pokémon in the target player's party that possesses a weakness to Fire-type attacks.",
-		shortDesc: "Burns the foe. If it is a Grass-type Pokemon, burns all Pokemon in their party weak to fire.",
+		shortDesc: "If foe is Grass, burns all Pokemon weak to fire.",
 	},
 	willowisp: {
 		name: "Will-O-Wisp",
@@ -6837,7 +6842,7 @@ export const MovesText: {[k: string]: MoveText} = {
 	},
 	wormhole: {
 		name: "Wormhole",
-		shortDesc: "Wormhole inflicts damage. It has a priority of +1, so it is used before all moves that do not have increased priority.",
+		shortDesc: "Usually always goes first.",
 	},
 	worryseed: {
 		name: "Worry Seed",
@@ -6927,6 +6932,6 @@ export const MovesText: {[k: string]: MoveText} = {
 	zombiestrike: {
 		name: "Zombie Strike",
 		desc: "As Zombie Strike cannot currently be taught to the player's Pokémon through level up, using TMs or move tutors, the only instance where it can be encountered in-game is against Waiter Franklin's Marowak in the Memory Chamber.",
-		shortDesc: "Zombie Strike inflicts damage and has no secondary effect.",
+		shortDesc: "Has no secondary effect.",
 	},
 };
