@@ -285,6 +285,13 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		upkeep: "  (The hail is crashing down.)",
 		damage: "  [POKEMON] is buffeted by the hail!",
 	},
+	sleet: {
+		weatherName: "Sleet",
+		start: "  It started to hail!",
+		end: "  The hail stopped.",
+		upkeep: "  (The hail is crashing down.)",
+		damage: "  [POKEMON] is buffeted by the hail!",
+	},
 	desolateland: {
 		weatherName: "Intense Sun",
 		start: "  The sunlight turned extremely harsh!",
@@ -298,6 +305,12 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		end: "  The heavy rain has lifted!",
 		block: "  There is no relief from this heavy rain!",
 		blockMove: "  The Fire-type attack fizzled out in the heavy rain!",
+	},
+	newmoon: {
+		weatherName: "New Moon",
+		start: "  The sky darked!",
+		end: "  The darkness faded.",
+		upkeep: "  (The sky is dark.)",
 	},
 	deltastream: {
 		weatherName: "Strong Winds",
