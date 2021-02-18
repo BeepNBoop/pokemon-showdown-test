@@ -3325,32 +3325,48 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 144,
 	},
 	regurgitation: {
+		onResidual(pokemon) {
+			if (pokemon.species.baseSpecies !== 'Muk-Delta' || pokemon.transformed) return;
+			const result = this.random(6);
+				if (result === 0) {
+					pokemon.formeChange('mukdeltawater');
+				} else if (result === 1) {
+					pokemon.formeChange('mukdeltagrass');
+				} else if (result === 2) {
+					pokemon.formeChange('mukdeltafire');
+				} else if (result === 3) {
+					pokemon.formeChange('mukdeltadark');
+				} else if (result === 4) {
+					pokemon.formeChange('mukdeltanormal');
+				} else if (result === 5) {
+					pokemon.formeChange('mukdeltapsychic');
+				}
+		},
 		onPrepareHit(source, target, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
-			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax) {
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltawater'].includes(target.species.id)) {
+				move.multihit = 2;
+				move.multihitType = 'Water';
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltagrass'].includes(target.species.id)) {
+				move.multihit = 2;
+				move.multihitType = 'Grass';
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltafire'].includes(target.species.id)) {
 				move.multihit = 2;
 				move.multihitType = 'Fire';
-			}
-		},
-		onModifyType(move, pokemon) {
-			if (move.multihitType === 'Fire' && move.hit > 1) {
-				chance: 16.7
-				move.type = 'Water';
-				chance: 16.7
-				move.type = 'Fire';
-				chance: 16.7
-				move.type = 'Grass';
-				chance: 16.7
-				move.type = 'Dark';
-				chance: 16.7
-				move.type = 'Normal';
-				chance: 16.7
-				move.type = 'Psychic';
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltadark'].includes(target.species.id)) {
+				move.multihit = 2;
+				move.multihitType = 'Dark';
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltanormal'].includes(target.species.id)) {
+				move.multihit = 2;
+				move.multihitType = 'Normal';
+			} else if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && ['mukdeltapsychic'].includes(target.species.id)) {
+				move.multihit = 2;
+				move.multihitType = 'Psychic';
 			}
 		},
 		onBasePowerPriority: 7,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.multihitType === 'Fire' && move.hit > 1) return (40);
+			if (move.multihitType === ('Water' ||  'Grass' || 'Fire' || 'Dark' || 'Normal' || 'Psychic') && move.hit > 1) return (40);
 		},
 		name: "Regurgitation",
 		rating: 4.5,
