@@ -10210,12 +10210,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn(pokemon) {
 				if (!pokemon.isGrounded())
 					return;
-				if (pokemon.hasAbility('Levitate')) {
+				if (pokemon.hasType('Ground') || pokemon.hasType('Electric') && !pokemon.hasAbility('Levitate') && !pokemon.hasType('Flying')) {
 					this.add('-sideend', pokemon.side, 'move: Livewire', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('livewire');
-				} if (pokemon.hasType('Electric') || pokemon.hasItem('heavydutyboots')) {
-					return;
-				} if (pokemon.hasType('Ground') || pokemon.hasItem('heavydutyboots')) {
+				} else if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Levitate') || pokemon.hasType('Flying')) {
 					return;
 				} if (this.effectData.layers >= 5) {
 					if (this.random(50) * this.effectData.layers) {
@@ -13056,20 +13054,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn: function (pokemon) {
 				if (!pokemon.isGrounded())
 					return;
-				if (pokemon.hasAbility('Levitate')) {
+				if (pokemon.hasType('fire') || pokemon.hasType('ice') && !pokemon.hasAbility('Levitate') && !pokemon.hasType('flying')) {
 					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('permafrost');
-				}
-				if (pokemon.hasType('ice')) {
-					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
-					pokemon.side.removeSideCondition('permafrost');
-				}
-				if (pokemon.hasType('fire')) {
-					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
-					pokemon.side.removeSideCondition('permafrost');
-				} else if (pokemon.hasType('ice') || pokemon.hasItem('heavydutyboots')) {
+				} else if (pokemon.hasType('flying') || pokemon.hasItem('heavydutyboots')) {
 					return;
-				} else if (pokemon.hasType('fire') || pokemon.hasItem('heavydutyboots')) {
+				} else if (pokemon.hasAbility('Levitate') || pokemon.hasItem('heavydutyboots')) {
 					return;
 				} else if (this.effectData.layers >= 5) {
 					if (this.random(50) * this.effectData.layers) {
