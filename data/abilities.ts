@@ -3112,40 +3112,49 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	proteanmaxima: {
 		onBeforeMove(pokemon, target, move) {
-			if (move.hasBounced || move.sourceEffect === 'snatch') return;
-			if (move.type === 'water') {
-				pokemon.formeChange('vaporean', this.effect, false);
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.id !== 'vaporeon') forme = 'Vaporeon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'electric') {
-				pokemon.formeChange('jolteon', this.effect, false);
+				break;
+			case 'Fire':
+				if (pokemon.species.id !== 'flareon') forme = 'Flareon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'fire') {
-				pokemon.formeChange('flareon', this.effect, false);
+				break;
+			case 'Electric':
+				if (pokemon.species.id !== 'jolteon') forme = 'Jolteon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'psychic') {
-				pokemon.formeChange('espeon', this.effect, false);
+				break;
+			case 'Psychic':
+				if (pokemon.species.id !== 'espeon') forme = 'Espeon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'dark') {
-				pokemon.formeChange('umbreon', this.effect, false);
+				break;
+			case 'Dark':
+				if (pokemon.species.id !== 'umbreon') forme = 'Umbreon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'grass') {
-				pokemon.formeChange('leafeon', this.effect, false);
+				break;
+			case 'Grass':
+				if (pokemon.species.id !== 'leafeon') forme = 'Leafeon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'ice') {
-				pokemon.formeChange('glaceon', this.effect, false);
+				break;
+			case 'Ice':
+				if (pokemon.species.id !== 'glaceon') forme = 'Glaceon';
 				this.add('-ability', pokemon, 'Protean Maxima');
-			}
-			else if (move.type === 'fairy') {
-				pokemon.formeChange('sylveon', this.effect, false);
+				break;
+			case 'Fairy':
+				if (pokemon.species.id !== 'sylveon') forme = 'Sylveon';
 				this.add('-ability', pokemon, 'Protean Maxima');
+				break;
+			default:
+				if (pokemon.species.id !== 'eeveemega') forme = 'Eevee-Mega';
+				break;
 			}
-		},
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
 		name: "Protean Maxima",
 		rating: 5,
 		num: 168,
