@@ -3331,6 +3331,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			this.useMove(regurgitate, source);
 			return null;
 		},
+		condition: {
+			duration: 1,
+		},
 		onResidual(pokemon) {
 			if (pokemon.species.baseSpecies !== 'Muk'|| pokemon.transformed) return;
 			const result = this.random(6);
