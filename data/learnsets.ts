@@ -87511,6 +87511,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			waterpulse: ["8L1"],
 			zenheadbutt: ["8L1"],
 		},
+		eventData: [
+			{generation: 6, level: 50, moves: ["spiritaway", "nastyplot", "waterpulse", "thunderpunch"], pokeball: "cherishball"},
+			{generation: 7, level: 15, moves: ["hurricane", "nastyplot", "waterpulse", "spiritaway"], pokeball: "cherishball"},
+		],
 		eventOnly: true,
 	},
 	hoopaunbound: {
