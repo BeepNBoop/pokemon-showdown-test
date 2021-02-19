@@ -26562,7 +26562,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mist: ["8L1"],
 			mefirst: ["8L1"],
 			psystrike: ["8L1"],
-			darknova: ["8L1"],
 			bulldoze: ["8L1"],
 			calmmind: ["8L1"],
 			toxic: ["8L1"],
