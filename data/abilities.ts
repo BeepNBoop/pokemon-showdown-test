@@ -3155,6 +3155,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 				}
 			},
+			onTryHit(target, source, move) {
+				let forme = null;
+				if (target !== source && move.type === 'Water' && (forme = 'Vaporeon')) {
+					if (!this.heal(target.baseMaxhp / 4)) {
+						this.add('-immune', target, '[from] ability: Water Absorb');
+					}
+					return null;
+				}
+			},
 		name: "Protean Maxima",
 		rating: 5,
 		num: 168,
