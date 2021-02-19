@@ -14631,7 +14631,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Regurgitate",
 		pp: 10,
 		priority: 0,
-		flags: {protect: 1},
+		flags: {protect: 1, regurgitate:1},
 		onModifyType(move, pokemon) {
 			if (pokemon.species.name === 'Muk-Delta-Water') {
 				move.type = 'Water';
