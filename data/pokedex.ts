@@ -8163,6 +8163,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoLevel: 45,
 		eggGroups: ["Bug", "Dragon"],
 		requiredItem: "Flygonite",
+		tier: "Uber",
 	},
 	flygonarmored: {
 		num: 330,
