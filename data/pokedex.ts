@@ -6137,11 +6137,11 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Miltank", "Miltank-Mega"],
 	},
 	miltankmega: {
-		num: 232,
+		num: 241,
 		name: "Miltank-Mega",
 		baseSpecies: "Miltank",
 		forme: "Mega",
-		types: ["Ground"],
+		types: ["Normal"],
 		gender: "F",
 		baseStats: {hp: 95, atk: 125, def: 145, spa: 40, spd: 115, spe: 70},
 		abilities: {0: "Pendulum"},
