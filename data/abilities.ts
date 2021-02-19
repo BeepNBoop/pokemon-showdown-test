@@ -3325,6 +3325,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 144,
 	},
 	regurgitation: {
+		onAfterHit(source, target) {
+			const move = this.dex.getMove('regurgitate');
+			this.useMove(move, source, target);
+			return null;
+		},
 		onResidual(pokemon) {
 			if (pokemon.species.baseSpecies !== 'Muk'|| pokemon.transformed) return;
 			const result = this.random(6);
@@ -3341,11 +3346,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				} else if (result === 5) {
 					pokemon.formeChange('mukdeltapsychic');
 				}
-		},
-		onAfterHit(source, target) {
-			const move = this.dex.getMove('regurgitate');
-			this.useMove(move, source, target);
-			return null;
 		},
 		name: "Regurgitation",
 		rating: 4.5,
