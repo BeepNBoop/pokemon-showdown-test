@@ -3325,9 +3325,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 144,
 	},
 	regurgitation: {
-		onHit(target) {
+		onHit(source) {
 			const move = this.dex.getMove('regurgitate');
-			this.useMove(move, target);
+			this.useMove(move, source);
 			return null;
 		},
 		onResidual(pokemon) {
