@@ -3343,8 +3343,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 		},
 		onAfterHit(source, target) {
-			let move = 'regurgitate';
-			this.useMove(move, target, source);
+			const move = this.dex.getMove('regurgitate');
+			this.useMove(move, source, target);
 			return null;
 		},
 		name: "Regurgitation",
