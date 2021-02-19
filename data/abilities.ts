@@ -3116,53 +3116,124 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			let forme = null;
 			switch (move.type) {
 			case 'Water':
-				if (pokemon.species.id !== 'vaporeon') forme = 'Vaporeon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Fire':
-				if (pokemon.species.id !== 'flareon') forme = 'Flareon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Electric':
-				if (pokemon.species.id !== 'jolteon') forme = 'Jolteon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Psychic':
-				if (pokemon.species.id !== 'espeon') forme = 'Espeon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Dark':
-				if (pokemon.species.id !== 'umbreon') forme = 'Umbreon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Grass':
-				if (pokemon.species.id !== 'leafeon') forme = 'Leafeon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Ice':
-				if (pokemon.species.id !== 'glaceon') forme = 'Glaceon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			case 'Fairy':
-				if (pokemon.species.id !== 'sylveon') forme = 'Sylveon';
-				this.add('-ability', pokemon, 'Protean Maxima');
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			default:
-				if (pokemon.species.id !== 'eeveemega') forme = 'Eevee-Mega';
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
 				break;
 			}
 			if (pokemon.isActive && forme) {
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 				}
 			},
+			onTryHitPriority: 1,
 			onTryHit(target, source, move) {
-				let forme = null;
-				if (target !== source && move.type === 'Water' && (forme = 'Vaporeon')) {
+				if (target !== source && move.type === 'Water' && (source.species.name === 'Vaporeon')) {
 					if (!this.heal(target.baseMaxhp / 4)) {
 						this.add('-immune', target, '[from] ability: Water Absorb');
 					}
 					return null;
 				}
+				else if (target !== source && move.type === 'Electric' && (source.species.name === 'Jolteon')) {
+					if (!this.heal(target.baseMaxhp / 4)) {
+						this.add('-immune', target, '[from] ability: Volt Absorb');
+					}
+					return null;
+				}
+				else if (target !== source && move.type === 'Fire' && (source.species.name === 'Flareon')) {
+					move.accuracy = true;
+					if (!target.addVolatile('flashfire')) {
+						this.add('-immune', target, '[from] ability: Flash Fire');
+					}
+					return null;
+				}
+				else if (target === source || move.hasBounced || !move.flags['reflectable'] && (source.species.name === 'Espeon')) {
+					return;
+				}
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = false;
+				this.useMove(newMove, target, source);
+				return null;
+			},
+			onAllyTryHitSide(target, source, move) {
+				if (target.side === source.side || move.hasBounced || !move.flags['reflectable'] && (target.species.name === 'Espeon')) {
+					return;
+				}
+				const newMove = this.dex.getActiveMove(move.id);
+				newMove.hasBounced = true;
+				newMove.pranksterBoosted = false;
+				this.useMove(newMove, this.effectData.target, source);
+				return null;
+			},
+			condition: {
+				duration: 1,
+			},
+			onAfterSetStatus(status, target, source, effect) {
+				if (!source || source === target) return;
+				if (effect && effect.id === 'toxicspikes') return;
+				if (status.id === 'slp' || status.id === 'frz') return;
+				if (source.species.name === 'Umbreon') {
+				this.add('-activate', target, 'ability: Synchronize');
+				// Hack to make status-prevention abilities think Synchronize is a status move
+				// and show messages when activating against it.
+				source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
+				}
+			},
+			onModifySpe(spe, pokemon) {
+				if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather()) && (pokemon.species.name === 'Leafeon')) {
+					return this.chainModify(2);
+				}
+			},
+			onImmunity(type, pokemon) {
+				if (type === 'hail' || type === 'sleet' && (pokemon.species.name === 'Glaceon')) return false;
+			},
+			onModifyAccuracyPriority: -1,
+			onModifyAccuracy(accuracy) {
+				if (typeof accuracy !== 'number') return;
+				if (this.field.isWeather('hail') || this.field.isWeather('sleet')) {
+					this.debug('Snow Cloak - decreasing accuracy');
+					return this.chainModify([0x0CCD, 0x1000]);
+				}
+			},
+			onDamagingHit(damage, target, source, move) {
+				if (move.flags['contact'] && (target.species.name === 'Sylveon')) {
+					if (this.randomChance(3, 10)) {
+						source.addVolatile('attract', this.effectData.target);
+					}
+				}
+			},
+			onEnd(pokemon) {
+				pokemon.removeVolatile('flashfire');
 			},
 		name: "Protean Maxima",
 		rating: 5,
