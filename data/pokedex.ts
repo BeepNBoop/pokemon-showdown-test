@@ -7424,7 +7424,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 50, atk: 75, def: 75, spa: 65, spd: 65, spe: 50},
-		abilities: {0: "Dry Bounce"},
+		abilities: {0: "Dry Skin"},
 		heightm: 0.5,
 		weightkg: 161,
 		color: "Red",
