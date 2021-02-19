@@ -3147,8 +3147,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
 				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
-			default:
+			case 'Normal':
 				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
 				break;
 			}
 			if (pokemon.isActive && forme) {
