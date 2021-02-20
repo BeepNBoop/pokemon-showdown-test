@@ -14730,7 +14730,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cryogonalmega: {
 		num: 615,
 		name: "Cryogonal-Mega",
-		baseSpecies: "Crygonal",
+		baseSpecies: "Cryogonal",
 		forme: "Mega",
 		types: ["Ice"],
 		baseStats: {hp: 80, atk: 50, def: 80, spa: 130, spd: 150, spe: 135},
