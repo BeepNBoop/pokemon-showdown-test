@@ -131,7 +131,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	venusaurdeltamega: {
 		num: 3,
 		name: "Venusaur-Delta-Mega",
-		baseSpecies: "Venusaur-Delta",
+		baseSpecies: "Venusaur",
 		forme: "Delta-Mega",
 		types: ["Fairy", "Psychic"],
 		baseStats: {hp: 80, atk: 100, def: 123, spa: 122, spd: 120, spe: 80},
@@ -293,7 +293,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	charizarddeltamega: {
 		num: 6,
 		name: "Charizard-Delta-Mega",
-		baseSpecies: "Charizard-Delta",
+		baseSpecies: "Charizard",
 		forme: "Delta-Mega",
 		types: ["Ghost", "Dragon"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -441,7 +441,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	blastoisedeltamega: {
 		num: 9,
 		name: "Blastoise-Delta-Mega",
-		baseSpecies: "Blastoise-Delta",
+		baseSpecies: "Blastoise",
 		forme: "Delta-Mega",
 		types: ["Dark", "Fighting"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -675,7 +675,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pidgeotdeltamega: {
 		num: 18,
 		name: "Pidgeot-Delta-Mega",
-		baseSpecies: "Pidgeot-Delta",
+		baseSpecies: "Pidgeot",
 		forme: "Delta-Mega",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 83, atk: 80, def: 80, spa: 135, spd: 80, spe: 121},
@@ -5091,7 +5091,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sunfloradeltamega: {
 		num: 192,
 		name: "Sunflora-Delta-Mega",
-		baseSpecies: "Sunflora-Delta",
+		baseSpecies: "Sunflora",
 		forme: "Delta-Mega",
 		types: ["Fire", "Poison"],
 		baseStats: {hp: 75, atk: 75, def: 80, spa: 135, spd: 105, spe: 45},
@@ -5371,7 +5371,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	girafarigdeltamega: {
 		num: 203,
 		name: "Girafarig-Delta-Mega",
-		baseSpecies: "Girafarig-Delta",
+		baseSpecies: "Girafarig",
 		forme: "Delta-Mega",
 		types: ["Steel", "Poison"],
 		baseStats: {hp: 70, atk: 80, def: 95, spa: 130, spd: 95, spe: 85},
@@ -5582,7 +5582,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	scizordeltamega: {
 		num: 212,
 		name: "Scizor-Delta-Mega",
-		baseSpecies: "Scizor-Delta",
+		baseSpecies: "Scizor",
 		forme: "Delta-Mega",
 		types: ["Ice", "Fighting"],
 		baseStats: {hp: 70, atk: 150, def: 140, spa: 65, spd: 100, spe: 75},
@@ -7114,7 +7114,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	gardevoirdeltamega: {
 		num: 282,
 		name: "Gardevoir-Delta-Mega",
-		baseSpecies: "Gardevoir-Delta",
+		baseSpecies: "Gardevoir",
 		forme: "Delta-Mega",
 		types: ["Electric", "Ice"],
 		baseStats: {hp: 68, atk: 85, def: 65, spa: 165, spd: 135, spe: 100},
@@ -7421,7 +7421,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	sableyedeltamega: {
 		num: 302,
 		name: "Sableye-Delta-Mega",
-		baseSpecies: "Sableye-Delta",
+		baseSpecies: "Sableye",
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 50, atk: 75, def: 75, spa: 65, spd: 65, spe: 50},
@@ -7479,7 +7479,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	mawiledeltamega: {
 		num: 303,
 		name: "Mawile-Delta-Mega",
-		baseSpecies: "Mawile-Delta",
+		baseSpecies: "Mawile",
 		forme: "Delta-Mega",
 		types: ["Grass", "Dark"],
 		baseStats: {hp: 50, atk: 105, def: 125, spa: 55, spd: 95, spe: 50},
@@ -7677,7 +7677,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	medichamdeltamega: {
 		num: 308,
 		name: "Medicham-Delta-Mega",
-		baseSpecies: "Medicham-Delta",
+		baseSpecies: "Medicham",
 		forme: "Delta-Mega",
 		types: ["Fairy", "Ground"],
 		baseStats: {hp: 60, atk: 100, def: 85, spa: 80, spd: 85, spe: 100},
@@ -8050,7 +8050,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	cameruptdeltamega: {
 		num: 323,
 		name: "Camerupt-Delta-Mega",
-		baseSpecies: "Camerupt-Delta",
+		baseSpecies: "Camerupt",
 		forme: "Delta-Mega",
 		types: ["Poison"],
 		baseStats: {hp: 70, atk: 120, def: 100, spa: 145, spd: 105, spe: 20},
@@ -8540,7 +8540,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	miloticdeltamega: {
 		num: 350,
 		name: "Milotic-Delta-Mega",
-		baseSpecies: "Milotic-Delta",
+		baseSpecies: "Milotic",
 		forme: "Delta-Mega",
 		types: ["Ghost"],
 		baseStats: {hp: 95, atk: 70, def: 109, spa: 130, spd: 155, spe: 81},
@@ -8863,7 +8863,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	glaliedeltamega: {
 		num: 362,
 		name: "Glalie-Delta-Mega",
-		baseSpecies: "Glalie-Delta",
+		baseSpecies: "Glalie",
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
 		baseStats: {hp: 80, atk: 120, def: 80, spa: 120, spd: 80, spe: 100},
@@ -10532,7 +10532,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lopunnydeltamega: {
 		num: 428,
 		name: "Lopunny-Delta-Mega",
-		baseSpecies: "Lopunny-Delta",
+		baseSpecies: "Lopunny",
 		forme: "Delta-Mega",
 		types: ["Fighting", "Psychic"],
 		baseStats: {hp: 65, atk: 136, def: 94, spa: 54, spd: 96, spe: 135},
@@ -10955,7 +10955,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lucariodeltamega: {
 		num: 448,
 		name: "Lucario-Delta-Mega",
-		baseSpecies: "Lucario-Delta",
+		baseSpecies: "Lucario",
 		forme: "Delta-Mega",
 		types: ["Dark", "Ground"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -11504,7 +11504,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	galladedeltamega: {
 		num: 475,
 		name: "Gallade-Delta-Mega",
-		baseSpecies: "Gallade-Delta",
+		baseSpecies: "Gallade",
 		forme: "Delta-Mega",
 		types: ["Electric", "Ice"],
 		gender: "M",
@@ -11601,7 +11601,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	froslassdeltamega: {
 		num: 478,
 		name: "Froslass-Delta-Mega",
-		baseSpecies: "Froslass-Delta",
+		baseSpecies: "Froslass",
 		forme: "Delta-Mega",
 		types: ["Fire", "Ghost"],
 		baseStats: {hp: 70, atk: 80, def: 85, spa: 120, spd: 105, spe: 120},
@@ -14989,7 +14989,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	bisharpdeltamega: {
 		num: 625,
 		name: "Bisharp-Delta-Mega",
-		baseSpecies: "Bisharp-Delta",
+		baseSpecies: "Bisharp",
 		forme: "Delta-Mega",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 65, atk: 145, def: 130, spa: 60, spd: 85, spe: 105},
