@@ -3444,10 +3444,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
 			const removeTarget = [
-				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'livewire', 'permafrost', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
 			];
 			const removeAll = [
-				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -10208,17 +10208,45 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.effectData.layers++;
 			},
 			onSwitchIn(pokemon) {
-				if (!pokemon.isGrounded())
-					return;
-				if (pokemon.hasType('Ground') || pokemon.hasType('Electric') && !pokemon.hasAbility('Levitate') && !pokemon.hasType('Flying')) {
+				if (pokemon.hasType('Ground') || pokemon.hasType('Electric') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('Flying'))) {
 					this.add('-sideend', pokemon.side, 'move: Livewire', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('livewire');
-				} else if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Levitate') || pokemon.hasType('Flying')) {
+				} else if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Limber')) {
 					return;
-				} if (this.effectData.layers >= 5) {
-					if (this.random(50) * this.effectData.layers) {
+				} else if (!pokemon.hasItem('ironball') && (pokemon.hasAbility('Levitate') || pokemon.hasType('Flying'))) {
+					return;
+				} else if (pokemon.hasAbility('Leaf Gaurd') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
+					return;
+				} if (this.effectData.layers == 1 && !['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(2, 10)) {
 						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
 					}
+				} else if (this.effectData.layers == 1 && ['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(4, 10)) {
+						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 2 && !['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(4, 10)) {
+						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 2 && ['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(8, 10)) {
+						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 3 && !['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(6, 10)) {
+						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 3 && ['raindance'].includes(pokemon.effectiveWeather())) {
+					pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+				} else if (this.effectData.layers == 4 && !['raindance'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(8, 10)) {
+						pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 4 && ['raindance'].includes(pokemon.effectiveWeather())) {
+					pokemon.trySetStatus('par', pokemon.side.foe.active[0]);
+				} else if (this.effectData.layers == 5) {
+					pokemon.trySetStatus('par', pokemon.side.foe.active[0]);			
 				}
 			}
 		},
@@ -13054,17 +13082,53 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn: function (pokemon) {
 				if (!pokemon.isGrounded())
 					return;
-				if (pokemon.hasType('fire') || pokemon.hasType('ice') && !pokemon.hasAbility('Levitate') && !pokemon.hasType('flying')) {
+				if (pokemon.hasType('fire') || pokemon.hasType('ice') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('flying'))) {
 					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('permafrost');
-				} else if (pokemon.hasType('flying') || pokemon.hasItem('heavydutyboots')) {
+				} else if (pokemon.hasItem('heavydutyboots')) {
 					return;
-				} else if (pokemon.hasAbility('Levitate') || pokemon.hasItem('heavydutyboots')) {
+				} else if (!pokemon.hasItem('ironball') && (pokemon.hasAbility('Levitate') || pokemon.hasType('Flying'))) {
 					return;
-				} else if (this.effectData.layers >= 5) {
-					if (this.random(50) * this.effectData.layers) {
+				} else if (pokemon.hasAbility('Leaf Gaurd') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
+					return;
+				} if (this.effectData.layers == 1 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(1, 10)) {
 						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
 					}
+				} else if (this.effectData.layers == 1 && ['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(2, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 2 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(2, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 2 && ['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(4, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 3 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(3, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 3 && ['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(6, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 4 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(4, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 4 && ['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(8, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 5 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					if (this.randomChance(5, 10)) {
+						pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
+					}
+				} else if (this.effectData.layers == 5 && ['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
+					pokemon.trySetStatus('frz', pokemon.side.foe.active[0]);
 				}
 			}
 		},
@@ -14397,7 +14461,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -14411,7 +14475,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -17527,9 +17591,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			// this is a side condition
 			onStart(side, source) {
-				if (!source.hasAbility('foundry')) {
+				if (!source.hasAbility('Foundry')) {
 					this.add('-sidestart', side, 'move: Stealth Rock');
-				} else if (source.hasAbility('foundry')) {
+				} else if (source.hasAbility('Foundry')) {
 					this.add('-sidestart', side, 'move: Stealth Rock Fire');
 				}
 			},
