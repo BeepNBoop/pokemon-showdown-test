@@ -7424,7 +7424,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Sableye",
 		forme: "Delta-Mega",
 		types: ["Fire", "Rock"],
-		baseStats: {hp: 50, atk: 75, def: 75, spa: 65, spd: 65, spe: 50},
+		baseStats: {hp: 50, atk: 85, def: 125, spa: 85, spd: 115, spe: 20},
 		abilities: {0: "Dry Skin"},
 		heightm: 0.5,
 		weightkg: 161,
