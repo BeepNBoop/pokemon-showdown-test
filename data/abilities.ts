@@ -3900,6 +3900,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(source) {
 			this.field.setWeather('sleet');
 		},
+		onFaint(pokemon) {
+			if (this.field.isWeather('sleet'))
+				this.field.clearWeather();
+		},
 		onSwitchOut(pokemon) {
 			if (this.field.isWeather('sleet'))
 				this.field.clearWeather();
