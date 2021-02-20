@@ -20743,7 +20743,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			fling: ["8L1"],
 			shadowclaw: ["8L1"],
 			payback: ["8L1"],
-			retliate: ["8L1"],
+			retaliate: ["8L1"],
 			gigaimpact: ["8L1"],
 			jetstream: ["8L1"],
 			stoneedge: ["8L1"],
