@@ -684,6 +684,15 @@ export const Formats: {[k: string]: FormatData} = {
 			this.add('rule', 'Swagger Clause: Swagger is banned');
 		},
 	},
+	achillesclause: {
+		effectType: 'ValidatorRule',
+		name: 'Achilles Clause',
+		desc: "Bans the move Achilles Heel",
+		banlist: ['Achilles Heel'],
+		onBegin() {
+			this.add('rule', 'Achilles Clause: Achilles Heel is banned');
+		},
+	},
 	batonpassclause: {
 		effectType: 'ValidatorRule',
 		name: 'Baton Pass Clause',
