@@ -10215,7 +10215,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					return;
 				} else if (!pokemon.hasItem('ironball') && (pokemon.hasAbility('Levitate') || pokemon.hasType('Flying'))) {
 					return;
-				} else if (pokemon.hasAbility('Leaf Gaurd') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
+				} else if (pokemon.hasAbility('Leaf Guard') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
 					return;
 				} if (this.effectData.layers == 1 && !['raindance'].includes(pokemon.effectiveWeather())) {
 					if (this.randomChance(2, 10)) {
@@ -13089,7 +13089,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					return;
 				} else if (!pokemon.hasItem('ironball') && (pokemon.hasAbility('Levitate') || pokemon.hasType('Flying'))) {
 					return;
-				} else if (pokemon.hasAbility('Leaf Gaurd') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
+				} else if (pokemon.hasAbility('Leaf Guard') && ['sunnyday'].includes(pokemon.effectiveWeather())) {
 					return;
 				} if (this.effectData.layers == 1 && !['hail', 'sleet'].includes(pokemon.effectiveWeather())) {
 					if (this.randomChance(1, 10)) {
