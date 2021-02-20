@@ -4318,7 +4318,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return this.chainModify(1.5);
 			}
 		},
-		name: "Super Cell",
+		name: "Supercell",
 		rating: 3,
 		num: 105,
 	},

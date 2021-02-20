@@ -1595,7 +1595,7 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		block: "  [POKEMON] is anchored in place with its suction cups!",
 	},
 	supercell: {
-		name: "Super Cell",
+		name: "Supercell",
 		desc: "During intense darkness or rain, Supercell increases the Special Attack stat of the Pokémon with this Ability by 1.5. Supercell changes Delta Typhlosion from its Inactive Mode to Active Mode during darkness or rain.",
 		shortDesc: "Special Attack surges in the rain and darkness.",
 	},
