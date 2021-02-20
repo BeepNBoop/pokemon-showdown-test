@@ -13167,7 +13167,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Fire"],
 		gender: "F",
 		baseStats: {hp: 45, atk: 35, def: 50, spa: 70, spd: 50, spe: 30},
-		abilities: {0: "Storm Drain", 1: "Flash Fire", H: "Regenereator"},
+		abilities: {0: "Storm Drain", 1: "Flash Fire", H: "Regenerator"},
 		heightm: 0.5,
 		weightkg: 6.6,
 		color: "Blue",
