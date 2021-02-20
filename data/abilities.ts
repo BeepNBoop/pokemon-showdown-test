@@ -3415,7 +3415,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 144,
 	},
 	regurgitation: {
-		onFoeHit(source, target, move) {
+		onFoeHit(target, source, move) {
 			if (move.category === 'Status' || move.selfdestruct || move.multihit || move.flags['regurgitate']) return;
 			const regurgitate = this.dex.getMove('regurgitate');
 			this.useMove(regurgitate, source);
