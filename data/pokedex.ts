@@ -4069,8 +4069,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Mewtwo-Armored"],
-		formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-X-Mega", "Mewtwo-Armored"],
+		otherFormes: ["Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-Mega", "Mewtwo-Armored"],
+		formeOrder: ["Mewtwo", "Mewtwo-Mega-X", "Mewtwo-Mega-Y", "Shadow-Mewtwo", "Shadow-Mewtwo-Mega", "Mewtwo-Armored"],
 	},
 	mewtwomegax: {
 		num: 150,
@@ -4130,6 +4130,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 122,
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
+		requiredItem: "Shadow Mewtwonite",
 		tier: "Uber",
 	},
 	mewtwoarmored: {
@@ -12264,7 +12265,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Snivy", "Snivy-Delta"],
 	},
 	snivydelta: {
-		num: -495,
+		num: 495,
 		name: "Snivy-Delta",
 		baseSpecies: "Snivy",
 		forme: "Delta",
