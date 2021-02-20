@@ -4341,7 +4341,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondeltamega: {
 		num: 157,
 		name: "Typhlosion-Delta-Mega",
-		baseSpecies: "Typhlosion-Delta",
+		baseSpecies: "Typhlosion",
 		forme: "Delta-Mega",
 		types: ["Electric", "Steel"],
 		genderRatio: {M: 0.875, F: 0.125},
@@ -4357,7 +4357,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	typhlosiondeltamegaactive: {
 		num: 157,
 		name: "Typhlosion-Delta-Mega-Active",
-		baseSpecies: "Typhlosion-Delta",
+		baseSpecies: "Typhlosion",
 		forme: "Delta-Mega-Active",
 		types: ["Electric", "Steel"],
 		baseStats: {hp: 78, atk: 89, def: 88, spa: 159, spd: 110, spe: 110},
