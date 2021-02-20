@@ -269,9 +269,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	aurabreak: {
 		onStart(pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) return;
 			this.add('-ability', pokemon, 'Aura Break');
 		},
 		onAnyTryPrimaryHit(target, source, move) {
+			if (['sunnyday', 'desolateland'].includes(source.effectiveWeather())) return;
 			if (target === source || move.category === 'Status') return;
 			move.hasAuraBreak = true;
 		},
@@ -286,9 +288,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (!pokemon.hp) return;
 			for (const target of pokemon.side.foe.active) {
 				if (!target || !target.hp) continue;
-				if (target.status === 'slp' || target.hasAbility('comatose')) {
-					this.damage(target.baseMaxhp / 8, target, pokemon);
-				}
+				if (target.status === 'slp' || target.hasAbility('comatose') && (['newmoon'].includes(pokemon.effectiveWeather()))) {
+					this.damage(target.baseMaxhp / 4, target, pokemon);
+				} else this.damage(target.baseMaxhp / 8, target, pokemon);
 			}
 		},
 		name: "Bad Dreams",
@@ -697,6 +699,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (target === source || move.category === 'Status' || move.type !== 'Dark') return;
 			if (!move.auraBooster) move.auraBooster = this.effectData.target;
 			if (move.auraBooster !== this.effectData.target) return;
+			if (['newmoon'].includes(source.effectiveWeather()) && !move.hasAuraBreak) return this.chainModify (1.666);
+			if (['newmoon'].includes(source.effectiveWeather()) && move.hasAuraBreak) return this.chainModify (0.6);
 			return this.chainModify([move.hasAuraBreak ? 0x0C00 : 0x1547, 0x1000]);
 		},
 		isUnbreakable: true,
@@ -1023,10 +1027,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	fairyaura: {
 		onStart(pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) return;
 			this.add('-ability', pokemon, 'Fairy Aura');
 		},
 		onAnyBasePowerPriority: 20,
 		onAnyBasePower(basePower, source, target, move) {
+			if (['newmoon'].includes(source.effectiveWeather())) return;
 			if (target === source || move.category === 'Status' || move.type !== 'Fairy') return;
 			if (!move.auraBooster) move.auraBooster = this.effectData.target;
 			if (move.auraBooster !== this.effectData.target) return;
@@ -1737,6 +1743,13 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 246,
 	},
 	illuminate: {
+		onModifyEvasion(evasion) {
+			if (typeof evasion !== 'number') return;
+			if (this.field.isWeather('newmoon')) {
+				this.debug('Illuminate - increasing evasion');
+				return this.chainModify([1.25]);
+			}
+		},
 		name: "Illuminate",
 		rating: 0,
 		num: 35,
@@ -3035,7 +3048,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onDeductPP(target, source) {
 			if (target.side === source.side) return;
-			return 1;
+			if (['newmoon'].includes(source.effectiveWeather())) {
+			return 2;
+			} else return 1;
 		},
 		name: "Pressure",
 		rating: 2.5,

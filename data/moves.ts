@@ -5556,6 +5556,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
+		onModifyMove(move, pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) move.boosts = {accuracy: -2};
+		},
 		boosts: {
 			accuracy: -1,
 		},
@@ -6430,6 +6433,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 			attacker.addVolatile('twoturnmove', defender);
 			return null;
+		},
+		onModifyMove(move, pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) move.boosts = {spa: 1, spd: 1, spe: 1};
 		},
 		boosts: {
 			spa: 2,
@@ -8831,6 +8837,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {snatch: 1},
+		onModifyMove(move, pokemon) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) move.boosts = {atk: 2, accuracy: 2};
+		},
 		boosts: {
 			atk: 1,
 			accuracy: 1,
@@ -10127,6 +10136,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					if (!target.getMoveHitData(move).crit && !move.infiltrates) {
 						this.debug('Light Screen weaken');
 						if (target.side.active.length > 1) return this.chainModify([0xAAC, 0x1000]);
+						else if (['newmoon'].includes(source.effectiveWeather())) return this.chainModify (0.533);
 						return this.chainModify(0.5);
 					}
 				}
@@ -11572,7 +11582,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 			this.add('-prepare', attacker, move.name);
 			this.boost({spa: 1}, attacker, attacker, move);
-			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
+			if (['newmoon'].includes(attacker.effectiveWeather())) {
+				this.attrLastMove('[still]');
+				this.addMove('-anim', attacker, move.name, defender);
+				return;
+			} else if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
 			attacker.addVolatile('twoturnmove', defender);
@@ -12090,10 +12104,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
-				factor = 0.25;
-				break;
 			case 'sleet':
 				factor = 0.25;
+				break;
+			case 'newmoon':
+				factor = 0.83;
 				break;
 			}
 			return !!this.heal(this.modify(pokemon.maxhp, factor));
@@ -12124,10 +12139,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
-				factor = 0.25;
-				break;
 			case 'sleet':
 				factor = 0.25;
+				break;
+			case 'newmoon':
+				factor = 0.17
 				break;
 			}
 			return !!this.heal(this.modify(pokemon.maxhp, factor));
@@ -12514,7 +12530,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onResidualOrder: 9,
 			onResidual(pokemon) {
-				this.damage(pokemon.baseMaxhp / 4);
+				if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				this.damage(pokemon.baseMaxhp / 2);
+				} else this.damage(pokemon.baseMaxhp / 4);
 			},
 		},
 		secondary: null,
@@ -14624,6 +14642,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					if (!target.getMoveHitData(move).crit && !move.infiltrates) {
 						this.debug('Reflect weaken');
 						if (target.side.active.length > 1) return this.chainModify([0xAAC, 0x1000]);
+						else if (['newmoon'].includes(source.effectiveWeather())) return this.chainModify (0.4);
 						return this.chainModify(0.5);
 					}
 				}
@@ -16970,6 +16989,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'sleet'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
+			} else if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				this.debug('weakened by weather');
+				return this.chainModify(0.3);
 			}
 		},
 		secondary: null,
@@ -17006,7 +17028,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (['raindance', 'primordialsea', 'sandstorm', 'hail', 'sleet'].includes(pokemon.effectiveWeather())) {
 				this.debug('weakened by weather');
 				return this.chainModify(0.5);
-			}
+			} else if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				this.debug('weakened by weather');
+				return this.chainModify(0.3);
+			} 
 		},
 		secondary: null,
 		target: "normal",
@@ -18295,6 +18320,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {protect: 1, mirror: 1, nonsky: 1},
+		onBasePower(basePower, pokemon, target) {
+			if (['newmoon'].includes(pokemon.effectiveWeather())) {
+				this.debug('strengthened by weather');
+				return this.chainModify(1.5);
+			}
+		},
 		secondary: null,
 		target: "allAdjacent",
 		type: "Water",
@@ -18512,10 +18543,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 			case 'primordialsea':
 			case 'sandstorm':
 			case 'hail':
-				factor = 0.25;
-				break;
 			case 'sleet':
 				factor = 0.25;
+				break;
+			case 'newmoon':
+				factor = 0.17;
 				break;
 			}
 			return !!this.heal(this.modify(pokemon.maxhp, factor));
@@ -20176,10 +20208,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 				move.type = 'Rock';
 				break;
 			case 'hail':
-				move.type = 'Ice';
-				break;
 			case 'sleet':
 				move.type = 'Ice';
+				break;
+			case 'newmoon':
+				move.type = 'Dark';
 				break;
 			}
 		},

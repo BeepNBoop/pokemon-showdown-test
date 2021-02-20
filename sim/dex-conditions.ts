@@ -52,6 +52,7 @@ export interface EventMethods {
 	onModifyCritRatio?: CommonHandlers['ModifierSourceMove'];
 	onModifyDamage?: CommonHandlers['ModifierSourceMove'];
 	onModifyDef?: CommonHandlers['ModifierMove'];
+	onModifyEvasion?: CommonHandlers['ModifierMove'];
 	onModifyMove?: MoveEventMethods['onModifyMove'];
 	onModifyPriority?: CommonHandlers['ModifierSourceMove'];
 	onModifySecondaries?: (
