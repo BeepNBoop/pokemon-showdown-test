@@ -2461,7 +2461,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Psychic"],
 		baseStats: {hp: 60, atk: 110, def: 70, spa: 60, spd: 60, spe: 110},
-		abilities: {0: "Compund Eyes", 1: "Trace", H: "Psychic Surge"},
+		abilities: {0: "Compound Eyes", 1: "Trace", H: "Psychic Surge"},
 		heightm: 1.8,
 		weightkg: 85.2,
 		color: "Pink",
