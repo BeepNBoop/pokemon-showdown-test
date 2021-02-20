@@ -1525,7 +1525,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		name: "Delta Typhlosionite",
 		spritenum: 576,
 		megaStone: "Typhlosion-Delta-Mega",
-		megaEvolves: "Typhlosion-Delta",
+		megaEvolves: "Typhlosion",
 		itemUser: ["Typhlosion-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
