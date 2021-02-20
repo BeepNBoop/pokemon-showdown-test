@@ -57609,7 +57609,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			metalsound: ["8L1"],
 			ember: ["8L1"],
 			poisonfang: ["8L1"],
-			confusefang: ["8L1"],
+			confuseray: ["8L1"],
 			metalclaw: ["8L1"],
 			firefang: ["8L1"],
 			irondefense: ["8L1"],
