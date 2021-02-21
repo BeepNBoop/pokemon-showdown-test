@@ -132,7 +132,7 @@ export const Formats: FormatList = [
 
 		mod: 'gen8',
 		maxLevel: 5,
-		ruleset: ['Little Cup', 'Standard', 'Dynamax Clause'],
+		ruleset: ['Little Cup', 'Standard', 'Dynamax Clause', 'Achilles Clause'],
 		banlist: [
 			'Corsola-Galar', 'Cutiefly', 'Drifloon', 'Gastly', 'Gothita', 'Rufflet', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Vulpix-Alola',
 			'Chlorophyll', 'Moody', 'Baton Pass',
@@ -210,7 +210,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		searchShow: false,
 		maxLevel: 5,
-		ruleset: ['[Gen 8] LC'],
+		ruleset: ['[Gen 8] LC', 'Achilles Clause'],
 		banlist: [
 			// LC OU
 			'Abra', 'Archen', 'Chinchou', 'Dewpider', 'Diglett-Base', 'Drilbur', 'Dwebble', 'Ferroseed', 'Foongus', 'Grookey',
@@ -1858,7 +1858,7 @@ export const Formats: FormatList = [
 		mod: 'gen7',
 		searchShow: false,
 		maxLevel: 5,
-		ruleset: ['Little Cup', 'Standard', 'Swagger Clause'],
+		ruleset: ['Little Cup', 'Standard', 'Swagger Clause', 'Achilles Clause'],
 		banlist: [
 			'Aipom', 'Cutiefly', 'Drifloon', 'Gligar', 'Gothita', 'Meditite', 'Misdreavus', 'Murkrow', 'Porygon',
 			'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Trapinch', 'Vulpix-Base', 'Wingull', 'Yanma',
@@ -2217,7 +2217,7 @@ export const Formats: FormatList = [
 		mod: 'gen6',
 		searchShow: false,
 		maxLevel: 5,
-		ruleset: ['Standard', 'Little Cup'],
+		ruleset: ['Standard', 'Little Cup', 'Achilles Clause'],
 		banlist: [
 			'Drifloon', 'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Swirlix', 'Tangela', 'Yanma',
 			'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Swagger',
@@ -2517,7 +2517,7 @@ export const Formats: FormatList = [
 		mod: 'gen5',
 		searchShow: false,
 		maxLevel: 5,
-		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
+		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause', 'Achilles Clause'],
 		banlist: [
 			'Gligar', 'Meditite', 'Misdreavus', 'Murkrow', 'Scraggy', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma',
 			'Sand Rush', 'Sand Veil', 'Berry Juice', 'Soul Dew', 'Baton Pass', 'Dragon Rage', 'Sonic Boom', 'Swagger',
@@ -2717,7 +2717,7 @@ export const Formats: FormatList = [
 		mod: 'gen4',
 		searchShow: false,
 		maxLevel: 5,
-		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause'],
+		ruleset: ['Standard', 'Little Cup', 'Sleep Moves Clause', 'Achilles Clause'],
 		banlist: [
 			'Meditite', 'Misdreavus', 'Murkrow', 'Scyther', 'Sneasel', 'Tangela', 'Yanma',
 			'Berry Juice', 'Deep Sea Tooth', 'Dragon Rage', 'Sonic Boom', 'Swagger',
