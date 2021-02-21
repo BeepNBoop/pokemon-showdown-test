@@ -11283,7 +11283,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Rock", "Dragon"],
 		genderRatio: {M: 0.75, F: 0.25},
 		baseStats: {hp: 75, atk: 123, def: 67, spa: 95, spd: 85, spe: 95},
-		abilities: {0: "Shadown Dance", H: "Sturdy"},
+		abilities: {0: "Shadow Dance", H: "Sturdy"},
 		heightm: 1.8,
 		weightkg: 138.6,
 		color: "Grey",
