@@ -17629,7 +17629,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (!source.hasAbility('Foundry')) {
 					this.add('-sidestart', side, 'move: Stealth Rock');
 				} else if (source.hasAbility('Foundry')) {
-					this.add('-sidestart', side, 'move: Stealth Rock Fire');
+					const stealthrockfire = this.dex.getMove('stealthrockfire');
+					this.useMove(stealthrockfire, source);
+					return null;
 				}
 			},
 			onSwitchIn(pokemon) {
@@ -17649,6 +17651,41 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "foeSide",
 		type: "Rock",
 		zMove: {boost: {def: 1}},
+		contestType: "Cool",
+	},
+	stealthrockfire: {
+		num: 446,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Stealth Rock Fire",
+		pp: 20,
+		priority: 0,
+		flags: {},
+		self: {
+			onHit(source) {
+				source.side.foe.addSideCondition('stealthrockfire');
+			},
+		},
+		condition: {
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Stealth Rock Fire');
+			},
+			onSwitchIn(pokemon) {
+				if (pokemon.hasItem('heavydutyboots')) return;
+				// Ice Face and Disguise correctly get typed damage from Stealth Rock
+				// because Stealth Rock bypasses Substitute.
+				// They don't get typed damage from Steelsurge because Steelsurge doesn't,
+				// so we're going to test the damage of a Steel-type Stealth Rock instead.
+				const fireHazard = this.dex.getActiveMove('Stealth Rock');
+				fireHazard.type = 'fire';
+				const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
+				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
+			},
+		},
+		secondary: null,
+		target: "adjacentFoe",
+		type: "Fire",
 		contestType: "Cool",
 	},
 	steameruption: {
@@ -20362,6 +20399,18 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1},
+		onHit(pokemon, target, move) {
+			this.add('-activate', target, 'move: Wildfire');
+			let success = false;
+			for (const ally of pokemon.side.pokemon) {
+				if (ally !== target && ((ally.hasAbility('sapsipper')) ||
+						(ally.volatiles['substitute'] && !move.infiltrates))) {
+					continue;
+				}
+				if (ally.cureStatus()) success = true;
+			}
+			return success;
+		},
 		status: 'brn',
 		target: "foeSide",
 		type: "fire",
