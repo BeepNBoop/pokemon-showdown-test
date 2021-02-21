@@ -3760,7 +3760,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Bug", "Dark"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 30, atk: 80, def: 90, spa: 55, spd: 45, spe: 55},
-		abilities: {0: "Swarm", 1: "Unnerve", H: "Touch Claws"},
+		abilities: {0: "Swarm", 1: "Unnerve", H: "Tough Claws"},
 		heightm: 0.5,
 		weightkg: 11.5,
 		color: "Purple",
