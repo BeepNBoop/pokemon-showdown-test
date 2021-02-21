@@ -4320,12 +4320,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	supercell: {
 		onResidualOrder: 27,
 		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion-Delta') {
+			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion') {
 				return;
 			}
-			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && !['Active'].includes(pokemon.species.forme)) {
+			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && !['Delta-Active'].includes(pokemon.species.forme)) {
 				pokemon.addVolatile('supercell');
-			} else if (!['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && ['Active'].includes(pokemon.species.forme)) {
+			} else if (!['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && ['Delta-Active'].includes(pokemon.species.forme)) {
 				pokemon.addVolatile('supercell');
 				pokemon.removeVolatile('supercell');
 			}
