@@ -22279,7 +22279,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			{generation: 4, level: 50, gender: "M", nature: "Hardy", moves: ["confuseray", "firepunch", "lavaplume", "flamethrower"], pokeball: "cherishball"},
 		],
 	},
-	magmotardelta: {
+	magmortardelta: {
 		learnset: {
 			custommove: ["8L1"],
 			firstimpression: ["8L1"],
