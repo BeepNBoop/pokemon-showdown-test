@@ -7956,7 +7956,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Wailord", "Wailord-Delta"],
 	},
 	wailorddelta: {
-		num: -5094,
+		num: 321,
 		name: "Wailord-Delta",
 		baseSpecies: "Wailord",
 		forme: "Delta",
