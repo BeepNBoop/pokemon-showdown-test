@@ -16641,7 +16641,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		formeOrder: ["Goomy", "Goomy-Delta"],
 	},
 	goomydelta: {
-		num: 504,
+		num: 704,
 		name: "Goomy-Delta",
 		baseSpecies: "Goomy",
 		forme: "Delta",
