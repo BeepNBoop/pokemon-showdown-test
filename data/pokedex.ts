@@ -7596,7 +7596,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Lairon-Delta",
 		evoLevel: 42,
 		eggGroups: ["Undiscovered"],
-		tier: "NFE",
+		tier: "NU",
 	},
 	meditite: {
 		num: 307,
