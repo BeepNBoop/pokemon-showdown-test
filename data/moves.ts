@@ -84,13 +84,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		onEffectiveness(typeMod, target, type, move) {
+		onTryHit(source) {
+			if (source.hasAbility('scrappy')) return true;
+			if (source.side.active.length === 3 && source.position === 1) return false;
+		},
+		onEffectiveness(typeMod, target, source, move) {
 			if (move.type !== 'Normal') return;
 			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
+			// ignore effectiveness if the target is ghost
 			if (!target.hasType('Ghost')) {
 				return 1;
-			}
+			} 
 		},
 		secondary: null,
 		target: "normal",
@@ -17626,12 +17630,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			// this is a side condition
 			onStart(side, source) {
-				if (!source.hasAbility('Foundry')) {
-					this.add('-sidestart', side, 'move: Stealth Rock');
-				} else if (source.hasAbility('Foundry')) {
+				if (source.hasAbility('Foundry')) {
 					const stealthrockfire = this.dex.getMove('stealthrockfire');
 					this.useMove(stealthrockfire, source);
-					return null;
+					return;
+				} else if (!source.hasAbility('Foundry')) {
+					this.add('-sidestart', side, 'move: Stealth Rock');
 				}
 			},
 			onSwitchIn(pokemon) {
@@ -17661,12 +17665,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Stealth Rock Fire",
 		pp: 20,
 		priority: 0,
-		flags: {},
-		self: {
-			onHit(source) {
-				source.side.foe.addSideCondition('stealthrockfire');
-			},
-		},
+		flags: {reflectable: 1},
 		condition: {
 			onStart(side) {
 				this.add('-sidestart', side, 'move: Stealth Rock Fire');
@@ -17684,7 +17683,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		secondary: null,
-		target: "adjacentFoe",
+		target: "foeSide",
 		type: "Fire",
 		contestType: "Cool",
 	},
