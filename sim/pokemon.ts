@@ -1538,27 +1538,6 @@ export class Pokemon {
 			this.formeChange('Huntail-Delta');
 		} else if (this.species.name === 'Gorebyss') {
 			this.formeChange('Gorebyss-Delta');
-		} else if (this.species.name === 'Beldum') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Beldum-Delta-Spider');
-			} else if (result === 1) {
-				this.formeChange('Beldum-Delta-Ruin');
-			}
-		} else if (this.species.name === 'Metang') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Metang-Delta-Spider');
-			} else if (result === 1) {
-				this.formeChange('Metang-Delta-Ruin');
-			}
-		} else if (this.species.name === 'Metagross') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Metagross-Delta-Spider');
-			} else if (result === 1) {
-				this.formeChange('Metagross-Delta-Ruin');
-			}
 		} else if (this.species.name === 'Buneary') {
 			this.formeChange('Buneary-Delta');
 		} else if (this.species.name === 'Lopunny') {
@@ -1575,20 +1554,6 @@ export class Pokemon {
 			this.formeChange('Venipede-Delta');
 		} else if (this.species.name === 'Whirlipede') {
 			this.formeChange('Whirlipede-Delta');
-		} else if (this.species.name === 'Petilil') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Petilil-Delta-Water');
-			} else if (result === 1) {
-				this.formeChange('Petilil-Delta-Fairy');
-			}
-		} else if (this.species.name === 'Lilligant') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Lilligant-Delta-Water');
-			} else if (result === 1) {
-				this.formeChange('Lilligant-Delta-Fairy');
-			}
 		} else if (this.species.name === 'Solosis') {
 			this.formeChange('Solosis-Delta');
 		} else if (this.species.name === 'Duosion') {
@@ -1601,20 +1566,6 @@ export class Pokemon {
 			this.formeChange('Darmanitan-Delta');
 		} else if (this.species.name === 'Maractus') {
 			this.formeChange('Maractus-Delta');
-		} else if (this.species.name === 'Dwebble') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Dwebble-Delta-Berry');
-			} else if (result === 1) {
-				this.formeChange('Dwebble-Delta-Cake');
-			}
-		} else if (this.species.name === 'Crustle') {
-			const result = this.random(1);
-			if (result === 0) {
-				this.formeChange('Crustle-Delta-Berry');
-			} else if (result === 1) {
-				this.formeChange('Crustle-Delta-Cake');
-			}
 		} else if (this.species.name === 'Yamask') {
 			this.formeChange('Yamask-Delta');
 		} else if (this.species.name === 'Cofagrigus') {
