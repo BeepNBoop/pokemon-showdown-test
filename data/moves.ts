@@ -17667,7 +17667,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {reflectable: 1},
 		condition: {
-			onStart(side) {
+			onStart(side, source) {
+				source.side.foe.addSideCondition('stealthrockfire');
 				this.add('-sidestart', side, 'move: Stealth Rock Fire');
 			},
 			onSwitchIn(pokemon) {
@@ -17677,7 +17678,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				// They don't get typed damage from Steelsurge because Steelsurge doesn't,
 				// so we're going to test the damage of a Steel-type Stealth Rock instead.
 				const fireHazard = this.dex.getActiveMove('Stealth Rock');
-				fireHazard.type = 'fire';
+				fireHazard.type = 'Fire';
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
 				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
 			},
