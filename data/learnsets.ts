@@ -16972,6 +16972,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marowak: {
 		learnset: {
+			shadowsneak: ["8L1"],
+			phantomforce: ["8L1"],
+			shadowball: ["8L1"],
+			shadowclaw: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -22890,6 +22894,23 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eevee: {
 		learnset: {
+			flareblitz: ["8L1"],
+			hydropump: ["8L1"],
+			thunderbolt: ["8L1"],
+			psychic: ["8L1"],
+			foulplay: ["8L1"],
+			leafblade: ["8L1"],
+			icebeam: ["8L1"],
+			moonblast: ["8L1"],
+			fireblast: ["8L1"],
+			scald: ["8L1"],
+			voltswitch: ["8L1"],
+			psyshock: ["8L1"],
+			pursuit: ["8L1"],
+			gigadrain: ["8L1"],
+			blizzard: ["8L1"],
+			dazzlinggleam: ["8L1"],
+			gigaimpact: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "5S2", "4M", "4S0", "3M"],
@@ -27205,6 +27226,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meganium: {
 		learnset: {
+			calmmind: ["8L1"],
+			dazzlinggleam: ["8L1"],
+			moonblast: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
@@ -31213,6 +31237,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunkern: {
 		learnset: {
+			weatherball: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S0"],
@@ -31360,6 +31385,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunflora: {
 		learnset: {
+			weatherball: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
@@ -32794,6 +32820,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	girafarig: {
 		learnset: {
+			hyperfang: ["8L1"],
+			firefang: ["8L1"],
+			icefang: ["8L1"],
+			thunderfang: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["7L23", "7V", "6L14", "5L14", "4L14", "3L31"],
@@ -42553,6 +42583,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slakoth: {
 		learnset: {
+			knockoff: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -42643,6 +42674,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vigoroth: {
 		learnset: {
+			knockoff: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -42733,6 +42765,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slaking: {
 		learnset: {
+			knockoff: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -50064,6 +50097,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	milotic: {
 		learnset: {
+			moonblast: ["8L1"],
+			dazzlinggleam: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
@@ -50257,11 +50292,31 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	castform: {
 		learnset: {
+			sandtomb: ["8L1"],
+			rockthrow: ["8L1"],
+			newmoon: ["8L1"],
+			mudbomb: ["8L1"],
+			darkpulse: ["8L1"],
+			nastyplot: ["8L1"],
+			lunarcannon: ["8L1"],
+			stoneedge: ["8L1"],
+			taunt: ["8L1"],
+			rocktomb: ["8L1"],
+			torment: ["8L1"],
+			embargo: ["8L1"],
+			rockpolish: ["8L1"],
+			rockslide: ["8L1"],
+			smackdown: ["8L1"],
+			surf: ["8L1"],
+			earthpower: ["8L1"],
+			foulplay: ["8L1"],
+			mudslap: ["8L1"],
+			stealthrock: ["8L1"],
+			suckerpunch: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
-			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
 			amnesia: ["7E", "6E", "5E", "4E"],
@@ -59655,6 +59710,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spiritomb: {
 		learnset: {
+			knockoff: ["8L1"],
+			rockblast: ["8L1"],
+			zenheadbutt: ["8L1"],
+			brickbreak: ["8L1"],
+			stoneedge: ["8L1"],
+			rockslide: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
