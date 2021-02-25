@@ -162,6 +162,7 @@ Config.roomsFirstOpenScript = function (mainMenuOnly) {
 };
 
 Config.customcolors = {
+	'beepnboop': 'bleh',
 	'theimmortal': 'taco',
 	'bmelts': 'testmelts',
 	'jumpluff': 'zacchaeus',
