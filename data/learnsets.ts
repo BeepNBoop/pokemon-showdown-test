@@ -11045,6 +11045,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dig: ["8M", "8V", "7V", "6M", "5M", "4M", "3M"],
 			doubleedge: ["8L52", "7V", "3T"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
+			drainpunch: ["8L1"],
 			dualchop: ["8L32", "7T", "7L31", "6T", "6L31", "5T"],
 			dynamicpunch: ["8L44", "7L45", "7V", "6L45", "5L49", "4L46", "3T", "3L49"],
 			earthquake: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11130,6 +11131,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	machoke: {
 		learnset: {
+			drainpunch: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11233,6 +11235,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	machamp: {
 		learnset: {
+			drainpunch: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
