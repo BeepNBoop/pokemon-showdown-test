@@ -60252,6 +60252,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lucario: {
 		learnset: {
+			ironhead: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
@@ -62992,6 +62993,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arceus: {
 		learnset: {
+			dazzlinggleam: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -65843,6 +65845,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zebstrika: {
 		learnset: {
+			dazzlinggleam: ["8L1"],
+			playrough: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
@@ -67219,6 +67223,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	leavanny: {
 		learnset: {
+			uturn: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -67291,6 +67296,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	leavannyarmored: {
 		learnset: {
+			uturn: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -75474,6 +75480,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	haxorus: {
 		learnset: {
+			metalclaw: ["8L1"],
+			ironhead: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
@@ -76027,6 +76035,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stunfisk: {
 		learnset: {
+			voltswitch: ["8L1"],
 			custommove: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],

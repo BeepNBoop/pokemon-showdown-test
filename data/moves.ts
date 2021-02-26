@@ -12102,7 +12102,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			switch (pokemon.effectiveWeather()) {
 			case 'sunnyday':
 			case 'desolateland':
-				factor = 0.667;
+				factor = 0.33;
 				break;
 			case 'raindance':
 			case 'primordialsea':

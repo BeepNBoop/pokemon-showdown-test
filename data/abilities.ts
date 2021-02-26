@@ -3589,6 +3589,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 245,
 	},
 	sandstream: {
+		onImmunity(type, pokemon) {
+			if (type === 'sandstorm') return false;
+		},
 		onStart(source) {
 			this.field.setWeather('sandstorm');
 		},
@@ -3993,6 +3996,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 81,
 	},
 	snowwarning: {
+		onImmunity(type, pokemon) {
+			if (type === 'hail' || type === 'sleet') return false;
+		},
 		onStart(source) {
 			if (!this.field.isWeather('sleet')){
 				this.field.setWeather('hail');

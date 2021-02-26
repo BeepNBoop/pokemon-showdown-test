@@ -1666,6 +1666,12 @@ export const Items: {[itemid: string]: ItemData} = {
 				return this.chainModify([0x1333, 0x1000]);
 			}
 		},
+		onModifyAtkPriority: 1,
+		onModifyAtk(atk, pokemon) {
+			if (pokemon.species.id === "clamperldelta") {
+			return this.chainModify(2);
+			}
+		},
 		num: 250,
 		gen: 2,
 	},
@@ -1703,6 +1709,12 @@ export const Items: {[itemid: string]: ItemData} = {
 		spritenum: 108,
 		fling: {
 			basePower: 30,
+		},
+		onModifyDefPriority: 1,
+		onModifyDef(def, pokemon) {
+			if (pokemon.species.id === "clamperldelta") {
+			return this.chainModify(2);
+			}
 		},
 		num: 250,
 		gen: 2,
