@@ -20414,8 +20414,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {protect: 1, reflectable: 1},
 		sideCondition: 'wildfire',
 		onTry(target) {
-			if (!target.hasType('Grass')) {
-				return false;
+			if (target.hasType('Grass')) {
+				return;
 			}
 		},
 		condition: {
