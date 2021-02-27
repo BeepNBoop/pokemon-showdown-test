@@ -17630,7 +17630,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Stealth Rock",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1},
+		flags: {reflectable: 1, foundry:1},
 		sideCondition: 'stealthrock',
 		condition: {
 			onStart(side, source) {

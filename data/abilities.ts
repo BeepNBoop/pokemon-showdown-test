@@ -1270,8 +1270,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	foundry: {
 		onModifyMovePriority: -1,
 		onModifyMove(move, attacker) {
-			if (move.id === 'stealthrock') {
-				return move.id === 'stealthrockfire';
+			if (move.flags['foundry']) {
+				move.id == 'stealthrockfire';
 			}
 		},
 		onModifyTypePriority: -1,
