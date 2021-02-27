@@ -14836,8 +14836,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		onHit(target) {
-			if (target.species.name === 'Gengar-Mega' && target.baseSpecies.baseSpecies === 'Gengar') {
-				target.formeChange('Gengar', this.effect, true);
+			if (target.species.name === '*-Mega' && target.baseSpecies.baseSpecies === 'Gengar') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
 			}
 		},
 		secondary: null,
