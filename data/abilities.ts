@@ -3633,10 +3633,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
 			let forme = null;
 			switch (move.type) {
-			case 'Water':
-				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
-				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
-				break;
 			case 'Fire':
 				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
 				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
@@ -3677,7 +3673,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onTryHit(target, source, move) {
 			if (target !== source && move.type === 'Water') {
 				if (!this.heal(target.baseMaxhp / 4)) {
-					this.add('-immune', target, '[from] ability: Water Absorb');
+					this.add('-immune', target, '[from] ability: Protean Maxima W');
 				}
 				return null;
 			}
