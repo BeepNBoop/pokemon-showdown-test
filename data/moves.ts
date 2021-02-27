@@ -20421,9 +20421,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			// this is a side condition
 			onStart(side) {
-				if (!side.hasType('Grass')) {
-					return false;
-				}
 				this.add('-sidestart', side, 'move: Wildfire');
 				this.effectData.layers = 1;
 			},
