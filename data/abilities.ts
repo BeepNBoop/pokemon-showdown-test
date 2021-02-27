@@ -3136,35 +3136,35 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			switch (move.type) {
 			case 'Water':
 				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
 				break;
 			case 'Fire':
 				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
 				break;
 			case 'Electric':
 				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
 				break;
 			case 'Psychic':
 				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
 				break;
 			case 'Dark':
 				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
 				break;
 			case 'Grass':
 				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
 				break;
 			case 'Ice':
 				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
 				break;
 			case 'Fairy':
 				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
-				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
 				break;
 			case 'Normal':
 				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
@@ -3175,87 +3175,514 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				pokemon.formeChange(forme, this.effect, false, '[msg]');
 				}
 			},
-			onTryHitPriority: 1,
-			onTryHit(target, source, move) {
-				if (target !== source && move.type === 'Water' && (target.species.name === 'Vaporeon')) {
-					if (!this.heal(target.baseMaxhp / 4)) {
-						this.add('-immune', target, '[from] ability: Water Absorb');
-					}
-					return null;
-				}
-				else if (target !== source && move.type === 'Electric' && (target.species.name === 'Jolteon')) {
-					if (!this.heal(target.baseMaxhp / 4)) {
-						this.add('-immune', target, '[from] ability: Volt Absorb');
-					}
-					return null;
-				}
-				else if (target !== source && move.type === 'Fire' && (target.species.name === 'Flareon')) {
-					move.accuracy = true;
-					if (!target.addVolatile('flashfire')) {
-						this.add('-immune', target, '[from] ability: Flash Fire');
-					}
-					return null;
-				}
-				else if (target === source || move.hasBounced || !move.flags['reflectable'] || !target.species.name === 'Espeon') {
-					return;
-				}
-				const newMove = this.dex.getActiveMove(move.id);
-				newMove.hasBounced = true;
-				newMove.pranksterBoosted = false;
-				this.useMove(newMove, target, source);
-				return null;
-			},
-			onAllyTryHitSide(target, source, move) {
-				if (target.side === source.side || move.hasBounced || !move.flags['reflectable'] && !target.species.name === 'Espeon') {
-					return;
-				}
-				const newMove = this.dex.getActiveMove(move.id);
-				newMove.hasBounced = true;
-				newMove.pranksterBoosted = false;
-				this.useMove(newMove, this.effectData.target, source);
-				return null;
-			},
-			condition: {
-				duration: 1,
-			},
-			onAfterSetStatus(status, target, source, effect) {
-				if (!source || source === target) return;
-				if (effect && effect.id === 'toxicspikes') return;
-				if (status.id === 'slp' || status.id === 'frz') return;
-				if (target.species.name === 'Umbreon') {
-				this.add('-activate', target, 'ability: Synchronize');
-				// Hack to make status-prevention abilities think Synchronize is a status move
-				// and show messages when activating against it.
-				source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
-				}
-			},
-			onModifySpe(spe, pokemon) {
-				if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather()) && (pokemon.species.name === 'Leafeon')) {
-					return this.chainModify(2);
-				}
-			},
-			onImmunity(type, pokemon) {
-				if (type === 'hail' || type === 'sleet' && (pokemon.species.name === 'Glaceon')) return false;
-			},
-			onModifyAccuracyPriority: -1,
-			onModifyAccuracy(accuracy, pokemon) {
-				if (typeof accuracy !== 'number') return;
-				if (this.field.isWeather('hail') || this.field.isWeather('sleet') && pokemon.species.name === 'Glaceon') {
-					this.debug('Snow Cloak - decreasing accuracy');
-					return this.chainModify([0x0CCD, 0x1000]);
-				}
-			},
-			onDamagingHit(damage, target, source, move) {
-				if (move.flags['contact'] && (target.species.name === 'Sylveon')) {
-					if (this.randomChance(3, 10)) {
-						source.addVolatile('attract', this.effectData.target);
-					}
-				}
-			},
-			onEnd(pokemon) {
-				pokemon.removeVolatile('flashfire');
-			},
 		name: "Protean Maxima",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximae: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onTryHitPriority: 1,
+		onTryHit(target, source, move) {
+			if (target === source || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			newMove.pranksterBoosted = false;
+			this.useMove(newMove, target, source);
+			return null;
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (target.side === source.side || move.hasBounced || !move.flags['reflectable']) {
+				return;
+			}
+			const newMove = this.dex.getActiveMove(move.id);
+			newMove.hasBounced = true;
+			newMove.pranksterBoosted = false;
+			this.useMove(newMove, this.effectData.target, source);
+			return null;
+		},
+		condition: {
+			duration: 1,
+		},
+		name: "Protean Maxima E",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximaf: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Fire') {
+				move.accuracy = true;
+				if (!target.addVolatile('flashfire')) {
+					this.add('-immune', target, '[from] ability: Flash Fire');
+				}
+				return null;
+			}
+		},
+		onEnd(pokemon) {
+			pokemon.removeVolatile('flashfire');
+		},
+		condition: {
+			noCopy: true, // doesn't get copied by Baton Pass
+			onStart(target) {
+				this.add('-start', target, 'ability: Flash Fire');
+			},
+			onModifyAtkPriority: 5,
+			onModifyAtk(atk, attacker, defender, move) {
+				if (move.type === 'Fire' && attacker.hasAbility('flashfire')) {
+					this.debug('Flash Fire boost');
+					return this.chainModify(1.5);
+				}
+			},
+			onModifySpAPriority: 5,
+			onModifySpA(atk, attacker, defender, move) {
+				if (move.type === 'Fire' && attacker.hasAbility('flashfire')) {
+					this.debug('Flash Fire boost');
+					return this.chainModify(1.5);
+				}
+			},
+			onEnd(target) {
+				this.add('-end', target, 'ability: Flash Fire', '[silent]');
+			},
+		},
+		name: "Protean Maxima F",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximag: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onImmunity(type, pokemon) {
+			if (type === 'hail' || type === 'sleet') return false;
+		},
+		onModifyAccuracyPriority: -1,
+		onModifyAccuracy(accuracy) {
+			if (typeof accuracy !== 'number') return;
+			if (this.field.isWeather('hail') || this.field.isWeather('sleet')) {
+				this.debug('Snow Cloak - decreasing accuracy');
+				return this.chainModify([0x0CCD, 0x1000]);
+			}
+		},
+		name: "Protean Maxima G",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximaj: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Electric') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Volt Absorb');
+				}
+				return null;
+			}
+		},
+		name: "Protean Maxima J",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximal: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onModifySpe(spe, pokemon) {
+			if (['sunnyday', 'desolateland'].includes(pokemon.effectiveWeather())) {
+				return this.chainModify(2);
+			}
+		},
+		name: "Protean Maxima L",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximas: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onDamagingHit(damage, target, source, move) {
+			if (move.flags['contact']) {
+				if (this.randomChance(3, 10)) {
+					source.addVolatile('attract', this.effectData.target);
+				}
+			}
+		},
+		name: "Protean Maxima S",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximau: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onAfterSetStatus(status, target, source, effect) {
+			if (!source || source === target) return;
+			if (effect && effect.id === 'toxicspikes') return;
+			if (status.id === 'slp' || status.id === 'frz') return;
+			this.add('-activate', target, 'ability: Synchronize');
+			// Hack to make status-prevention abilities think Synchronize is a status move
+			// and show messages when activating against it.
+			source.trySetStatus(status, target, {status: status.id, id: 'synchronize'} as Effect);
+		},
+		name: "Protean Maxima U",
+		rating: 5,
+		num: 168,
+	},
+	proteanmaximaw: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Eevee' || pokemon.transformed) return;
+			let forme = null;
+			switch (move.type) {
+			case 'Water':
+				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
+				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				break;
+			case 'Fire':
+				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
+				this.add('-ability', pokemon, 'Protean Maxima F', '[silent]');
+				break;
+			case 'Electric':
+				if (pokemon.species.name !== 'jolteon') forme = 'Jolteon';
+				this.add('-ability', pokemon, 'Protean Maxima J', '[silent]');
+				break;
+			case 'Psychic':
+				if (pokemon.species.name !== 'espeon') forme = 'Espeon';
+				this.add('-ability', pokemon, 'Protean Maxima E', '[silent]');
+				break;
+			case 'Dark':
+				if (pokemon.species.name !== 'umbreon') forme = 'Umbreon';
+				this.add('-ability', pokemon, 'Protean Maxima U', '[silent]');
+				break;
+			case 'Grass':
+				if (pokemon.species.name !== 'leafeon') forme = 'Leafeon';
+				this.add('-ability', pokemon, 'Protean Maxima L', '[silent]');
+				break;
+			case 'Ice':
+				if (pokemon.species.name !== 'glaceon') forme = 'Glaceon';
+				this.add('-ability', pokemon, 'Protean Maxima G', '[silent]');
+				break;
+			case 'Fairy':
+				if (pokemon.species.name !== 'sylveon') forme = 'Sylveon';
+				this.add('-ability', pokemon, 'Protean Maxima S', '[silent]');
+				break;
+			case 'Normal':
+				if (pokemon.species.name !== 'eeveemega') forme = 'Eevee-Mega';
+				this.add('-ability', pokemon, 'Protean Maxima', '[silent]');
+				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
+				}
+			},
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Water') {
+				if (!this.heal(target.baseMaxhp / 4)) {
+					this.add('-immune', target, '[from] ability: Water Absorb');
+				}
+				return null;
+			}
+		},
+		name: "Protean Maxima W",
 		rating: 5,
 		num: 168,
 	},
