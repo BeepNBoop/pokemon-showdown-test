@@ -17634,8 +17634,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'stealthrock',
 		onTry(source, target, move) {
 			if (source.hasAbility('foundry')) {
-				const stealthrockfire = this.dex.getMove('stealthrockfire');
-				this.useMove(stealthrockfire, source);
+				this.debug('The stealth rocks heated up due to Foundry!');
+				source.side.foe.addSideCondition('gmaxsteelsurge');
 				return null;
 			}
 		},
