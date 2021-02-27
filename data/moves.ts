@@ -20415,7 +20415,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 		sideCondition: 'wildfire',
 		onTryHit(target) {
 			if (!target.hasType('Grass')) {
-				return false;
+				return null;
+			}
+		},
+		onTry(target) {
+			if (!target.hasType('Grass')) {
+				return null;
 			}
 		},
 		condition: {
@@ -20432,8 +20437,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					return;
 				} else if (pokemon.hasType('Dragon') || pokemon.hasType('Fire') || pokemon.hasType('Rock') || pokemon.hasType('Water')) {
 					return;
-				}
-				if (this.effectData.layers >= 1) {
+				} else if (this.effectData.layers = 1 && (pokemon.hasType('Bug') || pokemon.hasType('Grass') || pokemon.hasType('Ice') || pokemon.hasType('Steel'))) {
 					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
 				}
 			},
