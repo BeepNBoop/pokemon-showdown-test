@@ -14827,7 +14827,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	retrograde: {
-		num: 863,
+		num: 750,
 		accuracy: 100,
 		basePower: 0,
 		category: "Status",
@@ -14836,8 +14836,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		onHit(target) {
-			if (target.baseSpecies.name === 'Gengar-Mega') {
-				target.formeChange('Gengar');
+			if (target.species.name === 'Gengar-Mega' && target.baseSpecies.baseSpecies === 'Gengar') {
+				target.formeChange('Gengar', this.effect, true);
 			}
 		},
 		secondary: null,
