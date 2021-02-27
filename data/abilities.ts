@@ -4324,16 +4324,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 21,
 	},
 	supercell: {
-		onResidualOrder: 27,
-		onResidual(pokemon) {
-			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion') {
-				return;
+		onUpdate(pokemon) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Typhlosion' || pokemon.transformed) return;
+			let forme = null;
+			switch (pokemon.effectiveWeather()) {
+			case 'raindance':
+			case 'primordialsea':
+			case 'newmoon':
+				if (pokemon.species.id !== 'typhlosionmegaactive') forme = 'Typhlosion-Mega-Active';
+				break;
+			default:
+				if (pokemon.species.id !== 'typhlosionmega') forme = 'typhlosionmega';
+				break;
 			}
-			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && !['Delta-Active'].includes(pokemon.species.forme)) {
-				pokemon.addVolatile('supercell');
-			} else if (!['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather()) && ['Delta-Active'].includes(pokemon.species.forme)) {
-				pokemon.addVolatile('supercell');
-				pokemon.removeVolatile('supercell');
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
 			}
 		},
 		onModifySpA(SpA, pokemon) {
