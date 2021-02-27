@@ -20413,26 +20413,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1},
 		sideCondition: 'wildfire',
-		onTry(target) {
-			if (target.hasType('Grass')) {
-				return;
+		onTryHit(target) {
+			if (!target.hasType('Grass')) {
+				return false;
 			}
 		},
 		condition: {
 			// this is a side condition
 			onStart(side) {
+				if (!side.hasType('Grass')) {
+					return false;
+				}
 				this.add('-sidestart', side, 'move: Wildfire');
 				this.effectData.layers = 1;
 			},
 			onRestart(side) {
 				if (this.effectData.layers >= 1) return false;
 			},
-			onEffectiveness(typeMod, target, type, move) {
-				if (typeMod + this.dex.getEffectiveness('fire', type) !> 0) {
+			onSwitchIn(pokemon) {
+				if (!pokemon.hasType('Bug') || !pokemon.hasType('Grass') || !pokemon.hasType('Ice') || !pokemon.hasType('Steel')) {
+					return;
+				} else if (pokemon.hasType('Dragon') || pokemon.hasType('Fire') || pokemon.hasType('Rock') || pokemon.hasType('Water')) {
 					return;
 				}
-			},
-			onSwitchIn(pokemon) {
 				if (this.effectData.layers >= 1) {
 					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
 				}
