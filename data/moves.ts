@@ -17632,6 +17632,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {reflectable: 1, foundry:1},
 		sideCondition: 'stealthrock',
+		onTry(source, target, move) {
+			if (source.hasAbility('foundry')) {
+				const stealthrockfire = this.dex.getMove('stealthrockfire');
+				this.useMove(stealthrockfire, source);
+				return null;
+			}
+		},
 		condition: {
 			onStart(side, source) {
 				source.side.foe.addSideCondition('stealthrock');
