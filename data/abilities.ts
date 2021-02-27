@@ -3136,7 +3136,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			switch (move.type) {
 			case 'Water':
 				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
-				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima W');
 				break;
 			case 'Fire':
 				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
@@ -3576,7 +3576,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			switch (move.type) {
 			case 'Water':
 				if (pokemon.species.name !== 'vaporeon') forme = 'Vaporeon';
-				this.add('-ability', pokemon, 'Protean Maxima W', '[silent]');
+				this.add('-ability', pokemon, 'Protean Maxima W');
 				break;
 			case 'Fire':
 				if (pokemon.species.name !== 'flareon') forme = 'Flareon';
