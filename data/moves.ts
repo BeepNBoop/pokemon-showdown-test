@@ -17676,9 +17676,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (pokemon.hasItem('heavydutyboots')) return;
 				// Ice Face and Disguise correctly get typed damage from Stealth Rock
 				// because Stealth Rock bypasses Substitute.
-				// They don't get typed damage from Steelsurge because Steelsurge doesn't,
-				// so we're going to test the damage of a Steel-type Stealth Rock instead.
-				const fireHazard = this.dex.getActiveMove('Stealth Rock');
+				// They don't get typed damage from Stealth Rock Fire because Stealth Rock Fire doesn't,
+				// so we're going to test the damage of a Fire-type Stealth Rock instead.
+				const fireHazard = this.dex.getActiveMove('Stealth Rock Fire');
 				fireHazard.type = 'Fire';
 				const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
 				this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
