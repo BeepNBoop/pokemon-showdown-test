@@ -1164,6 +1164,38 @@ export const AbilitiesText: {[k: string]: AbilityText} = {
 		desc: "Depending on the moves Eevee uses, it changes into another Eevee forme complete with type, stats (including HP) and ability.",
 		shortDesc: "This Pokemon's type changes to match the type of the move it is about to use.",
 	},
+	proteanmaximae: {
+		name: "Protean Maxima E",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Espeon state.",
+	},
+	proteanmaximaf: {
+		name: "Protean Maxima F",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Flareon state.",
+	},
+	proteanmaximag: {
+		name: "Protean Maxima G",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Glaceon state.",
+	},
+	proteanmaximaj: {
+		name: "Protean Maxima J",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Jolteon state.",
+	},
+	proteanmaximal: {
+		name: "Protean Maxima L",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Leafeon state.",
+	},
+	proteanmaximas: {
+		name: "Protean Maxima S",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Sylveon state.",
+	},
+	proteanmaximau: {
+		name: "Protean Maxima U",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Umbreon state.",
+	},
+	proteanmaximaV: {
+		name: "Protean Maxima V",
+		desc: "The forme of Protean Maxima that corresponds with Mega Eevee's Vaporeon state.",
+	},
 	psychicsurge: {
 		name: "Psychic Surge",
 		shortDesc: "On switch-in, this Pokemon summons Psychic Terrain.",
