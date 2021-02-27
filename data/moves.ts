@@ -550,6 +550,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 				if (ally.cureStatus()) success = true;
 			}
+			const sideConditions = ['wildfire'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Aromatherapy', '[of] ' + pokemon);
+				}
+			}
 			return success;
 		},
 		target: "allyTeam",
@@ -3448,10 +3454,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 			let success = false;
 			if (!target.volatiles['substitute'] || move.infiltrates) success = !!this.boost({evasion: -1});
 			const removeTarget = [
-				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'livewire', 'permafrost', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge',
+				'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'livewire', 'permafrost', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'stickyweb', 'gmaxsteelsurge',
 			];
 			const removeAll = [
-				'spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost',
+				'spikes', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost',
 			];
 			for (const targetCondition of removeTarget) {
 				if (target.side.removeSideCondition(targetCondition)) {
@@ -8144,6 +8150,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			for (const ally of side.pokemon) {
 				if (ally !== source && ally.hasAbility('soundproof')) continue;
 				if (ally.cureStatus()) success = true;
+			}
+			const sideConditions = ['wildfire'];
+			for (const condition of sideConditions) {
+				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
+					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Heal Bell', '[of] ' + pokemon);
+				}
 			}
 			return success;
 		},
@@ -14488,7 +14500,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -14502,7 +14514,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (pokemon.hp && pokemon.removeVolatile('leechseed')) {
 				this.add('-end', pokemon, 'Leech Seed', '[from] move: Rapid Spin', '[of] ' + pokemon);
 			}
-			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
+			const sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'stickyweb', 'gmaxsteelsurge', 'livewire', 'permafrost'];
 			for (const condition of sideConditions) {
 				if (pokemon.hp && pokemon.side.removeSideCondition(condition)) {
 					this.add('-sideend', pokemon.side, this.dex.getEffect(condition).name, '[from] move: Rapid Spin', '[of] ' + pokemon);
@@ -20400,17 +20412,31 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, reflectable: 1},
-		onHit(pokemon, target, move) {
-			this.add('-activate', target, 'move: Wildfire');
-			let success = false;
-			for (const ally of pokemon.side.pokemon) {
-				if (ally !== target && ((ally.hasAbility('sapsipper')) ||
-						(ally.volatiles['substitute'] && !move.infiltrates))) {
-					continue;
-				}
-				if (ally.cureStatus()) success = true;
+		sideCondition: 'wildfire',
+		onTry(target) {
+			if (!target.hasType('Grass')) {
+				return false;
 			}
-			return success;
+		},
+		condition: {
+			// this is a side condition
+			onStart(side) {
+				this.add('-sidestart', side, 'move: Wildfire');
+				this.effectData.layers = 1;
+			},
+			onRestart(side) {
+				if (this.effectData.layers >= 1) return false;
+			},
+			onEffectiveness(typeMod, target, type, move) {
+				if (typeMod + this.dex.getEffectiveness('fire', type) !> 0) {
+					return;
+				}
+			},
+			onSwitchIn(pokemon) {
+				if (this.effectData.layers >= 1) {
+					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
+				}
+			},
 		},
 		status: 'brn',
 		target: "foeSide",

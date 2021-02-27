@@ -66,6 +66,7 @@ export const DefaultText: {[k: string]: DefaultText} = {
 		activateWeaken: "  The [ITEM] weakened the damage to [POKEMON]!",
 
 		damage: "  ([POKEMON] was hurt!)",
+		damagefromStealthrockfire: "  The magma scorched [POKEMON]!",
 		damagePercentage: "  ([POKEMON] lost [PERCENTAGE] of its health!)",
 		damageFromPokemon: "  [POKEMON] was hurt by [SOURCE]'s [ITEM]!", // Jaboca/Rowap Berry
 		damageFromItem: "  [POKEMON] was hurt by its [ITEM]!", // Sticky Barb
