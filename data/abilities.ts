@@ -1271,7 +1271,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onModifyMovePriority: -1,
 		onModifyMove(move, attacker) {
 			if (move.id === 'stealthrock') {
-				move.id === 'stealthrockfire';
+				return move.id === 'stealthrockfire';
 			}
 		},
 		onModifyTypePriority: -1,
@@ -1281,14 +1281,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			];
 			if (move.type === 'Rock' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
 				move.type = 'Fire';
-				move.foundryBoosted = true;
 			}
 		},
 		onBasePowerPriority: 23,
 		onBasePower(basePower, pokemon, target, move) {
 			if (move.type = 'Fire') return this.chainModify([0x14CD, 0x1000]);
 		},
-		// The Stealth Rocks part of Foundry is defined in moves.ts
 		name: "Foundry",
 		rating: 3,
 		num: 108,
@@ -3179,26 +3177,26 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			},
 			onTryHitPriority: 1,
 			onTryHit(target, source, move) {
-				if (target !== source && move.type === 'Water' && (source.species.name === 'Vaporeon')) {
+				if (target !== source && move.type === 'Water' && (target.species.name === 'Vaporeon')) {
 					if (!this.heal(target.baseMaxhp / 4)) {
 						this.add('-immune', target, '[from] ability: Water Absorb');
 					}
 					return null;
 				}
-				else if (target !== source && move.type === 'Electric' && (source.species.name === 'Jolteon')) {
+				else if (target !== source && move.type === 'Electric' && (target.species.name === 'Jolteon')) {
 					if (!this.heal(target.baseMaxhp / 4)) {
 						this.add('-immune', target, '[from] ability: Volt Absorb');
 					}
 					return null;
 				}
-				else if (target !== source && move.type === 'Fire' && (source.species.name === 'Flareon')) {
+				else if (target !== source && move.type === 'Fire' && (target.species.name === 'Flareon')) {
 					move.accuracy = true;
 					if (!target.addVolatile('flashfire')) {
 						this.add('-immune', target, '[from] ability: Flash Fire');
 					}
 					return null;
 				}
-				else if (target === source || move.hasBounced || !move.flags['reflectable'] && (source.species.name === 'Espeon')) {
+				else if (target === source || move.hasBounced || !move.flags['reflectable'] || !target.species.name === 'Espeon') {
 					return;
 				}
 				const newMove = this.dex.getActiveMove(move.id);
@@ -3208,7 +3206,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return null;
 			},
 			onAllyTryHitSide(target, source, move) {
-				if (target.side === source.side || move.hasBounced || !move.flags['reflectable'] && (target.species.name === 'Espeon')) {
+				if (target.side === source.side || move.hasBounced || !move.flags['reflectable'] && !target.species.name === 'Espeon') {
 					return;
 				}
 				const newMove = this.dex.getActiveMove(move.id);
@@ -3224,7 +3222,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (!source || source === target) return;
 				if (effect && effect.id === 'toxicspikes') return;
 				if (status.id === 'slp' || status.id === 'frz') return;
-				if (source.species.name === 'Umbreon') {
+				if (target.species.name === 'Umbreon') {
 				this.add('-activate', target, 'ability: Synchronize');
 				// Hack to make status-prevention abilities think Synchronize is a status move
 				// and show messages when activating against it.
@@ -3240,9 +3238,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				if (type === 'hail' || type === 'sleet' && (pokemon.species.name === 'Glaceon')) return false;
 			},
 			onModifyAccuracyPriority: -1,
-			onModifyAccuracy(accuracy) {
+			onModifyAccuracy(accuracy, pokemon) {
 				if (typeof accuracy !== 'number') return;
-				if (this.field.isWeather('hail') || this.field.isWeather('sleet')) {
+				if (this.field.isWeather('hail') || this.field.isWeather('sleet') && pokemon.species.name === 'Glaceon') {
 					this.debug('Snow Cloak - decreasing accuracy');
 					return this.chainModify([0x0CCD, 0x1000]);
 				}
