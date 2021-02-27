@@ -1268,6 +1268,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 108,
 	},
 	foundry: {
+		onModifyMovePriority: -1,
+		onModifyMove(move, attacker) {
+			if (move.id === 'stealthrock') {
+				move.id === 'stealthrockfire';
+			}
+		},
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
 			const noModifyType = [
@@ -1280,7 +1286,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onBasePowerPriority: 23,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.foundryBoosted) return this.chainModify([0x14CD, 0x1000]);
+			if (move.type = 'Fire') return this.chainModify([0x14CD, 0x1000]);
 		},
 		// The Stealth Rocks part of Foundry is defined in moves.ts
 		name: "Foundry",
@@ -4331,10 +4337,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			case 'raindance':
 			case 'primordialsea':
 			case 'newmoon':
-				if (pokemon.species.id !== 'typhlosionmegaactive') forme = 'Typhlosion-Mega-Active';
+				if (pokemon.species.id !== 'typhlosiondeltamegaactive') forme = 'Typhlosion-Delta-Mega-Active';
 				break;
 			default:
-				if (pokemon.species.id !== 'typhlosionmega') forme = 'typhlosionmega';
+				if (pokemon.species.id !== 'typhlosiondeltamega') forme = 'Typhlosion-Delta-Mega';
 				break;
 			}
 			if (pokemon.isActive && forme) {
@@ -4343,6 +4349,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifySpA(SpA, pokemon) {
 			if (['raindance', 'primordialsea', 'newmoon'].includes(pokemon.effectiveWeather())) {
+				this.debug('Supercell boost');
 				return this.chainModify(1.5);
 			}
 		},

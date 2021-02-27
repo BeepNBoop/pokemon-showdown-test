@@ -17633,25 +17633,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {reflectable: 1},
 		sideCondition: 'stealthrock',
 		condition: {
-			// this is a side condition
 			onStart(side, source) {
-				if (source.hasAbility('Foundry')) {
-					const stealthrockfire = this.dex.getMove('stealthrockfire');
-					this.useMove(stealthrockfire, source);
-					return;
-				} else if (!source.hasAbility('Foundry')) {
-					this.add('-sidestart', side, 'move: Stealth Rock');
-				}
+				source.side.foe.addSideCondition('stealthrock');
+				this.add('-sidestart', side, 'move: Stealth Rock');
 			},
 			onSwitchIn(pokemon) {
 				if (pokemon.hasItem('heavydutyboots')) return;
 				if (pokemon.side.getSideCondition('Stealth Rock')) {
 					const typeMod = this.clampIntRange(pokemon.runEffectiveness(this.dex.getActiveMove('stealthrock')), -6, 6);
-					this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
-				} else if (pokemon.side.getSideCondition('Stealth Rock Fire')) {
-					const fireHazard = this.dex.getActiveMove('stealthrock');
-					fireHazard.type = 'Fire';
-					const typeMod = this.clampIntRange(pokemon.runEffectiveness(fireHazard), -6, 6);
 					this.damage(pokemon.maxhp * Math.pow(2, typeMod) / 8);
 				}
 			},
