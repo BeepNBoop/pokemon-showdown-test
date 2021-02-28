@@ -2833,17 +2833,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (move.id === 'wish') {
 			const orbit = this.dex.getMove('wishorbit');
 			this.useMove(orbit, source);
-			source.addVolatile('disablewish', this.effectData.target);
 			return null;
 			} else if (move.id === 'doomdesire') {
 				const orbit = this.dex.getMove('doomdesireorbit');
 				this.useMove(orbit, target);
-				source.addVolatile('disabledoom', this.effectData.target);
 				return null;
 			} else if (move.id === 'futuresight') {
 				const orbit = this.dex.getMove('futuresightorbit');
 				this.useMove(orbit, target);
-				source.addVolatile('disablefuture', this.effectData.target);
 				return null;
 			}
 		},
