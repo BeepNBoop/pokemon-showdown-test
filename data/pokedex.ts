@@ -13023,7 +13023,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Swadloon",
 		evoType: "levelFriendship",
 		eggGroups: ["Bug"],
-		requiredMove: "Leavanny Armor",
+		requiredItem: "Leavanny Armor",
 		tier: "NU",
 	},
 	venipede: {
