@@ -19,6 +19,36 @@ The column value will be ignored for repeat sections.
 
 export const Formats: FormatList = [
 
+	// Insurgence Singles
+	///////////////////////////////////////////////////////////////////
+
+	{
+		section: "Insurgence Singles",
+	},
+	{
+		name: "[Gen 8] Insurgence Random Battle",
+		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
+		],
+
+		mod: 'gen8',
+		team: 'random',
+		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+	},
+	{
+		name: "[Gen 8] Insurgence OU",
+		threads: [
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
+			`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
+		],
+
+		mod: 'gen8',
+		ruleset: ['Standard', 'Dynamax Clause'],
+		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
+
 	// Sw/Sh Singles
 	///////////////////////////////////////////////////////////////////
 
