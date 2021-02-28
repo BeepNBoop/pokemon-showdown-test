@@ -4048,7 +4048,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {orbit: 1},
-		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
@@ -6577,7 +6576,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {orbit: 1},
 		ignoreImmunity: true,
-		isFutureMove: true,
 		onTry(source, target) {
 			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
@@ -20792,7 +20790,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, orbit: 1},
-		slotCondition: 'Wish',
+		slotCondition: 'Wish Orbit',
 		condition: {
 			duration: 4,
 			onStart(pokemon, source) {
