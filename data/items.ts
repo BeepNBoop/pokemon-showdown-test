@@ -11,7 +11,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 674,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	absolite: {
 		name: "Absolite",
@@ -699,7 +698,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 660,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	charizarditey: {
 		name: "Charizardite Y",
@@ -713,7 +711,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 678,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	chartiberry: {
 		name: "Charti Berry",
@@ -2268,7 +2265,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Flygon-Armored",
 		num: 787,
 		gen: 7,
-		isNonstandard: "Past",
 	},
 	flygonite: {
 		name: "Flygonite",
@@ -3336,7 +3332,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Leavanny-Armored",
 		num: 787,
 		gen: 7,
-		isNonstandard: "Past",
 	},
 	leek: {
 		name: "Leek",
@@ -3984,7 +3979,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Mewtwo-Armored",
 		num: 787,
 		gen: 7,
-		isNonstandard: "Past",
 	},
 	mewtwonitex: {
 		name: "Mewtwonite X",
@@ -3998,7 +3992,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 662,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	mewtwonitey: {
 		name: "Mewtwonite Y",
@@ -4012,7 +4005,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 663,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	micleberry: {
 		name: "Micle Berry",
@@ -5956,7 +5948,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 761,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	steelgem: {
 		name: "Steel Gem",
@@ -6105,7 +6096,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 1237,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	sunfloritem: {
 		name: "Sunflorite M",
@@ -6119,7 +6109,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		},
 		num: 1237,
 		gen: 6,
-		isNonstandard: "Past",
 	},
 	sunstone: {
 		name: "Sun Stone",
@@ -7233,7 +7222,6 @@ export const Items: {[itemid: string]: ItemData} = {
 		forcedForme: "Tyranitar-Armored",
 		num: 787,
 		gen: 7,
-		isNonstandard: "Past",
 	},
 	tyranitarite: {
 		name: "Tyranitarite",
