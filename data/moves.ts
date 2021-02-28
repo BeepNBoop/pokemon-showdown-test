@@ -20413,11 +20413,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1},
 		sideCondition: 'wildfire',
-		onTryHit(target) {
-			if (!target.hasType('Grass')) {
-				return null;
-			}
-		},
 		onTry(target) {
 			if (!target.hasType('Grass')) {
 				return null;
@@ -20433,18 +20428,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (this.effectData.layers >= 1) return false;
 			},
 			onSwitchIn(pokemon) {
-				if (!pokemon.hasType('Bug') || !pokemon.hasType('Grass') || !pokemon.hasType('Ice') || !pokemon.hasType('Steel')) {
-					return;
-				} else if (pokemon.hasType('Dragon') || pokemon.hasType('Fire') || pokemon.hasType('Rock') || pokemon.hasType('Water')) {
-					return;
-				} else if (this.effectData.layers = 1 && (pokemon.hasType('Bug') || pokemon.hasType('Grass') || pokemon.hasType('Ice') || pokemon.hasType('Steel'))) {
+				if (this.effectData.layers = 1 && (pokemon.hasType('Bug') || pokemon.hasType('Grass') || pokemon.hasType('Ice') || pokemon.hasType('Steel')) && (!pokemon.hasType('Dragon') || !pokemon.hasType('Fire') || !pokemon.hasType('Rock') || !pokemon.hasType('Water'))) {
 					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
 				}
 			},
 		},
 		status: 'brn',
 		target: "foeSide",
-		type: "fire",
+		type: "Fire",
 		zMove: {boost: {atk: 1}}
 	},
 	willowisp: {
