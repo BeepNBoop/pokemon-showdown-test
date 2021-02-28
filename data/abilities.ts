@@ -2831,19 +2831,19 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onAfterMove(target, source, move) {
 			if (!move.flags['futuremove'] || move.flags['Orbit']) return;
 			if (move.id === 'wish') {
-			source.addVolatile('disablewish', this.effectData.target);
 			const orbit = this.dex.getMove('wishorbit');
 			this.useMove(orbit, source);
+			source.addVolatile('disablewish', this.effectData.target);
 			return null;
 			} else if (move.id === 'doomdesire') {
-				source.addVolatile('disabledoom', this.effectData.target);
 				const orbit = this.dex.getMove('doomdesireorbit');
-				this.useMove(orbit, source);
+				this.useMove(orbit, target);
+				source.addVolatile('disabledoom', this.effectData.target);
 				return null;
 			} else if (move.id === 'futuresight') {
-				source.addVolatile('disablefuture', this.effectData.target);
 				const orbit = this.dex.getMove('futuresightorbit');
-				this.useMove(orbit, source);
+				this.useMove(orbit, target);
+				source.addVolatile('disablefuture', this.effectData.target);
 				return null;
 			}
 		},

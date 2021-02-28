@@ -3737,20 +3737,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 					}
 				}
 				if (effect.effectType === 'Ability') {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name, '[from] ability: Cursed Body', '[of] ' + source);
+					this.add('-start', pokemon, 'Disable (Future)', pokemon.lastMove.name, '[from] ability: Periodic Orbit', '[of] ' + source);
 				} else {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name);
+					this.add('-start', pokemon, 'Disable (Future)', pokemon.lastMove.name);
 				}
 				this.effectData.move = pokemon.lastMove.id;
 			},
 			onResidualOrder: 14,
 			onEnd(pokemon) {
-				this.add('-end', pokemon, 'Disable');
+				this.add('-end', pokemon, 'Disable (Future)');
 			},
 			onBeforeMovePriority: 7,
 			onBeforeMove(attacker, defender, move) {
 				if (!move.isZ && move.id === this.effectData.move) {
-					this.add('cant', attacker, 'Disable', move);
+					this.add('cant', attacker, 'Disable (Future)', move);
 					return false;
 				}
 			},
@@ -3807,20 +3807,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 					}
 				}
 				if (effect.effectType === 'Ability') {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name, '[from] ability: Cursed Body', '[of] ' + source);
+					this.add('-start', pokemon, 'Disable (Doom)', pokemon.lastMove.name, '[from] ability: Periodic Orbit', '[of] ' + source);
 				} else {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name);
+					this.add('-start', pokemon, 'Disable (Doom)', pokemon.lastMove.name);
 				}
 				this.effectData.move = pokemon.lastMove.id;
 			},
 			onResidualOrder: 14,
 			onEnd(pokemon) {
-				this.add('-end', pokemon, 'Disable');
+				this.add('-end', pokemon, 'Disable (Doom)');
 			},
 			onBeforeMovePriority: 7,
 			onBeforeMove(attacker, defender, move) {
 				if (!move.isZ && move.id === this.effectData.move) {
-					this.add('cant', attacker, 'Disable', move);
+					this.add('cant', attacker, 'Disable (Doom)', move);
 					return false;
 				}
 			},
@@ -3877,20 +3877,20 @@ export const Moves: {[moveid: string]: MoveData} = {
 					}
 				}
 				if (effect.effectType === 'Ability') {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name, '[from] ability: Cursed Body', '[of] ' + source);
+					this.add('-start', pokemon, 'Disable (Wish)', pokemon.lastMove.name, '[from] ability: Periodic Orbit', '[of] ' + source);
 				} else {
-					this.add('-start', pokemon, 'Disable', pokemon.lastMove.name);
+					this.add('-start', pokemon, 'Disable (Wish)', pokemon.lastMove.name);
 				}
 				this.effectData.move = pokemon.lastMove.id;
 			},
 			onResidualOrder: 14,
 			onEnd(pokemon) {
-				this.add('-end', pokemon, 'Disable');
+				this.add('-end', pokemon, 'Disable (Wish)');
 			},
 			onBeforeMovePriority: 7,
 			onBeforeMove(attacker, defender, move) {
 				if (!move.isZ && move.id === this.effectData.move) {
-					this.add('cant', attacker, 'Disable', move);
+					this.add('cant', attacker, 'Disable (Wish)', move);
 					return false;
 				}
 			},
