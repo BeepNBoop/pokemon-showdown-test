@@ -20791,6 +20791,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {snatch: 1, heal: 1, orbit: 1},
 		slotCondition: 'Wish Orbit',
+		isFutureMove: true,
 		condition: {
 			duration: 4,
 			onStart(pokemon, source) {
