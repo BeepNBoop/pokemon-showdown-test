@@ -73228,6 +73228,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firstimpression: ["8L1"],
 			mistyexplosion: ["8L1"],
 			sweetkiss: ["8L1"],
+			steelroller: ["8L1"],
 			disarmingvoice: ["8L1"],
 			dazzlinggleam: ["8L1"],
 			playrough: ["8L1"],
