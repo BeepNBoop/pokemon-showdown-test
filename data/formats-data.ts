@@ -743,6 +743,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	mukdelta: {
+		randomBattleMoves: ["drainpunch", "earthquakr", "suckerpunch", "firepunch"],
+		randomBattleLevel: 80,
+		tier: "RU",
+	},
 	shellder: {
 		tier: "LC",
 	},
@@ -2363,7 +2368,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	lunatone: {
-		randomBattleMoves: ["earthpower", "icebeam", "nastyplot", "powergem", "psychic", "rockpolish", "stealthrock"],
+		randomBattleMoves: ["earthpower", "icebeam", "nastyplot", "powergem", "psychic", "rockpolish", "stealthrock", "meteorbeam", "lunarcannon"],
 		randomBattleLevel: 86,
 		randomDoubleBattleMoves: ["earthpower", "icebeam", "meteorbeam", "protect", "psychic", "trickroom"],
 		randomDoubleBattleLevel: 88,
@@ -2730,6 +2735,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	torterra: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	torterradelta: {
+		randomBattleMoves: ["liquidation, earthquake, flipturn, shoreup, shoreup, stelthrock, aquajet, raindance"],
+		randomBattleLevel: 82,
+		tier: "UU",
 	},
 	chimchar: {
 		isNonstandard: "Past",

@@ -646,6 +646,9 @@ export class RandomTeams {
 
 				switch (moveid) {
 				// Not very useful without their supporting moves
+				case 'meteorbeam': case 'lunarcannon':
+					if (!hasAbility['noctem'] && ['lunatone'].includes(species.id)) rejected = true;
+					break;
 				case 'acrobatics': case 'junglehealing':
 					if (!counter.setupType && !isDoubles) rejected = true;
 					break;
@@ -1244,6 +1247,10 @@ export class RandomTeams {
 		// First, the extra high-priority items
 		} else if (['Corsola', 'Garchomp', 'Tangrowth'].includes(species.name) && !!counter.Status && !counter.setupType && !isDoubles) {
 			item = 'Rocky Helmet';
+		} else if (['torterradelta'].includes(species.id)) {
+			item = hasMove['raindance'] ? 'Damp Rock' : ('Rocky Helmet' || 'Leftovers');
+		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {
+			item = 'Dark Rock';
 		} else if (species.name === 'Eternatus' && counter.Status < 2) {
 			item = 'Metronome';
 		} else if (species.name === 'Farfetch\u2019d') {
