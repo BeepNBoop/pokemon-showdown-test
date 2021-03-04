@@ -649,6 +649,9 @@ export class RandomTeams {
 				case 'meteorbeam': case 'lunarcannon':
 					if (!hasAbility['noctem'] && ['lunatone'].includes(species.id)) rejected = true;
 					break;
+				case 'flareblitz':
+					if (!hasAbility['drought'] && ['solrock'].includes(species.id)) rejected = true;
+					break;
 				case 'acrobatics': case 'junglehealing':
 					if (!counter.setupType && !isDoubles) rejected = true;
 					break;
@@ -1251,6 +1254,8 @@ export class RandomTeams {
 			item = hasMove['raindance'] ? 'Damp Rock' : ('Rocky Helmet' || 'Leftovers');
 		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {
 			item = 'Dark Rock';
+		} else if (['solrock'].includes(species.id) && hasAbility['drought']) {
+			item = 'Heat Rock';
 		} else if (species.name === 'Eternatus' && counter.Status < 2) {
 			item = 'Metronome';
 		} else if (species.name === 'Farfetch\u2019d') {
