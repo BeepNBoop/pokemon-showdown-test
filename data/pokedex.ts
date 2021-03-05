@@ -4213,7 +4213,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Grass", "Fairy"],
 		genderRatio: {M: 0.875, F: 0.125},
 		baseStats: {hp: 80, atk: 82, def: 140, spa: 83, spd: 140, spe: 100},
-		abilities: {0: "Leaf Guard"},
+		abilities: {0: "Magic Bounce"},
 		heightm: 1.8,
 		weightkg: 100.5,
 		color: "Green",

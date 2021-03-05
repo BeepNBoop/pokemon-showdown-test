@@ -40714,10 +40714,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	seedotdelta: {
 		learnset: {
 			custommove: ["8L1"],
-			burnup: ["8L1"],
-			firelash: ["8L1"],
-			meteorbeam: ["8L1"],
-			mysticalfire: ["8L1"],
 			charge: ["8L1"],
 			chargebeam: ["8L1"],
 			electricterrain: ["8L1"],
@@ -40739,7 +40735,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["8L1"],
 			protect: ["8L1"],
 			frustration: ["8L1"],
-			"return": ["8L1"],
+			return: ["8L1"],
 			doubleteam: ["8L1"],
 			facade: ["8L1"],
 			attract: ["8L1"],
@@ -40873,10 +40869,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	nuzleafdelta: {
 		learnset: {
 			custommove: ["8L1"],
-			burnup: ["8L1"],
-			firelash: ["8L1"],
-			meteorbeam: ["8L1"],
-			mysticalfire: ["8L1"],
 			bide: ["8L1"],
 			cottonspore: ["8L1"],
 			charge: ["8L1"],
@@ -40910,7 +40902,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hiddenpower: ["8L1"],
 			protect: ["8L1"],
 			frustration: ["8L1"],
-			"return": ["8L1"],
+			return: ["8L1"],
 			doubleteam: ["8L1"],
 			facade: ["8L1"],
 			attract: ["8L1"],
@@ -41072,10 +41064,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	shiftrydelta: {
 		learnset: {
 			custommove: ["8L1"],
-			burnup: ["8L1"],
-			firelash: ["8L1"],
-			meteorbeam: ["8L1"],
-			mysticalfire: ["8L1"],
 			nastyplot: ["8L1"],
 			shockwave: ["8L1"],
 			voltswitch: ["8L1"],
@@ -41110,7 +41098,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			hyperbeam: ["8L1"],
 			protect: ["8L1"],
 			frustration: ["8L1"],
-			"return": ["8L1"],
+			return: ["8L1"],
 			doubleteam: ["8L1"],
 			facade: ["8L1"],
 			attract: ["8L1"],
@@ -64748,7 +64736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endeavor: ["8L1"],
 			endure: ["8L1"],
 			foulplay: ["8L1"],
-			durycutter: ["8L1"],
+			furycutter: ["8L1"],
 			hypervoice: ["8L1"],
 			knockoff: ["8L1"],
 			lastresort: ["8L1"],
