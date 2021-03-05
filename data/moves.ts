@@ -15132,7 +15132,209 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {},
 		onHit(target) {
-			if (target.species.name === '*-Mega' && target.baseSpecies.baseSpecies === 'Gengar') {
+			if (target.species.name === 'Gengar-Mega' && target.baseSpecies.baseSpecies === 'Gengar') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Venusaur-Mega' && target.baseSpecies.baseSpecies === 'Venusaur') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Charizard-Mega-X' && target.baseSpecies.baseSpecies === 'Charizard') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Charizard-Mega-Y' && target.baseSpecies.baseSpecies === 'Charizard') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Blastoise-Mega' && target.baseSpecies.baseSpecies === 'Blastoise') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Beedrill-Mega' && target.baseSpecies.baseSpecies === 'Beedrill') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Pidgeot-Mega' && target.baseSpecies.baseSpecies === 'Pidgeot') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Alakazam-Mega' && target.baseSpecies.baseSpecies === 'Alakazam') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Slowbro-Mega' && target.baseSpecies.baseSpecies === 'Slowbro') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Kangaskhan-Mega' && target.baseSpecies.baseSpecies === 'Kangaskhan') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Pinsir-Mega' && target.baseSpecies.baseSpecies === 'Pinsir') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gyarados-Mega' && target.baseSpecies.baseSpecies === 'Gyarados') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Aerodactyl-Mega' && target.baseSpecies.baseSpecies === 'Aerodactyl') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Mewtwo-Mega-X' && target.baseSpecies.baseSpecies === 'Mewtwo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Mewtwo-Mega-Y' && target.baseSpecies.baseSpecies === 'Mewtwo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Ampharos-Mega' && target.baseSpecies.baseSpecies === 'Ampharos') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Steelix-Mega' && target.baseSpecies.baseSpecies === 'Steelix') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Scizor-Mega' && target.baseSpecies.baseSpecies === 'Scizor') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Heracross-Mega' && target.baseSpecies.baseSpecies === 'Heracross') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Houndoom-Mega' && target.baseSpecies.baseSpecies === 'Houndoom') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Tyranitar-Mega' && target.baseSpecies.baseSpecies === 'Tyranitar') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sceptile-Mega' && target.baseSpecies.baseSpecies === 'Sceptile') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Swampert-Mega' && target.baseSpecies.baseSpecies === 'Swampert') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Blaziken-Mega' && target.baseSpecies.baseSpecies === 'Blaziken') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gardevoir-Mega' && target.baseSpecies.baseSpecies === 'Gardevoir') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sableye-Mega' && target.baseSpecies.baseSpecies === 'Sableye') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Mawile-Mega' && target.baseSpecies.baseSpecies === 'Mawile') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Aggron-Mega' && target.baseSpecies.baseSpecies === 'Aggron') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Medicham-Mega' && target.baseSpecies.baseSpecies === 'Medicham') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Manectric-Mega' && target.baseSpecies.baseSpecies === 'Manectric') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sharpedo-Mega' && target.baseSpecies.baseSpecies === 'Sharpedo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Camerupt-Mega' && target.baseSpecies.baseSpecies === 'Camerupt') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Altaria-Mega' && target.baseSpecies.baseSpecies === 'Altaria') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Banette-Mega' && target.baseSpecies.baseSpecies === 'Banette') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Absol-Mega' && target.baseSpecies.baseSpecies === 'Absol') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Glalie-Mega' && target.baseSpecies.baseSpecies === 'Glalie') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Salamence-Mega' && target.baseSpecies.baseSpecies === 'Salamence') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Metagross-Mega' && target.baseSpecies.baseSpecies === 'Metagross') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Latias-Mega' && target.baseSpecies.baseSpecies === 'Latias') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Latios-Mega' && target.baseSpecies.baseSpecies === 'Latios') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Rayquaza-Mega' && target.baseSpecies.baseSpecies === 'Rayquaza') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Lopunny-Mega' && target.baseSpecies.baseSpecies === 'Lopunny') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Garchomp-Mega' && target.baseSpecies.baseSpecies === 'Garchomp') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Lucario-Mega' && target.baseSpecies.baseSpecies === 'Lucario') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Abomasnow-Mega' && target.baseSpecies.baseSpecies === 'Abomasnow') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gallade-Mega' && target.baseSpecies.baseSpecies === 'Gallade') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Audino-Mega' && target.baseSpecies.baseSpecies === 'Audino') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Diancie-Mega' && target.baseSpecies.baseSpecies === 'Diancie') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Poliwrath-Mega' && target.baseSpecies.baseSpecies === 'Poliwrath') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Marowak-Mega' && target.baseSpecies.baseSpecies === 'Marowak') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Eevee-Mega' && target.baseSpecies.baseSpecies === 'Eevee') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Shadow-Mewtwo-Mega' && target.baseSpecies.baseSpecies === 'Shadow-Mewtwo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Meganium-Mega' && target.baseSpecies.baseSpecies === 'Meganium') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Typhlosion-Mega' && target.baseSpecies.baseSpecies === 'Typhlosion') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Feraligatr-Mega' && target.baseSpecies.baseSpecies === 'Feraligatr') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sudowoodo-Mega' && target.baseSpecies.baseSpecies === 'Sudowoodo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Politoed-Mega' && target.baseSpecies.baseSpecies === 'Politoed') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sunflora-Mega-F' && target.baseSpecies.baseSpecies === 'Sunflora') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sunflora-Mega-M' && target.baseSpecies.baseSpecies === 'Sunflora') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Girafarig-Mega' && target.baseSpecies.baseSpecies === 'Girafarig') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Steelix-Mega-F' && target.baseSpecies.baseSpecies === 'Steelix') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Magcargo-Mega' && target.baseSpecies.baseSpecies === 'Magcargo') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Donphan-Mega' && target.baseSpecies.baseSpecies === 'Donphan') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Miltank-Mega' && target.baseSpecies.baseSpecies === 'Miltank') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Shiftry-Mega' && target.baseSpecies.baseSpecies === 'Shiftry') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Flygon-Mega' && target.baseSpecies.baseSpecies === 'Flygon') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Cacturne-Mega' && target.baseSpecies.baseSpecies === 'Cacturne') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Crawdaunt-Mega' && target.baseSpecies.baseSpecies === 'Crawdaunt') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Milotic-Mega' && target.baseSpecies.baseSpecies === 'Milotic') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Jirachi-Mega' && target.baseSpecies.baseSpecies === 'Jirachi') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Chatot-Mega' && target.baseSpecies.baseSpecies === 'Chatot') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Froslass-Mega' && target.baseSpecies.baseSpecies === 'Froslass') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Zebstrika-Mega' && target.baseSpecies.baseSpecies === 'Zebstrika') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Zoroark-Mega' && target.baseSpecies.baseSpecies === 'Zoroark') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gothitelle-Mega' && target.baseSpecies.baseSpecies === 'Gothitelle') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Cryogonal-Mega' && target.baseSpecies.baseSpecies === 'Cryogonal') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Haxorus-Mega' && target.baseSpecies.baseSpecies === 'Haxorus') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Stunfisk-Mega' && target.baseSpecies.baseSpecies === 'Stunfisk') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Bisharp-Mega' && target.baseSpecies.baseSpecies === 'Bisharp') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Hydreigon-Mega' && target.baseSpecies.baseSpecies === 'Hydreigon') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Venusaur-Delta-Mega' && target.baseSpecies.baseSpecies === 'Venusaur-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Charizard-Delta-Mega' && target.baseSpecies.baseSpecies === 'Charizard-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Blastoise-Delta-Mega' && target.baseSpecies.baseSpecies === 'Blastoise-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Bisharp-Delta-Mega' && target.baseSpecies.baseSpecies === 'Bisharp-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gardevoir-Delta-Mega' && target.baseSpecies.baseSpecies === 'Gardevoir-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Gallade-Delta-Mega' && target.baseSpecies.baseSpecies === 'Gallade-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sunflora-Delta-Mega' && target.baseSpecies.baseSpecies === 'Sunflora-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Scizor-Delta-Mega' && target.baseSpecies.baseSpecies === 'Scizor-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Glalie-Delta-Mega' && target.baseSpecies.baseSpecies === 'Glalie-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Froslass-Delta-Mega' && target.baseSpecies.baseSpecies === 'Froslass-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Typhlosion-Delta-Mega' && target.baseSpecies.baseSpecies === 'Typhlosion-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Pidgeot-Delta-Mega' && target.baseSpecies.baseSpecies === 'Pidgeot-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Girafarig-Delta-Mega' && target.baseSpecies.baseSpecies === 'Girafarig-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Sableye-Delta-Mega' && target.baseSpecies.baseSpecies === 'Sableye-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Mawile-Delta-Mega' && target.baseSpecies.baseSpecies === 'Mawile-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Medicham-Delta-Mega' && target.baseSpecies.baseSpecies === 'Medicham-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Camerupt-Delta-Mega' && target.baseSpecies.baseSpecies === 'Camerupt-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Metagross-Delta-Spider-Mega' && target.baseSpecies.baseSpecies === 'Metagross-Delta-Spider') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Metagross-Delta-Ruin-Mega' && target.baseSpecies.baseSpecies === 'Metagross-Delta-Ruin') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Metagross-Delta-Crystal' && target.baseSpecies.baseSpecies === 'Metagross-Delta-Ruin') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Lopunny-Delta-Mega' && target.baseSpecies.baseSpecies === 'Lopunny-Delta') {
+				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
+			} else if (target.species.name === 'Lucario-Delta-Mega' && target.baseSpecies.baseSpecies === 'Lucario-Delta') {
 				target.formeChange(target.baseSpecies.baseSpecies, this.effect, true);
 			}
 		},
