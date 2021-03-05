@@ -1274,6 +1274,8 @@ export class RandomTeams {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (['ambipomdelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Choice Band';
+		} else if (['plusledelta'].includes(species.id)) {
+			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Heavy-Duty Boots';
 		} else if (['cameruptdelta'].includes(species.id)) {
 			item = 'Delta Cameruptite';
 		} else if (['drifblimdelta'].includes(species.id)) {

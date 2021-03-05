@@ -2245,6 +2245,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	plusledelta: {
+		randomBattleMoves: ["quiverdance", "hypervoice", "flamethrower", "energyball"],
+		randomBattleLevel: 86,
+		tier: "PU",
+	},
 	minun: {
 		isNonstandard: "Past",
 		tier: "Illegal",
