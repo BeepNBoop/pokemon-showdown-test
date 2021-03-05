@@ -1090,6 +1090,8 @@ export class RandomTeams {
 					rejectAbility = (species.id === 'scraftydelta');
 				} else if (ability === 'Unnerve') {
 					rejectAbility = (species.id === 'darmanitandelta');
+				} else if (ability === 'Pressure') {
+					rejectAbility = (species.id === 'gorebyssdelta');
 				} else if (ability === 'Analytic') {
 					rejectAbility = (hasMove['rapidspin'] || species.nfe || isDoubles);
 				} else if (ability === 'Blaze') {
@@ -1260,6 +1262,8 @@ export class RandomTeams {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {
 			item = 'Choice Band';
+		} else if (['gorebyssdelta'].includes(species.id)) {
+			item = (hasMove['shellsmash']) ? 'White Herb' : 'Choice Scarf';
 		} else if (['darmanitandelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Choice Band' : 'Choice Scarf';
 		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {

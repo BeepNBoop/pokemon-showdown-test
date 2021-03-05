@@ -2568,6 +2568,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	gorebyssdelta: {
+		randomBattleMoves: ["shellsmash", "drainingkiss", "dragonpulse", "gigadrain", "flipturn", "icebeam"],
+		randomBattleLevel: 84,
+		tier: "PUBL",
+	},
 	relicanth: {
 		randomBattleMoves: ["bodypress", "earthquake", "headsmash", "liquidation", "stealthrock", "yawn"],
 		randomBattleLevel: 86,
