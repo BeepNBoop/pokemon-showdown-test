@@ -496,6 +496,28 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 13,
 	},
 	chlorofury: {
+		onStart(pokemon) {
+			pokemon.addVolatile('chlorofury');
+		},
+		onEnd(pokemon) {
+			delete pokemon.volatiles['chlorofury'];
+			this.add('-end', pokemon, 'Chlorofury', '[silent]');
+		},
+		condition: {
+			duration: 2,
+			onStart(target) {
+				this.add('-start', target, 'ability: Chlorofury', '[silent]');
+				{const i = target.side.pokemon.filter(ally => ally.fainted);
+					this.boost({spa: i.length}, target)};
+				this.boost({spe: 1}, target);
+			},
+			onEnd(target) {
+				this.add('-end', target, 'Chlorofury', '[silent]');
+				{const i = target.side.pokemon.filter(ally => ally.fainted);
+					this.boost({spa: -i.length}, target)};
+				this.boost({spe: -1}, target);
+			},
+		},
 		name: "Chlorofury",
 		rating: 2,
 		num: 200,
