@@ -3588,6 +3588,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomBattleMoves: ["bellydrum", "earthquake", "firepunch", "iciclecrash", "substitute"],
 		randomBattleLevel: 78,
 	},
+	darmanitandelta: {
+		randomBattleMoves: ["poltergeist", "darkestlariat", "firepunch", "uturn", "drainpunch"],
+		randomBattleLevel: 84,
+		tier: "UU",
+	},
 	maractus: {
 		randomBattleMoves: ["drainpunch", "energyball", "leechseed", "spikes", "spikyshield", "toxic"],
 		randomBattleLevel: 90,

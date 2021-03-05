@@ -1088,6 +1088,8 @@ export class RandomTeams {
 					rejectAbility = !!counter['speedsetup'];
 				} else if (ability === 'Rough Skin' || ability === 'Rivalry') {
 					rejectAbility = (species.id === 'scraftydelta');
+				} else if (ability === 'Unnerve') {
+					rejectAbility = (species.id === 'darmanitandelta');
 				} else if (ability === 'Analytic') {
 					rejectAbility = (hasMove['rapidspin'] || species.nfe || isDoubles);
 				} else if (ability === 'Blaze') {
@@ -1258,6 +1260,8 @@ export class RandomTeams {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {
 			item = 'Choice Band';
+		} else if (['darmanitandelta'].includes(species.id)) {
+			item = (this.randomChance(1, 2)) ? 'Choice Band' : 'Choice Scarf';
 		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {
 			item = 'Dark Rock';
 		} else if (['solrock'].includes(species.id) && hasAbility['drought']) {
