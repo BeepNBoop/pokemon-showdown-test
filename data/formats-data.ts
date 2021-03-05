@@ -3572,6 +3572,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	lilligantdeltawater: {
+		randomBattleMoves: ["flamethrower", "flipturn", "gigadrain", "thunderwave", "healbell", "recover", "scald", "thunderbolt"],
+		randomBattleLevel: 84,
+		tier: "PU",
+	},
 	basculin: {
 		randomBattleMoves: ["aquajet", "crunch", "flipturn", "headsmash", "liquidation", "psychicfangs"],
 		randomBattleLevel: 86,
