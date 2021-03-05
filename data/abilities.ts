@@ -5129,6 +5129,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		condition: {
 			duration: 1,
+			durationCallback(pokemon, move) {
+				const friends = pokemon.side.pokemon.filter(ally => ally.fainted);
+				return friends.length;
+			},
 			onDuration(pokemon) {
 				if (!pokemon.side.pokemon[1].fainted && !pokemon.side.pokemon[2].fainted && !pokemon.side.pokemon[3].fainted && !pokemon.side.pokemon[4].fainted && !pokemon.side.pokemon[5].fainted && !pokemon.side.pokemon[6].fainted) {
 					this.effectData.duration = 1;
