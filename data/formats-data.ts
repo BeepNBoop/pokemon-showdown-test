@@ -2317,6 +2317,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	cameruptdeltamega: {
+		randomBattleMoves: ["banefulbunker", "painsplit", "infestation", "corrode"],
+		randomBattleLevel: 80,
+		tier: "NU",
+	},
 	torkoal: {
 		randomBattleMoves: ["earthquake", "lavaplume", "rapidspin", "solarbeam", "stealthrock"],
 		randomBattleLevel: 86,
