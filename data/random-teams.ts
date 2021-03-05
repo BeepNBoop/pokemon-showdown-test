@@ -234,7 +234,7 @@ export class RandomTeams {
 			const happiness = this.random(256);
 
 			// Random shininess
-			const shiny = this.randomChance(1, 1024);
+			const shiny = this.randomChance(1, 500);
 
 			team.push({
 				name: species.baseSpecies,
@@ -533,7 +533,7 @@ export class RandomTeams {
 			}
 			if (MixedSetup.includes(moveid)) counter['mixedsetup']++;
 			if (SpeedSetup.includes(moveid)) counter['speedsetup']++;
-			if (['spikes', 'stealthrock', 'stickyweb', 'toxicspikes'].includes(moveid)) counter['hazards']++;
+			if (['spikes', 'stealthrock', 'stickyweb', 'toxicspikes', 'livewire', 'permafrost'].includes(moveid)) counter['hazards']++;
 		}
 
 		// Keep track of the available moves
