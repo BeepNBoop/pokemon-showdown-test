@@ -20899,16 +20899,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1},
 		sideCondition: 'wildfire',
-		onTry(target) {
-			if (!target.hasType('Grass')) {
-				return null;
-			}
-		},
 		condition: {
 			// this is a side condition
-			onStart(side) {
+			onStart(side, target) {
+				if (target.hasType('Grass')) {
 				this.add('-sidestart', side, 'move: Wildfire');
 				this.effectData.layers = 1;
+				}
 			},
 			onRestart(side) {
 				if (this.effectData.layers >= 1) return false;
