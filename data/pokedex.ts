@@ -12548,7 +12548,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Ghost", "Fairy"],
 		baseStats: {hp: 64, atk: 88, def: 50, spa: 88, spd: 50, spe: 106},
-		abilities: {0: "Illusion", 1: "Unnerve", H: "Prankster"},
+		abilities: {0: "Illusion", 1: "Unnerve", H: "Bulletproof"},
 		heightm: 1.1,
 		weightkg: 37.5,
 		color: "Purple",
