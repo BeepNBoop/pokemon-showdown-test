@@ -2918,6 +2918,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	drifblimdelta: {
+		randomBattleMoves: ["roost", "strengthsap", "inferno", "hurricane", "fireblast", "scald", "scorchingsand", "tailwind"],
+		randomBattleLevel: 84,
+		tier: "PU",
+	},
 	buneary: {
 		tier: "LC",
 	},
