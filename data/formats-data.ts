@@ -3618,6 +3618,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "DUU",
 	},
+	scraftydelta: {
+		randomBattleMoves: ["grassyglide", "knockoff", "woodhammer", "drainpunch", "rockslide", "synthesis", "strengthsap", "taunt", "toxic"],
+		randomBattleLevel: 82,
+		tier: "(PU)",
+	},
 	sigilyph: {
 		randomBattleMoves: ["airslash", "defog", "energyball", "heatwave", "psychic"],
 		randomBattleLevel: 82,

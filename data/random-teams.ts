@@ -1086,6 +1086,8 @@ export class RandomTeams {
 					rejectAbility = !counter[toID(ability)];
 				} else if (ability === 'Adaptability') {
 					rejectAbility = !!counter['speedsetup'];
+				} else if (ability === 'Rough Skin' || ability === 'Rivalry') {
+					rejectAbility = (species.id === 'scraftydelta');
 				} else if (ability === 'Analytic') {
 					rejectAbility = (hasMove['rapidspin'] || species.nfe || isDoubles);
 				} else if (ability === 'Blaze') {
@@ -1251,7 +1253,9 @@ export class RandomTeams {
 		} else if (['Corsola', 'Garchomp', 'Tangrowth'].includes(species.name) && !!counter.Status && !counter.setupType && !isDoubles) {
 			item = 'Rocky Helmet';
 		} else if (['torterradelta'].includes(species.id)) {
-			item = hasMove['raindance'] ? 'Damp Rock' : ('Rocky Helmet' || 'Leftovers');
+			item = hasMove['raindance'] ? 'Damp Rock' : ((this.randomChance(1, 2)) ? 'Rocky Helmet' : 'Leftovers');
+		} else if (counter.Physical >= 3 && ['scraftydelta'].includes(species.id)) {
+			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {
 			item = 'Dark Rock';
 		} else if (['solrock'].includes(species.id) && hasAbility['drought']) {
