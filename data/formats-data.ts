@@ -720,7 +720,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	dodriodelta: {
-		randomBattleMoves: ["zenheadbutt", "drillpeck", "drillrun", "kockoff", "superpower"],
+		randomBattleMoves: ["zenheadbutt", "drillpeck", "drillrun", "knockoff", "superpower"],
 		randomBattleLevel: 86,
 		tier: "RU",
 	},
