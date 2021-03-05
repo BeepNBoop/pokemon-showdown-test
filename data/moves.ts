@@ -20916,9 +20916,17 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn(pokemon) {
 				if (this.effectData.layers = 1 && (pokemon.hasType('Bug') || pokemon.hasType('Grass') || pokemon.hasType('Ice') || pokemon.hasType('Steel')) && (!pokemon.hasType('Dragon') || !pokemon.hasType('Fire') || !pokemon.hasType('Rock') || !pokemon.hasType('Water'))) {
 					pokemon.trySetStatus('brn', pokemon.side.foe.active[0]);
+				} else if (pokemon.status === 'tor') {
+					pokemon.cureStatus();
+				}
+			},
+			onSwitchOut(pokemon) {
+				if (this.effectData.layers = 1 && (pokemon.hasType('Bug') || pokemon.hasType('Grass') || pokemon.hasType('Ice') || pokemon.hasType('Steel')) && (!pokemon.hasType('Dragon') || !pokemon.hasType('Fire') || !pokemon.hasType('Rock') || !pokemon.hasType('Water'))) {
+					pokemon.trySetStatus('tor', pokemon.side.foe.active[0]);
 				}
 			},
 		},
+		status: "brn",
 		target: "foeSide",
 		type: "Fire",
 		zMove: {boost: {atk: 1}}

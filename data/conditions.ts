@@ -17,6 +17,13 @@ export const Conditions: {[k: string]: ConditionData} = {
 			this.damage(pokemon.baseMaxhp / 16);
 		},
 	},
+	tor: {
+		name: 'tor',
+		effectType: 'Status',
+		onStart(target, source, sourceEffect) {
+				this.add('-status', target, 'tor');
+		}
+	},
 	par: {
 		name: 'par',
 		effectType: 'Status',
