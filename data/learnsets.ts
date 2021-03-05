@@ -54008,7 +54008,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	registeeldelta: {
 		learnset: {
 			custommove: ["8L1"],
-			flashfire: ["8L1"],
 			scorchingsands: ["8L1"],
 			meteorbeam: ["8L1"],
 			mysticalfire: ["8L1"],
