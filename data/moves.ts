@@ -20902,10 +20902,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			// this is a side condition
 			onStart(side, target) {
-				if (target.hasType('Grass')) {
+				if (!target.hasType('Grass')) return false;
 				this.add('-sidestart', side, 'move: Wildfire');
 				this.effectData.layers = 1;
-				}
 			},
 			onRestart(side) {
 				if (this.effectData.layers >= 1) return false;
@@ -20916,7 +20915,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 				}
 			},
 		},
-		status: 'brn',
 		target: "foeSide",
 		type: "Fire",
 		zMove: {boost: {atk: 1}}
