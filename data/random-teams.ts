@@ -1256,6 +1256,8 @@ export class RandomTeams {
 			item = hasMove['raindance'] ? 'Damp Rock' : ((this.randomChance(1, 2)) ? 'Rocky Helmet' : 'Leftovers');
 		} else if (counter.Physical >= 3 && ['scraftydelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
+		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {
+			item = 'Choice Band';
 		} else if (['lunatone'].includes(species.id) && hasAbility['noctem']) {
 			item = 'Dark Rock';
 		} else if (['solrock'].includes(species.id) && hasAbility['drought']) {
