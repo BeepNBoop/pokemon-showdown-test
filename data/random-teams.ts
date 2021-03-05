@@ -1088,6 +1088,8 @@ export class RandomTeams {
 					rejectAbility = !!counter['speedsetup'];
 				} else if (ability === 'Rough Skin' || ability === 'Rivalry') {
 					rejectAbility = (species.id === 'scraftydelta');
+				} else if (ability === 'Cursed Body' || ability === 'Technician') {
+					rejectAbility = (species.id === 'ambipomdelta');
 				} else if (ability === 'Unnerve') {
 					rejectAbility = (species.id === 'darmanitandelta');
 				} else if (ability === 'Pressure') {
@@ -1260,6 +1262,8 @@ export class RandomTeams {
 			item = hasMove['raindance'] ? 'Damp Rock' : ((this.randomChance(1, 2)) ? 'Rocky Helmet' : 'Leftovers');
 		} else if (counter.Physical >= 3 && ['scraftydelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
+		} else if (['ambipomdelta'].includes(species.id)) {
+			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Choice Band';
 		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {
 			item = 'Choice Band';
 		} else if (['gorebyssdelta'].includes(species.id)) {

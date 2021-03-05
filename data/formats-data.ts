@@ -1564,6 +1564,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	ambipomdelta: {
+		randomBattleMoves: ["bodyslam", "poltergeist", "icepunch", "drainpunch", "uturn", "stompingtantrum"],
+		randomBattleLevel: 86,
+		tier: "RU",
+	},
 	sunkern: {
 		isNonstandard: "Past",
 		tier: "Illegal",
