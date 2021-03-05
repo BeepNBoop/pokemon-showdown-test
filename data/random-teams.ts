@@ -1090,6 +1090,8 @@ export class RandomTeams {
 					rejectAbility = (!hasMove['inferno'] && (species.id === 'drifblimdelta'));
 				} else if (ability === 'Vital Spirit') {
 					rejectAbility = (species.id === 'drifblimdelta');
+				} else if (ability === 'Synchronize') {
+					rejectAbility = (species.id === 'ludicolodelta');
 				} else if (ability === 'Rough Skin' || ability === 'Rivalry') {
 					rejectAbility = (species.id === 'scraftydelta');
 				} else if (ability === 'Cursed Body' || ability === 'Technician') {
@@ -1271,7 +1273,7 @@ export class RandomTeams {
 		} else if (['ambipomdelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Choice Band';
 		} else if (['drifblimdelta'].includes(species.id)) {
-			item = 'Heavy Duty Boots';
+			item = 'Heavy-Duty Boots';
 		} else if (['dodriodelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Focus Sash' : 'Choice Band';
 		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {

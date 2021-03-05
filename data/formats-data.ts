@@ -2019,6 +2019,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	ludicolodelta: {
+		randomBattleMoves: ["scald", "psychic", "healbell", "waterspout", "strengthsap", "mysticalfire", "thunderbolt", "toxic"],
+		randomBattleLevel: 84,
+		tier: "PUBL",
+	},
 	seedot: {
 		tier: "LC",
 	},
