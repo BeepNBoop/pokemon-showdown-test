@@ -1268,6 +1268,8 @@ export class RandomTeams {
 			item = 'Rocky Helmet';
 		} else if (['torterradelta'].includes(species.id)) {
 			item = hasMove['raindance'] ? 'Damp Rock' : ((this.randomChance(1, 2)) ? 'Rocky Helmet' : 'Leftovers');
+		} else if (['serperoirdelta'].includes(species.id)) {
+			item = hasAbility['drizzle'] ? 'Damp Rock' : 'Leftovers';
 		} else if (counter.Physical >= 3 && ['scraftydelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (['ambipomdelta'].includes(species.id)) {

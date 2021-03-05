@@ -3301,6 +3301,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	serperiordelta: {
+		randomBattleMoves: ["glare", "flipturn", "slackoff", "dragonpulse", "hurricane", "surf"],
+		randomBattleLevel: 78,
+		tier: "OU",
+	},
 	tepig: {
 		isNonstandard: "Past",
 		tier: "Illegal",
