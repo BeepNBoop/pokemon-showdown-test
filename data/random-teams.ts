@@ -1090,6 +1090,8 @@ export class RandomTeams {
 					rejectAbility = (species.id === 'scraftydelta');
 				} else if (ability === 'Cursed Body' || ability === 'Technician') {
 					rejectAbility = (species.id === 'ambipomdelta');
+				} else if (ability === 'Compound Eyes"' || ability === 'Trace') {
+					rejectAbility = (species.id === 'dodriodelta');
 				} else if (ability === 'Unnerve') {
 					rejectAbility = (species.id === 'darmanitandelta');
 				} else if (ability === 'Pressure') {
@@ -1264,6 +1266,8 @@ export class RandomTeams {
 			item = (this.randomChance(1, 2)) ? 'Assault Vest' : 'Choice Band';
 		} else if (['ambipomdelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Choice Band';
+		} else if (['dodriodelta'].includes(species.id)) {
+			item = (this.randomChance(1, 2)) ? 'Focus Sash' : 'Choice Band';
 		} else if (counter.Physical >= 3 && ['mukdelta'].includes(species.id)) {
 			item = 'Choice Band';
 		} else if (['gorebyssdelta'].includes(species.id)) {
