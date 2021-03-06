@@ -2035,6 +2035,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 102,
 	},
 	lernean: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
+				if (pokemon.hp <= pokemon.maxhp / 1.25) {
+					pokemon.formeChange('hydreigonmegaa');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.25) {
+					pokemon.formeChange('hydreigonmegab');
+				}
+				pokemon.setAbility('Protean Maxima V');
+		},
 		name: "Lernean",
 		rating: 4,
 		num: 102,
