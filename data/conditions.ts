@@ -21,7 +21,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 		name: 'tor',
 		effectType: 'Status',
 		onStart(target, source, sourceEffect) {
-				this.add('-status', target, 'tor');
+				this.add('-status', target, 'tor', '[silent]');
 		}
 	},
 	par: {

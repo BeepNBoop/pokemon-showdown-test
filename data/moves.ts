@@ -4049,14 +4049,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {orbit: 1},
 		onTry(source, target) {
-			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
 				duration: 6,
-				move: 'doomdesire',
+				move: 'doomdesireorbit',
 				source: source,
 				moveData: {
-					id: 'doomdesire',
-					name: "Doom Desire",
+					id: 'doomdesireorbit',
+					name: "Doom Desire Orbit",
 					accuracy: 100,
 					basePower: 140,
 					category: "Special",
@@ -4067,7 +4066,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					type: 'Steel',
 				},
 			});
-			this.add('-start', source, 'Doom Desire');
+			this.add('-start', source, 'Doom Desire Orbit');
 			return this.NOT_FAIL;
 		},
 		secondary: null,
@@ -6576,15 +6575,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {orbit: 1},
 		ignoreImmunity: true,
+		isFutureMove: true,
 		onTry(source, target) {
-			if (!target.side.addSlotCondition(target, 'futuremove')) return false;
 			Object.assign(target.side.slotConditions[target.position]['futuremove'], {
 				duration: 6,
-				move: 'futuresight',
+				move: 'futuresightorbit',
 				source: source,
 				moveData: {
-					id: 'futuresight',
-					name: "Future Sight",
+					id: 'futuresightorbit',
+					name: "Future Sight Orbit",
 					accuracy: 100,
 					basePower: 120,
 					category: "Special",
@@ -6596,7 +6595,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 					type: 'Psychic',
 				},
 			});
-			this.add('-start', source, 'move: Future Sight');
+			this.add('-start', source, 'move: Future Sight Orbit');
 			return this.NOT_FAIL;
 		},
 		secondary: null,
