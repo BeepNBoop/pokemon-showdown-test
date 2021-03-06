@@ -94,6 +94,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Grass"],
 		requiredItem: "Venusaurite",
+		tier: "UUBL",
 	},
 	venusaurgmax: {
 		num: 3,
@@ -240,6 +241,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite X",
+		tier: "OU",
 	},
 	charizardmegay: {
 		num: 6,
@@ -255,6 +257,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Charizardite Y",
+		tier: "OU",
 	},
 	charizardgmax: {
 		num: 6,
@@ -403,6 +406,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Blastoisinite",
+		tier: "Uber",
 	},
 	blastoisegmax: {
 		num: 9,
@@ -562,6 +566,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Bug"],
 		requiredItem: "Beedrillite",
+		tier: "UU",
 	},
 	pidgey: {
 		num: 16,
@@ -653,6 +658,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Flying"],
 		requiredItem: "Pidgeotite",
+		tier: "UU",
 	},
 	pidgeotdelta: {
 		num: 18,
@@ -1931,6 +1937,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Alakazite",
+		tier: "Uber",
 	},
 	machop: {
 		num: 66,
@@ -2338,6 +2345,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Slowbronite",
+		tier: "RUBL",
 	},
 	slowbrogalar: {
 		num: 80,
@@ -2773,6 +2781,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Gengarite",
+		tier: "Uber",
 	},
 	gengargmax: {
 		num: 94,
@@ -3226,6 +3235,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Monster"],
 		requiredItem: "Kangaskhanite",
+		tier: "Uber",
 	},
 	horsea: {
 		num: 116,
@@ -3480,6 +3490,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Bug"],
 		requiredItem: "Pinsirite",
+		tier: "UUBL",
 	},
 	tauros: {
 		num: 128,
@@ -3533,6 +3544,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2", "Dragon"],
 		requiredItem: "Gyaradosite",
+		tier: "OU",
 	},
 	lapras: {
 		num: 131,
@@ -3825,6 +3837,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Flying"],
 		requiredItem: "Aerodactylite",
+		tier: "UU",
 	},
 	snorlax: {
 		num: 143,
@@ -4082,6 +4095,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Mewtwonite X",
+		tier: "Uber",
 	},
 	mewtwomegay: {
 		num: 150,
@@ -4097,6 +4111,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Mewtwonite Y",
+		tier: "Uber",
 	},
 	shadowmewtwo: {
 		num: 150,
@@ -4815,6 +4830,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Monster", "Field"],
 		requiredItem: "Ampharosite",
+		tier: "RU",
 	},
 	bellossom: {
 		num: 182,
@@ -5471,6 +5487,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Mineral"],
 		requiredItem: "Steelixite",
+		tier: "UU",
 	},
 	steelixmegafire: {
 		num: 208,
@@ -5554,6 +5571,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Bug"],
 		requiredItem: "Scizorite",
+		tier: "OU",
 	},
 	scizordelta: {
 		num: 212,
@@ -5642,6 +5660,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Bug"],
 		requiredItem: "Heracronite",
+		tier: "UUBL",
 	},
 	sneasel: {
 		num: 215,
@@ -5914,6 +5933,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Field"],
 		requiredItem: "Houndoominite",
+		tier: "RUBL",
 	},
 	kingdra: {
 		num: 230,
@@ -6252,6 +6272,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster"],
 		requiredItem: "Tyranitarite",
+		tier: "OU",
 	},
 	tyranitararmored: {
 		num: 248,
@@ -6400,6 +6421,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Sceptilite",
+		tier: "RU",
 	},
 	sceptiledelta: {
 		num: 254,
@@ -6514,6 +6536,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Field"],
 		requiredItem: "Blazikenite",
+		tier: "Uber",
 	},
 	blazikendelta: {
 		num: 257,
@@ -6590,6 +6613,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Water 1"],
 		requiredItem: "Swampertite",
+		tier: "OU",
 	},
 	poochyena: {
 		num: 261,
@@ -7087,6 +7111,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Gardevoirite",
+		tier: "UUBL",
 	},
 	gardevoirdelta: {
 		num: 282,
@@ -7396,6 +7421,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Sablenite",
+		tier: "OU",
 	},
 	sableyedelta: {
 		num: 302,
@@ -7454,6 +7480,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Field", "Fairy"],
 		requiredItem: "Mawilite",
+		tier: "OU",
 	},
 	mawiledelta: {
 		num: 303,
@@ -7576,6 +7603,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Monster"],
 		requiredItem: "Aggronite",
+		tier: "UU",
 	},
 	aggrondelta: {
 		num: 306,
@@ -7650,6 +7678,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Human-Like"],
 		requiredItem: "Medichamite",
+		tier: "OU",
 	},
 	medichamdelta: {
 		num: 308,
@@ -7724,6 +7753,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Yellow",
 		eggGroups: ["Field"],
 		requiredItem: "Manectite",
+		tier: "UU",
 	},
 	plusle: {
 		num: 311,
@@ -7905,6 +7935,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Water 2"],
 		requiredItem: "Sharpedonite",
+		tier: "UU",
 	},
 	wailmer: {
 		num: 320,
@@ -8023,6 +8054,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Red",
 		eggGroups: ["Field"],
 		requiredItem: "Cameruptite",
+		tier: "NUBL",
 	},
 	cameruptdelta: {
 		num: 323,
@@ -8258,6 +8290,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Flying", "Dragon"],
 		requiredItem: "Altarianite",
+		tier: "UU",
 	},
 	zangoose: {
 		num: 335,
@@ -8686,6 +8719,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Banettite",
+		tier: "RU",
 	},
 	duskull: {
 		num: 355,
@@ -8765,6 +8799,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Field"],
 		requiredItem: "Absolite",
+		tier: "RUBL",
 	},
 	wynaut: {
 		num: 360,
@@ -8836,6 +8871,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Gray",
 		eggGroups: ["Fairy", "Mineral"],
 		requiredItem: "Glalitite",
+		tier: "NU",
 	},
 	glaliedelta: {
 		num: 362,
@@ -9082,6 +9118,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Dragon"],
 		requiredItem: "Salamencite",
+		tier: "Uber",
 	},
 	beldum: {
 		num: 374,
@@ -9214,6 +9251,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Mineral"],
 		requiredItem: "Metagrossite",
+		tier: "Uber",
 	},
 	metagrossdeltaspider: {
 		num: 376,
@@ -9416,6 +9454,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Latiasite",
+		tier: "OU",
 	},
 	latios: {
 		num: 381,
@@ -9445,6 +9484,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Purple",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Latiosite",
+		tier: "UUBL",
 	},
 	kyogre: {
 		num: 382,
@@ -9532,6 +9572,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Green",
 		eggGroups: ["Undiscovered"],
 		requiredMove: "Dragon Ascent",
+		tier: "AG",
 	},
 	jirachi: {
 		num: 385,
@@ -10505,6 +10546,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		eggGroups: ["Field", "Human-Like"],
 		requiredItem: "Lopunnite",
+		tier: "OU",
 	},
 	lopunnydelta: {
 		num: 428,
@@ -10828,6 +10870,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Monster", "Dragon"],
 		requiredItem: "Garchompite",
+		tier: "OU",
 	},
 	munchlax: {
 		num: 446,
@@ -10926,6 +10969,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Blue",
 		eggGroups: ["Field", "Human-Like"],
 		requiredItem: "Lucarionite",
+		tier: "Uber",
 	},
 	lucariodelta: {
 		num: 448,
@@ -11162,6 +11206,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Monster", "Grass"],
 		requiredItem: "Abomasite",
+		tier: "NU",
 	},
 	weavile: {
 		num: 461,
@@ -11473,6 +11518,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Amorphous"],
 		requiredItem: "Galladite",
+		tier: "UUBL",
 	},
 	galladedelta: {
 		num: 475,
@@ -12855,6 +12901,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Fairy"],
 		requiredItem: "Audinite",
+		tier: "NU",
 	},
 	timburr: {
 		num: 532,
@@ -17138,6 +17185,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Diancite",
+		tier: "OU",
 	},
 	hoopa: {
 		num: 720,
