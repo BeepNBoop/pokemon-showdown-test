@@ -4081,6 +4081,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	heatmordelta: {
+		randomBattleMoves: ["shiftgear", "ironhead", "poisonjab", "aurasphere", "darkpulse", "gigadrain", "waterpulse"],
+		randomBattleLevel: 90,
+		tier: "PU",
+	},
 	durant: {
 		randomBattleMoves: ["firstimpression", "honeclaws", "ironhead", "rockslide", "superpower"],
 		randomBattleLevel: 78,
