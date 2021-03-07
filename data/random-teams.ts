@@ -1282,7 +1282,7 @@ export class RandomTeams {
 			item = (this.randomChance(1, 2)) ? 'Life Orb' : 'Heavy-Duty Boots';
 		} else if (['cameruptdelta'].includes(species.id)) {
 			item = 'Delta Cameruptite';
-		} else if (['drifblimdelta'].includes(species.id)) {
+		} else if (['drifblimdelta'].includes(species.id) || ['greninjadelta'].includes(species.id)) {
 			item = 'Heavy-Duty Boots';
 		} else if (['dodriodelta'].includes(species.id)) {
 			item = (this.randomChance(1, 2)) ? 'Focus Sash' : 'Choice Band';
