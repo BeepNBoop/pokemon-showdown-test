@@ -1471,6 +1471,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	noctowldelta: {
+		randomBattleMoves: ["blizzard", "hurricane", "dazzlinggleam", "roost", "defog"],
+		randomBattleLevel: 88,
+		tier: "PU",
+	},
 	ledyba: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1655,6 +1660,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	girafarig: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	girafarigdeltamega: {
+		randomBattleMoves: ["autotomize", "nastyplot", "flashcannon", "darkpulse", "gigadrain", "sludgewave", "thunderbolt"],
+		randomBattleLevel: 82,
+		tier: "RU",
 	},
 	pineco: {
 		isNonstandard: "Past",
@@ -2998,6 +3008,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	lopunnydeltamega: {
+		randomBattleMoves: ["highjumpkick", "drainpunch", "zenheadbutt", "psychicfangs", "uturn", "tripleaxel", "gunkshot", "rockslide"],
+		randomBattleLevel: 76,
+		tier: "OU",
+	},
 	glameow: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -3072,6 +3087,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	lucariomega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	lucariodelta: {
+		randomBattleMoves: ["bonemerang", "darkestlariat", "swordsdance", "rockslide", "blazekick", "extremespeed", "suckerpunch"],
+		randomBattleLevel: 82,
+		tier: "NUBL",
 	},
 	hippopotas: {
 		tier: "LC",
