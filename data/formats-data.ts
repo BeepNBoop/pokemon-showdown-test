@@ -2594,6 +2594,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	huntaildelta: {
+		randomBattleMoves: ["shellsmash", "crunch", "outrage", "flipturn", "ironhead", "firefang", "psychicfangs"],
+		randomBattleLevel: 84,
+		tier: "PUBL",
+	},
 	gorebyss: {
 		isNonstandard: "Past",
 		tier: "Illegal",
