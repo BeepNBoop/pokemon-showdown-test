@@ -440,6 +440,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	dugtriodelta: {
+		randomBattleMoves: ["iciclecrash", "headcharge", "knockoff", "psychicfangs", "suckerpunch", "extremespeed", "earthquake"],
+		randomBattleLevel: 82,
+		tier: "PU",
+	},
 	meowth: {
 		tier: "LC",
 	},
