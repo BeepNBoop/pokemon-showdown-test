@@ -4302,6 +4302,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	greninjadelta: {
+		randomBattleMoves: ["spikes", "gigadrain", "flamethrower", "uturn", "strengthsap", "willowisp"],
+		randomBattleLevel: 82,
+		tier: "UU",
+	},
 	bunnelby: {
 		tier: "LC",
 	},

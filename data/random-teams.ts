@@ -1089,6 +1089,8 @@ export class RandomTeams {
 				} else if (ability === 'No Guard') {
 					rejectAbility = (!hasMove['inferno'] && (species.id === 'drifblimdelta'));
 				} else if (ability === 'Vital Spirit') {
+					rejectAbility = (species.id === 'greninjadelta');
+				} else if (ability === 'Steadfast') {
 					rejectAbility = (species.id === 'drifblimdelta');
 				} else if (ability === 'Synchronize') {
 					rejectAbility = (species.id === 'ludicolodelta');
