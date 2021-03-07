@@ -16990,7 +16990,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Monster", "Mineral"],
 		otherFormes: ["Avalugg-Delta"],
 		formeOrder: ["Avalugg", "Avalugg-Delta"],
-		tier: "NU",
 	},
 	avaluggdelta: {
 		num: 713,
@@ -17006,6 +17005,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		prevo: "Bergmite-Delta",
 		evoLevel: 37,
 		eggGroups: ["Undiscovered"],
+		tier: "NU",
 	},
 	noibat: {
 		num: 714,

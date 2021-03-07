@@ -1295,6 +1295,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	kabutopsdelta: {
+		randomBattleMoves: ["firstimpression", "leechlife", "knockoff", "poisonjab", "stompingtantrum", "superpower", "achillesheel"],
+		randomBattleLevel: 82,
+		tier: "PU",
+	},
 	aerodactyl: {
 		randomBattleMoves: ["aquatail", "dualwingbeat", "earthquake", "honeclaws", "roost", "stoneedge"],
 		randomBattleLevel: 82,
@@ -2220,6 +2225,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 	mawilemega: {
 		isNonstandard: "Past",
 		tier: "Illegal",
+	},
+	mawiledelta: {
+		randomBattleMoves: ["swordsdance", "knockoff", "seedbomb", "rockslide", "shadowclaw", "suckerpunch", "synthesis", "trick"],
+		randomBattleLevel: 86,
+		tier: "PU",
+	},
+	mawiledeltamega: {
+		randomBattleMoves: ["swordsdance", "knockoff", "seedbomb", "rockslide", "shadowclaw", "suckerpunch", "synthesis", "trick"],
+		randomBattleLevel: 74,
+		tier: "Uber",
 	},
 	aron: {
 		tier: "LC",
@@ -4159,6 +4174,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "OU",
 		doublesTier: "DUU",
 	},
+	volcaronadelta: {
+		randomBattleMoves: ["corrode", "darkpulse", "defog", "roost", "uturn", "sludgewave", "flamethrower", "energyball", "aurasphere"],
+		randomBattleLevel: 76,
+		tier: "OU",
+	},
+	volcaronadeltaarmored: {
+		randomBattleMoves: ["corrode", "darkpulse", "defog", "roost", "uturn", "sludgewave", "flamethrower", "energyball", "aurasphere"],
+		randomBattleLevel: 76,
+		tier: "OU",
+	},
 	cobalion: {
 		randomBattleMoves: ["closecombat", "ironhead", "stealthrock", "stoneedge", "swordsdance", "voltswitch"],
 		randomBattleLevel: 80,
@@ -4588,6 +4613,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	aurorusdelta: {
+		randomBattleMoves: ["scald", "surf", "sunnyday", "solarbeam", "earthpower", "energyball", "synthesis", "icebeam", "dragonpulse"],
+		randomBattleLevel: 84,
+		tier: "PU",
+	},
 	hawlucha: {
 		randomBattleMoves: ["bravebird", "closecombat", "roost", "stoneedge", "swordsdance", "throatchop"],
 		randomBattleLevel: 80,
@@ -4699,6 +4729,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	avaluggdelta: {
+		randomBattleMoves: ["irondefense", "bodypress", "slackoff", "dragontail", "stealthrock", "rockslide", "rapidspin", "gyroball", "dragonhammer"],
+		randomBattleLevel: 82,
+		tier: "NU",
 	},
 	noibat: {
 		tier: "LC",
