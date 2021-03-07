@@ -629,6 +629,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	golemdelta: {
+		randomBattleMoves: ["trickroom", "bodypress", "zenheadbutt", "rockslide", "rockpolish", "earthquake", "knockoff"],
+		randomBattleLevel: 84,
+		tier: "NU",
+	},
 	ponyta: {
 		tier: "LC",
 	},
@@ -1183,6 +1188,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	dittodelta: {
+		randomBattleMoves: ["transform", "morph", "retrograde", "metronome"],
+		randomBattleLevel: 74,
+		tier: "OU",
+	},
 	eevee: {
 		tier: "LC",
 	},
@@ -1615,6 +1625,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	yanmegadelta: {
+		randomBattleMoves: ["roost", "defog", "uturn", "airslash", "leafstorm", "knockoff", "protect", "taunt", "toxic", "dragonpulse", "dazzlinggleam"],
+		randomBattleLevel: 84,
+		tier: "NUBL",
+	},
 	wooper: {
 		tier: "LC",
 	},
@@ -1625,6 +1640,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "UU",
 		doublesTier: "(DUU)",
+	},
+	quagsiredelta: {
+		randomBattleMoves: ["gigadrain", "flamethrower", "earthpower", "synthesis", "leechseed", "spikes", "knockoff", "willowisp"],
+		randomBattleLevel: 84,
+		tier: "PU",
 	},
 	murkrow: {
 		isNonstandard: "Past",
@@ -2130,6 +2150,16 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	gardevoirdelta: {
+		randomBattleMoves: ["auroraveil", "blizzard", "thunderbolt", "moonblast", "earthpower", "energyball", "voltswitch"],
+		randomBattleLevel: 82,
+		tier: "RU",
+	},
+	gardevoirdeltamega: {
+		randomBattleMoves: ["auroraveil", "blizzard", "thunderbolt", "moonblast", "earthpower", "energyball", "voltswitch"],
+		randomBattleLevel: 80,
+		tier: "UUBL",
+	},
 	gallade: {
 		randomBattleMoves: ["closecombat", "knockoff", "shadowsneak", "swordsdance", "trick", "zenheadbutt"],
 		randomBattleLevel: 82,
@@ -2137,6 +2167,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	galladedelta: {
+		randomBattleMoves: ["tripleaxel", "zingzap", "leafblade", "knockoff", "voltswitch", "zenheadbutt", "earthquake", "swordsdance"],
+		randomBattleLevel: 82,
+		tier: "RU",
 	},
 	gallademega: {
 		isNonstandard: "Past",
@@ -2746,6 +2781,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	regicedelta: {
+		randomBattleMoves: ["flipturn", "knockoff", "waterspout", "recover", "stealthrock", "earthpower", "toxic", "scald"],
+		randomBattleLevel: 80,
+		tier: "UU",
 	},
 	registeel: {
 		randomBattleMoves: ["protect", "rest", "seismictoss", "sleeptalk", "stealthrock", "toxic"],
