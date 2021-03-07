@@ -248,6 +248,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	pikachudelta: {
+		randomBattleMoves: ["hurricane", "grassknot", "heatwave", "aquatail", "uturn", "volttackle", "moonblast"],
+		randomBattleLevel: 90,
+		tier: "NFE",
+	},
 	raichu: {
 		randomBattleMoves: ["encore", "focusblast", "grassknot", "nastyplot", "thunderbolt", "voltswitch"],
 		randomBattleLevel: 86,
@@ -1622,6 +1627,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
+	mismagiusdelta: {
+		randomBattleMoves: ["freezedry", "icebeam", "moonblast", "energyball", "psychic", "thunerbolt", "uturn", "roost"],
+		randomBattleLevel: 80,
+		tier: "UU",
+	},
 	unown: {
 		isNonstandard: "Past",
 		tier: "Illegal",
@@ -1773,6 +1783,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	octillerydelta: {
+		randomBattleMoves: ["overheat", "rockpolish", "flamethrower", "earthpower", "energyball", "scald", "sludgewave", "spikes"],
+		randomBattleLevel: 86,
+		tier: "PU",
 	},
 	delibird: {
 		randomBattleMoves: ["freezedry", "memento", "rapidspin", "spikes"],
@@ -2042,6 +2057,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 88,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	shiftrydelta: {
+		randomBattleMoves: ["tailwind", "voltswitch", "thunderbolt", "flamethrower", "dazzlinggleam", "flashcannon", "nastyplot", "energyball"],
+		randomBattleLevel: 86,
+		tier: "PU",
 	},
 	taillow: {
 		isNonstandard: "Past",
@@ -3656,6 +3676,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "(PU)",
 		doublesTier: "(DUU)",
 	},
+	maractusdelta: {
+		randomBattleMoves: ["shiftgear", "meteormash", "knockoff", "icepunch", "bulletpunch", "uturn", "thunderpunch"],
+		randomBattleLevel: 90,
+		tier: "PU",
+	},
 	dwebble: {
 		tier: "LC",
 	},
@@ -3666,6 +3691,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 84,
 		tier: "(PU)",
 		doublesTier: "(DUU)",
+	},
+	crustledeltacake: {
+		randomBattleMoves: ["shellsmash", "swordsdance", "achillesheel", "playrough", "knockoff", "wildcharge", "brickbreak"],
+		randomBattleLevel: 84,
+		tier: "UU",
 	},
 	scraggy: {
 		tier: "LC",
@@ -4036,6 +4066,11 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 86,
 		tier: "NU",
 		doublesTier: "(DUU)",
+	},
+	golurkdelta: {
+		randomBattleMoves: ["firepunch", "icepunch", "drainpunch", "bulletpunch", "bulkup", "noretreat", "achillesheel"],
+		randomBattleLevel: 78,
+		tier: "NUBL",
 	},
 	pawniard: {
 		tier: "LC",
