@@ -2037,18 +2037,18 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	lernean: {
 		onBeforeMove(pokemon, target, move) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
-				if (pokemon.hp <= pokemon.maxhp / 1.25) {
-					pokemon.formeChange('hydreigonmegaa');
-					pokemon.setAbility('Lernean A');
-				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
-					pokemon.formeChange('hydreigonmegab');
-					pokemon.setAbility('Lernean B');
+				if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
 				} else if (pokemon.hp <= pokemon.maxhp / 2.5) {
 					pokemon.formeChange('hydreigonmegac');
 					pokemon.setAbility('Lernean C');
-				} else if (pokemon.hp <= pokemon.maxhp / 5) {
-					pokemon.formeChange('hydreigonmegad');
-					pokemon.setAbility('Lernean D');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
+					pokemon.formeChange('hydreigonmegab');
+					pokemon.setAbility('Lernean B');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.25) {
+					pokemon.formeChange('hydreigonmegaa');
+					pokemon.setAbility('Lernean A');
 				}
 		},
 		onModifyMove(move, attacker) {
@@ -2058,7 +2058,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 0))));
+				return this.chainModify(0.23);
 			}
 		},
 		name: "Lernean",
@@ -2068,18 +2068,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	lerneana: {
 		onBeforeMove(pokemon, target, move) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
-				if (pokemon.hp <= pokemon.maxhp / 1.25) {
-					pokemon.formeChange('hydreigonmegaa');
-					pokemon.setAbility('Lernean A');
-				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
-					pokemon.formeChange('hydreigonmegab');
-					pokemon.setAbility('Lernean B');
+				if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
 				} else if (pokemon.hp <= pokemon.maxhp / 2.5) {
 					pokemon.formeChange('hydreigonmegac');
 					pokemon.setAbility('Lernean C');
-				} else if (pokemon.hp <= pokemon.maxhp / 5) {
-					pokemon.formeChange('hydreigonmegad');
-					pokemon.setAbility('Lernean D');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
+					pokemon.formeChange('hydreigonmegab');
+					pokemon.setAbility('Lernean B');
 				}
 		},
 		onModifyMove(move, attacker) {
@@ -2099,12 +2096,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	lerneanb: {
 		onBeforeMove(pokemon, target, move) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
-				if (pokemon.hp <= pokemon.maxhp / 2.5) {
-					pokemon.formeChange('hydreigonmegac');
-					pokemon.setAbility('Lernean C');
-				} else if (pokemon.hp <= pokemon.maxhp / 5) {
+				if (pokemon.hp <= pokemon.maxhp / 5) {
 					pokemon.formeChange('hydreigonmegad');
 					pokemon.setAbility('Lernean D');
+				} else if (pokemon.hp <= pokemon.maxhp / 2.5) {
+					pokemon.formeChange('hydreigonmegac');
+					pokemon.setAbility('Lernean C');
 				}
 		},
 		onModifyMove(move, attacker) {
