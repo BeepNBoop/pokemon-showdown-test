@@ -2086,7 +2086,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 1))));
+				return this.chainModify(0.20416667);
 			}
 		},
 		name: "Lernean A",
@@ -2111,7 +2111,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 2))));
+				return this.chainModify(0.18571429);
 			}
 		},
 		name: "Lernean B",
@@ -2133,7 +2133,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 3))));
+				return this.chainModify(0.171875);
 			}
 		},
 		name: "Lernean C",
@@ -2148,7 +2148,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 4))));
+				return this.chainModify(0.16111111);
 			}
 		},
 		name: "Lernean D",
