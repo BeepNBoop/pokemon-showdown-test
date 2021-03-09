@@ -2052,7 +2052,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 		},
 		onModifyMove(move, attacker) {
-			if (attacker.species.name === 'Hydreigon-Mega') {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (['endeavor', 'fling', 'iceball', 'rollout'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && attacker.species.name === 'Hydreigon-Mega') {
 				move.multihit = 5;
 			}
 		},
@@ -2080,7 +2082,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 		},
 		onModifyMove(move, attacker) {
-			if (attacker.species.name === 'Hydreigon-Mega') {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (['endeavor', 'fling', 'iceball', 'rollout'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && attacker.species.name === 'Hydreigon-Mega') {
 				move.multihit = 6;
 			}
 		},
@@ -2105,7 +2109,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 		},
 		onModifyMove(move, attacker) {
-			if (attacker.species.name === 'Hydreigon-Mega') {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (['endeavor', 'fling', 'iceball', 'rollout'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && attacker.species.name === 'Hydreigon-Mega') {
 				move.multihit = 7;
 			}
 		},
@@ -2127,7 +2133,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				}
 		},
 		onModifyMove(move, attacker) {
-			if (attacker.species.name === 'Hydreigon-Mega') {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (['endeavor', 'fling', 'iceball', 'rollout'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && attacker.species.name === 'Hydreigon-Mega') {
 				move.multihit = 8;
 			}
 		},
@@ -2142,7 +2150,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	lerneand: {
 		onModifyMove(move, attacker) {
-			if (attacker.species.name === 'Hydreigon-Mega') {
+			if (move.category === 'Status' || move.selfdestruct || move.multihit) return;
+			if (['endeavor', 'fling', 'iceball', 'rollout'].includes(move.id)) return;
+			if (!move.flags['charge'] && !move.spreadHit && !move.isZ && !move.isMax && attacker.species.name === 'Hydreigon-Mega') {
 				move.multihit = 9;
 			}
 		},

@@ -35,7 +35,6 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120, 
 		team: 'random',
-		defaultLevel: 120,
 		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{

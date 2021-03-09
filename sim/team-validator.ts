@@ -356,7 +356,7 @@ export class TeamValidator {
 		set.nature = nature.name;
 		if (!Array.isArray(set.moves)) set.moves = [];
 
-		const maxLevel = format.maxLevel || 100;
+		const maxLevel = format.maxLevel || 120;
 		const maxForcedLevel = format.maxForcedLevel || maxLevel;
 		let forcedLevel: number | null = null;
 		if (!set.level) {
@@ -374,8 +374,8 @@ export class TeamValidator {
 			// Just remember to set the level back to forcedLevel at the end of the file.
 			set.level = maxLevel;
 		}
-		if ((set.level > 100 || set.level < 1) && ruleTable.isBanned('nonexistent')) {
-			problems.push((set.name || set.species) + ' is higher than level 100.');
+		if ((set.level > 120 || set.level < 1) && ruleTable.isBanned('nonexistent')) {
+			problems.push((set.name || set.species) + ' is higher than level 120.');
 		}
 
 		set.name = set.name || species.baseSpecies;
@@ -746,7 +746,7 @@ export class TeamValidator {
 		const allowEVs = dex.currentMod !== 'letsgo';
 		const allowAVs = ruleTable.has('allowavs');
 		const capEVs = dex.gen > 2 && (ruleTable.has('obtainablemisc') || dex.gen === 6);
-		const canBottleCap = dex.gen >= 7 && (set.level === 100 || !ruleTable.has('obtainablemisc'));
+		const canBottleCap = dex.gen >= 7 && (set.level === 120 || !ruleTable.has('obtainablemisc'));
 
 		if (!set.evs) set.evs = TeamValidator.fillStats(null, allowEVs && !capEVs ? 252 : 0);
 		if (!set.ivs) set.ivs = TeamValidator.fillStats(null, 31);
@@ -854,7 +854,7 @@ export class TeamValidator {
 			}
 			if (
 				set.species === 'Marowak' && toID(set.item) === 'thickclub' &&
-				set.moves.map(toID).includes('swordsdance' as ID) && set.level === 100
+				set.moves.map(toID).includes('swordsdance' as ID) && set.level === 120
 			) {
 				// Marowak hack
 				set.ivs.atk = Math.floor(set.ivs.atk / 2) * 2;
@@ -1594,7 +1594,7 @@ export class TeamValidator {
 		let requiredIVs = 0;
 		if (eventData.ivs) {
 			/** In Gen 7, IVs can be changed to 31 */
-			const canBottleCap = (dex.gen >= 7 && set.level === 100);
+			const canBottleCap = (dex.gen >= 7 && set.level === 120);
 
 			if (!set.ivs) set.ivs = {hp: 31, atk: 31, def: 31, spa: 31, spd: 31, spe: 31};
 			const statTable = {
@@ -1801,7 +1801,7 @@ export class TeamValidator {
 		const format = this.format;
 		const ruleTable = dex.getRuleTable(format);
 		const alreadyChecked: {[k: string]: boolean} = {};
-		const level = set.level || 100;
+		const level = set.level || 120;
 
 		let cantLearnReason = null;
 

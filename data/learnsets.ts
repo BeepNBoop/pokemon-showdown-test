@@ -60936,6 +60936,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	croagunkdelta: {
 		learnset: {
 			custommove: ["8L1"],
+			firelash: ["8L1"],
+			stompingtantrum: ["8L1"],
 			flatter: ["8L1"],
 			flamecharge: ["8L1"],
 			incinerate: ["8L1"],
@@ -61124,6 +61126,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	toxicroakdelta: {
 		learnset: {
 			custommove: ["8L1"],
+			firelash: ["8L1"],
+			stompingtantrum: ["8L1"],
 			flatter: ["8L1"],
 			flamecharge: ["8L1"],
 			incinerate: ["8L1"],
