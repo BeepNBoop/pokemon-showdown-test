@@ -2058,7 +2058,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 0)) / 5));
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 0))));
 			}
 		},
 		name: "Lernean",
@@ -2089,7 +2089,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 1)) / 6));
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 1))));
 			}
 		},
 		name: "Lernean A",
@@ -2114,7 +2114,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 2)) / 7));
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 2))));
 			}
 		},
 		name: "Lernean B",
@@ -2136,7 +2136,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 3)) / 8));
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 3))));
 			}
 		},
 		name: "Lernean C",
@@ -2151,7 +2151,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyDamage(damage, source, target, move) {
 			if (source.species.name === 'Hydreigon-Mega') {
-				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 4)) / 9));
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 4))));
 			}
 		},
 		name: "Lernean D",
