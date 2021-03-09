@@ -2039,12 +2039,122 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
 				if (pokemon.hp <= pokemon.maxhp / 1.25) {
 					pokemon.formeChange('hydreigonmegaa');
-				} else if (pokemon.hp <= pokemon.maxhp / 1.25) {
+					pokemon.setAbility('Lernean A');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
 					pokemon.formeChange('hydreigonmegab');
+					pokemon.setAbility('Lernean B');
+				} else if (pokemon.hp <= pokemon.maxhp / 2.5) {
+					pokemon.formeChange('hydreigonmegac');
+					pokemon.setAbility('Lernean C');
+				} else if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
 				}
-				pokemon.setAbility('Protean Maxima V');
+		},
+		onModifyMove(move, attacker) {
+			if (attacker.species.name === 'Hydreigon-Mega') {
+				move.multihit = 5;
+			}
+		},
+		onModifyDamage(damage, source, target, move) {
+			if (source.species.name === 'Hydreigon-Mega') {
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 0)) / 5));
+			}
 		},
 		name: "Lernean",
+		rating: 4,
+		num: 102,
+	},
+	lerneana: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
+				if (pokemon.hp <= pokemon.maxhp / 1.25) {
+					pokemon.formeChange('hydreigonmegaa');
+					pokemon.setAbility('Lernean A');
+				} else if (pokemon.hp <= pokemon.maxhp / 1.667) {
+					pokemon.formeChange('hydreigonmegab');
+					pokemon.setAbility('Lernean B');
+				} else if (pokemon.hp <= pokemon.maxhp / 2.5) {
+					pokemon.formeChange('hydreigonmegac');
+					pokemon.setAbility('Lernean C');
+				} else if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
+				}
+		},
+		onModifyMove(move, attacker) {
+			if (attacker.species.name === 'Hydreigon-Mega') {
+				move.multihit = 6;
+			}
+		},
+		onModifyDamage(damage, source, target, move) {
+			if (source.species.name === 'Hydreigon-Mega') {
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 1)) / 6));
+			}
+		},
+		name: "Lernean A",
+		rating: 4,
+		num: 102,
+	},
+	lerneanb: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
+				if (pokemon.hp <= pokemon.maxhp / 2.5) {
+					pokemon.formeChange('hydreigonmegac');
+					pokemon.setAbility('Lernean C');
+				} else if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
+				}
+		},
+		onModifyMove(move, attacker) {
+			if (attacker.species.name === 'Hydreigon-Mega') {
+				move.multihit = 7;
+			}
+		},
+		onModifyDamage(damage, source, target, move) {
+			if (source.species.name === 'Hydreigon-Mega') {
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 2)) / 7));
+			}
+		},
+		name: "Lernean B",
+		rating: 4,
+		num: 102,
+	},
+	lerneanc: {
+		onBeforeMove(pokemon, target, move) {
+			if (pokemon.baseSpecies.baseSpecies !== 'Hydreigon' || pokemon.transformed) return;
+				if (pokemon.hp <= pokemon.maxhp / 5) {
+					pokemon.formeChange('hydreigonmegad');
+					pokemon.setAbility('Lernean D');
+				}
+		},
+		onModifyMove(move, attacker) {
+			if (attacker.species.name === 'Hydreigon-Mega') {
+				move.multihit = 8;
+			}
+		},
+		onModifyDamage(damage, source, target, move) {
+			if (source.species.name === 'Hydreigon-Mega') {
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 3)) / 8));
+			}
+		},
+		name: "Lernean C",
+		rating: 4,
+		num: 102,
+	},
+	lerneand: {
+		onModifyMove(move, attacker) {
+			if (attacker.species.name === 'Hydreigon-Mega') {
+				move.multihit = 9;
+			}
+		},
+		onModifyDamage(damage, source, target, move) {
+			if (source.species.name === 'Hydreigon-Mega') {
+				return this.chainModify(Math.floor(Math.floor(1.15 + (0.075 * 4)) / 9));
+			}
+		},
+		name: "Lernean D",
 		rating: 4,
 		num: 102,
 	},
