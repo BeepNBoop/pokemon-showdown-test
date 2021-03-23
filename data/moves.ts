@@ -2602,10 +2602,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onEffectiveness (typeMod, target, type, move) {
 			if (move.type !== 'Poison') return;
 			if (!target) return; // avoid crashing when called from a chat plugin
-			// ignore effectiveness if the target is Flying type and immune to Ground
-			if (!target.runImmunity('Poison')) {
-				if (target.hasType('Steel')) return 1;
-			}
+			// ignore effectiveness if the target is Flying type and immune to Ground	
+			if (target.hasType('Steel')) return 1;
 		},
 		secondary: null,
 		target: "normal",

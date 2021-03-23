@@ -413,7 +413,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			let forme = null;
 			switch (move.type) {
 			case 'Fire':
-				if (pokemon.species.name !== 'emolgadeltabalze') forme = 'Emolga-Delta-Blaze';
+				if (pokemon.species.name !== 'emolgadeltablaze') forme = 'Emolga-Delta-Blaze';
 				pokemon.setAbility('Flame Body');
 				break;
 			}
@@ -3001,13 +3001,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	phototroph: {
 		onWeather(target, source, effect) {
 			if (target.hasItem('utilityumbrella')) return;
-			if (effect.id === '') {
-				this.heal(target.baseMaxhp / 16);
-			} else if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
+			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
 				this.heal(target.baseMaxhp / 8, target, target);
 			} else if (effect.id === 'newmoon' || effect.id === 'raindance' || effect.id === 'primordialsea') {
-				this.heal(target.baseMaxhp / 0);
-			}
+				this.heal(target.baseMaxhp / 0, target, target);
+			} else this.heal(target.baseMaxhp / 16, target, target);
+		},
+		onResidualOrder: 5,
+		onResidualSubOrder: 5,
+		onResidual(pokemon) {
+			if (this.field.isWeather('')) return;
+			this.heal(pokemon.baseMaxhp / 16);
 		},
 		name: "Phototroph",
 		rating: 2,
@@ -4605,10 +4609,17 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 43,
 	},
 	spectraljaws: {
+		onBasePowerPriority: 7,
+		onBasePower(basePower, attacker, defender, move) {
+			if (move.flags['bite']) {
+				this.debug('Spectral Jaws Boost');
+				return this.chainModify(1.3);
+			}
+		},
 		onModifyMove(move, pokemon, target) {
 			if (move.flags['bite']) {
+				this.debug('Spectral Jaws Boost');
 				move.category = 'Special';
-				return this.chainModify(1.3);
 			}
 		},
 		name: "Spectral Jaws",
