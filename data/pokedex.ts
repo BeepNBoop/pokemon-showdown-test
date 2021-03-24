@@ -5495,7 +5495,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		baseSpecies: "Steelix",
 		forme: "Mega",
 		types: ["Steel", "Fire"],
-		baseStats: {hp: 75, atk: 125, def: 230, spa: 55, spd: 95, spe: 30},
+		baseStats: {hp: 75, atk: 135, def: 225, spa: 65, spd: 55, spe: 55},
 		abilities: {0: "Foundry"},
 		heightm: 10.5,
 		weightkg: 740,
@@ -12774,7 +12774,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	zebstrikamega: {
 		num: 523,
 		name: "Zebstrika-Mega",
-		baseSpecies: "Zebsreika",
+		baseSpecies: "Zebstrika",
 		forme: "Mega",
 		types: ["Electric", "Fairy"],
 		baseStats: {hp: 75, atk: 100, def: 63, spa: 135, spd: 83, spe: 141},
