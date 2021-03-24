@@ -15025,9 +15025,12 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}
 		},
 		onAfterMoveSecondarySelf(pokemon, target, move) {
-			if (move.willChangeForme) {
+			if (move.willChangeForme && (pokemon.species.id === 'meloetta' || pokemon.species.id === 'meloettapirouette')) {
 				const meloettaForme = pokemon.species.id === 'meloettapirouette' ? '' : '-Pirouette';
 				pokemon.formeChange('Meloetta' + meloettaForme, this.effect, false, '[msg]');
+			} else if (move.willChangeForme && (pokemon.species.id === 'meloettadelta' || pokemon.species.id === 'meloettadeltamagician')) {
+				const meloettaForme = pokemon.species.id === 'meloettadeltamagician' ? '' : '-Magician';
+				pokemon.formeChange('Meloetta-Delta' + meloettaForme, this.effect, false, '[msg]');
 			}
 		},
 		target: "allAdjacentFoes",
