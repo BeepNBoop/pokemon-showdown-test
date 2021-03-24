@@ -413,9 +413,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			let forme = null;
 			switch (move.type) {
 			case 'Fire':
+				this.boost({atk: 1}, target);
+				this.boost({spa: 1}, target);
+				this.boost({spe: 1}, target);
 				if (pokemon.species.name !== 'emolgadeltablaze') forme = 'Emolga-Delta-Blaze';
-				pokemon.setAbility('Flame Body');
 				break;
+			}
+			if (pokemon.isActive && forme) {
+				pokemon.formeChange(forme, this.effect, false, '[msg]');
 			}
 		},
 		name: "Blaze Boost",
@@ -3003,15 +3008,27 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			if (target.hasItem('utilityumbrella')) return;
 			if (effect.id === 'sunnyday' || effect.id === 'desolateland') {
 				this.heal(target.baseMaxhp / 8, target, target);
+				return;
 			} else if (effect.id === 'newmoon' || effect.id === 'raindance' || effect.id === 'primordialsea') {
 				this.heal(target.baseMaxhp / 0, target, target);
+				return;
 			} else this.heal(target.baseMaxhp / 16, target, target);
 		},
 		onResidualOrder: 5,
 		onResidualSubOrder: 5,
 		onResidual(pokemon) {
-			if (this.field.isWeather('')) return;
+			switch (pokemon.effectiveWeather()) {
+				case 'raindance':
+				case 'primordialsea':
+				case 'newmoon':
+				case 'sunnyday':
+				case 'desolateland':
+				case '':
+				case '':
+				case '':
+				case '':
 			this.heal(pokemon.baseMaxhp / 16);
+			}
 		},
 		name: "Phototroph",
 		rating: 2,
