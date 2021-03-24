@@ -20863,7 +20863,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		onTry(source, target, move) {
 			if (target.hasType('Grass')) {
 				source.side.foe.addSideCondition('wildfire');
-				return null;
+				return;
 			}
 		},
 		condition: { 
