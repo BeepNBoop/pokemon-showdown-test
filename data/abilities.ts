@@ -3024,10 +3024,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				case 'newmoon':
 				case 'sunnyday':
 				case 'desolateland':
-				case '':
-				case '':
-				case '':
-				case '':
+				case 'hail':
+				case 'sleet':
+				case 'sandstorm':
+				case 'deltastream':
+			return;
+				default:
 			this.heal(pokemon.baseMaxhp / 16);
 			}
 		},
