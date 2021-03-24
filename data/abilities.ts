@@ -413,9 +413,9 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			let forme = null;
 			switch (move.type) {
 			case 'Fire':
-				this.boost({atk: 1}, source);
-				this.boost({spa: 1}, source);
-				this.boost({spe: 1}, source);
+				this.boost({atk: 1}, pokemon);
+				this.boost({spa: 1}, pokemon);
+				this.boost({spe: 1}, pokemon);
 				if (pokemon.species.name !== 'emolgadeltablaze') forme = 'Emolga-Delta-Blaze';
 				pokemon.setAbility('Flame Body');
 				break;
