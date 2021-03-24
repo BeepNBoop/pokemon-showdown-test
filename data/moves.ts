@@ -2607,7 +2607,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (target.hasType('Steel')) return 1;
 			}
 		},
-		ignoreImmunity: {'Steel': true},
+		ignoreImmunity: {'Poison': true},
 		secondary: null,
 		target: "normal",
 		type: "Poison"
