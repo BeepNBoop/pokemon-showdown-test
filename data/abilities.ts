@@ -408,15 +408,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 66,
 	},
 	blazeboost: {
-		onBeforeMove(pokemon, target, move) {
+		onBeforeMove(pokemon, source, move) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Emolga' || pokemon.transformed) return;
 			let forme = null;
 			switch (move.type) {
 			case 'Fire':
-				this.boost({atk: 1}, target);
-				this.boost({spa: 1}, target);
-				this.boost({spe: 1}, target);
+				this.boost({atk: 1}, source);
+				this.boost({spa: 1}, source);
+				this.boost({spe: 1}, source);
 				if (pokemon.species.name !== 'emolgadeltablaze') forme = 'Emolga-Delta-Blaze';
+				pokemon.setAbility('Flame Body');
 				break;
 			}
 			if (pokemon.isActive && forme) {
