@@ -2599,25 +2599,15 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},
-		volatileStatus: 'Corrosive',
-		condition: {
-			duration: 1,
-			noCopy: true,
-			onStart(pokemon) {
-				this.add('-start', pokemon, 'Corrosive', '[silent]');
-			},
-			onNegateImmunity(pokemon, type) {
-				if (pokemon.hasType('Steel') && type === 'Poison') return false;
-			},
-			onEnd(pokemon) {
-				this.add('-end', pokemon, 'Corrosive', '[silent]');
-			},
-		},
-		onEffectiveness (typeMod, target, type, move) {
+		onEffectiveness(typeMod, target, type, move) {
 			if (move.type !== 'Poison') return;
-			if (!target) return; // avoid crashing when called from a chat plugin	
-			if (target.hasType('Steel')) return 1;
+			if (!target) return; // avoid crashing when called from a chat plugin
+			// ignore effectiveness if the target is Steel type and immune to Poison
+			if (!target.runImmunity('Poison')) {
+				if (target.hasType('Steel')) return 1;
+			}
 		},
+		ignoreImmunity: {'Steel': true},
 		secondary: null,
 		target: "normal",
 		type: "Poison"
