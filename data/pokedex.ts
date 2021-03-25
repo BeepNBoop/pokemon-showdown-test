@@ -10551,7 +10551,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	lopunnydelta: {
 		num: 428,
 		name: "Lopunny-Delta",
-		baseSpecies: "Loppuny",
+		baseSpecies: "Lopunny",
 		forme: "Delta",
 		types: ["Fighting"],
 		baseStats: {hp: 65, atk: 76, def: 84, spa: 54, spd: 96, spe: 105},
