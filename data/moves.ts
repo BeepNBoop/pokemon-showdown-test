@@ -13366,7 +13366,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (!pokemon.isGrounded())
 					return;
 				if (pokemon.hasType('fire') || pokemon.hasType('ice') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('flying'))) {
-					this.add('-sideend', pokemon.side, 'move: permafrost', '[of] ' + pokemon);
+					this.add('-sideend', pokemon.side, 'move: Permafrost', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('permafrost');
 				} else if (pokemon.hasItem('heavydutyboots')) {
 					return;
