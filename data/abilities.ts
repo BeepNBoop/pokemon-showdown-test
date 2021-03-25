@@ -1014,7 +1014,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	etherealshroud: {
 		onStart(pokemon) {
-			this.add('-start', pokemon, 'typeadd', 'Ghost');
+			this.add('-start', pokemon, 'typeadd', 'Ghost', '[from] ability: Ethereal Shroud');
 		},
 		onModifyMove(move) {
 			if (move.type === 'Ghost')
