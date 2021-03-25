@@ -3270,7 +3270,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	prismguard: {
 		onDamagingHitOrder: 1,
 		onDamagingHit(damage, target, source, move) {
-			if (!move.flags['contact']) {
+			if (!move.flags['contact'] && move.category !== 'Status') {
 				this.damage(source.baseMaxhp / 8, source, target);
 			}
 		},
