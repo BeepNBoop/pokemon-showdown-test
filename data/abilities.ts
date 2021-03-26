@@ -1285,10 +1285,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onModifyTypePriority: -1,
 		onModifyType(move, pokemon) {
-			const noModifyType = [
-				'judgment', 'multiattack', 'naturalgift', 'revelationdance', 'technoblast', 'terrainpulse', 'weatherball',
-			];
-			if (move.type === 'Rock' && !noModifyType.includes(move.id) && !(move.isZ && move.category !== 'Status')) {
+			if (move.type === 'Rock' && !(move.isZ && move.category !== 'Status')) {
 				move.type = 'Fire';
 			}
 		},
