@@ -1283,7 +1283,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				move.id == 'stealthrockfire';
 			}
 		},
-		onModifyTypePriority: -1,
 		onModifyType(move, source) {
 			if (move.type === 'Rock' && !(move.isZ && move.category !== 'Status')) {
 				move.type = 'Fire';
