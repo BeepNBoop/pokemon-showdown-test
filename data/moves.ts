@@ -89,7 +89,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (source.side.active.length === 3 && source.position === 1) return false;
 		},
 		onEffectiveness(typeMod, target, source, move) {
-			if (move.type !== 'Normal') return;
 			if (!target) return; // avoid crashing when called from a chat plugin
 			// ignore effectiveness if the target is ghost
 			if (target) {
