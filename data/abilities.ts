@@ -1284,14 +1284,15 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 			}
 		},
 		onModifyTypePriority: -1,
-		onModifyType(move, pokemon) {
+		onModifyType(move, source) {
 			if (move.type === 'Rock' && !(move.isZ && move.category !== 'Status')) {
 				move.type = 'Fire';
+				move.foundryBoosted = true;
 			}
 		},
 		onBasePowerPriority: 23,
 		onBasePower(basePower, pokemon, target, move) {
-			if (move.type = 'Fire') return this.chainModify([0x14CD, 0x1000]);
+			if (move.foundryBoosted) return this.chainModify([0x14CD, 0x1000]);
 		},
 		name: "Foundry",
 		rating: 3,
