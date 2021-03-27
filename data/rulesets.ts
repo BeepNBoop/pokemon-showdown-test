@@ -1253,10 +1253,14 @@ export const Formats: {[k: string]: FormatData} = {
 				if (set.name === 'magearna') {
 					for (const moveid of set.moves) {
 						const move = this.dex.getMove(moveid);
-						if (move.id === 'calmmind') a = true;
-						if (move.id === 'drainingkiss') b = true;
-						if (move.id === 'irondefense') c = true;
-						if (move.id === 'storedpower') d = true;						
+						if (move.id === 'calmmind') {
+						a = true; }
+						if (move.id === 'drainingkiss') {
+						b = true; }
+						if (move.id === 'irondefense') {
+						c = true; }
+						if (move.id === 'storedpower') {
+						d = true; }						
 					}
 				}
 				if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
