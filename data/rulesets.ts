@@ -1255,18 +1255,17 @@ export const Formats: {[k: string]: FormatData} = {
 						const move = this.dex.getMove(moveid);
 						if (move.id === 'calmmind') {
 						a = true; }
-						if (move.id === 'drainingkiss') {
+						else if (move.id === 'drainingkiss') {
 						b = true; }
-						if (move.id === 'irondefense') {
+						else if (move.id === 'irondefense') {
 						c = true; }
-						if (move.id === 'storedpower') {
-						d = true; }						
+						else if (move.id === 'storedpower') {
+						d = true; }					
 					}
 					if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
 					return [`The combination of moves on Magearna is banned.`];
 					}
-				}
-				
+				}			
 			}
 		},
 	},
