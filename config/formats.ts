@@ -23,7 +23,7 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "Insurgence Singles",
+		section: "[Gen 8] Insurgence Singles",
 	},
 	{
 		name: "Insurgence Random Battle",
@@ -38,7 +38,7 @@ export const Formats: FormatList = [
 		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
-		name: "Insurgence OU",
+		name: "[Gen 8] Insurgence OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
@@ -52,13 +52,22 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
-		name: "Insurgence Draft",
+		name: "[Gen 8] Insurgence Draft",
 
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
 		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
 		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
+	},
+	{
+		name: "[Gen 6] Insurgence OU",
+
+		mod: 'gen8',
+		maxLevel: 120,
+		defaultLevel: 120,
+		ruleset: ['Torren Pokedex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
+		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 
 	// Sw/Sh Singles
