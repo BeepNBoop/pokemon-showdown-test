@@ -1,4 +1,7 @@
 // Note: These are the rules that formats use
+
+import { Item } from "../sim/dex-items";
+
 // The list of formats is stored in config/formats.js
 export const Formats: {[k: string]: FormatData} = {
 
@@ -1209,6 +1212,78 @@ export const Formats: {[k: string]: FormatData} = {
 				newSpecies.bst += newSpecies.baseStats[stat];
 			}
 			return newSpecies;
+		},
+	},
+	magearnaclause: {
+		effectType: 'ValidatorRule',
+		name: 'Magearna Clause',
+		desc: "Bans Calm Mind, Draining Kiss, Iron Defense or Stored Power in conjunction with eachother on Magearna",
+		onValidateTeam(team, set) {
+			if (set.name === 'magearna') {
+				let hasBanMove = 0;
+				for (const set of team) {
+					for (const moveid of set.moves) {
+						const move = this.dex.getMove(moveid);
+						if (move.id === 'calmmind') hasBanMove = +1;
+						if (move.id === 'drainingkiss') hasBanMove = +1;
+						if (move.id === 'irondefense') hasBanMove = +1;
+						if (move.id === 'storedpower') hasBanMove = +1;
+					}
+				}
+				if (hasBanMove >= 2) {
+					return [`The combination of moves on Magearna is banned.`];
+				}
+			}
+		},
+	},
+	magearnaitemclause: {
+		effectType: 'ValidatorRule',
+		name: 'Magearna Item Clause',
+		desc: "Magearna must hold some form of pokeball as an item",
+		onValidateSet(set, format) {
+			if (set.species === 'magearna') {
+				let hasPokeball = false;
+				if (this.dex.getItem(set.item).isPokeball) {
+					hasPokeball = true;
+				}
+				if (!hasPokeball) {
+					return [`Magearna is not holding a pokeball, which is banned in ${format.name}.`];
+				}
+			}
+		},
+	},
+	custommoveclause: {
+		effectType: 'ValidatorRule',
+		name: 'Custom Move Clause',
+		desc: "You may only have a custom move of one type on a team",
+		onValidateTeam(team) {
+			let hasCustomMove = 0;
+			for (const set of team) {
+				for (const moveid of set.moves) {
+					const move = this.dex.getMove(moveid);
+					if (move.id === 'custommove') hasCustomMove = +1;
+					if (move.id === 'custommovebug') hasCustomMove = +1;
+					if (move.id === 'custommovedark') hasCustomMove = +1;
+					if (move.id === 'custommovedragon') hasCustomMove = +1;
+					if (move.id === 'custommoveelectric') hasCustomMove = +1;
+					if (move.id === 'custommovefairy') hasCustomMove = +1;
+					if (move.id === 'custommovefighting') hasCustomMove = +1;
+					if (move.id === 'custommovefire') hasCustomMove = +1;
+					if (move.id === 'custommoveflying') hasCustomMove = +1;
+					if (move.id === 'custommoveghost') hasCustomMove = +1;
+					if (move.id === 'custommovegrass') hasCustomMove = +1;
+					if (move.id === 'custommoveground') hasCustomMove = +1;
+					if (move.id === 'custommoveice') hasCustomMove = +1;
+					if (move.id === 'custommovepoison') hasCustomMove = +1;
+					if (move.id === 'custommovepsychic') hasCustomMove = +1;
+					if (move.id === 'custommoverock') hasCustomMove = +1;
+					if (move.id === 'custommovesteel') hasCustomMove = +1;
+					if (move.id === 'custommovewater') hasCustomMove = +1;
+				}
+			}
+			if (hasCustomMove >= 2) {
+				return [`Having more than 1 type of custom move on a team is banned.`];
+			}
 		},
 	},
 };

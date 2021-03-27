@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		section: "Insurgence Singles",
 	},
 	{
-		name: "[Gen 8] Insurgence Random Battle",
+		name: "Insurgence Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
@@ -38,7 +38,7 @@ export const Formats: FormatList = [
 		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
 	},
 	{
-		name: "[Gen 8] Insurgence OU",
+		name: "Insurgence OU",
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
@@ -50,6 +50,15 @@ export const Formats: FormatList = [
 		defaultLevel: 120,
 		ruleset: ['Standard', 'Dynamax Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
+	},
+	{
+		name: "Insurgence Draft",
+
+		mod: 'gen8',
+		maxLevel: 120,
+		defaultLevel: 120,
+		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
+		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
 	},
 
 	// Sw/Sh Singles
