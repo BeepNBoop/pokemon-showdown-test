@@ -1250,7 +1250,7 @@ export const Formats: {[k: string]: FormatData} = {
 			let c = false;
 			let d = false;
 			for (const set of team) {
-				if (set.name === 'magearna') {
+				if (set.species === 'Magearna') {
 					for (const moveid of set.moves) {
 						const move = this.dex.getMove(moveid);
 						if (move.id === 'calmmind') {
