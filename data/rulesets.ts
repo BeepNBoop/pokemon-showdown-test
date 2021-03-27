@@ -1262,10 +1262,11 @@ export const Formats: {[k: string]: FormatData} = {
 						if (move.id === 'storedpower') {
 						d = true; }						
 					}
-				}
-				if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
+					if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
 					return [`The combination of moves on Magearna is banned.`];
+					}
 				}
+				
 			}
 		},
 	},
