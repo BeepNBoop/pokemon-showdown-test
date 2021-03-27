@@ -1245,18 +1245,21 @@ export const Formats: {[k: string]: FormatData} = {
 		name: 'Magearna Clause',
 		desc: "Bans Calm Mind, Draining Kiss, Iron Defense or Stored Power in conjunction with eachother on Magearna",
 		onValidateTeam(team, set) {
-			if (set.name === 'magearna') {
-				let hasBanMove = 0;
-				for (const set of team) {
+			let a = false;
+			let b = false;
+			let c = false;
+			let d = false;
+			for (const set of team) {
+				if (set.name === 'magearna') {
 					for (const moveid of set.moves) {
 						const move = this.dex.getMove(moveid);
-						if (move.id === 'calmmind') hasBanMove = +1;
-						if (move.id === 'drainingkiss') hasBanMove = +1;
-						if (move.id === 'irondefense') hasBanMove = +1;
-						if (move.id === 'storedpower') hasBanMove = +1;
+						if (move.id === 'calmmind') a = true;
+						if (move.id === 'drainingkiss') b = true;
+						if (move.id === 'irondefense') c = true;
+						if (move.id === 'storedpower') d = true;						
 					}
 				}
-				if (hasBanMove >= 2) {
+				if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
 					return [`The combination of moves on Magearna is banned.`];
 				}
 			}
@@ -1266,15 +1269,11 @@ export const Formats: {[k: string]: FormatData} = {
 		effectType: 'ValidatorRule',
 		name: 'Magearna Item Clause',
 		desc: "Magearna must hold some form of pokeball as an item",
-		onValidateSet(set, format) {
-			if (set.species === 'magearna') {
-				let hasPokeball = false;
-				if (this.dex.getItem(set.item).isPokeball) {
-					hasPokeball = true;
-				}
-				if (!hasPokeball) {
-					return [`Magearna is not holding a pokeball, which is banned in ${format.name}.`];
-				}
+		onValidateSet(set) {
+			const item = this.dex.getItem(set.item);
+			if (item.isPokeball && set.species == 'magearna') return;
+			if (([false].includes(item.isPokeball) || !set.item) && set.species == 'magearna') {
+				return [`${set.name}'s item ${item.name} is not allowed. Magearna must hold any kind of pokeball.`];
 			}
 		},
 	},
