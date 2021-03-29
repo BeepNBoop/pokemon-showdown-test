@@ -7628,9 +7628,7 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		onStart(pokemon) {
-		if (pokemon.baseSpecies.baseSpecies === 'zoroark') return;
-		let target = pokemon.side.pokemon[2];
-			pokemon.transformInto(target, this.dex.getItem('Zoronite'));
+		if (pokemon.baseSpecies.baseSpecies === 'Zoroark') return;
 			this.useMove('zoronitesforbiddenpower', pokemon);
 		},
 		onBeforeSwitchIn(pokemon) {

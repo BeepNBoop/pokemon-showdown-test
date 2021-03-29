@@ -21306,7 +21306,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Zoronite's Forbidden Power",
 		pp: 5,
 		priority: 0,
-		flags: {protect: 1, mirror: 1},
+		flags: {protect: 1, mirror: 1},		
+		onHit(target, pokemon) {
+			pokemon.transformInto(target, this.dex.getItem('zoronite'));
+		},
 		selfdestruct: "always",
 		secondary: null,
 		target: "self",
