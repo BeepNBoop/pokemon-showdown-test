@@ -21307,12 +21307,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 5,
 		priority: 0,
 		flags: {protect: 1, mirror: 1},		
-		onHit(target, pokemon) {
-			let i;
-			for (i = pokemon.side.pokemon.length - 1; i > pokemon.position; i--) {
-				if (!pokemon.side.pokemon[i]) continue;
-				pokemon.transformInto(pokemon.side.pokemon[i], this.dex.getItem('zoronite'));
-			}
+		onHit(pokemon) {
+			pokemon.formeChange('missingno');
 		},
 		selfdestruct: "always",
 		secondary: null,
