@@ -21298,4 +21298,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "normal",
 		type: "Ghost"
 	},
+	zoronitesforbiddenpower: {
+		num: 153,
+		accuracy: true,
+		basePower: 0,
+		category: "Physical",
+		name: "Zoronite's Forbidden Power",
+		pp: 5,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfdestruct: "always",
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		contestType: "Beautiful",
+	},
 };

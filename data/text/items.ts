@@ -2511,7 +2511,7 @@ export const ItemsText: {[k: string]: ItemText} = {
 	},
 	zoronite: {
 		name: "Zoronite",
-		desc: "If held by a Zoroark, this item allows it to Mega Evolve in battle.",
+		desc: "It strangely looks like someone you know.",
 	},
 
 	// Gen 2 items

@@ -7627,6 +7627,15 @@ export const Items: {[itemid: string]: ItemData} = {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
+		onStart(pokemon) {
+		if (pokemon.baseSpecies.baseSpecies === 'zoroark') return;
+			pokemon.transformInto(pokemon.side.pokemon[2], this.dex.getItem('Zoronite'));
+			pokemon.transformInto(pokemon.side.pokemon[3]);
+			pokemon.transformInto(pokemon.side.pokemon[4]);
+			pokemon.transformInto(pokemon.side.pokemon[5]);
+			pokemon.transformInto(pokemon.side.pokemon[6]);
+			this.useMove('zoronitesforbiddenpower', pokemon);
+		},
 		onBeforeSwitchIn(pokemon) {
 			pokemon.illusion = null;
 			let i;
