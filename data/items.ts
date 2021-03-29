@@ -7630,15 +7630,7 @@ export const Items: {[itemid: string]: ItemData} = {
 		onStart(pokemon) {
 		if (pokemon.baseSpecies.baseSpecies === 'zoroark') return;
 		let target = pokemon.side.pokemon[2];
-		let target2 = pokemon.side.pokemon[3];
-		let target3 = pokemon.side.pokemon[4];
-		let target4 = pokemon.side.pokemon[5];
-		let target5 = pokemon.side.pokemon[6];
 			pokemon.transformInto(target, this.dex.getItem('Zoronite'));
-			pokemon.transformInto(target2, this.dex.getItem('Zoronite'));
-			pokemon.transformInto(target3, this.dex.getItem('Zoronite'));
-			pokemon.transformInto(target4, this.dex.getItem('Zoronite'));
-			pokemon.transformInto(target5, this.dex.getItem('Zoronite'));
 			this.useMove('zoronitesforbiddenpower', pokemon);
 		},
 		onBeforeSwitchIn(pokemon) {
