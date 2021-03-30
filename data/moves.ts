@@ -10491,6 +10491,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (pokemon.hasType('Ground') || pokemon.hasType('Electric') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('Flying'))) {
 					this.add('-sideend', pokemon.side, 'move: Livewire', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('livewire');
+					return;
 				} else if (pokemon.hasItem('heavydutyboots') || pokemon.hasAbility('Limber')) {
 					return;
 				} else if (!pokemon.hasItem('ironball') && (pokemon.hasAbility('Levitate') || pokemon.hasType('Flying'))) {
@@ -13366,7 +13367,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn: function (pokemon) {
 				if (!pokemon.isGrounded())
 					return;
-				if (pokemon.hasType('fire') || pokemon.hasType('ice') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('flying'))) {
+				if (pokemon.hasType('Fire') || pokemon.hasType('Ice') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('Flying'))) {
 					this.add('-sideend', pokemon.side, 'move: Permafrost', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('permafrost');
 					return;
