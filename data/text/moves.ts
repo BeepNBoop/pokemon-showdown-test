@@ -4077,8 +4077,8 @@ export const MovesText: {[k: string]: MoveText} = {
 		shortDesc: "Power is equal to the base move's Z-Power.",
 	},
 	newmoon: {
-		name: "Night Daze",
-		desc: "Has a 40% chance to lower the target's accuracy by 1 stage.",
+		name: "New Moon",
+		desc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
 		shortDesc: "For 5 turns, intense darkness powers Dark and Ghost moves.",
 	},
 	nightdaze: {

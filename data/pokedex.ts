@@ -663,7 +663,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	pidgeotdelta: {
 		num: 18,
 		name: "Pidgeot-Delta",
-		baseSpecies: "Pideot",
+		baseSpecies: "Pidgeot",
 		forme: "Delta",
 		types: ["Dark", "Dragon"],
 		baseStats: {hp: 83, atk: 80, def: 75, spa: 70, spd: 70, spe: 101},
