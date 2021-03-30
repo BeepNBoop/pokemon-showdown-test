@@ -13367,7 +13367,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onSwitchIn: function (pokemon) {
 				if (!pokemon.isGrounded())
 					return;
-				if (pokemon.hasType('Fire') || pokemon.hasType('Ice') && (!pokemon.hasAbility('Levitate') || !pokemon.hasType('Flying'))) {
+				if (pokemon.hasType('Fire') || pokemon.hasType('Ice') && ((!pokemon.hasAbility('Levitate') || !pokemon.hasType('Flying')) || pokemon.hasItem('ironball'))) {
 					this.add('-sideend', pokemon.side, 'move: Permafrost', '[of] ' + pokemon);
 					pokemon.side.removeSideCondition('permafrost');
 					return;
