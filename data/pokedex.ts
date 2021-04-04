@@ -15694,8 +15694,6 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 6.5,
 		color: "White",
 		eggGroups: ["Undiscovered"],
-		requiredMove: "Relic Song",
-		battleOnly: "Meloetta-Delta-Magician",
 		tier: "UU",
 	},
 	genesect: {
