@@ -1244,30 +1244,6 @@ export const Formats: {[k: string]: FormatData} = {
 		effectType: 'ValidatorRule',
 		name: 'Magearna Clause',
 		desc: "Bans Calm Mind, Draining Kiss, Iron Defense or Stored Power in conjunction with eachother on Magearna",
-		onValidateTeam(team, set) {
-			let a = false;
-			let b = false;
-			let c = false;
-			let d = false;
-			for (const set of team) {
-				if (set.species === 'Magearna') {
-					for (const moveid of set.moves) {
-						const move = this.dex.getMove(moveid);
-						if (move.id === 'calmmind') {
-						a = true; }
-						else if (move.id === 'drainingkiss') {
-						b = true; }
-						else if (move.id === 'irondefense') {
-						c = true; }
-						else if (move.id === 'storedpower') {
-						d = true; }					
-					}
-					if (((c = true) && (d = true)) || ((b = true) && (d = true)) || ((b = true) && (c = true)) || ((a = true) && (d = true)) || ((a = true) && (c = true)) || ((a = true) && (b = true))) {
-					return [`The combination of moves on Magearna is banned.`];
-					}
-				}			
-			}
-		},
 	},
 	magearnaitemclause: {
 		effectType: 'ValidatorRule',

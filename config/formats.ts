@@ -26,7 +26,7 @@ export const Formats: FormatList = [
 		section: "[Gen 8] Insurgence Singles",
 	},
 	{
-		name: "Insurgence Random Battle",
+		name: "[Gen 8] Insurgence Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
 		threads: [
 			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
