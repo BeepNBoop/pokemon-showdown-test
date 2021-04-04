@@ -1249,13 +1249,11 @@ export const Formats: {[k: string]: FormatData} = {
 		effectType: 'ValidatorRule',
 		name: 'Magearna Item Clause',
 		desc: "Magearna must hold some form of pokeball as an item",
-		onValidateSet(set) {
-			const item = this.dex.getItem(set.item);
-			if (item.isPokeball && set.species == 'magearna') return;
-			if (([false].includes(item.isPokeball) || !set.item) && set.species == 'magearna') {
-				return [`${set.name}'s item ${item.name} is not allowed. Magearna must hold any kind of pokeball.`];
-			}
-		},
+	},
+	draft3bans: {
+		effectType: 'ValidatorRule',
+		name: 'Season 3 Rules',
+		desc: "Season 3 Ruleset as voted on and decided prior to the season's first battles",
 	},
 	custommoveclause: {
 		effectType: 'ValidatorRule',
