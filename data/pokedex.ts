@@ -11537,7 +11537,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoItem: "Dawn Stone",
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Gallade-Delta-Mega"],
-		formeOrder: ["Gallade", "Gallade-Delta-Mega"],
+		formeOrder: ["Gallade-Delta", "Gallade-Delta-Mega"],
 		tier: "RU",
 	},
 	galladedeltamega: {
@@ -15014,7 +15014,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		forme: "Delta",
 		types: ["Flying", "Fighting"],
 		baseStats: {hp: 65, atk: 125, def: 100, spa: 60, spd: 70, spe: 70},
-		abilities: {0: "Defiant", 1: "Technician", H: "Wind Force"},
+		abilities: {0: "Frisk", 1: "Defiant", H: "Wind Force"},
 		heightm: 1.6,
 		weightkg: 70,
 		color: "Green",
