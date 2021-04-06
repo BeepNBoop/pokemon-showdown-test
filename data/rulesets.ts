@@ -1250,43 +1250,9 @@ export const Formats: {[k: string]: FormatData} = {
 		name: 'Magearna Item Clause',
 		desc: "Magearna must hold some form of pokeball as an item",
 	},
-	draft3bans: {
+	draft3rules: {
 		effectType: 'ValidatorRule',
-		name: 'Season 3 Rules',
+		name: 'Draft 3 Rules',
 		desc: "Season 3 Ruleset as voted on and decided prior to the season's first battles",
-	},
-	custommoveclause: {
-		effectType: 'ValidatorRule',
-		name: 'Custom Move Clause',
-		desc: "You may only have a custom move of one type on a team",
-		onValidateTeam(team) {
-			let hasCustomMove = 0;
-			for (const set of team) {
-				for (const moveid of set.moves) {
-					const move = this.dex.getMove(moveid);
-					if (move.id === 'custommove') hasCustomMove = +1;
-					if (move.id === 'custommovebug') hasCustomMove = +1;
-					if (move.id === 'custommovedark') hasCustomMove = +1;
-					if (move.id === 'custommovedragon') hasCustomMove = +1;
-					if (move.id === 'custommoveelectric') hasCustomMove = +1;
-					if (move.id === 'custommovefairy') hasCustomMove = +1;
-					if (move.id === 'custommovefighting') hasCustomMove = +1;
-					if (move.id === 'custommovefire') hasCustomMove = +1;
-					if (move.id === 'custommoveflying') hasCustomMove = +1;
-					if (move.id === 'custommoveghost') hasCustomMove = +1;
-					if (move.id === 'custommovegrass') hasCustomMove = +1;
-					if (move.id === 'custommoveground') hasCustomMove = +1;
-					if (move.id === 'custommoveice') hasCustomMove = +1;
-					if (move.id === 'custommovepoison') hasCustomMove = +1;
-					if (move.id === 'custommovepsychic') hasCustomMove = +1;
-					if (move.id === 'custommoverock') hasCustomMove = +1;
-					if (move.id === 'custommovesteel') hasCustomMove = +1;
-					if (move.id === 'custommovewater') hasCustomMove = +1;
-				}
-			}
-			if (hasCustomMove >= 2) {
-				return [`Having more than 1 type of custom move on a team is banned.`];
-			}
-		},
 	},
 };

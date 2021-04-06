@@ -57,7 +57,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Season 3 Rules'],
+		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Draft 3 Rules'],
 		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
 	},
 	{
