@@ -1052,7 +1052,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onTryHit(target, source, move) {
 			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
 			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
-			if (!source.hasType('Ghost') || !source.hasType('Psychic') || !source.hasType('Dark')) return;
 			if (move.type === 'Normal' || move.type === 'Fighting') {
 				this.add('-immune', target);
 				return null;
@@ -1061,14 +1060,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onAllyTryHitSide(target, source, move) {
 			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
 			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
-			if (!source.hasType('Ghost') || !source.hasType('Psychic') || !source.hasType('Dark')) return;
 			if (move.type === 'Normal' || move.type === 'Fighting') {
 				this.add('-immune', this.effectData.target);
 			}
 		},
 		onSourceModifyAtkPriority: 6,
 		onSourceModifyAtk(atk, attacker, defender, move) {
-			if (!defender.hasType('Ghost') || !defender.hasType('Psychic') || !defender.hasType('Dark')) return;
 			if (move.type === 'Bug' || move.type === 'Poison') {
 				return this.chainModify(0.5);
 			}
