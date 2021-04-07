@@ -35,7 +35,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120, 
 		team: 'random',
-		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod'],
+		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Overflow Stat Mod'],
 	},
 	{
 		name: "[Gen 8] Insurgence OU",
@@ -48,7 +48,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Standard', 'Dynamax Clause'],
+		ruleset: ['Standard', 'Dynamax Clause', 'Overflow Stat Mod'],
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
@@ -57,7 +57,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Draft 3 Rules'],
+		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Draft 3 Rules', 'Overflow Stat Mod'],
 		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
 	},
 	{
@@ -66,7 +66,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Torren Pokedex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
+		ruleset: ['Overflow Stat Mod', 'Torren Pokedex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 
