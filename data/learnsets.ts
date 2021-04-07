@@ -33,7 +33,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bulbasaur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			amnesia: ["8M", "7E", "6E", "5E", "4E"],
@@ -137,7 +137,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bulbasaurdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			bodypress: ["8L1"],
@@ -229,7 +229,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ivysaur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			amnesia: ["8M"],
@@ -313,7 +313,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ivysaurdelta: {
 		learnset:{
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			bodypress: ["8L1"],
@@ -411,7 +411,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venusaur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			amnesia: ["8M", "8V"],
@@ -511,7 +511,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venusaurdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			bodypress: ["8L1"],
@@ -621,7 +621,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmander: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -748,7 +748,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmanderdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			powertrip: ["8L1"],
 			shadowbone: ["8L1"],
@@ -850,7 +850,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmeleon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -951,7 +951,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmeleondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			powertrip: ["8L1"],
 			shadowbone: ["8L1"],
@@ -1055,7 +1055,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charizard: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -1203,7 +1203,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charizarddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			powertrip: ["8L1"],
 			shadowbone: ["8L1"],
@@ -1320,7 +1320,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	squirtle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8E", "7E", "6E", "5E", "4E"],
@@ -1440,7 +1440,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	squirtledelta:{
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
 			powertrip: ["8L1"],
@@ -1554,7 +1554,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wartortle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquatail: ["8L30", "7T", "7L33", "6T", "6L32", "5T", "5L32", "4T", "4L32"],
@@ -1646,7 +1646,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wartortledelta:{
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
 			powertrip: ["8L1"],
@@ -1763,7 +1763,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blastoise: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -1881,7 +1881,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blastoisedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
 			powertrip: ["8L1"],
@@ -2005,7 +2005,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	caterpie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["8L9", "7T", "7L9", "6T", "6L15", "5T", "5L15", "4T", "4L15"],
 			electroweb: ["8M", "7T", "6T", "5T"],
@@ -2021,7 +2021,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metapod: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "6T", "5T", "4T"],
 			electroweb: ["8M", "7T", "6T", "5T"],
@@ -2040,7 +2040,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	butterfree: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -2142,7 +2142,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weedle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "7L9", "6T", "6L15", "5T", "5L15", "4T", "4L15"],
 			electroweb: ["7T", "6T", "5T"],
@@ -2157,7 +2157,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kakuna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "6T", "5T", "4T"],
 			electroweb: ["7T", "6T", "5T"],
@@ -2176,7 +2176,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beedrill: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			corrode: ["8L1"],
@@ -2272,7 +2272,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -2348,7 +2348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -2463,7 +2463,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeotto: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -2540,7 +2540,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeottodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -2655,7 +2655,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -2731,7 +2731,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidgeotdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -2855,7 +2855,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rattata: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			assurance: ["7L19", "6L25", "5L25", "4L25"],
@@ -2947,7 +2947,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rattataalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["7L19"],
 			attract: ["7M"],
@@ -3016,7 +3016,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raticate: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			newmoon: ["8L1"],
@@ -3115,7 +3115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raticatealola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["7L19"],
 			attract: ["7M"],
@@ -3191,7 +3191,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raticatealolatotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["7L19", "7S0"],
 			attract: ["7M"],
@@ -3264,7 +3264,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spearow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L15", "6M", "6L17", "5M", "5L17", "4M", "4L17", "3M", "3L25", "3S0"],
@@ -3348,7 +3348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fearow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L15", "6M", "6L17", "5M", "5L17", "4M", "4L17", "3M"],
@@ -3428,7 +3428,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ekans: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -3526,7 +3526,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arbok: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -3625,7 +3625,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pichu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -3723,7 +3723,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pichuspikyeared: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["4M"],
@@ -3777,7 +3777,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pichudelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			mistyexplosion: ["8L1"],
 			charm: ["8L1"],
@@ -3858,7 +3858,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pikachu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M", "8L24", "8V", "7L45", "7V", "6L37", "6S41", "5L37", "4L34", "3L33", "3S0", "3S8"],
@@ -4848,7 +4848,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pikachudelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			mistyexplosion: ["8L1"],
 			disarmingvoice: ["8L1"],
@@ -4948,7 +4948,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raichu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M", "8L1"],
@@ -5057,7 +5057,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raichualola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L1"],
 			allyswitch: ["8M", "7T"],
@@ -5153,7 +5153,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raichudelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			mistyexplosion: ["8L1"],
 			gust: ["8L1"],
@@ -5258,7 +5258,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandshrew: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L27"],
@@ -5361,7 +5361,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandshrewalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M"],
@@ -5454,7 +5454,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandslash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M"],
@@ -5557,7 +5557,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandslashalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M"],
@@ -5648,7 +5648,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidoranf: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -5738,7 +5738,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidorina: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -5826,7 +5826,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidoqueen: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -5973,7 +5973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidoranm: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -6064,7 +6064,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidorino: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -6151,7 +6151,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nidoking: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -6299,7 +6299,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cleffa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -6404,7 +6404,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clefairy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -6562,7 +6562,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clefable: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -6718,7 +6718,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vulpix: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -6814,7 +6814,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vulpixalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M", "7E"],
@@ -6898,7 +6898,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ninetales: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -6995,7 +6995,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ninetalesalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M"],
@@ -7080,7 +7080,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	igglybuff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -7180,7 +7180,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jigglypuff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -7319,7 +7319,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wigglytuff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -7461,7 +7461,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zubat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			corrode: ["8L1"],
@@ -7555,7 +7555,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golbat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			corrode: ["8L1"],
@@ -7651,7 +7651,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crobat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -7743,7 +7743,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	oddish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S1"],
@@ -7825,7 +7825,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gloom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
@@ -7905,7 +7905,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vileplume: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "8V", "7V", "3L1"],
@@ -7983,7 +7983,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bellossom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7V", "3L1"],
 			acid: ["8L1"],
@@ -8059,7 +8059,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	paras: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8V", "7L11"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -8158,7 +8158,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	parasect: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8V", "7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -8248,7 +8248,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venonat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			agility: ["7E", "6E", "5E", "4E"],
@@ -8321,7 +8321,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venomoth: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			corrode: ["8L1"],
@@ -8418,7 +8418,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diglett: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8V"],
@@ -8498,7 +8498,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diglettalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			agility: ["8M", "8V"],
@@ -8573,7 +8573,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diglettdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			smartstrike: ["8L1"],
 			psychicfangs: ["8L1"],
@@ -8649,7 +8649,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dugtrio: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8V"],
@@ -8738,7 +8738,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dugtrioalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			agility: ["8M", "8V"],
@@ -8811,7 +8811,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dugtriodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			smartstrike: ["8L1"],
 			psychicfangs: ["8L1"],
@@ -8894,7 +8894,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meowth: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9014,7 +9014,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meowthalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			amnesia: ["8M", "7E"],
@@ -9099,7 +9099,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meowthgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			assurance: ["8M"],
@@ -9168,7 +9168,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	persian: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9277,7 +9277,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	persianalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			amnesia: ["8M", "8V"],
@@ -9367,7 +9367,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	perrserker: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			assurance: ["8M"],
@@ -9434,7 +9434,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	psyduck: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9548,7 +9548,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golduck: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9669,7 +9669,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mankey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9790,7 +9790,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	primeape: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -9911,7 +9911,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	growlithe: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -10002,7 +10002,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	growlithedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			bodypress: ["8L1"],
 			scaleshot: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -10095,7 +10095,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arcanine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -10194,7 +10194,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arcaninedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			bodypress: ["8L1"],
 			scaleshot: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -10302,7 +10302,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poliwag: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["7V"],
@@ -10387,7 +10387,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poliwhirl: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["7V"],
@@ -10483,7 +10483,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poliwrath: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10596,7 +10596,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	politoed: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10687,7 +10687,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	abra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "7E", "6E", "5M"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10792,7 +10792,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kadabra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "8L15", "7T", "7L36", "6L24", "5M", "5L24"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -10905,7 +10905,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	alakazam: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "8L15", "7T", "7L36", "6L24", "5M", "5L24"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11024,7 +11024,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	machop: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -11132,7 +11132,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	machoke: {
 		learnset: {
 			drainpunch: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["8V", "7V"],
@@ -11236,7 +11236,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	machamp: {
 		learnset: {
 			drainpunch: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			assurance: ["8M"],
@@ -11354,7 +11354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bellsprout: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8V", "7L23", "7V", "6L23", "5L23", "4L23", "3L23"],
@@ -11442,7 +11442,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weepinbell: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8V", "7L24", "7V", "6L23", "5L23", "4L23", "3L24"],
@@ -11520,7 +11520,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	victreebel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8V", "7V"],
@@ -11599,7 +11599,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacool: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -11693,7 +11693,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacooldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			strengthsap: ["8L1"],
 			corrosivegas: ["8L1"],
@@ -11770,7 +11770,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacruel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -11866,7 +11866,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tentacrueldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			strengthsap: ["8L1"],
 			corrosivegas: ["8L1"],
@@ -11946,7 +11946,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	geodude: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["4T"],
@@ -12038,7 +12038,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	geodudealola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["7M"],
@@ -12116,7 +12116,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	geodudedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			psychicterrain: ["8L1"],
@@ -12234,7 +12234,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	graveler: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["4T"],
@@ -12324,7 +12324,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	graveleralola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			allyswitch: ["7T"],
@@ -12397,7 +12397,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gravelerdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			psychicterrain: ["8L1"],
@@ -12516,7 +12516,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["4T"],
@@ -12610,7 +12610,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golemalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			allyswitch: ["7T"],
@@ -12692,7 +12692,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golemdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			psychicterrain: ["8L1"],
@@ -12817,7 +12817,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ponyta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			agility: ["8M", "8L20", "8V", "7L37", "7V", "6L37", "5L37", "4L33", "3L38"],
@@ -12894,7 +12894,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ponytagalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L20"],
 			allyswitch: ["8M"],
@@ -12948,7 +12948,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rapidash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			agility: ["8M", "8L20", "8V", "7L37", "7V", "6L37", "5L37", "4L33", "3L38"],
@@ -13039,7 +13039,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rapidashgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L20"],
 			allyswitch: ["8M"],
@@ -13100,7 +13100,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowpoke: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -13222,7 +13222,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowpokegalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L6"],
 			amnesia: ["8M", "8L27"],
@@ -13298,7 +13298,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowbro: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -13445,7 +13445,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowbrogalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1"],
 			amnesia: ["8M", "8L27"],
@@ -13539,7 +13539,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowking: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -13667,7 +13667,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slowkinggalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1"],
 			amnesia: ["8M", "8L27"],
@@ -13761,7 +13761,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magnemite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			bide: ["7V"],
@@ -13836,7 +13836,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magneton: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			bide: ["7V"],
@@ -13921,7 +13921,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magnezone: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -13998,7 +13998,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	farfetchd: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "7L37", "6M", "6L37", "5M", "5L37"],
@@ -14110,7 +14110,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	farfetchdgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -14166,7 +14166,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sirfetchd: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -14216,7 +14216,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	doduo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acupressure: ["7L33", "6L28", "5L28", "4L28"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -14292,7 +14292,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	doduodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			psychicterrain: ["8L1"],
 			laserfocus: ["8L1"],
@@ -14377,7 +14377,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dodrio: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acupressure: ["7L34", "6L28", "5L28", "4L28"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -14461,7 +14461,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dodriodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			psychicterrain: ["8L1"],
 			laserfocus: ["8L1"],
@@ -14551,7 +14551,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8V", "7L31", "6L31", "5L31", "4L31"],
@@ -14638,7 +14638,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dewgong: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8V", "7L31", "6L31", "5L31", "4L31"],
@@ -14720,7 +14720,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimer: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			corrode: ["8L1"],
@@ -14818,7 +14818,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimeralola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8V", "7L43"],
 			acidspray: ["7L15"],
@@ -14906,7 +14906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimerdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			bodypress: ["8L1"],
 			skittersmack: ["8L1"],
@@ -15002,7 +15002,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	muk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -15104,7 +15104,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mukalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8V", "7L46"],
 			acidspray: ["7L15"],
@@ -15189,7 +15189,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mukdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			bodypress: ["8L1"],
 			skittersmack: ["8L1"],
@@ -15291,7 +15291,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shellder: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquaring: ["8E", "7E", "6E", "5E"],
@@ -15374,7 +15374,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cloyster: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -15463,7 +15463,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gastly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -15566,7 +15566,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	haunter: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -15672,7 +15672,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gengar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			corrode: ["8L1"],
@@ -15808,7 +15808,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	onix: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -15908,7 +15908,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	steelix: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -16013,7 +16013,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drowzee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			assist: ["7E", "6E", "5E", "4E", "3E"],
@@ -16126,7 +16126,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hypno: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -16237,7 +16237,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	krabby: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M", "7E", "6E", "5E", "4E"],
@@ -16329,7 +16329,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kingler: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M", "8V"],
@@ -16426,7 +16426,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	voltorb: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			bide: ["7V"],
@@ -16500,7 +16500,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electrode: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			bide: ["7V"],
@@ -16577,7 +16577,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	exeggcute: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1"],
 			ancientpower: ["8E", "7E", "7V", "6E", "5E", "4T", "4E", "3E"],
@@ -16671,7 +16671,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	exeggutor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1"],
 			ancientpower: ["4T", "3S0"],
@@ -16770,7 +16770,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	exeggutoralola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -16865,7 +16865,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cubone: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -16976,7 +16976,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			phantomforce: ["8L1"],
 			shadowball: ["8L1"],
 			shadowclaw: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -17091,7 +17091,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marowakalola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			allyswitch: ["8M", "7T"],
@@ -17194,7 +17194,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marowakalolatotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			allyswitch: ["7T"],
@@ -17283,7 +17283,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyrogue: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bodyslam: ["8M", "3T"],
@@ -17351,7 +17351,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hitmonlee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			aurasphere: ["8M"],
@@ -17454,7 +17454,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hitmonchan: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L28", "8V", "7L1", "7V", "6L6", "5L6", "4L6", "3L7"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -17554,7 +17554,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hitmontop: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			agility: ["8M", "8L28", "7L37", "7V", "6L37", "5L37", "4L37", "3L37"],
@@ -17642,7 +17642,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lickitung: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -17775,7 +17775,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lickilicky: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -17883,7 +17883,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	koffing: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -17968,7 +17968,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	koffingdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			zingzap: ["8L1"],
 			overdrive: ["8L1"],
 			risingvoltage: ["8L1"],
@@ -18059,7 +18059,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weezing: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -18145,7 +18145,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weezinggalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8L24"],
 			aromaticmist: ["8L1"],
@@ -18211,7 +18211,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weezingdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			zingzap: ["8L1"],
 			overdrive: ["8L1"],
 			risingvoltage: ["8L1"],
@@ -18305,7 +18305,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rhyhorn: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -18421,7 +18421,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rhydon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -18572,7 +18572,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rhyperior: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -18700,7 +18700,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	happiny: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aromatherapy: ["8E", "7E", "6E", "5E", "4E"],
@@ -18777,7 +18777,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chansey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -18929,7 +18929,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blissey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -19063,7 +19063,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tangela: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "8V", "7L10", "7V", "6L10", "5L8", "4L8", "3L10"],
 			amnesia: ["8M", "8V", "7E", "7V", "6E", "5E", "4E", "3E"],
@@ -19155,7 +19155,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tangeladelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			powertrip: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -19235,7 +19235,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tangrowth: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L10", "6L10", "5L8", "4L8"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -19327,7 +19327,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tangrowthdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			powertrip: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -19421,7 +19421,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kangaskhan: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -19562,7 +19562,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	horsea: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -19646,7 +19646,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seadra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -19729,7 +19729,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kingdra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -19808,7 +19808,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	goldeen: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acupressure: ["8E"],
@@ -19893,7 +19893,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seaking: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M", "8L20", "8V", "7L29", "7V", "6L29", "5L56", "4L56", "3L61"],
@@ -19982,7 +19982,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	staryu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["7V"],
@@ -20072,7 +20072,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	starmie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M"],
@@ -20175,7 +20175,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mimejr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -20271,7 +20271,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mrmime: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			allyswitch: ["8M", "7T"],
@@ -20411,7 +20411,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mrmimegalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			allyswitch: ["8M", "8L16"],
@@ -20510,7 +20510,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mrrime: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["8L1"],
@@ -20606,7 +20606,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scyther: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M"],
@@ -20702,7 +20702,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scytherdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],
@@ -20798,7 +20798,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scizor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -20900,7 +20900,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scizordelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],
@@ -21000,7 +21000,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	smoochum: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -21099,7 +21099,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jynx: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -21234,7 +21234,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	elekid: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -21319,7 +21319,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	elekiddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			accelerock: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
@@ -21412,7 +21412,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electabuzz: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -21520,7 +21520,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electabuzzdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			accelerock: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
@@ -21627,7 +21627,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electivire: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -21720,7 +21720,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electiviredelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			accelerock: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
@@ -21850,7 +21850,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magby: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -21933,7 +21933,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magbydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -22006,7 +22006,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magmar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -22115,7 +22115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magmardelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -22195,7 +22195,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magmortar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -22288,7 +22288,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magmortardelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -22397,7 +22397,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pinsir: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7V"],
@@ -22497,7 +22497,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tauros: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -22603,7 +22603,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magikarp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bounce: ["8M", "7T", "7S7", "6T", "5T", "5D", "5S5", "4T"],
 			celebrate: ["6S6"],
@@ -22629,7 +22629,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gyarados: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -22746,7 +22746,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lapras: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -22862,7 +22862,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ditto: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			transform: ["8L1", "8V", "7L1", "7V", "7S0", "6L1", "5L1", "4L1", "3L1"],
 		},
@@ -22881,7 +22881,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dittodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mirrormove: ["8L1"],
 			transform: ["8L1"],
 			morph: ["8L1"],
@@ -22911,7 +22911,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			blizzard: ["8L1"],
 			dazzlinggleam: ["8L1"],
 			gigaimpact: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "5S2", "4M", "4S0", "3M"],
 			babydolleyes: ["8L15", "7L9", "7S5", "6L9", "6S3", "6S4"],
@@ -23000,7 +23000,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eeveestarter: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			baddybad: ["8V", "7T"],
 			bite: ["8V", "7L17"],
@@ -23041,7 +23041,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vaporeon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8L45", "8V", "7L29", "7V", "6L29", "5L64", "4L64", "3L47"],
@@ -23146,7 +23146,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jolteon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M", "8L45", "8V", "7L29", "7V", "6L29", "5L64", "4L64", "3L47"],
@@ -23246,7 +23246,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flareon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -23347,7 +23347,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	espeon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -23448,7 +23448,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	umbreon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -23551,7 +23551,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	leafeon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -23645,7 +23645,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glaceon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquatail: ["7T", "6T", "5T", "4T"],
@@ -23734,7 +23734,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	porygon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -23833,7 +23833,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	porygon2: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -23918,7 +23918,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	porygonz: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -24001,7 +24001,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	omanyte: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			ancientpower: ["8L30", "7L37", "7V", "6L37", "5L37", "4T", "4L37", "3L49"],
@@ -24094,7 +24094,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	omastar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			ancientpower: ["8L30", "7L37", "7V", "6L37", "5L37", "4T", "4L37", "3L55"],
@@ -24187,7 +24187,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kabuto: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			absorb: ["8L1", "8V", "7L6", "7V", "6L6", "5L6", "5D", "4L6", "3L13"],
@@ -24283,7 +24283,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kabutodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			firstimpression: ["8L1"],
 			laserfocus: ["8L1"],
@@ -24360,7 +24360,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kabutops: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			absorb: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
@@ -24470,7 +24470,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kabutopsdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			firstimpression: ["8L1"],
 			laserfocus: ["8L1"],
@@ -24566,7 +24566,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aerodactyl: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -24682,7 +24682,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	munchlax: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -24793,7 +24793,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	munchlaxdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			brutalswing: ["8L1"],
 			branchpoke: ["8L1"],
@@ -24872,7 +24872,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snorlax: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -25018,7 +25018,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snorlaxdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			brutalswing: ["8L1"],
 			branchpoke: ["8L1"],
@@ -25116,7 +25116,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	articuno: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -25223,7 +25223,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	articunogalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L20"],
 			airslash: ["8M"],
@@ -25280,7 +25280,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zapdos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			jetstream: ["8L1"],
@@ -25385,7 +25385,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zapdosgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L20"],
@@ -25445,7 +25445,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	moltres: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -25548,7 +25548,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	moltresgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L40"],
 			agility: ["8M", "8L20"],
@@ -25600,7 +25600,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dratini: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -25694,7 +25694,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dratinidelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -25778,7 +25778,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragonair: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -25872,7 +25872,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragonairdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -25960,7 +25960,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragonite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -26112,7 +26112,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragonitedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			liquidation: ["8L1"],
 			bodypress: ["8L1"],
@@ -26232,7 +26232,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mewtwo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -26406,7 +26406,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mewtwoarmored: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -26565,7 +26565,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shadowmewtwo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			nightslash: ["8L1"],
 			confusion: ["8L1"],
@@ -26696,7 +26696,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mew: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -27081,7 +27081,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chikorita: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["7E", "7V", "6E", "5E", "4T", "4E", "3E", "3S1"],
 			aromatherapy: ["7L42", "7E", "6L42", "6E", "5L42", "5E", "4L42", "4E"],
@@ -27160,7 +27160,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bayleef: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			aromatherapy: ["7L50", "6L50", "5L50", "4L50"],
@@ -27229,7 +27229,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			calmmind: ["8L1"],
 			dazzlinggleam: ["8L1"],
 			moonblast: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			aromatherapy: ["7L60", "6L60", "5L60", "4L60"],
@@ -27309,7 +27309,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cyndaquil: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -27389,7 +27389,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cyndaquildelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27465,7 +27465,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilava: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -27534,7 +27534,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilavadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27623,7 +27623,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typhlosion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -27721,7 +27721,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typhlosiondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			steelbeam: ["8L1"],
 			steelroller: ["8L1"],
 			hurricane: ["8L1"],
@@ -27822,7 +27822,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	totodile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -27923,7 +27923,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	croconaw: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -28014,7 +28014,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	feraligatr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -28123,7 +28123,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sentret: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["7L36", "7V", "6L36", "5L36", "4L36", "3L49"],
 			aquatail: ["7T", "6T", "5T", "4T"],
@@ -28221,7 +28221,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	furret: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L1"],
@@ -28322,7 +28322,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoothoot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -28419,7 +28419,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoothootdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			dualwingbeat: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -28488,7 +28488,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noctowl: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -28580,7 +28580,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noctowldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			dualwingbeat: ["8L1"],
 			terrainpulse: ["8L1"],
@@ -28651,7 +28651,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ledyba: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -28738,7 +28738,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ledian: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -28822,7 +28822,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spinarak: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["7L5"],
@@ -28906,7 +28906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ariados: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["7L1"],
@@ -28986,7 +28986,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chinchou: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			livewire: ["8L1"],
@@ -29063,7 +29063,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chinchoudelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burningjealousy: ["8L1"],
 			poltergeist: ["8L1"],
 			tailglow: ["8L1"],
@@ -29139,7 +29139,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lanturn: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			livewire: ["8L1"],
@@ -29226,7 +29226,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lanturndelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burningjealousy: ["8L1"],
 			poltergeist: ["8L1"],
 			tailglow: ["8L1"],
@@ -29309,7 +29309,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togepi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -29422,7 +29422,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togetic: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -29546,7 +29546,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togekiss: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -29672,7 +29672,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	natu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M", "3S0"],
@@ -29775,7 +29775,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xatu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -29879,7 +29879,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mareep: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			afteryou: ["7T", "7E", "6T", "6E", "5T", "5E"],
@@ -29956,7 +29956,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flaaffy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -30035,7 +30035,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ampharos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			dragonify: ["8L1"],
@@ -30123,7 +30123,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	azurill: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8E"],
@@ -30201,7 +30201,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marill: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "7E", "7V", "6E", "5E", "4E", "3E"],
@@ -30305,7 +30305,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	azumarill: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M"],
@@ -30406,7 +30406,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bonsly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -30473,7 +30473,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sudowoodo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			attract: ["8M", "7M", "7V", "6M", "5M", "4M", "3M"],
@@ -30566,7 +30566,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoppip: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L28", "6M", "6L28", "5M", "5L28"],
@@ -30643,7 +30643,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skiploom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L32", "6M", "6L32", "5M", "5L32"],
@@ -30711,7 +30711,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jumpluff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M", "7L34", "6M", "6L34", "5M", "5L34"],
@@ -30782,7 +30782,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aipom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -30894,7 +30894,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aipomdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			poltergeist: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -31019,7 +31019,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ambipom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -31109,7 +31109,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ambipomdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			poltergeist: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -31238,7 +31238,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	sunkern: {
 		learnset: {
 			weatherball: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1", "3S0"],
 			afteryou: ["7T", "6T", "5T"],
@@ -31302,7 +31302,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunkerndelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			strengthsap: ["8L1"],
@@ -31386,7 +31386,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	sunflora: {
 		learnset: {
 			weatherball: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -31450,7 +31450,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sunfloradelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			strengthsap: ["8L1"],
@@ -31544,7 +31544,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanma: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -31614,7 +31614,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			dualwingbeat: ["8L1"],
 			solarblade: ["8L1"],
 			grassyglide: ["8L1"],
@@ -31696,7 +31696,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmega: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dragonify: ["8L1"],
@@ -31767,7 +31767,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yanmegadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			dualwingbeat: ["8L1"],
 			solarblade: ["8L1"],
 			grassyglide: ["8L1"],
@@ -31855,7 +31855,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooper: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidspray: ["8E", "7E", "6E", "5E"],
@@ -31944,7 +31944,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooperdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			snatch: ["8L1"],
@@ -32033,7 +32033,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quagsire: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -32133,7 +32133,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quagsiredelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			mysticalfire: ["8L1"],
@@ -32234,7 +32234,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	murkrow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -32326,7 +32326,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	honchkrow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -32404,7 +32404,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreavus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -32501,7 +32501,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	misdreavusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkmatter: ["8L1"],
 			lifedew: ["8L1"],
 			mistyexplosion: ["8L1"],
@@ -32589,7 +32589,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mismagius: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -32671,7 +32671,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mismagiusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			lifedew: ["8L1"],
 			mistyexplosion: ["8L1"],
 			mistyterrain: ["8L1"],
@@ -32765,7 +32765,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	unown: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			hiddenpower: ["7M", "7L1", "7V", "6L1", "5L1", "4L1", "3L1"],
 		},
@@ -32778,7 +32778,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wynaut: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M", "8L1"],
 			charm: ["8M", "8L1", "7L1", "6L1", "5L1", "4L1", "3L1", "3S0"],
@@ -32796,7 +32796,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wobbuffet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M", "8L1"],
 			charm: ["8M", "8L1", "5D"],
@@ -32824,7 +32824,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firefang: ["8L1"],
 			icefang: ["8L1"],
 			thunderfang: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["7L23", "7V", "6L14", "5L14", "4L14", "3L31"],
 			allyswitch: ["7T"],
@@ -32928,7 +32928,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	girafarigdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			smartstrike: ["8L1"],
 			corrosivegas: ["8L1"],
@@ -33035,7 +33035,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pineco: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			bide: ["7L20", "7V", "6L20", "5L20", "4L17", "3L29"],
@@ -33112,7 +33112,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	forretress: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -33196,7 +33196,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dunsparce: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -33302,7 +33302,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dunsparcedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			liquidation: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -33405,7 +33405,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gligar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -33507,7 +33507,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gliscor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -33595,7 +33595,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snubbull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -33704,7 +33704,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	granbull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -33817,7 +33817,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	qwilfish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -33916,7 +33916,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shuckle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8E", "7E", "6E", "5E"],
 			acupressure: ["8E", "7E", "6E", "5E", "4E"],
@@ -34007,7 +34007,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shuckledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			coaching: ["8L1"],
 			steelbeam: ["8L1"],
@@ -34099,7 +34099,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heracross: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["8L15", "7M", "7L10", "6M", "6L10", "5M", "5L13", "4M", "4L13"],
 			armthrust: ["7L1", "6L1"],
@@ -34199,7 +34199,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sneasel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -34316,7 +34316,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	weavile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -34426,7 +34426,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	teddiursa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -34534,7 +34534,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ursaring: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -34638,7 +34638,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slugma: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acidarmor: ["7E", "7V", "6E", "5E", "4E", "3E"],
@@ -34710,7 +34710,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magcargo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -34797,7 +34797,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swinub: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L35", "7L48", "7V", "6L48", "5L49", "4L49", "3L55"],
@@ -34875,7 +34875,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	piloswine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L37", "7L58", "7V", "6L58", "5L65", "4L65", "3L70"],
@@ -34958,7 +34958,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mamoswine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L37"],
@@ -35046,7 +35046,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corsola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "7E", "7V", "6E", "5E", "4E", "3E"],
@@ -35152,7 +35152,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corsolagalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -35230,7 +35230,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cursola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			newmoon: ["8L1"],
@@ -35308,7 +35308,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	remoraid: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -35388,7 +35388,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	remoraiddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			bodypress: ["8L1"],
 			octolock: ["8L1"],
@@ -35467,7 +35467,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	octillery: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -35561,7 +35561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	octillerydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			bodypress: ["8L1"],
 			octolock: ["8L1"],
@@ -35658,7 +35658,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	delibird: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -35754,7 +35754,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mantyke: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -35825,7 +35825,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mantine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -35923,7 +35923,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skarmory: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -36014,7 +36014,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndour: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -36108,7 +36108,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	houndoom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -36200,7 +36200,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phanpy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["7E", "7V", "6E", "5E", "4T", "4E", "3E"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -36273,7 +36273,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	donphan: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["4T"],
 			assurance: ["7L15", "6L15", "5L31", "4L31"],
@@ -36354,7 +36354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stantler: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["7L7", "6L7", "5L7", "4L7", "3L11"],
 			attract: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -36450,7 +36450,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	smeargle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			captivate: ["5D"],
 			falseswipe: ["5S1"],
@@ -36471,7 +36471,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	miltank: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -36580,7 +36580,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raikou: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -36682,7 +36682,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	entei: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			agility: ["8M"],
@@ -36785,7 +36785,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	suicune: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -36887,7 +36887,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	larvitar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			ancientpower: ["8E", "7E", "7V", "6E", "5E", "4T", "4E", "3E"],
@@ -36972,7 +36972,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pupitar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			ancientpower: ["4T"],
@@ -37051,7 +37051,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyranitar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -37200,7 +37200,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyranitararmored: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -37348,7 +37348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lugia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -37486,7 +37486,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hooh: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -37610,7 +37610,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	celebi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			allyswitch: ["8M", "7T"],
@@ -37736,7 +37736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	treecko: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8E", "7L5", "6L5", "5L6", "5S1", "4L6", "3L6", "3S0"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -37836,7 +37836,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	treeckodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			bodypress: ["8L1"],
@@ -37924,7 +37924,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grovyle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -38016,7 +38016,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grovyledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			bodypress: ["8L1"],
@@ -38114,7 +38114,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sceptile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -38232,7 +38232,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sceptiledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			bodypress: ["8L1"],
@@ -38347,7 +38347,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torchic: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["8L18", "7M", "6M", "5M", "4M", "3M"],
@@ -38437,7 +38437,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torchicdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			throatchop: ["8L1"],
 			expandingforce: ["8L1"],
@@ -38534,7 +38534,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combusken: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["8L20", "7M", "6M", "5M", "4M", "3M"],
@@ -38632,7 +38632,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combuskendelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			throatchop: ["8L1"],
 			expandingforce: ["8L1"],
@@ -38740,7 +38740,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blaziken: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -38863,7 +38863,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blazikendelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			throatchop: ["8L1"],
 			expandingforce: ["8L1"],
@@ -39013,7 +39013,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mudkip: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L27"],
@@ -39103,7 +39103,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marshtomp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L35"],
@@ -39193,7 +39193,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swampert: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L35"],
@@ -39303,7 +39303,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poochyena: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -39386,7 +39386,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mightyena: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -39466,7 +39466,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zigzagoon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -39561,7 +39561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zigzagoongalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -39623,7 +39623,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	linoone: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -39726,7 +39726,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	linoonegalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -39795,7 +39795,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	obstagoon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -39882,7 +39882,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wurmple: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "7L15", "6T", "6L15", "5T", "5L15", "5D", "4T", "4L15"],
 			electroweb: ["7T", "6T", "5T"],
@@ -39897,7 +39897,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silcoon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "6T", "5T", "4T"],
 			electroweb: ["7T", "6T", "5T"],
@@ -39913,7 +39913,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beautifly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			absorb: ["7L12", "6L1", "5L1", "4L1", "3L1"],
@@ -39980,7 +39980,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cascoon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "6T", "5T", "4T"],
 			electroweb: ["7T", "6T", "5T"],
@@ -39996,7 +39996,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dustox: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			corrode: ["8L1"],
@@ -40064,7 +40064,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lotad: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			absorb: ["8L3", "7L6", "6L5", "5L5", "5D", "4L5", "3L7", "3S0"],
@@ -40140,7 +40140,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lotaddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			strengthsap: ["8L1"],
@@ -40226,7 +40226,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lombre: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			absorb: ["8L1", "7L6", "6L5", "5L5", "4L5", "3L7"],
@@ -40319,7 +40319,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lombredelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			strengthsap: ["8L1"],
@@ -40415,7 +40415,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ludicolo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			absorb: ["8L1", "3L1"],
@@ -40518,7 +40518,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ludicolodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			speedswap: ["8L1"],
 			strengthsap: ["8L1"],
@@ -40632,7 +40632,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seedot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L3"],
 			amnesia: ["8M", "7E", "6E", "5E", "4E", "3E"],
@@ -40713,7 +40713,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seedotdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			charge: ["8L1"],
 			chargebeam: ["8L1"],
 			electricterrain: ["8L1"],
@@ -40766,7 +40766,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nuzleaf: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			absorb: ["8L1"],
@@ -40868,7 +40868,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nuzleafdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			bide: ["8L1"],
 			cottonspore: ["8L1"],
 			charge: ["8L1"],
@@ -40942,7 +40942,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shiftry: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -41063,7 +41063,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shiftrydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			nastyplot: ["8L1"],
 			shockwave: ["8L1"],
 			voltswitch: ["8L1"],
@@ -41153,7 +41153,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	taillow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L21", "6M", "6L21", "5M", "5L34", "4M", "4L34", "3M", "3L34"],
@@ -41228,7 +41228,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swellow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L21", "6M", "6L21", "5M", "5L38", "4M", "4L38", "3M", "3L38"],
@@ -41298,7 +41298,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wingull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -41374,7 +41374,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pelipper: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -41462,7 +41462,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ralts: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "7E", "6E", "5M"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -41578,7 +41578,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raltsdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			risingvoltage: ["8L1"],
 			tripleaxel: ["8L1"],
 			auroraveil: ["8L1"],
@@ -41649,7 +41649,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kirlia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "5M"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -41749,7 +41749,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kirliadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			risingvoltage: ["8L1"],
 			tripleaxel: ["8L1"],
 			auroraveil: ["8L1"],
@@ -41821,7 +41821,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gardevoir: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "5M"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -41935,7 +41935,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gardevoirdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			risingvoltage: ["8L1"],
 			tripleaxel: ["8L1"],
 			auroraveil: ["8L1"],
@@ -42024,7 +42024,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gallade: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["8L18", "7M", "7L17", "6M", "5M", "4M"],
 			airslash: ["8M"],
@@ -42163,7 +42163,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	galladedelta: {
 		learnset:{
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			risingvoltage: ["8L1"],
 			tripleaxel: ["8L1"],
 			auroraveil: ["8L1"],
@@ -42269,7 +42269,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	surskit: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L22", "6L22", "5L31", "4L31", "3L31"],
@@ -42345,7 +42345,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	masquerain: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -42422,7 +42422,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shroomish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -42485,7 +42485,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	breloom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -42572,7 +42572,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	slakoth: {
 		learnset: {
 			knockoff: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -42663,7 +42663,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	vigoroth: {
 		learnset: {
 			knockoff: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -42754,7 +42754,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	slaking: {
 		learnset: {
 			knockoff: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -42855,7 +42855,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nincada: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L21", "7L5"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -42915,7 +42915,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ninjask: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L23", "7L1"],
 			acrobatics: ["8M"],
@@ -42990,7 +42990,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shedinja: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L23", "7L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -43069,7 +43069,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	whismur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -43153,7 +43153,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	loudred: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -43243,7 +43243,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	exploud: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -43349,7 +43349,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	makuhita: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			armthrust: ["7L7", "6L7", "5L7", "5D", "4L7", "3L10", "3S0"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -43444,7 +43444,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hariyama: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			armthrust: ["7L1", "6L1", "5L1", "4L1", "3L1"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -43537,7 +43537,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nosepass: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["5D", "4T"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -43619,7 +43619,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	probopass: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			ancientpower: ["4T"],
@@ -43697,7 +43697,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skitty: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			assist: ["7L31", "6L22", "5L22", "4L18", "3L19"],
@@ -43795,7 +43795,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	delcatty: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["7M", "7L1", "6M", "6L1", "5M", "5L1", "4M", "4L1", "3M", "3L1", "3S0"],
@@ -43877,7 +43877,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sableye: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -44011,7 +44011,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sableyedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -44117,7 +44117,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mawile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -44240,7 +44240,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mawiledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			grassyglide: ["8L1"],
 			lashout: ["8L1"],
@@ -44361,7 +44361,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aron: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["4T"],
@@ -44441,7 +44441,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			firelash: ["8L1"],
 			throatchop: ["8L1"],
@@ -44523,7 +44523,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lairon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["4T"],
@@ -44602,7 +44602,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lairondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			firelash: ["8L1"],
 			throatchop: ["8L1"],
@@ -44693,7 +44693,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aggron: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -44831,7 +44831,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aggrondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			firelash: ["8L1"],
 			throatchop: ["8L1"],
@@ -44938,7 +44938,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meditite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acupressure: ["7L33", "6L33", "5L39"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -45041,7 +45041,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	medititedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			mistyexplosion: ["8L1"],
 			faketears: ["8L1"],
@@ -45128,7 +45128,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	medicham: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acupressure: ["7L33", "6L33", "5L42"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -45227,7 +45227,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	medichamdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			mistyexplosion: ["8L1"],
 			faketears: ["8L1"],
@@ -45338,7 +45338,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	electrike: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -45410,7 +45410,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	manectric: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -45491,7 +45491,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	plusle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["7L37", "6L37", "5L48", "4L44", "3L47"],
@@ -45580,7 +45580,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	plusledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mistyexplosion: ["8L1"],
 			mysticalfire: ["8L1"],
 			silverwind: ["8L1"],
@@ -45669,7 +45669,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minun: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["7L37", "6L37", "5L48", "4L44", "3L47"],
@@ -45759,7 +45759,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minundelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mistyexplosion: ["8L1"],
 			tripleaxel: ["8L1"],
 			auroraveil: ["8L1"],
@@ -45852,7 +45852,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	volbeat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -45939,7 +45939,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	illumise: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -46030,7 +46030,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	budew: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1", "4L1"],
@@ -46096,7 +46096,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	budewdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			mysticalfire: ["8L1"],
 			tripleaxel: ["8L1"],
@@ -46179,7 +46179,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roselia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1", "4L1", "3L1", "3S0"],
@@ -46265,7 +46265,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roseliadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			mysticalfire: ["8L1"],
 			tripleaxel: ["8L1"],
@@ -46369,7 +46369,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roserade: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1"],
@@ -46445,7 +46445,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roseradedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			tearfullook: ["8L1"],
 			mysticalfire: ["8L1"],
 			tripleaxel: ["8L1"],
@@ -46557,7 +46557,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gulpin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acidarmor: ["7E", "6E", "5E", "5D", "4E", "3E"],
@@ -46641,7 +46641,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swalot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acidspray: ["7L17", "6L17", "5L38"],
@@ -46722,7 +46722,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carvanha: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -46804,7 +46804,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sharpedo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -46902,7 +46902,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wailmer: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L42", "7L37", "6L37", "5L37", "4L37", "3L46"],
@@ -46977,7 +46977,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wailmerdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			counter: ["8L1"],
 			defog: ["8L1"],
 			gust: ["8L1"],
@@ -47059,7 +47059,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wailord: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L44", "7L37", "6L37", "5L37", "4L37", "3L52", "3S0"],
@@ -47144,7 +47144,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wailorddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			counter: ["8L1"],
 			defog: ["8L1"],
 			gust: ["8L1"],
@@ -47228,7 +47228,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	numel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -47309,7 +47309,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	numeldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			banefulbunker: ["8L1"],
 			corrosivegas: ["8L1"],
 			infestation: ["8L1"],
@@ -47371,7 +47371,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	camerupt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -47455,7 +47455,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cameruptdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			banefulbunker: ["8L1"],
 			corrosivegas: ["8L1"],
 			infestation: ["8L1"],
@@ -47532,7 +47532,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torkoal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -47619,7 +47619,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spoink: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			amnesia: ["7E", "6E", "5E", "4E"],
@@ -47701,7 +47701,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grumpig: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -47797,7 +47797,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spinda: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assist: ["7E", "6E", "5E", "4E", "3E"],
 			attract: ["7M", "6M", "5M", "4M", "3M"],
@@ -47908,7 +47908,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trapinch: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M", "3M"],
@@ -47976,7 +47976,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vibrava: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			drakonvoice: ["8L1"],
@@ -48068,7 +48068,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flygon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -48185,7 +48185,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flygonarmored: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -48302,7 +48302,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cacnea: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			absorb: ["7L4", "6L4", "5L5", "5D", "4L5", "3L5", "3S0"],
@@ -48395,7 +48395,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cacturne: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -48492,7 +48492,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swablu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -48581,7 +48581,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	altaria: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -48684,7 +48684,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zangoose: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -48803,7 +48803,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seviper: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -48896,7 +48896,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lunatone: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -49002,7 +49002,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solrock: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -49112,7 +49112,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	barboach: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L18", "7L15", "6L15", "5L18", "4L18", "3L21"],
@@ -49176,7 +49176,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	whiscash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L18", "7L15", "6L15", "5L18", "4L18", "3L21"],
@@ -49258,7 +49258,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corphish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -49351,7 +49351,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crawdaunt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -49456,7 +49456,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	baltoy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "5M"],
 			ancientpower: ["8L18", "7L19", "6L19", "5L26", "4T", "4L25", "3L25"],
@@ -49549,7 +49549,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	claydol: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T", "5M"],
 			ancientpower: ["8L18", "7L19", "6L19", "5L26", "4T", "4L25", "3L25"],
@@ -49649,7 +49649,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lileep: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L4", "7L5", "6L5", "5L8", "5D", "5S0", "4L8", "3L15"],
 			amnesia: ["8M", "8L28", "7L36", "6L29", "5L29", "4L29", "3L36"],
@@ -49728,7 +49728,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cradily: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1", "7L1", "6L1", "5L1", "4L1", "3L1"],
 			amnesia: ["8M", "8L28", "7L36", "6L29", "5L29", "4L29", "3L36"],
@@ -49813,7 +49813,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	anorith: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["8L16", "7L21", "6L21", "5L31", "4T", "4L31", "3L37"],
@@ -49888,7 +49888,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	armaldo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			ancientpower: ["8L16", "7L21", "6L21", "5L31", "4T", "4L31", "3L37"],
@@ -49973,7 +49973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	feebas: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -50036,7 +50036,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	feebasdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			splash: ["8L1"],
 			astonish: ["8L1"],
 			grudge: ["8L1"],
@@ -50087,7 +50087,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			moonblast: ["8L1"],
 			dazzlinggleam: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -50182,7 +50182,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	miloticdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			infestation: ["8L1"],
 			aurasphere: ["8L1"],
 			shadowsneak: ["8L1"],
@@ -50301,7 +50301,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mudslap: ["8L1"],
 			stealthrock: ["8L1"],
 			suckerpunch: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -50381,7 +50381,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kecleon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -50500,7 +50500,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shuppet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -50588,7 +50588,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	banette: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -50683,7 +50683,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duskull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -50775,7 +50775,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dusclops: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -50885,7 +50885,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dusknoir: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -50988,7 +50988,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tropius: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -51079,7 +51079,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chingling: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			astonish: ["7L7", "6L7", "5L9", "4L9"],
@@ -51159,7 +51159,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chimecho: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			astonish: ["7L1", "6L1", "5L9", "4L9", "3L9", "3S0"],
@@ -51255,7 +51255,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	absol: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -51384,7 +51384,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snorunt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			astonish: ["8L1"],
@@ -51448,7 +51448,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snoruntdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firelash: ["8L1"],
 			bodypress: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -51517,7 +51517,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glalie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -51595,7 +51595,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glaliedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firelash: ["8L1"],
 			bodypress: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -51683,7 +51683,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froslass: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -51775,7 +51775,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froslassdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firelash: ["8L1"],
 			bodypress: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -51857,7 +51857,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spheal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquaring: ["8E", "7E", "6E", "5E", "4E"],
@@ -51934,7 +51934,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sealeo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquatail: ["7T", "6T", "5T", "4T"],
@@ -52004,7 +52004,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	walrein: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquatail: ["7T", "6T", "5T", "4T"],
@@ -52090,7 +52090,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clamperl: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquaring: ["7E", "6E", "5E", "5D", "4E"],
@@ -52142,7 +52142,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clamperldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			scaleshot: ["8L1"],
 			bodypress: ["8L1"],
 			flipturn: ["8L1"],
@@ -52189,7 +52189,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	huntail: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquatail: ["7T", "7L39", "6T", "6L39", "5T", "5L46", "4T", "4L46"],
@@ -52251,7 +52251,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	huntaildelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			scaleshot: ["8L1"],
 			bodypress: ["8L1"],
 			flipturn: ["8L1"],
@@ -52344,7 +52344,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gorebyss: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L9", "6L9", "5L10", "4L10", "3L15"],
@@ -52407,7 +52407,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gorebyssdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			scaleshot: ["8L1"],
 			bodypress: ["8L1"],
 			flipturn: ["8L1"],
@@ -52496,7 +52496,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	relicanth: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "7E", "6E", "5E", "4E", "3E"],
@@ -52581,7 +52581,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luvdisc: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L7", "6L7", "5L9", "4L9", "3L16"],
@@ -52646,7 +52646,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bagon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -52725,7 +52725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shelgon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -52798,7 +52798,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salamence: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -52903,7 +52903,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beldum: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			headbutt: ["4T"],
 			holdback: ["6S0"],
@@ -52920,7 +52920,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beldumdeltaspider: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			bugbite: ["8L1"],
 			stringshot: ["8L1"],
 			mudslap: ["8L1"],
@@ -52932,14 +52932,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beldumdeltaruin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			doubleedge: ["8L1"],
 			holdback: ["8L1"],
 		},
 	},
 	metang: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L66", "7L41", "6L38", "5L44", "4L44", "3L56"],
@@ -53034,7 +53034,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metangdeltaspider: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			firstimpression: ["8L1"],
 			strengthsap: ["8L1"],
@@ -53131,7 +53131,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metangdeltaruin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -53219,7 +53219,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metagross: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			agility: ["8M", "8L72", "7L41", "6L38", "5L44", "5S4", "4L44", "3L66"],
@@ -53327,7 +53327,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metagrossdeltaspider: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			firstimpression: ["8L1"],
 			strengthsap: ["8L1"],
@@ -53429,7 +53429,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	metagrossdeltaruin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -53534,7 +53534,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regirock: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["8L12", "7L31", "6L31", "6S4", "5L33", "4T", "4L33", "3L33", "3S0", "3S1"],
 			block: ["7T", "6T", "5T", "4T"],
@@ -53634,7 +53634,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regirockdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			shoreup: ["8L1"],
 			liquidation: ["8L1"],
 			skittersmack: ["8L1"],
@@ -53718,7 +53718,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regice: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M", "8L36", "8S7", "7L37", "6L37", "6S4", "6S5", "5L41", "5S3", "4L41", "3L41"],
@@ -53815,7 +53815,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regicedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			lifedew: ["8L1"],
 			liquidation: ["8L1"],
 			flipturn: ["8L1"],
@@ -53906,7 +53906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	registeel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			amnesia: ["8M", "8L36", "7L37", "6L37", "6S4", "5L41", "5S3", "4L41", "3L41"],
@@ -54007,7 +54007,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	registeeldelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			scorchingsands: ["8L1"],
 			meteorbeam: ["8L1"],
 			mysticalfire: ["8L1"],
@@ -54099,7 +54099,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	latias: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			drakonvoice: ["8L1"],
@@ -54235,7 +54235,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	latios: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			drakonvoice: ["8L1"],
@@ -54367,7 +54367,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kyogre: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			ancientpower: ["8L1", "7L1", "6L1", "5L45", "5S3", "4T", "4L15", "4S2", "3L15"],
@@ -54458,7 +54458,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	groudon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -54576,7 +54576,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rayquaza: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -54700,7 +54700,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jirachi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			allyswitch: ["8M"],
@@ -54839,7 +54839,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	deoxys: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
@@ -54986,7 +54986,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	turtwig: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L9", "6L9", "5L9", "5S0", "5S1", "4L9"],
 			amnesia: ["7E", "6E", "5E", "4E"],
@@ -55065,7 +55065,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	turtwigdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			shoreup: ["8L1"],
 			flipturn: ["8L1"],
@@ -55136,7 +55136,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grotle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "6L9", "5L9", "4L9"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -55198,7 +55198,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grotledelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			shoreup: ["8L1"],
 			flipturn: ["8L1"],
@@ -55272,7 +55272,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torterra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1", "6L1", "5L1", "4L1"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -55353,7 +55353,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torterradelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			shoreup: ["8L1"],
 			flipturn: ["8L1"],
@@ -55437,7 +55437,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chimchar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["7M", "7L39", "6M", "6L39", "5M", "5L39"],
@@ -55532,7 +55532,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	monferno: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["7M", "7L46", "6M", "6L46", "5M", "5L46"],
@@ -55620,7 +55620,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	infernape: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["7M", "7L52", "6M", "6L52", "5M", "5L52"],
@@ -55722,7 +55722,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	piplup: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -55807,7 +55807,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	prinplup: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -55879,7 +55879,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	empoleon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -55971,7 +55971,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	starly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L25", "6M", "6L25", "5M", "5L25", "4M", "4L25"],
@@ -56040,7 +56040,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	staravia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L28", "6M", "6L28", "5M", "5L28", "4M", "4L28"],
@@ -56101,7 +56101,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	staraptor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L28", "6M", "6L28", "5M", "5L28", "4M", "4L28"],
@@ -56163,7 +56163,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bidoof: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["7L41", "6L29", "5L29", "4L29"],
@@ -56243,7 +56243,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bibarel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["7L48", "6L33", "5L33", "4L33"],
@@ -56333,7 +56333,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kricketot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bide: ["7L1", "6L1", "5L1", "4L1"],
 			bugbite: ["7T", "7L16", "6T", "6L16", "5T", "5L16", "4T", "4L16"],
@@ -56348,7 +56348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kricketune: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L14"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -56417,7 +56417,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shinx: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -56489,7 +56489,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shinxdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			corrosivegas: ["8L1"],
 			lashout: ["8L1"],
@@ -56573,7 +56573,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxio: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -56639,7 +56639,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxiodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			corrosivegas: ["8L1"],
 			lashout: ["8L1"],
@@ -56725,7 +56725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxray: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -56798,7 +56798,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	luxraydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			corrosivegas: ["8L1"],
 			lashout: ["8L1"],
@@ -56888,7 +56888,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cranidos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -56980,7 +56980,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rampardos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -57075,7 +57075,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shieldon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -57155,7 +57155,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bastiodon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -57228,7 +57228,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	burmy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "7L15", "6T", "6L15", "5T", "5L15", "5D", "4T", "4L15"],
 			electroweb: ["7T", "6T", "5T"],
@@ -57241,7 +57241,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadam: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
@@ -57307,7 +57307,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadamsandy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
@@ -57374,7 +57374,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wormadamtrash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["7T"],
 			attract: ["7M", "7L41", "6M", "6L41", "5M", "5L41", "4M", "4L41"],
@@ -57439,7 +57439,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mothim: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -57509,7 +57509,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aircutter: ["5D", "4T"],
@@ -57530,7 +57530,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	combeedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			firstimpression: ["8L1"],
@@ -57554,7 +57554,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vespiquen: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -57640,7 +57640,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vespiquendelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			burnup: ["8L1"],
 			firelash: ["8L1"],
 			firstimpression: ["8L1"],
@@ -57752,7 +57752,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pachirisu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -57833,7 +57833,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	buizel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L41", "6L41", "5L28", "4L28"],
@@ -57909,7 +57909,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	floatzel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["7L51", "6L51", "5L29", "4L29"],
@@ -57989,7 +57989,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cherubi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8E", "7E", "6E", "5E", "4E"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -58053,7 +58053,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cherrim: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
 			bulletseed: ["8M", "4M"],
@@ -58115,7 +58115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shellos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8E", "7E", "6E"],
@@ -58184,7 +58184,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gastrodon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["8M"],
@@ -58265,7 +58265,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gastrodoneast: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			earthpower: ["8S0"],
 			icebeam: ["8S0"],
@@ -58281,7 +58281,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifloon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -58370,7 +58370,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifloondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			strengthsap: ["8L1"],
 			scorchingsands: ["8L1"],
@@ -58456,7 +58456,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifblim: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -58549,7 +58549,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drifblimdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			strengthsap: ["8L1"],
 			scorchingsands: ["8L1"],
@@ -58638,7 +58638,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	buneary: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L12", "7T", "7L43", "6T", "6L43", "5T", "5L43"],
 			agility: ["8M", "8L36", "7L33", "6L33", "5L33", "4L33"],
@@ -58736,7 +58736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bunearydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			laserfocus: ["8L1"],
 			speedswap: ["8L1"],
@@ -58865,7 +58865,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lopunny: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M"],
@@ -58971,7 +58971,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lopunnydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicfangs: ["8L1"],
 			laserfocus: ["8L1"],
 			speedswap: ["8L1"],
@@ -59113,7 +59113,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glameow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			assist: ["7L29", "6L29", "5L29", "4L29"],
@@ -59192,7 +59192,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	purugly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			assist: ["7L29", "6L29", "5L29", "4L29"],
@@ -59273,7 +59273,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stunky: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -59363,7 +59363,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skuntank: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -59455,7 +59455,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bronzor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			ancientpower: ["4T"],
@@ -59534,7 +59534,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bronzong: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			ancientpower: ["4T"],
@@ -59628,7 +59628,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chatot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -59703,7 +59703,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			brickbreak: ["8L1"],
 			stoneedge: ["8L1"],
 			rockslide: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -59790,7 +59790,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gible: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -59868,7 +59868,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gabite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -59945,7 +59945,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	garchomp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dracojet: ["8L1"],
@@ -60045,7 +60045,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	riolu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "7E", "6E", "5E", "4E"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -60144,7 +60144,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rioludelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
 			smartstrike: ["8L1"],
@@ -60240,7 +60240,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	lucario: {
 		learnset: {
 			ironhead: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -60363,7 +60363,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lucariodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			darkestlariat: ["8L1"],
 			smartstrike: ["8L1"],
@@ -60499,7 +60499,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hippopotas: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -60565,7 +60565,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hippowdon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -60635,7 +60635,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skorupi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -60720,7 +60720,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drapion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -60823,7 +60823,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	croagunk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -60935,7 +60935,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	croagunkdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firelash: ["8L1"],
 			stompingtantrum: ["8L1"],
 			flatter: ["8L1"],
@@ -61016,7 +61016,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxicroak: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -61125,7 +61125,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxicroakdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firelash: ["8L1"],
 			stompingtantrum: ["8L1"],
 			flatter: ["8L1"],
@@ -61222,7 +61222,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carnivine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidspray: ["7E"],
 			attract: ["7M", "6M", "5M", "4M"],
@@ -61297,7 +61297,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	finneon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -61366,7 +61366,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lumineon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			jetstream: ["8L1"],
@@ -61430,7 +61430,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snover: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -61501,7 +61501,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	abomasnow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -61591,7 +61591,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rotom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -61694,7 +61694,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	uxie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			allyswitch: ["8M", "7T"],
@@ -61801,7 +61801,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mesprit: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -61908,7 +61908,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	azelf: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -62020,7 +62020,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dialga: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -62132,7 +62132,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	palkia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -62248,7 +62248,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heatran: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dragonify: ["8L1"],
@@ -62346,7 +62346,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regigigas: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
 			ancientpower: ["4T"],
@@ -62445,7 +62445,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	giratina: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			dracojet: ["8L1"],
@@ -62562,7 +62562,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cresselia: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "6M", "5M", "4M"],
@@ -62648,7 +62648,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phione: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["7L31", "6L31", "5L31", "4L31"],
@@ -62712,7 +62712,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	manaphy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["7L31", "6L31", "5L31", "4L31", "4S2"],
@@ -62795,7 +62795,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darkrai: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -62904,7 +62904,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shaymin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aircutter: ["4T"],
 			airslash: ["7L64", "6L64", "6S3", "5L64", "4L64"],
@@ -62985,7 +62985,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	arceus: {
 		learnset: {
 			dazzlinggleam: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -63190,7 +63190,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	victini: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			batonpass: ["8M"],
@@ -63307,7 +63307,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snivy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
@@ -63384,7 +63384,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snivydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			hurricane: ["8L1"],
 			flipturn: ["8L1"],
@@ -63456,7 +63456,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	servine: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			aquatail: ["7T", "6T", "5T"],
@@ -63519,7 +63519,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	servinedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			hurricane: ["8L1"],
 			flipturn: ["8L1"],
@@ -63596,7 +63596,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	serperior: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -63675,7 +63675,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	serperiordelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			laserfocus: ["8L1"],
 			hurricane: ["8L1"],
 			flipturn: ["8L1"],
@@ -63768,7 +63768,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tepig: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			assurance: ["7L31", "6L31", "5L31"],
@@ -63838,7 +63838,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pignite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			armthrust: ["7L1", "6L17", "5L17"],
@@ -63914,7 +63914,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	emboar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			armthrust: ["7L1", "6L17", "5L17"],
@@ -64005,7 +64005,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	oshawott: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -64075,7 +64075,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dewott: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -64136,7 +64136,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	samurott: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -64214,7 +64214,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	patrat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "7L23", "6T", "6L23", "5T", "5L23"],
 			aquatail: ["7T", "6T", "5T"],
@@ -64283,7 +64283,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	watchog: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "7L25", "6T", "6L25", "5T", "5L25"],
 			aquatail: ["7T", "6T", "5T"],
@@ -64366,7 +64366,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lillipup: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			afteryou: ["8E", "7T", "7E", "6T", "6E"],
@@ -64432,7 +64432,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	herdier: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			afteryou: ["7T", "6T"],
@@ -64497,7 +64497,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stoutland: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			afteryou: ["7T", "6T"],
@@ -64567,7 +64567,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	purrloin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -64648,7 +64648,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	purrloindelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			powertrip: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -64761,7 +64761,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	liepard: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -64849,7 +64849,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lieparddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			powertrip: ["8L1"],
 			burningjealousy: ["8L1"],
@@ -64970,7 +64970,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pansage: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "7L31", "6M", "6L31", "5M", "5L31"],
 			astonish: ["7E", "6E", "5E"],
@@ -65053,7 +65053,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	simisage: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
 			attract: ["7M", "6M", "5M"],
@@ -65123,7 +65123,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pansear: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["7M", "7L31", "6M", "6L31", "5M", "5L31"],
@@ -65205,7 +65205,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	simisear: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -65281,7 +65281,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	panpour: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["7M", "7L31", "6M", "6L31", "5M", "5L31"],
@@ -65365,7 +65365,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	simipour: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["7M", "6M", "5M"],
@@ -65439,7 +65439,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	munna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			allyswitch: ["8M", "7T"],
@@ -65523,7 +65523,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	musharna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			allyswitch: ["8M", "7T"],
@@ -65603,7 +65603,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pidove: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -65665,7 +65665,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tranquill: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -65718,7 +65718,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	unfezant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -65779,7 +65779,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blitzle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["7L36", "6L36", "5L36"],
@@ -65838,7 +65838,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			dazzlinggleam: ["8L1"],
 			playrough: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["7L42", "6L42", "5L42"],
@@ -65893,7 +65893,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	roggenrola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			autotomize: ["8E", "7E", "6E", "5E"],
@@ -65950,7 +65950,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	boldore: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			block: ["7T", "6T", "5T"],
@@ -66007,7 +66007,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gigalith: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			block: ["7T", "6T", "5T"],
@@ -66069,7 +66069,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	woobat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -66165,7 +66165,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swoobat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
@@ -66261,7 +66261,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drilbur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -66323,8 +66323,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	excadrill: {
 		learnset: {
-			custommove: ["8L1"],
-			custommovewater: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -66397,7 +66396,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	audino: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -66520,7 +66519,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	timburr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			bide: ["7L8", "6L8", "5L8"],
@@ -66600,7 +66599,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gurdurr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			bide: ["7L1", "6L1", "5L1"],
@@ -66674,7 +66673,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	conkeldurr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			bide: ["7L1", "6L1", "5L1"],
@@ -66753,7 +66752,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tympole: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L4"],
 			afteryou: ["7T", "7E", "6T", "6E"],
@@ -66810,7 +66809,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	palpitoad: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -66868,7 +66867,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	seismitoad: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1", "7L1", "6L36", "5L36"],
 			afteryou: ["7T", "6T"],
@@ -66953,7 +66952,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	throh: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			bide: ["7L1", "6L5", "5L5"],
@@ -67029,7 +67028,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sawk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			bide: ["7L1", "6L5", "5L5"],
@@ -67103,7 +67102,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sewaddle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["7E", "6E", "5E"],
 			airslash: ["7E", "6E", "5E"],
@@ -67164,7 +67163,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swadloon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M", "6M", "5M"],
 			bugbite: ["7T", "7L1", "6T", "6L1", "5T", "5L1"],
@@ -67216,7 +67215,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	leavanny: {
 		learnset: {
 			uturn: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["7M", "6M", "5M"],
@@ -67289,7 +67288,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	leavannyarmored: {
 		learnset: {
 			uturn: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["7M", "6M", "5M"],
@@ -67358,7 +67357,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venipede: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			agility: ["8M", "8L32", "7L29", "6L29", "5L29"],
@@ -67417,7 +67416,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	venipededelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			meteorbeam: ["8L1"],
 			burningjealousy: ["8L1"],
 			steamroller: ["8L1"],
@@ -67487,7 +67486,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	whirlipede: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			agility: ["8M", "8L38", "7L32", "6L32", "5L32"],
@@ -67543,7 +67542,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	whirlipededelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			meteorbeam: ["8L1"],
 			burningjealousy: ["8L1"],
 			steamroller: ["8L1"],
@@ -67613,7 +67612,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scolipede: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			agility: ["8M", "8L42", "7L33", "6L33", "5L33"],
@@ -67691,7 +67690,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scolipededelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			meteorbeam: ["8L1"],
 			burningjealousy: ["8L1"],
 			megahorn: ["8L1"],
@@ -67782,7 +67781,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cottonee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1"],
@@ -67849,7 +67848,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	whimsicott: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			absorb: ["8L1"],
@@ -67927,7 +67926,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	petilil: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1"],
 			afteryou: ["8L27", "7T", "7L44", "6T", "6L44", "5T", "5L44"],
@@ -67988,7 +67987,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	petilildeltawater: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			liquidation: ["8L1"],
 			tearfullook: ["8L1"],
@@ -68061,7 +68060,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	petilildeltafairy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			dualwingbeat: ["8L1"],
 			mistyexplosion: ["8L1"],
@@ -68143,7 +68142,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lilligant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1"],
 			afteryou: ["8L1", "7T", "6T", "5T"],
@@ -68210,7 +68209,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lilligantdeltawater: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			liquidation: ["8L1"],
 			tearfullook: ["8L1"],
@@ -68301,7 +68300,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lilligantdeltafairy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			dualwingbeat: ["8L1"],
 			mistyexplosion: ["8L1"],
@@ -68398,7 +68397,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	basculin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "7E", "6E", "5E", "5D"],
 			aquajet: ["8L12", "7L9", "6L13", "5L13"],
@@ -68470,7 +68469,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aquatail: ["8E", "7T", "6T", "5T"],
@@ -68546,7 +68545,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	krokorok: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aquatail: ["7T", "6T", "5T"],
@@ -68632,7 +68631,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	krookodile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -68740,7 +68739,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darumaka: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -68815,7 +68814,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darumakagalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			avalanche: ["8M", "8L12"],
@@ -68878,7 +68877,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darumakadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			poltergeist: ["8L1"],
 			darkestlariat: ["8L1"],
 			throatchop: ["8L1"],
@@ -68961,7 +68960,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darmanitan: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -69064,7 +69063,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darmanitangalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			avalanche: ["8M", "8L12"],
@@ -69136,7 +69135,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	darmanitandelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			poltergeist: ["8L1"],
 			darkestlariat: ["8L1"],
 			throatchop: ["8L1"],
@@ -69232,7 +69231,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	maractus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1"],
 			acupressure: ["8L52", "7L29", "6L29", "5L29"],
@@ -69303,7 +69302,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	maractusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			gearup: ["8L1"],
 			laserfocus: ["8L1"],
 			bodypress: ["8L1"],
@@ -69394,7 +69393,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dwebble: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -69460,7 +69459,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dwebbledeltaberry: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			leafage: ["8L1"],
 			smartstrike: ["8L1"],
@@ -69546,7 +69545,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dwebbledeltacake: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			fairywind: ["8L1"],
 			dazzlinggleam: ["8L1"],
 			mistyterrain: ["8L1"],
@@ -69627,7 +69626,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crustle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -69700,7 +69699,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crustledeltaberry: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			leafage: ["8L1"],
 			smartstrike: ["8L1"],
@@ -69789,7 +69788,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crustledeltacake: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			fairywind: ["8L1"],
 			dazzlinggleam: ["8L1"],
 			mistyterrain: ["8L1"],
@@ -69882,7 +69881,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scraggy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -69983,7 +69982,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scraggydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
@@ -70071,7 +70070,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scrafty: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -70172,7 +70171,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scraftydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			stompingtantrum: ["8L1"],
 			grassyglide: ["8L1"],
@@ -70268,7 +70267,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sigilyph: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -70359,7 +70358,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yamask: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -70437,7 +70436,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yamaskgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			allyswitch: ["8M"],
@@ -70566,7 +70565,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cofagrigus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -70657,7 +70656,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cofagrigusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			corrosivegas: ["8L1"],
 			bodypress: ["8L1"],
 			protect: ["8L1"],
@@ -70739,7 +70738,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	runerigus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -70814,7 +70813,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tirtouga: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			ancientpower: ["8L12", "7L18", "6L18", "5L18"],
@@ -70893,7 +70892,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carracosta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			ancientpower: ["8L12", "7L18", "6L18", "5L18"],
@@ -70973,7 +70972,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	archen: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -71060,7 +71059,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	archeops: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -71149,7 +71148,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trubbish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -71214,7 +71213,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	garbodor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -71293,7 +71292,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zorua: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -71376,7 +71375,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zoroark: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -71476,7 +71475,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minccino: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L28", "7T", "7L49", "6T", "6L49", "5T", "5L49"],
 			aquatail: ["8E", "7T", "7E", "6T", "6E", "5T", "5E"],
@@ -71545,7 +71544,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cinccino: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L1", "7T", "6T", "5T"],
 			aquatail: ["7T", "6T", "5T"],
@@ -71615,7 +71614,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gothita: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -71706,7 +71705,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gothorita: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -71800,7 +71799,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gothitelle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -71896,7 +71895,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solosis: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8E", "7E", "6E", "5E"],
 			afteryou: ["7T", "6T", "5T"],
@@ -71978,7 +71977,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solosisdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			speedswap: ["8L1"],
 			poltergeist: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -72062,7 +72061,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duosion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			allyswitch: ["8M", "8L28", "7T"],
@@ -72143,7 +72142,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duosiondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			speedswap: ["8L1"],
 			poltergeist: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -72227,7 +72226,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	reuniclus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
 			allyswitch: ["8M", "8L28", "7T"],
@@ -72327,7 +72326,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	reuniclusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			speedswap: ["8L1"],
 			poltergeist: ["8L1"],
 			meteorbeam: ["8L1"],
@@ -72428,7 +72427,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ducklett: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L15", "6M", "6L15", "5M", "5L15"],
@@ -72486,7 +72485,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swanna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["7M", "7L15", "6M", "6L15", "5M", "5L15"],
@@ -72542,7 +72541,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vanillite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8L32", "7L31", "6L31", "5L31"],
@@ -72601,7 +72600,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vanillish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8L32", "7L31", "6L31", "5L31"],
@@ -72655,7 +72654,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vanilluxe: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8L32", "7L31", "6L31", "5L31"],
@@ -72714,7 +72713,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	deerling: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["7E", "6E", "5E"],
 			aromatherapy: ["7L28", "6L28", "5L28", "5S0"],
@@ -72779,7 +72778,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sawsbuck: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["7L28", "6L28", "5L28"],
 			attract: ["7M", "6M", "5M"],
@@ -72845,7 +72844,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	emolga: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			jetstream: ["8L1"],
@@ -72920,7 +72919,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	emolgadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			pursuit: ["8L1"],
 			feintattack: ["8L1"],
 			darkpulse: ["8L1"],
@@ -73000,7 +72999,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	karrablast: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidspray: ["8L16"],
 			aerialace: ["7M", "6M", "5M"],
@@ -73063,7 +73062,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	karrablastdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			mistyexplosion: ["8L1"],
 			lunge: ["8L1"],
@@ -73143,7 +73142,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	escavalier: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidspray: ["8L16"],
 			aerialace: ["7M", "6M", "5M"],
@@ -73216,7 +73215,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	escavalierdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			firstimpression: ["8L1"],
 			mistyexplosion: ["8L1"],
 			sweetkiss: ["8L1"],
@@ -73312,7 +73311,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	foongus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1"],
@@ -73370,7 +73369,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	foongusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			tearfullook: ["8L1"],
 			strengthsap: ["8L1"],
@@ -73460,7 +73459,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	amoonguss: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			absorb: ["8L1", "7L1", "6L1", "5L1"],
@@ -73527,7 +73526,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	amoongussdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			tearfullook: ["8L1"],
 			strengthsap: ["8L1"],
@@ -73626,7 +73625,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	frillish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -73706,7 +73705,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jellicent: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -73791,7 +73790,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	alomomola: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquajet: ["7L9", "6L9", "5L9"],
 			aquaring: ["7L5", "6L5", "5L5", "5D"],
@@ -73855,7 +73854,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	joltik: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			absorb: ["8L1", "7L1"],
@@ -73927,7 +73926,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	galvantula: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			absorb: ["8L1", "7L1"],
@@ -74002,7 +74001,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ferroseed: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidspray: ["8E", "7E", "6E"],
 			assurance: ["8M"],
@@ -74068,7 +74067,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ferrothorn: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			assurance: ["8M"],
@@ -74148,7 +74147,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	klink: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			autotomize: ["8L20", "7L31", "6L31", "5L31"],
@@ -74207,7 +74206,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	klang: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			assurance: ["8M"],
@@ -74270,7 +74269,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	klinklang: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			assurance: ["8M"],
@@ -74336,7 +74335,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tynamo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			chargebeam: ["7M", "7L1", "6M", "6L1", "5L1"],
@@ -74348,7 +74347,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eelektrik: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acid: ["7L19", "6L19", "5L19"],
@@ -74404,7 +74403,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eelektross: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acid: ["7L1", "6L1", "5L1"],
@@ -74482,7 +74481,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	elgyem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -74571,7 +74570,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beheeyem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			afteryou: ["7T", "6T", "5T"],
@@ -74662,7 +74661,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	litwick: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -74740,7 +74739,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	litwickdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			mistyexplosion: ["8L1"],
 			lifedew: ["8L1"],
@@ -74822,7 +74821,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lampent: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -74897,7 +74896,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lampentdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			mistyexplosion: ["8L1"],
 			lifedew: ["8L1"],
@@ -74984,7 +74983,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chandelure: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -75062,7 +75061,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chandeluredelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			mysticalfire: ["8L1"],
 			mistyexplosion: ["8L1"],
 			lifedew: ["8L1"],
@@ -75152,7 +75151,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	axew: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -75232,7 +75231,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	axewdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -75314,7 +75313,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fraxure: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -75391,7 +75390,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fraxuredelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -75475,7 +75474,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			metalclaw: ["8L1"],
 			ironhead: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -75564,7 +75563,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	haxorusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			brutalswing: ["8L1"],
 			smartstrike: ["8L1"],
@@ -75673,7 +75672,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cubchoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			assurance: ["8M", "7E", "6E", "5E"],
@@ -75744,7 +75743,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	beartic: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			aquajet: ["8L1", "7L1", "6L1", "5L1"],
@@ -75833,7 +75832,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cryogonal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acidarmor: ["8L52", "7L17", "6L29", "5L29"],
@@ -75898,7 +75897,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shelmet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			acid: ["8L4", "7L4", "6L4", "5L4", "5D"],
@@ -75960,7 +75959,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	accelgor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			acid: ["8L1"],
@@ -76029,7 +76028,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	stunfisk: {
 		learnset: {
 			voltswitch: ["8L1"],
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			aquatail: ["7T", "6T", "5T"],
@@ -76110,7 +76109,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stunfiskgalar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["8E"],
 			attract: ["8M"],
@@ -76173,7 +76172,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mienfoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M"],
@@ -76258,7 +76257,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mienshao: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M", "6M", "5M"],
 			aerialace: ["7M", "6M", "5M"],
@@ -76349,7 +76348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	druddigon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -76452,7 +76451,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golett: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -76536,7 +76535,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golettdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			stompingtantrum: ["8L1"],
 			firstimpression: ["8L1"],
@@ -76620,7 +76619,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golurk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -76726,7 +76725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golurkdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			darkestlariat: ["8L1"],
 			stompingtantrum: ["8L1"],
 			firstimpression: ["8L1"],
@@ -76814,7 +76813,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pawniard: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -76900,7 +76899,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pawniarddelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],
@@ -76997,7 +76996,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bisharp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -77088,8 +77087,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bisharpdelta:{
 		learnset: {
-			custommove: ["8L1"],
-			custommoveground: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],
@@ -77188,7 +77186,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bouffalant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			amnesia: ["8M", "7E", "6E", "5E"],
@@ -77270,7 +77268,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rufflet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["8L30", "7M", "7L23", "6M", "6L23", "5M", "5L23"],
@@ -77335,7 +77333,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	braviary: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			aerialace: ["8L30", "7M", "7L23", "6M", "6L23", "5M", "5L23", "5S0"],
@@ -77411,7 +77409,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vullaby: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -77484,7 +77482,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mandibuzz: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -77563,7 +77561,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heatmor: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
@@ -77650,7 +77648,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heatmordelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			corrosivegas: ["8L1"],
 			bodypress: ["8L1"],
 			infestation: ["8L1"],
@@ -77738,7 +77736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	durant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			agility: ["8M", "8L24", "7L6", "6L16", "5L16"],
@@ -77809,7 +77807,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	deino: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			dracojet: ["8L1"],
@@ -77885,7 +77883,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	deinodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			powertrip: ["8L1"],
 			bodypress: ["8L1"],
@@ -77978,7 +77976,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zweilous: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			dracojet: ["8L1"],
@@ -78053,7 +78051,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zweilousdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			powertrip: ["8L1"],
 			bodypress: ["8L1"],
@@ -78148,7 +78146,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hydreigon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -78265,7 +78263,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hydreigondelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			stompingtantrum: ["8L1"],
 			powertrip: ["8L1"],
 			bodypress: ["8L1"],
@@ -78377,7 +78375,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	larvesta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			absorb: ["8E", "7L10"],
@@ -78439,7 +78437,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	larvestadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			pursuit: ["8L1"],
 			payback: ["8L1"],
 			feintattack: ["8L1"],
@@ -78524,7 +78522,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	volcarona: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -78609,7 +78607,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	volcaronadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			infestation: ["8L1"],
 			darkpulse: ["8L1"],
 			pursuit: ["8L1"],
@@ -78734,7 +78732,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	volcaronadeltaarmored: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			infestation: ["8L1"],
 			darkpulse: ["8L1"],
 			pursuit: ["8L1"],
@@ -78859,7 +78857,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cobalion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -78945,7 +78943,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	terrakion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -79029,7 +79027,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	virizion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -79116,7 +79114,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tornadus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			darkmatter: ["8L1"],
@@ -79211,7 +79209,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	thundurus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M", "8L25", "7L31", "6L37", "6S3", "5L37", "5S0"],
@@ -79313,7 +79311,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	reshiram: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -79418,7 +79416,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zekrom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			jetstream: ["8L1"],
@@ -79523,7 +79521,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zekromarmored: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -79616,7 +79614,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	landorus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M", "6M", "5M"],
 			block: ["8L10", "7T", "7L1", "6T", "6L1", "5T", "5L1", "5S1"],
@@ -79702,7 +79700,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kyurem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -79796,7 +79794,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kyuremblack: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -79891,7 +79889,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kyuremwhite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -79986,7 +79984,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	keldeo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			airslash: ["8M"],
@@ -80076,7 +80074,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meloetta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "7L26", "6M", "6L26", "5M", "5L26"],
 			allyswitch: ["7T"],
@@ -80181,7 +80179,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meloettadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			throatchop: ["8L1"],
 			powertrip: ["8L1"],
@@ -80294,7 +80292,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	genesect: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -80404,7 +80402,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chespin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M"],
 			attract: ["7M", "6M"],
@@ -80494,7 +80492,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	quilladin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M"],
 			attract: ["7M", "6M"],
@@ -80581,7 +80579,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chesnaught: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M"],
 			attract: ["7M", "6M"],
@@ -80679,7 +80677,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fennekin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["7M", "6M"],
@@ -80744,7 +80742,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	braixen: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			allyswitch: ["7T"],
@@ -80816,7 +80814,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	delphox: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			allyswitch: ["7T"],
@@ -80900,7 +80898,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froakie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["7M", "6M"],
@@ -80970,7 +80968,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	froakiedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			permafrost: ["8L1"],
 			strengthsap: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -81052,7 +81050,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	frogadier: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -81118,7 +81116,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	frogadierdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			stompingtantrum: ["8L1"],
 			branchpoke: ["8L1"],
@@ -81205,7 +81203,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	greninja: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -81288,7 +81286,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	greninjaash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -81473,7 +81471,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bunnelby: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "7L1", "6L1"],
 			attract: ["8M", "7M", "6M"],
@@ -81544,7 +81542,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diggersby: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "7L1", "6L1"],
 			attract: ["8M", "7M", "6M"],
@@ -81638,7 +81636,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fletchling: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "8L20", "7M", "7L39", "6M", "6L39"],
@@ -81693,7 +81691,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fletchinder: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -81756,7 +81754,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	talonflame: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			jetstream: ["8L1"],
@@ -81824,7 +81822,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scatterbug: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "7L15", "6T", "6L15"],
 			poisonpowder: ["7E", "6E"],
@@ -81836,7 +81834,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spewpa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bugbite: ["7T", "6T"],
 			electroweb: ["7T", "6T"],
@@ -81847,7 +81845,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vivillon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["7M", "6M"],
@@ -82039,7 +82037,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	litleo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -82104,7 +82102,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pyroar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -82174,7 +82172,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flabebe: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -82237,7 +82235,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	floette: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -82296,7 +82294,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	floetteeternal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T"],
@@ -82356,7 +82354,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	florges: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -82417,7 +82415,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skiddo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M", "6M"],
 			brickbreak: ["7M", "6M"],
@@ -82478,7 +82476,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gogoat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "7L1", "6M", "6L1"],
 			attract: ["7M", "6M"],
@@ -82546,7 +82544,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pancham: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			aerialace: ["7M", "6M"],
@@ -82647,7 +82645,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pangoro: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -82770,7 +82768,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	furfrou: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			attract: ["7M", "6M"],
@@ -82834,7 +82832,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	espurr: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -82914,7 +82912,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meowstic: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -83004,7 +83002,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meowsticf: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			attract: ["8M", "7M", "6M"],
@@ -83093,7 +83091,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	honedge: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			aerialace: ["8L12", "7M", "7L22", "6M", "6L22"],
@@ -83157,7 +83155,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	doublade: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			aerialace: ["8L12", "7M", "7L22", "6M", "6L22"],
@@ -83218,7 +83216,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aegislash: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			aerialace: ["8L1", "7M", "7L1", "6M", "6L1"],
@@ -83291,7 +83289,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spritzee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["8E", "7T", "6T"],
@@ -83361,7 +83359,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aromatisse: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -83439,7 +83437,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	swirlix: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8E", "7T", "7E", "6T", "6E"],
 			amnesia: ["8M"],
@@ -83503,7 +83501,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	slurpuff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T", "6T"],
 			amnesia: ["8M"],
@@ -83569,7 +83567,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	inkay: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -83658,7 +83656,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	malamar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -83748,7 +83746,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	binacle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M"],
@@ -83841,7 +83839,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	barbaracle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["7M", "6M"],
@@ -83949,7 +83947,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skrelp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8L5", "7L15", "6L15"],
@@ -84012,7 +84010,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragalge: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			corrode: ["8L1"],
@@ -84082,7 +84080,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clauncher: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquajet: ["8L15", "7L43", "7E", "6L43", "6E"],
@@ -84143,7 +84141,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clawitzer: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			darkmatter: ["8L1"],
@@ -84215,7 +84213,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	helioptile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -84286,7 +84284,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	heliolisk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			dragonify: ["8L1"],
@@ -84372,7 +84370,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyrunt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -84459,7 +84457,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyrantrum: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			dragonify: ["8L1"],
@@ -84546,7 +84544,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	amaura: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -84636,7 +84634,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	amauradelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			tearfullook: ["8L1"],
 			sparklingaria: ["8L1"],
@@ -84723,7 +84721,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aurorus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dracojet: ["8L1"],
@@ -84810,7 +84808,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	aurorusdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			liquidation: ["8L1"],
 			tearfullook: ["8L1"],
 			sparklingaria: ["8L1"],
@@ -84908,7 +84906,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sylveon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			attract: ["8M", "7M", "6M"],
@@ -84994,7 +84992,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hawlucha: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			acrobatics: ["8M", "7M", "6M"],
@@ -85100,7 +85098,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dedenne: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			livewire: ["8L1"],
@@ -85172,7 +85170,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carbink: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -85244,7 +85242,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	goomy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			absorb: ["8L1", "7L5", "6L5"],
@@ -85300,7 +85298,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	goomydelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			shoreup: ["8L1"],
 			liquidation: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -85374,7 +85372,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sliggoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -85430,7 +85428,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sliggodelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			shoreup: ["8L1"],
 			liquidation: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -85509,7 +85507,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	goodra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -85596,7 +85594,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	goodradelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			shoreup: ["8L1"],
 			liquidation: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -85691,7 +85689,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	klefki: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			astonish: ["8L1", "7L8", "6L8"],
@@ -85758,7 +85756,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phantump: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -85843,7 +85841,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	phantumpdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			icehammer: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -85931,7 +85929,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trevenant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -86023,7 +86021,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trevenantdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			auroraveil: ["8L1"],
 			icehammer: ["8L1"],
 			stompingtantrum: ["8L1"],
@@ -86123,7 +86121,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pumpkaboo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -86216,7 +86214,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gourgeist: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -86301,7 +86299,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bergmite: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -86364,7 +86362,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bergmitedelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			accelerock: ["8L1"],
 			dragonhammer: ["8L1"],
 			smartstrike: ["8L1"],
@@ -86447,7 +86445,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	avalugg: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -86522,7 +86520,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	avaluggdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			accelerock: ["8L1"],
 			dragonhammer: ["8L1"],
 			smartstrike: ["8L1"],
@@ -86617,7 +86615,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noibat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dragonify: ["8L1"],
@@ -86696,7 +86694,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noibatdelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			smartstrike: ["8L1"],
 			solarblade: ["8L1"],
@@ -86798,7 +86796,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noivern: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			jetstream: ["8L1"],
 			dracojet: ["8L1"],
@@ -86885,7 +86883,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	noiverndelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			strengthsap: ["8L1"],
 			smartstrike: ["8L1"],
 			solarblade: ["8L1"],
@@ -87000,7 +86998,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xerneas: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			aromatherapy: ["8L25", "7L1", "6L1", "6S1"],
@@ -87085,7 +87083,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yveltal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			jetstream: ["8L1"],
@@ -87169,7 +87167,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zygarde: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			bind: ["8L1", "8S9", "7T", "7L18", "7S2", "7S3", "7S4", "6T", "6L18"],
@@ -87259,7 +87257,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zygarde10: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			bind: ["8S5", "7S0", "7S1", "7S2"],
@@ -87288,7 +87286,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	diancie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T", "6T"],
@@ -87380,7 +87378,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoopa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -87477,7 +87475,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hoopadelta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			terrainpulse: ["8L1"],
 			aeroblast: ["8L1"],
 			tailwind: ["8L1"],
@@ -87592,7 +87590,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	volcanion: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			bodypress: ["8M"],
@@ -87680,7 +87678,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rowlet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["8L6", "7L11"],
 			attract: ["8M", "7M"],
@@ -87748,7 +87746,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dartrix: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["8L1", "7L11"],
 			attract: ["8M", "7M"],
@@ -87812,7 +87810,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	decidueye: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			darkmatter: ["8L1"],
@@ -87903,7 +87901,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	litten: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -87968,7 +87966,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	torracat: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -88031,7 +88029,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	incineroar: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -88138,7 +88136,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	popplio: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -88208,7 +88206,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	brionne: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -88274,7 +88272,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	primarina: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -88361,7 +88359,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pikipek: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["7M"],
@@ -88415,7 +88413,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	trumbeak: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["7M"],
@@ -88467,7 +88465,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toucannon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["7M"],
@@ -88526,7 +88524,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yungoos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M"],
 			bide: ["7L16"],
@@ -88582,7 +88580,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gumshoos: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M"],
 			bide: ["7L16"],
@@ -88647,7 +88645,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gumshoostotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["7M"],
 			bide: ["7L16", "7S0"],
@@ -88713,7 +88711,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grubbin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
@@ -88764,7 +88762,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charjabug: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acrobatics: ["8M", "7M", "7L19"],
@@ -88818,7 +88816,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vikavolt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -88890,7 +88888,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	vikavolttotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M", "7L19", "7S0"],
 			agility: ["7L49"],
@@ -88952,7 +88950,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crabrawler: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			amnesia: ["7E"],
@@ -89014,7 +89012,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	crabominable: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["7M"],
@@ -89081,7 +89079,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	oricorio: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M"],
 			aerialace: ["7M"],
@@ -89138,7 +89136,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cutiefly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			acrobatics: ["8M", "7M"],
@@ -89215,7 +89213,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ribombee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			acrobatics: ["8M", "7M"],
@@ -89293,7 +89291,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ribombeetotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["7L1"],
 			acrobatics: ["7M"],
@@ -89362,7 +89360,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rockruff: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M"],
 			bite: ["8L20", "7L7"],
@@ -89420,7 +89418,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rockruffdusk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M"],
 			bite: ["8L20", "7L7", "7S1", "7S0"],
@@ -89483,7 +89481,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanroc: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			accelerock: ["8L1", "7L1"],
@@ -89555,7 +89553,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanrocmidnight: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -89640,7 +89638,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lycanrocdusk: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			accelerock: ["8L1", "7L1"],
@@ -89716,7 +89714,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wishiwashi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquaring: ["8L36", "7L17"],
 			aquatail: ["8L32", "7T", "7L38"],
@@ -89774,7 +89772,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mareanie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			afteryou: ["7T"],
@@ -89845,7 +89843,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxapex: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			corrode: ["8L1"],
@@ -89915,7 +89913,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mudbray: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M"],
 			bide: ["7L22"],
@@ -89973,7 +89971,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mudsdale: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M"],
 			bide: ["7L22"],
@@ -90037,7 +90035,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dewpider: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquaring: ["8L16", "7L24"],
 			attract: ["8M", "7M"],
@@ -90100,7 +90098,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	araquanid: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquaring: ["8L16", "7L26"],
 			attract: ["8M", "7M"],
@@ -90163,7 +90161,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	araquanidtotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquaring: ["7L26"],
 			attract: ["7M"],
@@ -90223,7 +90221,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	fomantis: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8E", "7E"],
 			attract: ["8M", "7M"],
@@ -90280,7 +90278,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lurantis: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["8M", "7M"],
@@ -90350,7 +90348,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lurantistotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["7M"],
@@ -90415,7 +90413,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	morelull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			afteryou: ["7T"],
@@ -90477,7 +90475,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	shiinotic: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			absorb: ["8L1", "7L1"],
 			afteryou: ["7T"],
@@ -90541,7 +90539,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salandit: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			corrode: ["8L1"],
@@ -90613,7 +90611,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salazzle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dragonify: ["8L1"],
@@ -90704,7 +90702,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	salazzletotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M"],
 			attract: ["7M"],
@@ -90771,7 +90769,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stufful: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["8M", "7M"],
@@ -90839,7 +90837,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bewear: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			attract: ["8M", "7M"],
@@ -90918,7 +90916,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bounsweet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acupressure: ["8E", "7E"],
 			aromatherapy: ["8L36"],
@@ -90975,7 +90973,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	steenee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8L46", "7L41"],
 			aromaticmist: ["8L40", "7L33"],
@@ -91041,7 +91039,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tsareena: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aromatherapy: ["8L46", "7L41"],
@@ -91117,7 +91115,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	comfey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			afteryou: ["8E", "7T", "7E"],
@@ -91203,7 +91201,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	oranguru: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L5", "7T", "7L4"],
 			allyswitch: ["8M", "7T", "7S1"],
@@ -91292,7 +91290,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	passimian: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M", "7M"],
 			aerialace: ["7M"],
@@ -91383,7 +91381,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wimpod: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquajet: ["8E", "7E"],
 			assurance: ["8M"],
@@ -91427,7 +91425,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	golisopod: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			assurance: ["8M"],
@@ -91514,7 +91512,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandygast: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			absorb: ["8L1", "7L1"],
@@ -91581,7 +91579,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	palossand: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -91648,7 +91646,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pyukumuku: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M", "7M"],
 			batonpass: ["8M", "8L1", "7L1"],
@@ -91694,7 +91692,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	typenull: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aerialace: ["8L5", "7M", "7L20"],
@@ -91763,7 +91761,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silvally: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -91863,7 +91861,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	minior: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -91930,7 +91928,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	komala: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["7M"],
 			attract: ["7M"],
@@ -91989,7 +91987,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	turtonator: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dragonify: ["8L1"],
@@ -92082,7 +92080,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togedemaru: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			afteryou: ["7T"],
@@ -92167,7 +92165,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	togedemarutotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T"],
 			attract: ["7M"],
@@ -92236,7 +92234,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mimikyu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -92327,7 +92325,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	mimikyutotem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["7T"],
 			astonish: ["7L1"],
@@ -92403,7 +92401,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	bruxish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			afteryou: ["7T"],
@@ -92476,7 +92474,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drampa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -92575,7 +92573,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dhelmise: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			absorb: ["8L1", "7L1"],
@@ -92658,7 +92656,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jangmoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -92727,7 +92725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hakamoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -92801,7 +92799,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kommoo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
@@ -92905,7 +92903,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kommoototem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M"],
 			aquatail: ["7T"],
@@ -92995,7 +92993,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapukoko: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			livewire: ["8L1"],
@@ -93084,7 +93082,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapulele: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			aromatherapy: ["8L10", "7L1"],
@@ -93167,7 +93165,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapubulu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			brickbreak: ["8M", "7M"],
 			brutalswing: ["8M", "7M"],
@@ -93260,7 +93258,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tapufini: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aquaring: ["8L15", "7L53", "7S0", "7S1"],
@@ -93344,7 +93342,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cosmog: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			splash: ["8L1", "8S1", "7L1", "7S0"],
 			teleport: ["8L1", "8S1", "7L23"],
@@ -93357,7 +93355,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cosmoem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			cosmicpower: ["8M", "8L0", "7L1"],
 			teleport: ["8L1", "7L1"],
@@ -93365,7 +93363,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	solgaleo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -93464,7 +93462,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	lunala: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -93564,7 +93562,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nihilego: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			corrode: ["8L1"],
@@ -93650,7 +93648,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	buzzwole: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			bodyslam: ["8M"],
 			bounce: ["8M", "7T"],
@@ -93727,7 +93725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pheromosa: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M", "8L40", "7L37"],
 			assurance: ["8M"],
@@ -93805,7 +93803,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xurkitree: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -93877,7 +93875,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	celesteela: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			absorb: ["8L1", "7L1"],
@@ -93955,7 +93953,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kartana: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["8L25", "7M", "7L23"],
 			aircutter: ["8L20", "8S2", "7L1"],
@@ -94012,7 +94010,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	guzzlord: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			amnesia: ["8M"],
@@ -94101,7 +94099,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozma: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			drakonvoice: ["8L1"],
@@ -94204,7 +94202,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozmaduskmane: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			sunsteelstrike: ["8R", "7R"],
 		},
@@ -94212,7 +94210,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozmadawnwings: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			moongeistbeam: ["8R", "7R"],
 		},
@@ -94220,7 +94218,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	necrozmaultra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			moongeistbeam: ["8R", "7R"],
 			sunsteelstrike: ["8R", "7R"],
@@ -94228,7 +94226,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magearna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			afteryou: ["7T"],
@@ -94321,7 +94319,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	magearnaoriginal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			aurasphere: ["8M", "8L66"],
@@ -94391,7 +94389,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	marshadow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -94487,7 +94485,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	poipole: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			corrode: ["8L1"],
 			acid: ["8L1", "8S2", "7L1"],
@@ -94537,7 +94535,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	naganadel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -94624,7 +94622,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stakataka: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
 			autotomize: ["8L35", "8S1", "7L31"],
@@ -94701,7 +94699,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blacephalon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -94781,7 +94779,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zeraora: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acrobatics: ["8M", "7M"],
@@ -94876,7 +94874,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	meltan: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8L32", "8V", "7L36"],
 			endure: ["8M"],
@@ -94902,7 +94900,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	melmetal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8L32", "8V", "7L36"],
 			bodypress: ["8M"],
@@ -94958,7 +94956,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grookey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			assurance: ["8M"],
@@ -95013,7 +95011,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	thwackey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			assurance: ["8M"],
@@ -95062,7 +95060,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rillaboom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			assurance: ["8M"],
@@ -95137,7 +95135,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	scorbunny: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M"],
@@ -95192,7 +95190,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	raboot: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			agility: ["8M", "8L24"],
@@ -95244,7 +95242,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cinderace: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			acrobatics: ["8M"],
@@ -95314,7 +95312,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sobble: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aquajet: ["8E"],
 			aquaring: ["8E"],
@@ -95361,7 +95359,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drizzile: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			batonpass: ["8M"],
@@ -95402,7 +95400,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	inteleon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			acrobatics: ["8M", "8L1"],
@@ -95465,7 +95463,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	skwovet: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			assurance: ["8M"],
@@ -95511,7 +95509,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	greedent: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			amnesia: ["8M"],
 			assurance: ["8M"],
@@ -95566,7 +95564,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rookidee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			airslash: ["8M"],
@@ -95615,7 +95613,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corvisquire: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			airslash: ["8M"],
@@ -95657,7 +95655,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	corviknight: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dracojet: ["8L1"],
 			agility: ["8M"],
@@ -95716,7 +95714,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	blipbug: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			infestation: ["8E"],
 			recover: ["8E"],
@@ -95727,7 +95725,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dottler: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M"],
 			attract: ["8M"],
@@ -95773,7 +95771,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	orbeetle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			darkmatter: ["8L1"],
 			afteryou: ["8L40"],
@@ -95833,7 +95831,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	nickit: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -95876,7 +95874,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	thievul: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -95930,7 +95928,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	gossifleur: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8L32"],
 			attract: ["8M"],
@@ -95974,7 +95972,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eldegoss: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8L40"],
 			attract: ["8M"],
@@ -96018,7 +96016,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	wooloo: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			attract: ["8M"],
@@ -96054,7 +96052,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dubwool: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			attract: ["8M"],
@@ -96098,7 +96096,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	chewtle: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -96136,7 +96134,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drednaw: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			assurance: ["8M"],
 			attract: ["8M"],
@@ -96207,7 +96205,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	yamper: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			attract: ["8M"],
@@ -96252,7 +96250,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	boltund: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			agility: ["8M"],
@@ -96302,7 +96300,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	rolycoly: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
@@ -96345,7 +96343,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	carkol: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
@@ -96398,7 +96396,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	coalossal: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			ancientpower: ["8L20"],
@@ -96462,7 +96460,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	applin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			astonish: ["8L1"],
 			attract: ["8M"],
@@ -96477,7 +96475,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flapple: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -96528,7 +96526,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	appletun: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -96583,7 +96581,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	silicobra: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			belch: ["8E"],
@@ -96623,7 +96621,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sandaconda: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -96676,7 +96674,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cramorant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["8E"],
 			agility: ["8M"],
@@ -96733,7 +96731,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arrokuda: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -96780,7 +96778,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	barraskewda: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -96829,7 +96827,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxel: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			acid: ["8L1", "8S0"],
@@ -96858,7 +96856,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxtricity: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			corrode: ["8L1"],
@@ -96928,7 +96926,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	toxtricitylowkey: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acid: ["8L1"],
 			acidspray: ["8L1"],
@@ -96995,7 +96993,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sizzlipede: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M"],
@@ -97039,7 +97037,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	centiskorch: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			attract: ["8M"],
@@ -97092,7 +97090,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	clobbopus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M"],
@@ -97141,7 +97139,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grapploct: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M"],
@@ -97198,7 +97196,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sinistea: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			allyswitch: ["8M"],
@@ -97240,7 +97238,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	polteageist: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			allyswitch: ["8M"],
@@ -97290,7 +97288,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hatenna: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8E"],
 			aromatherapy: ["8L15"],
@@ -97337,7 +97335,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hattrem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aromatherapy: ["8L15"],
 			attract: ["8M"],
@@ -97381,7 +97379,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	hatterene: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			aromatherapy: ["8L15"],
@@ -97441,7 +97439,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	impidimp: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			newmoon: ["8L1"],
@@ -97489,7 +97487,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	morgrem: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -97542,7 +97540,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	grimmsnarl: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			permafrost: ["8L1"],
@@ -97619,7 +97617,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	milcery: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8L30"],
 			aromatherapy: ["8L20"],
@@ -97655,7 +97653,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	alcremie: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acidarmor: ["8L30"],
 			aromatherapy: ["8L20"],
@@ -97708,7 +97706,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	falinks: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			assurance: ["8M"],
@@ -97757,7 +97755,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	pincurchin: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			livewire: ["8L1"],
@@ -97812,7 +97810,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	snom: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			attract: ["8M"],
@@ -97837,7 +97835,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	frosmoth: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			acrobatics: ["8M"],
@@ -97892,7 +97890,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	stonjourner: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			ancientpower: ["8E"],
 			assurance: ["8M"],
@@ -97942,7 +97940,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eiscue: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M"],
@@ -97992,7 +97990,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	indeedee: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			afteryou: ["8L25"],
 			allyswitch: ["8M"],
@@ -98048,7 +98046,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	indeedeef: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M"],
 			aromatherapy: ["8L30"],
@@ -98104,7 +98102,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	morpeko: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			livewire: ["8L1"],
@@ -98176,7 +98174,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	cufant: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			belch: ["8E"],
@@ -98231,7 +98229,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	copperajah: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			attract: ["8M"],
 			bodypress: ["8M"],
@@ -98291,7 +98289,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dracozolt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
 			livewire: ["8L1"],
@@ -98363,7 +98361,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctozolt: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -98430,7 +98428,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dracovish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			dragonify: ["8L1"],
 			dracojet: ["8L1"],
@@ -98492,7 +98490,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	arctovish: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -98549,7 +98547,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	duraludon: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -98613,7 +98611,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dreepy: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -98647,7 +98645,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	drakloak: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -98707,7 +98705,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	dragapult: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			dragonify: ["8L1"],
@@ -98779,7 +98777,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zacian: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			airslash: ["8M"],
@@ -98842,7 +98840,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zaciancrowned: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			behemothblade: ["8M", "8L33"],
 		},
@@ -98850,7 +98848,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zamazenta: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			bite: ["8L1"],
@@ -98916,7 +98914,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zamazentacrowned: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			behemothbash: ["8M", "8L33"],
 		},
@@ -98924,7 +98922,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eternatus: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
 			dragonify: ["8L1"],
@@ -98982,7 +98980,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	kubfu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			aerialace: ["8L12"],
@@ -99035,7 +99033,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	urshifu: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			aerialace: ["8L12"],
@@ -99109,7 +99107,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	urshifurapidstrike: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			aerialace: ["8L12"],
@@ -99179,7 +99177,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zarude: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			acrobatics: ["8M"],
@@ -99259,7 +99257,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	zarudedada: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			acrobatics: ["8M"],
 			assurance: ["8M"],
@@ -99338,7 +99336,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regieleki: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
 			darkmatter: ["8L1"],
@@ -99392,7 +99390,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	regidrago: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			drakonvoice: ["8L1"],
 			dragonify: ["8L1"],
@@ -99441,7 +99439,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glastrier: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			assurance: ["8M"],
@@ -99501,7 +99499,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	spectrier: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -99557,7 +99555,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	calyrex: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			agility: ["8M"],
 			allyswitch: ["8M"],
@@ -99627,7 +99625,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	calyrexice: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
 			agility: ["8M"],
@@ -99738,7 +99736,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	calyrexshadow: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			newmoon: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -99842,7 +99840,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	ufi: {
 		learnset: {
-			custommove: ["8L1"],
+			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			psychicterrain: ["8L1"],
 			zingzap: ["8L1"],
 			meteorbeam: ["8L1"],
