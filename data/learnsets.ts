@@ -66324,6 +66324,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	excadrill: {
 		learnset: {
 			custommove: ["8L1"],
+			custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M"],
 			attract: ["8M", "7M", "6M", "5M"],
@@ -77088,6 +77089,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	bisharpdelta:{
 		learnset: {
 			custommove: ["8L1"],
+			custommoveground: ["8L1"],
 			brutalswing: ["8L1"],
 			laserfocus: ["8L1"],
 			smartstrike: ["8L1"],

@@ -3027,9 +3027,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 15,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1},
-		onModifyType(move, pokemon) {
-			move.type = pokemon.hpType || 'Dark';
-		},
 		secondary: null,
 		target: "normal",
 		type: "Normal"
