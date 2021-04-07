@@ -1049,9 +1049,33 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onStart(pokemon) {
 			this.add('-start', pokemon, 'typeadd', 'Ghost', '[from] ability: Ethereal Shroud');
 		},
+		onTryHit(target, source, move) {
+			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
+			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
+			if (!source.hasType('Ghost') || !source.hasType('Psychic') || !source.hasType('Dark')) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', target);
+				return null;
+			}
+		},
+		onAllyTryHitSide(target, source, move) {
+			if (move.category === 'Status' || source.hasAbility('scrappy') || target === source) return;
+			if (target.volatiles['miracleeye'] || target.volatiles['foresight']) return;
+			if (!source.hasType('Ghost') || !source.hasType('Psychic') || !source.hasType('Dark')) return;
+			if (move.type === 'Normal' || move.type === 'Fighting') {
+				this.add('-immune', this.effectData.target);
+			}
+		},
+		onSourceModifyAtkPriority: 6,
+		onSourceModifyAtk(atk, attacker, defender, move) {
+			if (!attacker.hasType('Ghost') || !attacker.hasType('Psychic') || !attacker.hasType('Dark')) return;
+			if (move.type === 'Bug' || move.type === 'Poison') {
+				return this.chainModify(0.5);
+			}
+		},
 		onModifyMove(move) {
 			if (move.type === 'Ghost')
-				move.stab = 0;
+				move.stab = 1;
 		},
 		name: "Ethereal Shroud",
 		rating: 1,
