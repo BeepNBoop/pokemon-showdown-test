@@ -2606,7 +2606,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			if (!target) return; // avoid crashing when called from a chat plugin
 			// ignore effectiveness if the target is Steel type and immune to Poison
 			if (!target.runImmunity('Poison')) {
-				if (target.hasType('Steel')) return 1;
+				if (type === 'Steel') return 1;
 			}
 		},
 		ignoreImmunity: {'Poison': true},
