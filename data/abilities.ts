@@ -1068,7 +1068,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onSourceModifyAtkPriority: 6,
 		onSourceModifyAtk(atk, attacker, defender, move) {
-			if (!attacker.hasType('Ghost') || !attacker.hasType('Psychic') || !attacker.hasType('Dark')) return;
+			if (!defender.hasType('Ghost') || !defender.hasType('Psychic') || !defender.hasType('Dark')) return;
 			if (move.type === 'Bug' || move.type === 'Poison') {
 				return this.chainModify(0.5);
 			}
