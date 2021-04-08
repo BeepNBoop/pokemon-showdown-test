@@ -3888,6 +3888,8 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		evoType: "levelFriendship",
 		eggGroups: ["Undiscovered"],
 		canHatch: true,
+		cosmeticFormes: ["Snorlax-Spring", "Snorlax-Autumn", "Snorlax-Winter"],
+		formeOrder: ["Snorlax", "Snorlax-Spring", "Snorlax-Autumn", "Snorlax-Winter"],
 		tier: "UU",
 	},
 	articuno: {
