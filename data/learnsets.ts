@@ -22894,6 +22894,15 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	eevee: {
 		learnset: {
+			terrainpulse: ["8L1"],
+			flipturn: ["8L1"],
+			risingvoltage: ["8L1"],
+			burningjealousy: ["8L1"],
+			lashout: ["8L1"],
+			expandingforce: ["8L1"],
+			grassyglide: ["8L1"],
+			tripleaxel: ["8L1"],
+			mistyexplosion: ["8L1"],
 			flareblitz: ["8L1"],
 			hydropump: ["8L1"],
 			thunderbolt: ["8L1"],
@@ -23074,6 +23083,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			endure: ["8M", "7V", "4M", "3T"],
 			facade: ["8M", "8V", "7M", "6M", "5M", "4M", "3M"],
 			faketears: ["8M"],
+			flail: ["8V"],
 			flipturn: ["8T"],
 			focusenergy: ["8M"],
 			frustration: ["7M", "7V", "6M", "5M", "4M", "3M"],
@@ -23129,12 +23139,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			tackle: ["8L1", "8V", "7L1", "7V", "6L1", "5L1", "5S0", "4L1", "3L1"],
 			tailwhip: ["8L1", "8V", "7L1", "7V", "6L1", "6S1", "5L1", "5S0", "4L1", "3L1"],
 			takedown: ["8L1", "7V"],
+			tickle: ["8V"],
 			toxic: ["8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			waterfall: ["8M", "8V", "7M", "7V", "6M", "5M", "4M", "3M"],
 			watergun: ["8L0", "8V", "7L1", "7V", "6L9", "6S1", "5L15", "4L15", "3L16"],
 			waterpulse: ["8L25", "7T", "7L17", "6T", "6L17", "4M", "3M"],
 			weatherball: ["8M"],
 			whirlpool: ["8M", "7V", "4M"],
+			wish: ["8V"],
 			workup: ["8M", "7M", "5M"],
 			yawn: ["8V"],
 		},
@@ -23146,6 +23158,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	jolteon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			livewire: ["8L1"],
@@ -23246,6 +23261,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	flareon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
+			doublekick: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			wildfire: ["8L1"],
@@ -23266,7 +23285,6 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			detect: ["7V"],
 			dig: ["8M", "8V", "6M", "5M", "4M", "3M"],
 			doubleedge: ["8L1", "7V", "3T"],
-			doublekick: ["8V"],
 			doubleteam: ["7M", "7V", "6M", "5M", "4M", "3M"],
 			echoedvoice: ["7M", "6M", "5M"],
 			ember: ["8L0", "8V", "7L1", "7V", "6L9", "6S1", "5L15", "4L15", "3L16"],
@@ -23347,6 +23365,10 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	espeon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
+			doublekick: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			allyswitch: ["8M", "7T"],
@@ -23448,6 +23470,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	umbreon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -23540,6 +23565,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			weatherball: ["8M"],
 			wonderroom: ["8M", "7T", "6T", "5T"],
 			workup: ["8M", "7M", "5M"],
+			yawn: ["8V"],
 			zapcannon: ["7V"],
 		},
 		eventData: [
@@ -23551,6 +23577,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	leafeon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
+			curse: ["8V"],
+			detect: ["8V"],
+			doublekick: ["8V"],
+			yawn: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			aerialace: ["7M", "6M", "5M", "4M"],
@@ -23645,6 +23678,13 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	glaceon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
+			curse: ["8V"],
+			detect: ["8V"],
+			doublekick: ["8V"],
+			yawn: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			permafrost: ["8L1"],
@@ -53636,7 +53676,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			shoreup: ["8L1"],
-			liquidation: ["8L1"],
+			scorchingsands: ["8L1"],
 			skittersmack: ["8L1"],
 			meteorbeam: ["8L1"],
 			infestation: ["8L1"],
@@ -54009,6 +54049,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 		learnset: {
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			scorchingsands: ["8L1"],
+			firelash: ["8L1"],
 			meteorbeam: ["8L1"],
 			mysticalfire: ["8L1"],
 			explosion: ["8L1"],
@@ -84906,6 +84947,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sylveon: {
 		learnset: {
+			flail: ["8V"],
+			tickle: ["8V"],
+			wish: ["8V"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
 			achillesheel: ["8L1"],
 			lunarcannon: ["8L1"],
@@ -84921,11 +84965,14 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			copycat: ["8L1"],
 			covet: ["8L1", "7T", "6T"],
 			cut: ["6M"],
+			curse: ["8V"],
+			detect: ["8V"],
 			dazzlinggleam: ["8M", "7M", "6M"],
 			dig: ["8M", "6M"],
 			disarmingvoice: ["8L0", "7L1", "6L1", "6S1"],
 			doubleedge: ["8L1"],
 			doubleteam: ["7M", "6M"],
+			doublekick: ["8V"],
 			drainingkiss: ["8M", "8L30", "7L20", "7S2", "6L20", "6S1"],
 			echoedvoice: ["7M", "6M"],
 			endure: ["8M"],
@@ -84952,6 +84999,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			mistyterrain: ["8M", "8L35", "7L29", "6L29"],
 			moonblast: ["8L50", "7L37", "6L37"],
 			mysticalfire: ["8M"],
+			mudslap: ["8V"],
 			payday: ["8M"],
 			playrough: ["8M"],
 			protect: ["8M", "7M", "6M"],
@@ -84983,6 +85031,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxic: ["7M", "6M"],
 			weatherball: ["8M"],
 			workup: ["8M", "7M"],
+			yawn: ["8V"],
 		},
 		eventData: [
 			{generation: 6, level: 10, moves: ["celebrate", "helpinghand", "sandattack", "fairywind"], pokeball: "cherishball"},

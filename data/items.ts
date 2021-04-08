@@ -1273,6 +1273,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		num: 1232,
 		gen: 6,
 	},
+	deltacameruptite: {
+		name: "Delta Cameruptite",
+		spritenum: 576,
+		megaStone: "Camerupt-Delta-Mega",
+		megaEvolves: "Camerupt",
+		itemUser: ["Camerupt-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+	},
 	deltacharizardite: {
 		name: "Delta Charizardite",
 		spritenum: 576,
@@ -1435,6 +1448,19 @@ export const Items: {[itemid: string]: ItemData} = {
 		megaStone: "Milotic-Delta-Mega",
 		megaEvolves: "Milotic",
 		itemUser: ["Milotic-Delta"],
+		onTakeItem(item, source) {
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
+			return true;
+		},
+		num: 1233,
+		gen: 6,
+	},
+	deltapidgeotite: {
+		name: "Delta Pidgeotite",
+		spritenum: 576,
+		megaStone: "Pidgeot-Delta-Mega",
+		megaEvolves: "Pidgeot",
+		itemUser: ["Pidgeot-Delta"],
 		onTakeItem(item, source) {
 			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
