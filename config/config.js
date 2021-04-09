@@ -161,10 +161,6 @@ Config.roomsFirstOpenScript = function (mainMenuOnly) {
 	/* eslint-enable */
 };
 
-Config.customavatars = {
-	'beepnboop': 'taco',
-};
-
 Config.customcolors = {
 	'beepnboop': 'bleh',
 	'theimmortal': 'taco',
