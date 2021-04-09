@@ -3030,9 +3030,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				return null;
 			}
 		},
-		condition: {
-			duration: 1,
-		},
 		name: "Periodic Orbit",
 		rating: 3,
 		num: 253,
@@ -5408,11 +5405,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 260,
 	},
 	vampiric: {
-		onModifyMove(move, target) {
-			if (move.flags['contact']) this.heal(target.baseMaxhp / 4);
+		onAfterMove(target, source, move) {
+			if (move.flags['contact']) this.heal(target.lastDamage / 4, source);
 		},
 		name: "Vampiric",
-		rating: 2,
+		rating: 3,
 		num: 274,
 	},
 	vaporization: {
