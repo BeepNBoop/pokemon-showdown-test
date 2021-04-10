@@ -5405,8 +5405,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 260,
 	},
 	vampiric: {
-		onAfterMove(target, source, move) {
-			if (move.flags['contact']) this.heal(target.lastDamage / 4, source);
+		onAfterMoveSecondarySelf(pokemon, target, move) {
+			if (move.flags['contact']) this.heal(pokemon.lastDamage / 4, pokemon);
 		},
 		name: "Vampiric",
 		rating: 3,
@@ -5426,6 +5426,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onResidual(pokemon) {
 			if (!pokemon.hp) return;
 			for (const target of pokemon.side.foe.active) {
+				if (!target || !target.hp) continue;
+				if (target.hasType('Water')) {
+					this.damage(target.baseMaxhp / 8, target, pokemon);
+				}
+			}
+			for (const target of pokemon.side.active) {
 				if (!target || !target.hp) continue;
 				if (target.hasType('Water')) {
 					this.damage(target.baseMaxhp / 8, target, pokemon);
