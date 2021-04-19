@@ -18081,15 +18081,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {reflectable: 1, foundry: 1},
 		sideCondition: 'stealthrock',
-		onTry(source, target, move) {
-			if (source.hasAbility('foundry')) {
-				this.debug('The stealth rocks heated up due to Foundry!');
-				source.side.foe.addSideCondition('stealthrockfire');
-				return null;
-			}
-		},
 		condition: {
 			onStart(side, source) {
+				if (source.hasAbility('foundry')) {
+					this.debug('The stealth rocks heated up due to Foundry!');
+					source.side.foe.addSideCondition('stealthrockfire');
+					return null;
+				} else
 				source.side.foe.addSideCondition('stealthrock');
 				this.add('-sidestart', side, 'move: Stealth Rock');
 			},
