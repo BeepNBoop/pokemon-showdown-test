@@ -1064,8 +1064,8 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add('-immune', this.effectData.target);
 			}
 		},
-		onSourceModifyAtkPriority: 6,
-		onSourceModifyAtk(atk, attacker, defender, move) {
+		onSourceBasePowerPriority: 18,
+		onSourceBasePower(basePower, attacker, defender, move) {
 			if (move.type === 'Bug' || move.type === 'Poison') {
 				return this.chainModify(0.5);
 			}

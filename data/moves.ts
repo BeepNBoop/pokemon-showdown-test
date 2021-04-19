@@ -2746,7 +2746,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			const sourceSide = source.side;
 			const targetSide = source.side.foe;
 			const sideConditions = [
-				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire',
+				'mist', 'lightscreen', 'reflect', 'spikes', 'safeguard', 'tailwind', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'livewire', 'permafrost', 'waterpledge', 'firepledge', 'grasspledge', 'stickyweb', 'auroraveil', 'gmaxsteelsurge', 'gmaxcannonade', 'gmaxvinelash', 'gmaxwildfire',
 			];
 			let success = false;
 			for (const id of sideConditions) {
@@ -7664,9 +7664,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onHit(source) {
 				let success = false;
 				const removeTarget = [
-					'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stickyweb',
+					'reflect', 'lightscreen', 'auroraveil', 'safeguard', 'mist', 'spikes', 'toxicspikes', 'stealthrock', 'stealthrockfire', 'livewire', 'permafrost', 'stickyweb',
 				];
-				const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge'];
+				const removeAll = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'stealthrockfire', 'livewire', 'permafrost'];
 				for (const targetCondition of removeTarget) {
 					if (source.side.foe.removeSideCondition(targetCondition)) {
 						if (!removeAll.includes(targetCondition)) continue;
@@ -18079,7 +18079,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "Stealth Rock",
 		pp: 20,
 		priority: 0,
-		flags: {reflectable: 1, foundry:1},
+		flags: {reflectable: 1, foundry: 1},
 		sideCondition: 'stealthrock',
 		onTry(source, target, move) {
 			if (source.hasAbility('foundry')) {
@@ -18116,6 +18116,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 20,
 		priority: 0,
 		flags: {reflectable: 1},
+		sideCondition: 'stealthrockfire',
 		condition: {
 			onStart(side, source) {
 				source.side.foe.addSideCondition('stealthrockfire');
