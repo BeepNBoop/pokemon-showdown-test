@@ -18082,7 +18082,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {reflectable: 1, foundry: 1},
 		sideCondition: 'stealthrock',
 		onTry(source, target, move) {
-			if (source.hasAbility('foundry') && !target.hasAbility('magicbounce') && !target.volatiles['magiccoat']) {
+			if ((move.hasBounced && target.hasAbility('foundry')) || source.hasAbility('foundry') && !target.hasAbility('magicbounce') && !target.volatiles['magiccoat']) {
 				this.debug('The stealth rocks heated up due to Foundry!');
 				source.side.foe.addSideCondition('stealthrockfire');
 				return null;
