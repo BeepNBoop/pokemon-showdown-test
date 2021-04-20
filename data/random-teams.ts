@@ -646,7 +646,7 @@ export class RandomTeams {
 
 				switch (moveid) {
 				// Not very useful without their supporting moves
-				case 'meteorbeam': case 'lunarcannon':
+				case 'lunarcannon':
 					if (!hasAbility['noctem'] && ['lunatone'].includes(species.id)) rejected = true;
 					break;
 				case 'flareblitz':
@@ -1092,6 +1092,8 @@ export class RandomTeams {
 					rejectAbility = (species.id === 'greninjadelta');
 				} else if (ability === 'Liquid Ooze') {
 					rejectAbility = (species.id === 'heatmordelta');
+				} else if (ability === 'Simple') {
+					rejectAbility = (species.id === 'crustledeltacake' && !hasMove['shellsmash']);
 				} else if (ability === 'Mega Launcher') {
 					rejectAbility = (hasMove['shiftgear'] && hasMove['ironhead'] && hasMove['poisonjab'] && hasMove['gigadrain']);
 				} else if (ability === 'Fur Coat' || ability === 'Oblivious') {
@@ -1100,6 +1102,10 @@ export class RandomTeams {
 					rejectAbility = (species.id === 'drifblimdelta');
 				} else if (ability === 'Synchronize') {
 					rejectAbility = (species.id === 'ludicolodelta');
+				} else if (ability === 'Heatproof') {
+					rejectAbility = (species.id === 'octillerydelta');
+				} else if (ability === 'White Smoke') {
+					rejectAbility = (species.id === 'octillerydelta' && !hasMove['rockpolish'] && !hasMove['flamethrower']);
 				} else if (ability === 'Rough Skin' || ability === 'Rivalry') {
 					rejectAbility = (species.id === 'scraftydelta');
 				} else if (ability === 'Cursed Body' || ability === 'Technician') {

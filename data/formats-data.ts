@@ -769,7 +769,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	mukdelta: {
-		randomBattleMoves: ["drainpunch", "earthquakr", "suckerpunch", "firepunch"],
+		randomBattleMoves: ["drainpunch", "earthquake", "suckerpunch", "firepunch"],
 		randomBattleLevel: 80,
 		tier: "RU",
 	},
