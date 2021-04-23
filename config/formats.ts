@@ -35,7 +35,7 @@ export const Formats: FormatList = [
 		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Overflow Stat Mod'],
 	},
 	{
-		name: "Insurgence Draft",
+		name: "[Gen 8] Insurgence Draft",
 
 		mod: 'gen8',
 		maxLevel: 120,
