@@ -84947,12 +84947,12 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	sylveon: {
 		learnset: {
-			flail: ["8V"],
-			tickle: ["8V"],
-			wish: ["8V"],
+			flail: ["7T", "6T"],
+			tickle: ["7T", "6T"],
+			wish: ["7T", "6T"],
 			custommove: ["8L1"], custommovebug: ["8L1"], custommovedark: ["8L1"], custommovedragon: ["8L1"], custommoveelectric: ["8L1"], custommovefairy: ["8L1"], custommovefighting: ["8L1"], custommovefire: ["8L1"], custommoveflying: ["8L1"], custommoveghost: ["8L1"], custommovegrass: ["8L1"], custommoveground: ["8L1"], custommoveice: ["8L1"], custommovepoison: ["8L1"], custommovepsychic: ["8L1"], custommoverock: ["8L1"], custommovesteel: ["8L1"], custommovewater: ["8L1"],
-			achillesheel: ["8L1"],
-			lunarcannon: ["8L1"],
+			achillesheel: ["7T", "6T"],
+			lunarcannon: ["7T", "6T"],
 			attract: ["8M", "7M", "6M"],
 			babydolleyes: ["8L15", "7L9", "6S1"],
 			batonpass: ["8M", "8L1"],

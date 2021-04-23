@@ -23,14 +23,11 @@ export const Formats: FormatList = [
 	///////////////////////////////////////////////////////////////////
 
 	{
-		section: "[Gen 8] Insurgence Singles",
+		section: "Insurgence Singles",
 	},
 	{
 		name: "[Gen 8] Insurgence Random Battle",
 		desc: `Randomized teams of level-balanced Pok&eacute;mon with sets that are generated to be competitively viable.`,
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3656537/">Random Battle Suggestions</a>`,
-		],
 
 		mod: 'gen8',
 		maxLevel: 120, 
@@ -38,12 +35,16 @@ export const Formats: FormatList = [
 		ruleset: ['Dynamax Clause', 'PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Overflow Stat Mod'],
 	},
 	{
+		name: "Insurgence Draft",
+
+		mod: 'gen8',
+		maxLevel: 120,
+		defaultLevel: 120,
+		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Draft 3 Rules', 'Overflow Stat Mod'],
+		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
+	},
+	{
 		name: "[Gen 8] Insurgence OU",
-		threads: [
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672210/">OU Metagame Discussion</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3672556/">OU Sample Teams</a>`,
-			`&bullet; <a href="https://www.smogon.com/forums/threads/3674058/">OU Viability Rankings</a>`,
-		],
 
 		mod: 'gen8',
 		maxLevel: 120,
@@ -52,13 +53,13 @@ export const Formats: FormatList = [
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
-		name: "[Gen 8] Insurgence Draft",
+		name: "[Gen 8] Insurgence UU",
 
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Standard NatDex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Draft 3 Rules', 'Overflow Stat Mod'],
-		banlist: ['Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag'],
+		ruleset: ['Standard', 'Dynamax Clause', 'Overflow Stat Mod'],
+		banlist: ['Uber', 'OU', 'UUBL', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 	{
 		name: "[Gen 6] Insurgence OU",
