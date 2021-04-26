@@ -67,7 +67,7 @@ export const Formats: FormatList = [
 		mod: 'gen8',
 		maxLevel: 120,
 		defaultLevel: 120,
-		ruleset: ['Overflow Stat Mod', 'Torren Pokedex', 'Dynamax Clause', 'Achilles Clause', 'Z Move Clause', 'Magearna Clause', 'Magearna Item Clause', 'Custom Move Clause'],
+		ruleset: ['Overflow Stat Mod', 'Torren Pokedex', 'Dynamax Clause', 'Z Move Clause'],
 		banlist: ['Uber', 'Arena Trap', 'Moody', 'Power Construct', 'Shadow Tag', 'Baton Pass'],
 	},
 
