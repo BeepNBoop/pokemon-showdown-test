@@ -4535,11 +4535,11 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onFaint(pokemon) {
 			if (this.field.isWeather('sleet'))
-				this.field.clearWeather();
+				this.field.setWeather('hail');
 		},
 		onSwitchOut(pokemon) {
 			if (this.field.isWeather('sleet'))
-				this.field.clearWeather();
+				this.field.setWeather('hail');
 		},
 		name: "Sleet",
 		rating: 4,

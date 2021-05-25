@@ -1,3 +1,6 @@
+import { Pokemon } from "../sim";
+import { Species } from "../sim/dex-species";
+
 export const Conditions: {[k: string]: ConditionData} = {
 	brn: {
 		name: 'brn',
@@ -632,13 +635,13 @@ export const Conditions: {[k: string]: ConditionData} = {
 		durationCallback(source, effect) {
 			if (source?.hasItem('icyrock')) {
 				return 8;
+			} if (source.hasAbility('sleet')) {
+				return this.effectData.trueDuration--;
 			}
 			return 5;
 		},
 		onStart(battle, source, effect) {
-			if (effect.id === 'sleet') {
-				return;
-			} else if (effect?.effectType === 'Ability') {
+			if (effect?.effectType === 'Ability') {
 				if (this.gen <= 5) this.effectData.duration = 0;
 				this.add('-weather', 'Hail', '[from] ability: ' + effect, '[of] ' + source);
 			} else {
@@ -708,7 +711,7 @@ export const Conditions: {[k: string]: ConditionData} = {
 				return this.chainModify(1.35);
 			}
 			if (move.type === 'Fairy') {
-				this.debug('New Moon fairy suppress');
+				this.debug('New Moon Fairy suppress');
 				return this.chainModify(0.75);
 			}
 		},
