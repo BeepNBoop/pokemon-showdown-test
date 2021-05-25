@@ -635,8 +635,14 @@ export const Conditions: {[k: string]: ConditionData} = {
 		durationCallback(source, effect) {
 			if (source?.hasItem('icyrock')) {
 				return 8;
-			} if (source.hasAbility('sleet')) {
-				return this.effectData.trueDuration--;
+			} if (source?.hasAbility('sleet') && source.activeTurns === 1) {
+				return 4;
+			} if (source?.hasAbility('sleet') && source.activeTurns === 2) {
+				return 3;
+			} if (source?.hasAbility('sleet') && source.activeTurns === 3) {
+				return 2;
+			} if (source?.hasAbility('sleet') && source.activeTurns === 4) {
+				return 1;
 			}
 			return 5;
 		},
