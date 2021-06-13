@@ -5640,12 +5640,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	winterjoy: {
 		onModifyAtk(Atk, pokemon) {
 			if (pokemon.hasAbility('winterjoy')) {
-				return this.chainModify(1);
+				return this.chainModify(.7);
 			}
 		},
 		onModifySpA(spa, pokemon) {
 			if (pokemon.hasAbility('winterjoy')) {
-				return this.chainModify(1);
+				return this.chainModify(.7);
 			}
 		},
 		name: "Winter Joy",
