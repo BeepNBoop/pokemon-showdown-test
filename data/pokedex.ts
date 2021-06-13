@@ -8645,7 +8645,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Castform-Sandy",
 		baseSpecies: "Castform",
 		forme: "Sandy",
-		types: ["Ground"],
+		types: ["Rock", "Ground"],
 		baseStats: {hp: 70, atk: 70, def: 70, spa: 70, spd: 70, spe: 70},
 		abilities: {0: "Forecast"},
 		heightm: 0.3,
