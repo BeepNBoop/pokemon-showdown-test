@@ -20925,8 +20925,11 @@ export const Moves: {[moveid: string]: MoveData} = {
 		slotCondition: 'Wish',
 		condition: {
 			duration: 2,
-			onStart(pokemon, source) {
-				this.effectData.hp = source.maxhp / 2;
+			onStart(pokemon, source, side) {
+				if (pokemon.ability === 'periodicorbit') {
+					this.add('-sidestart', side, 'Wish Orbit');
+					this.effectData.hp = source.maxhp / 2;
+				} else	this.effectData.hp = source.maxhp / 2;
 			},
 			onResidualOrder: 4,
 			onEnd(target) {
@@ -20951,8 +20954,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1, orbit: 1},
-		slotCondition: 'Wish Orbit',
-		isFutureMove: true,
+		sideCondition: 'Wish Orbit',
 		condition: {
 			duration: 4,
 			onStart(pokemon, source) {

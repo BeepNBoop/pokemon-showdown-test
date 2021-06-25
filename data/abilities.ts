@@ -3014,22 +3014,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: 253,
 	},
 	periodicorbit: {
-		onAfterMove(target, source, move) {
-			if (!move.flags['futuremove'] || move.flags['Orbit']) return;
-			if (move.id === 'wish') {
-			const orbit = this.dex.getMove('wishorbit');
-			this.useMove(orbit, source);
-			return null;
-			} else if (move.id === 'doomdesire') {
-				const orbit = this.dex.getMove('doomdesireorbit');
-				this.useMove(orbit, target);
-				return null;
-			} else if (move.id === 'futuresight') {
-				const orbit = this.dex.getMove('futuresightorbit');
-				this.useMove(orbit, target);
-				return null;
-			}
-		},
+		//coded into the moves themselves
 		name: "Periodic Orbit",
 		rating: 3,
 		num: 253,
