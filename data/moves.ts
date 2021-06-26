@@ -20927,7 +20927,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 			duration: 2,
 			durationCallback(source, effect) {
 				if (source?.hasAbility('periodicorbit')) {
-					this.add('-activate', source, 'ability: Persistent', effect);
 					return 4;
 				}
 				return 2;
