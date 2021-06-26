@@ -20936,13 +20936,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onResidualOrder: 4,
 			onFoeAfterSwitchInSelf(target) {
-				if (target && !target.fainted && (this.effectData.duration !== 2)) {
+				if (target && !target.fainted && (this.effectData.duration === 2)) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
 				}
 			},
 			onFoeAfterMove(target) {
-				if (target && !target.fainted && (this.effectData.duration !== 2)) {
+				if (target && !target.fainted && (this.effectData.duration = 2)) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
 				}
