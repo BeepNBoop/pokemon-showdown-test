@@ -20924,14 +20924,24 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {snatch: 1, heal: 1, futuremove: 1},
 		slotCondition: 'Wish',
 		condition: {
-			duration: 3,
+			duration: 2,
+			durationCallback(source, effect) {
+				if (source?.hasAbility('periodicorbit')) {
+					this.add('-activate', source, 'ability: Persistent', effect);
+					return 4;
+				}
+				return 2;
+			},
 			onStart(pokemon, source, side) {
-				if (source.hasAbility('periodicorbit')) {
-					this.add('-sidestart', source.side, 'Wish Orbit');
-					this.effectData.hp = source.maxhp / 2;
-				} else	this.effectData.hp = source.maxhp / 2;
+				this.effectData.hp = source.maxhp / 2;
 			},
 			onResidualOrder: 4,
+			onResidual(target, source) {
+				if (target && !target.fainted && source?.hasAbility('periodicorbit') && this.effectData.duration == 2) {
+					const damage = this.heal(this.effectData.hp, target, target);
+					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
+				}
+			},
 			onEnd(target) {
 				if (target && !target.fainted) {
 					const damage = this.heal(this.effectData.hp, target, target);
@@ -20950,7 +20960,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
-		name: "Wish Oribit",
+		name: "Wish Orbit",
 		pp: 10,
 		priority: 0,
 		flags: {snatch: 1, heal: 1},
