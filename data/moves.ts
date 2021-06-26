@@ -20935,7 +20935,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.effectData.hp = source.maxhp / 2;
 			},
 			onResidualOrder: 4,
-			onResidual(target) {
+			onFoeAfterSwitchInSelf(target) {
+				if (target && !target.fainted && (this.effectData.duration !== 2)) {
+					const damage = this.heal(this.effectData.hp, target, target);
+					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
+				}
+			},
+			onFoeAfterMove(target) {
 				if (target && !target.fainted && (this.effectData.duration !== 2)) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
