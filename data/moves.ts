@@ -20926,8 +20926,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		condition: {
 			duration: 2,
 			onStart(pokemon, source, side) {
-				if (pokemon.ability === 'periodicorbit') {
-					this.add('-sidestart', side, 'Wish Orbit');
+				if (source.hasAbility('periodicorbit')) {
+					this.add('-sidestart', source.side, 'Wish Orbit');
 					this.effectData.hp = source.maxhp / 2;
 				} else	this.effectData.hp = source.maxhp / 2;
 			},
@@ -20965,6 +20965,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				if (target && !target.fainted) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish Orbit', '[wisher] ' + this.effectData.source.name);
+					this.add('-sidestart', target.side, 'Wish Orbit');
 				}
 			},
 		},
