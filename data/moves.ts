@@ -20925,7 +20925,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		slotCondition: 'Wish',
 		condition: {
 			duration: 2,
-			durationCallback(source, effect) {
+			durationCallback(source, effect,) {
 				if (source?.hasAbility('periodicorbit')) {
 					return 4;
 				}
@@ -20935,8 +20935,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 				this.effectData.hp = source.maxhp / 2;
 			},
 			onResidualOrder: 4,
-			onResidual(target, source) {
-				if (target && !target.fainted && this.effectData.duration == 2) {
+			onResidual(target) {
+				if (target && !target.fainted && (this.effectData.duration = 2)) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
 				}
