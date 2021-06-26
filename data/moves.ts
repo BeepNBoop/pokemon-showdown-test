@@ -20936,7 +20936,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 			onResidualOrder: 4,
 			onResidual(target, source) {
-				if (target && !target.fainted && source?.hasAbility('periodicorbit') && this.effectData.duration == 2) {
+				if (target && !target.fainted && this.effectData.duration == 2) {
 					const damage = this.heal(this.effectData.hp, target, target);
 					if (damage) this.add('-heal', target, target.getHealth, '[from] move: Wish', '[wisher] ' + this.effectData.source.name);
 				}
