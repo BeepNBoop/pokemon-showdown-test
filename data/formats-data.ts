@@ -2887,8 +2887,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
-	
-	a: {
+	torterra: {
 		isNonstandard: "Past",
 		tier: "Illegal",
 	},
