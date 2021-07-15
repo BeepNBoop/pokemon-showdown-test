@@ -2892,7 +2892,7 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		tier: "Illegal",
 	},
 	torterradelta: {
-		randomBattleMoves: ["liquidation, earthquake, flipturn, shoreup, shoreup, stelthrock, aquajet, raindance"],
+		randomBattleMoves: ["liquidation", "earthquake", "flipturn", "shoreup", "shoreup", "stelthrock", "aquajet", "raindance"],
 		randomBattleLevel: 82,
 		tier: "UU",
 	},
@@ -6354,6 +6354,506 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		randomDoubleBattleLevel: 70,
 		tier: "Uber",
 		doublesTier: "DUber",
+	},
+	aggrondelta: {
+		randomDoubleBattleMoves:["BrickBreak", "FireLash", "HeatCrash",  "IronHead", "RockSlide", "knockoff", "irondefense", "protect", "HeavySlam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	ambipomdelta: {
+		randomDoubleBattleMoves:["protect", "BodySlam", "BrickBreak", "KnockOff", "Poltergeist", "U-Turn", "FakeOut"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	arcaninedelta: {
+		randomDoubleBattleMoves:["Protect", "DragonClaw", "ExtremeSpeed", "BodySlam", "RockSlide", "IronHead", "PlayRough", "AncientRoar", "DazzlingGleam", "DragonPulse", "Incinerate", "FlashCannon"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	amoongussdelta: {
+		randomDoubleBattleMoves:["DestinyBond", "LightScreen", "WillOWisp", "StrengthSap", "Tailwind", "TrickRoom", "AllySwitch", "Taunt", "NightShade", "FakeTears", "ScaryFace", "FoulPlay", "KnockOff"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	aurorusdelta: {
+		randomDoubleBattleMoves:["LightScreen", "Reflect", "HelpingHand", "Protect", "SunnyDay", "GigaDrain", "Scald", "HydroPump", "SolarBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	avaluggdelta: {
+		randomDoubleBattleMoves:["RockPolish", "IronDefense", "protect", "BodyPress", "Accelerock", "DragonHammer", "RockSlide", "IronHead", "Avalanche", "ShadowClaw", "ZenHeadbutt"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	bisharpdelta: {
+		randomDoubleBattleMoves:["BlazeKick", "DrainPunch", "DualWingbeat", "MachPunch", "IronHead", "U-Turn", "TripleAxel", "CloseCombat"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	blastoisedelta: {
+		randomDoubleBattleMoves:["NastyPlot", "Protect", "NewMoon", "AuraSphere", "DarkPulse", "FlashCannon", "LunarCannon", "ShellTrap"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	blazikendelta: {
+		randomDoubleBattleMoves:["Tailwind", "WillOWisp", "AllySwitch", "FlareBlitz", "BraveBird", "ZenHeadbutt", "DazzlingGleam", "AirSlash", "ExpandingForce", "MysticalFire"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	cameruptdelta: {
+		randomDoubleBattleMoves:["BanefulBunker", "AcidArmor", "CorrosiveGas", "PoisonGas", "VenomDrench", "Flamethrower", "Hex", "Corrode", "Venoshock", "Snarl"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	chandeluredelta: {
+		randomDoubleBattleMoves:["Protect", "DazzlingGleam", "EarthPower", "EnergyBall", "HeatWave", "FlashCannon", "Psychic", "Moonblast", "MysticalFire"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	charizarddelta: {
+		randomDoubleBattleMoves:["NewMoon", "Tailwind", "Dragon Pulse", "Heat Wave", "Hex", "Icebeam", "ShadowBall", "BurningJealousy", "LunarCannon"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	cofragigusdelta: {
+		randomDoubleBattleMoves: ["IronDefense", "PerishSong", "protect", "LightScreen", "Reflect", "PainSplit", "WillOWisp", "BodyPress", "ClearSmog", "FlashCannon", "Corrode"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	darmanitandelta: {
+		randomDoubleBattleMoves:["protect", "HoneClaws", "DarkestLariat", "Facade", "FlameCharge", "KnockOff", "Poltergeist", "RockSlide", "ShadowSneak", "Drain Punch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	dodriodelta: {
+		randomDoubleBattleMoves:["LightScreen", "Reflect", "AllySwitch", "HelpingHand", "DrillPeck", "DrillRun", "KnockOff", "PsychoCut", "ZenHeadbutt"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	dragonitedelta: {
+		randomDoubleBattleMoves:["RainDance", "protect", "Liquidation", "KnockOff", "RockSlide", "WildCharge", "Scald", "Thunder", "IceBeam", "ChargeBeam", "Electroweb", "IcyWind"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	drifblimdelta: {
+		randomDoubleBattleMoves:["Tailwind", "Protect", "StrengthSap", "WillOWisp", "HelpingHand", "MysticalFire",  "Inferno", "HyperVoice", "Hurricane"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	dugtriodelta: {
+		randomDoubleBattleMoves:["SwordsDance", "protect", "ExtremeSpeed", "BodySlam", "IcicleCrash", "KnockOff", "PsychicFangs", "Crunch", "ThunderFang", "SuckerPunch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	dunsparcedelta: {
+		randomDoubleBattleMoves:["protect", "SwordsDance", "RainDance", "StringShot", "Liquidation", "FirstImpression", "LeechLife", "RockBlast", "IcicleSpear", "BulletSeed", "PinMissile"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	electiviredelta: {
+		randomDoubleBattleMoves:["NewMoon", "AncientRoar", "DragonPulse", "HeatWave", "DarkPulse", "LunarCannon", "MeteorBeam", "Snarl", "FocusBlast"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	emolgadelta: {
+		randomDoubleBattleMoves:["WillOWisp", "HelpingHand", "protect", "U-Turn", "Acrobatics", "KnockOff", "HeatWave", "DarkPulse", "ShadowBall", "MysticalFire"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	escavalierdelta: {
+		randomDoubleBattleMoves:["Protect", "BulkUp", "AllySwitch", "HelpingHand", "Swagger", "BodySlam", "FirstImpression", "CrossChop", "RockSlide", "PlayRough"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	froslassdelta: {
+		randomDoubleBattleMoves:["WillOWisp", "Protect", "FireLash", "BrickBreak", "Poltergeist", "FieryDance", "EnergyBall", "MysticalFire", "DarkPulse", "Eruption"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	galladedelta: {
+		randomDoubleBattleMoves:["protect", "SwordsDance", "IceShard", "IcicleCrash", "DrainPunch", "LeafBlade", "Nuzzle", "RockSlide", "WildCharge", "SmartStrike"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	gardevoirdelta: {
+		randomDoubleBattleMoves:["AuroraVeil", "Protect", "ThunderWave", "HelpingHand", "Blizzard", "DazzlingGleam", "FlashCannon", "Thunderbolt", "VoltSwitch", "IcyWind"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	girafarigdelta: {
+		randomDoubleBattleMoves:["CorrosiveGas", "Recycle", "protect", "ClearSmog", "FlashCannon", "SludgeBomb", "Corrode", "ChargeBeam", "Snarl"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	glaliedelta: {
+		randomDoubleBattleMoves:["protect", "Accelerock", "BodyPress", "FlameCharge", "FlareBlitz", "HeadSmash", "RockSlide", "KnockOff"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	golemdelta: {
+		randomDoubleBattleMoves:["TrickRoom", "Protect", "IronDefense", "AllySwitch", "HelpingHand", "BodyPress",  "Avalanche", "RockSlide", "ZenHeadbutt", "IronHead"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	golurkdelta: {
+		randomDoubleBattleMoves:["NoRetreat", "BulletPunch", "CloseCombat", "DrainPunch", "FirePunch", "KnockOff", "RockSlide", "IcePunch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	goodradelta: {
+		randomDoubleBattleMoves:["protect", "EarthPower", "GigaDrain", "Brine", "IceBeam", "ShoreUp", "Belch", "Muddy Water"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	gorebyssdelta: {
+		randomDoubleBattleMoves:["HelpingHand", "ShellSmash", "DazzlingGleam", "DragonPulse", "IceBeam", "MysticalFire", "Moonblast", "Protect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	greninjadelta: {
+		randomDoubleBattleMoves:["StrengthSap", "WillOWisp", "Protect", "Taunt", "HelpingHand", "FireLash", "LeafBlade", "KnockOff", "EnergyBall", "HeatWave"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	haxorusdelta: {
+		randomDoubleBattleMoves:["Autotomize", "SwordsDance", "AnchorShot", "Liquidation", "BulletPunch", "AquaJet", "RockSlide", "StompingTantrum", "PsychicFangs", "Crunch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	heatmordelta: {
+		randomDoubleBattleMoves:["ShiftGear", "PoisonJab", "IronHead", "Facade", "Protect", "AuraSphere", "WaterPulse", "Flamethrower", "FlashCannon", "SludgeBomb"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	huntaildelta: {
+		randomDoubleBattleMoves:["DragonDance", "ShellSmash", "FireFang", "IceFang", "PsychicFangs", "Crunch", "DragonRush", "ScaleShot", "IronHead", "KnockOff"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	hydreigondelta: {
+		randomDoubleBattleMoves:["HyperVoice", "protect", "EarthPower", "GunkShot", "Flamethrower", "Corrode", "GigaDrain", "RockSlide", "Facade", "StompingTantrum"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	kabutopsdelta: {
+		randomDoubleBattleMoves:["SwordsDance", "FirstImpression", "Crunch", "KnockOff", "LeechLife", "RockSlide", "BrickBreak", "PsychoCut", "PoisonJab"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lanturndelta: {
+		randomDoubleBattleMoves:["Haze", "WillOWisp", "Protect", "AllySwitch", "FollowMe", "ClearSmog", "NightShade", "HeatWave", "ShadowBall", "ChargeBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lieparddelta: {
+		randomDoubleBattleMoves:["Taunt", "ThunderWave", "PerishSong", "protect", "AllySwitch", "NastyPlot", "DazzlingGleam", "Hex", "ThunderBolt", "EnergyBall"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lopunnydelta: {
+		randomDoubleBattleMoves:["HelpingHand", "Coaching", "BulkUp", "CloseCombat", "BrickBreak", "Facade", "IronHead", "IcePunch" ,"MachPunch" ,"RockSlide"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lucariodelta: {
+		randomDoubleBattleMoves:["SwordsDance", "NastyPlot", "protect", "Taunt", "Bonemerang", "DarkestLariat", "IronHead", "EarthPower", "DarkPulse", "KnockOff"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	ludicolodelta: {
+		randomDoubleBattleMoves:["LightScreen", "Reflect", "StrengthSap", "ThunderWave", "Acupressure", "HelpingHand", "AllySwitch", "WaterSpout", "EerieSpell", "MysticalFire"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	luxraydelta: {
+		randomDoubleBattleMoves:["protect", "PoisonGas", "HelpingHand", "PoisonJab", "DrillRun", "IronHead", "RockSlide", "PsychicFangs", "KnockOff", "Facade"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	magmortardelta: {
+		randomDoubleBattleMoves:["Autotomize", "AuraSphere", "DarkPulse", "FlashCannon", "WaterPulse", "TerrainPulse", "FocusBlast", "Blizzard", "FireBlast", "Protect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	maractusdelta: {
+		randomDoubleBattleMoves:["ShiftGear", "CalmMind", "IronDefense", "BulletPunch", "MeteorMash", "IcePunch", "Thunderbolt", "FlashCannon", "EnergyBall", "ChargeBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	mawiledelta: {
+		randomDoubleBattleMoves:["Growth", "HelpingHand", "SunnyDay", "SolarBlade", "SeedBomb", "RockSlide", "Crunch", "BodySlam", "SuckerPunch", "protect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	medichamdelta: {
+		randomDoubleBattleMoves:["Protect", "DazzlingGleam", "Moonblast", "EarthPower", "GigaDrain", "HyperVoice", "AuraSphere", "MistyExplosion", "Psychic"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	miloticdelta: {
+		randomDoubleBattleMoves:["PerishSong", "Protect", "TrickRoom", "WillOWisp", "DarkPulse", "Hex", "NightShade", "DazzlingGleam", "AuraSphere", "Recover"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	mismagiusdelta: {
+		randomDoubleBattleMoves:["Tailwind", "HelpingHand", "Sing", "Blizzard", "Freeze-Dry", "DazzlingGleam", "Thunder", "FlashCannon", "MistyExplosion"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	mukdelta: {
+		randomDoubleBattleMoves:["StrengthSap", "Protect", "StockPile", "BodyPress", "RockSlide", "Facade", "KnockOff", "PoisonJab", "ShoreUp", "SelfDestruct"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	noctowldelta: {
+		randomDoubleBattleMoves:["Tailwind", "HelpingHand", "Blizzard", "Hurricane", "DazzlingGleam", "SheerCold", "HyperVoice", "Hail", "AuroraVeil", "Protect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	noiverndelta: {
+		randomDoubleBattleMoves:["Tailwind", "Protect", "StrengthSap", "SunnyDay", "Boomburst", "FlashCannon", "EnergyBall", "HeatWave", "SolarBeam","DragonPulse"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	octillerydelta: {
+		randomDoubleBattleMoves:["Protect", "WillOWisp", "PainSplit", "Octazooka", "Overheat", "Eruption", "EnergyBall", "Scald", "EarthPower"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	pidgeotdelta: {
+		randomDoubleBattleMoves:["Tailwind", "Taunt", "MedusaRay", "DarkPulse", "DragonPulse", "Toxic", "FireBlast", "ShadowBall", "SludgeBomb"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	quagsiredelta: {
+		randomDoubleBattleMoves:["SunnyDay", "LeechSeed", "Synthesis", "WillOWisp", "LeafBlade", "FirePunch", "Protect", "HeatWave", "Hex", "GigaDrain"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	raichudelta: {
+		randomDoubleBattleMoves:["Tailwind", "LightScreen", "Reflect", "Roost", "ThunderWave", "HelpingHand", "AirSlash", "Moonblast", "DazzlingGleam", "GrassKnot"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	regicedelta: {
+		randomDoubleBattleMoves:["Protect", "Scald", "EarthPower", "IceBeam", "WaterSpout", "ChargeBeam", "Thunderbolt", "Recover", "Lightscreen", "Reflect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	regirockdelta: {
+		randomDoubleBattleMoves:["Protect", "LightScreen", "Reflect", "BrickBreak", "RockSlide", "KnockOff", "ThunderPunch", "SkitterSmack", "ShoreUp", "Earthquake"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	registeeldelta: {
+		randomDoubleBattleMoves:["WillOWisp", "protect", "FireLash", "RockSlide", "Explosion", "Eruption", "Thunderbolt", "EarthPower", "ChargeBeam", "Recover"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	reuniclusdelta: {
+		randomDoubleBattleMoves:["TrickRoom", "Protect", "PainSplit", "WillOWisp", "Hex", "ShadowBall", "PowerGem", "GigaDrain", "EarthPower", "MeteorBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	roseradedelta: {
+		randomDoubleBattleMoves:["Taunt", "Protect", "NewMoon", "HelpingHand", "JetStream", "DarkPulse", "DazzlingGleam", "HeatWave", "Snarl", "LunarCannon"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	sableyedelta: {
+		randomDoubleBattleMoves:["Protect", "Glare", "RockPolish", "RockSlide", "FireLash", "FlameCharge", "KnockOff", "FakeOut", "BrickBreak", "FoulPlay"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	sceptiledelta: {
+		randomDoubleBattleMoves:["protect", "DragonDance", "Taunt", "Coaching", "Dragonify", "HelpingHand", "DragonClaw", "BrickBreak", "PoisonJab", "WildCharge"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	scizordelta: {
+		randomDoubleBattleMoves:["SwordsDance", "Agility", "Avalanche", "IcicleCrash", "IceShard", "CloseCombat", "KnockOff", "U-Turn", "SmartStrike", "Acrobatics"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	scolipededelta: {
+		randomDoubleBattleMoves:["SwordsDance", "Taunt", "DrillRun", "Explosion", "FlareBlitz", "FlameCharge", "RockSlide", "StoneEdge", "Megahorn", "KnockOff"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	scraftydelta: {
+		randomDoubleBattleMoves:["StrengthSap", "BulkUp", "Protect", "PowerWhip", "Acrobatics", "BrickBreak", "HeadSmash", "thunderPunch", "Facade", "GrassyGlide"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	serperiordelta: {
+		randomDoubleBattleMoves:["Tailwind", "Toxic", "Coil", "CalmMind", "MuddyWater", "Liquidation", "SlackOff", "BreakingSwipe", "DragonPulse", "Hurricane"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	shiftrydelta: {
+		randomDoubleBattleMoves:["NastyPlot", "MagnetRise", "ThunderWave", "FakeOut", "DazzlingGleam", "Flamethrower", "FlashCannon", "Thunderbolt", "VoltSwitch", "EnergyBall"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	shuckledelta: {
+		randomDoubleBattleMoves: ["BulkUp", "Detect", "HelpingHand", "Coaching", "PowerTrick", "GyroBall", "DrainPunch", "KnockOff", "Power-UpPunch", "IcePunch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	snorlaxdelta: {
+		randomDoubleBattleMoves:["BellyDrum", "Protect", "SeedBomb", "PlayRough", "RockSlide", "DrainPunch", "KnockOff", "IronHead", "GrassyGlide", "GrassyTerrain"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	sunfloradelta: {
+		randomDoubleBattleMoves:["WillOWisp", "NastyPlot", "TrickRoom", "Corrode", "Snarl", "Incinerate", "HeatWave", "EarthPower", "EnergyBall", "protect"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	tangrowthdelta: {
+		randomDoubleBattleMoves:["Protect", "Sandstorm", "HelpingHand", "PowerWhip", "FlareBlitz", "StompingTantrum", "BodyPress", "DrainPunch", "KnockOff", "Facade"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	tentactrueldelta: {
+		randomDoubleBattleMoves:["SleepPowder", "StrengthSap", "Protect", "PollenPuff", "EnergyBall", "Corrode", "Venoshock", "PowerWhip", "KnockOff", "FirstImpression"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	torterradelta: {
+		randomDoubleBattleMoves:["RainDance", "Protect", "Liquidation", "AquaJet", "RockSlide", "SeedBomb", "Avalanche", "HeavySlam", "FlipTurn", "Earthquake"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	trevenantdelta: {
+		randomDoubleBattleMoves:["AuroraVeil", "LeechSeed", "HelpingHand", "Protect", "IceHammer", "PlayRough", "TrickRoom", "CloseCombat", "GyroBall", "RockSlide"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	typhlosiondelta: {
+		randomDoubleBattleMoves:["Protect", "IronDefense", "DazzlingGleam", "DarkPulse", "VoltSwitch", "FlashCannon", "EnergyBall", "Electroweb", "ChargeBeam", "RisingVoltage"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	venusaurdelta: {
+		randomDoubleBattleMoves:["LeechSeed", "Electroweb", "MysticalFire", "Protect", "AllySwitch", "HelpingHand", "DazzlingGleam", "ExpandingForce", "IcyWind", "Thunderbolt"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	vespiqueendelta: {
+		randomDoubleBattleMoves:["IronDefense", "ShiftGear", "TarShot", "FireLash", "BodyPress", "FirstImpression", "FlameCharge", "IronHead", "RockSlide", "WildCharge"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	volcaronadelta: {
+		randomDoubleBattleMoves:["EarthPower", "FlashCannon", "ClearSmog", "DarkPulse", "Corrode", "DazzlingGleam", "EnergyBall", "AuraSphere", "SpacialRend", "HeatWave"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	wailorddelta: {
+		randomDoubleBattleMoves:["Tailwind", "AuroraVeil", "Blizzard", "Freeze-Dry", "HyperVoice", "Brine", "Hurricane", "IcyWind", "protect", "Roost"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	weezingdelta: {
+		randomDoubleBattleMoves:["OverDrive", "Boomburst", "protect", "RisingVoltage", "HeatWave", "Hurricane", "FlashCannon", "DarkPulse", "ChargeBeam", "calmmind"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	yanmegadelta: {
+		randomDoubleBattleMoves:["SunnyDay", "Taunt", "Growth", "AirSlash", "GigaDrain", "EnergyBall", "DazzlingGleam", "Hurricane", "ElectroWeb", "SolarBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	crusltedeltaberry: {
+		randomDoubleBattleMoves:["SunnyDay", "LeechSeed", "ThunderWave", "Growth", "FirstImpression", "LeafBlade", "PoisonJab", "GyroBall", "KnockOff", "Facade"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	crustledeltacake: {
+		randomDoubleBattleMoves:["ShellSmash", "Protect", "PlayRough", "Facade", "Brick Break", "KnockOff", "MetalClaw"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lilligantdeltafairy: {
+		randomDoubleBattleMoves:["Tailwind", "Lightscreen", "Reflect", "Protect", "AllySwitch", "HelpingHand", "FeatherDance", "Moonblast", "Hurricane", "MysticalFire"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	lilligantdeltawater: {
+		randomDoubleBattleMoves:["FieryDance", "TailGlow", "Scald", "GigaDrain", "Protect", "EarthPower", "Thunderbolt", "FlameCharge", "MysticalFire", "DazzlingGleam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	metagrossdeltaruin: {
+		randomDoubleBattleMoves:["LeechSeed", "RockPolish", "DiamondStorm", "BodyPress", "IronDefense", "HeadSmash", "IronHead", "WildCharge", "WoodHammer", "StompingTantrum"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	metagrossdeltaspider: {
+		randomDoubleBattleMoves:["RockPolish", "StrengthSap", "Taunt", "StringShot", "BrickBreak", "FirstImpression", "KnockOff", "Lunge", "RockSlide", "StompingTantrum"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	ufi: {
+		randomDoubleBattleMoves:["NanoRepair", "CalmMind", "MagnetRise", "CosmicPower", "AllySwitch", "Protect", "StoredPower", "RisingVoltage", "DazzlingGleam", "IceBeam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	hoopadeltaunleashed: {
+		randomDoubleBattleMoves:["HelpingHand", "Protect", "Tailwind", "DazzlingGleam", "AeroBlast", "Hypervoice", "HeatWave", "IcyWind", "IceBeam", "ShadowBall"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	scytherdelta: {
+		randomDoubleBattleMoves: ["Hail", "HoneClaws", "IceShard", "IcicleCrash", "CrossChop", "RockSlide", "Acrobatics", "IronHead", "U-Turn", "LashOut"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	pikachudelta: {
+		randomDoubleBattleMoves:["Tailwind", "Roost", "AerialAce", "VoltTackle", "BodySlam", "Moonblast", "DazzlingGleam", "Hurricane", "HeatWave", "AirSlash"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	meloettadelta: {
+		randomDoubleBattleMoves:["protect", "Taunt", "BrickBreak", "KnockOff", "PlayRough", "IronHead", "FirePunch", "Facade", "U-Turn", "SuckerPunch"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	meloettadeltamagician: {
+		randomDoubleBattleMoves:["perishsong", "protect", "allyswitch", "HelpingHand", "ThunderWave", "DazzlingGleam", "HyperVoice", "Psychic", "FocusBlast", "Thunderbolt"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	toxicroakdelta: {
+		randomDoubleBattleMoves:["Protect", "WillOWisp", "BlazeKick", "FireLash", "RockSlide", "Power-UpPunch", "Explosion", "SuckerPunch", "ThunderPunch", "StompingTantrum"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	plusledelta: {
+		randomDoubleBattleMoves:["QuiverDance", "Metronome", "DazzlingGleam", "HeatWave", "Rest", "EnergyBall", "ChargeBeam", "MysticalFire", "protect", "Substitute"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	minundelta: {
+		randomDoubleBattleMoves:["QuiverDance", "Tailwind", "protect", "encore", "AfterYou", "HelpingHand", "Hail", "AuroraVeil", "Blizzard", "DazzlingGleam"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	hoopadelta: {
+		randomDoubleBattleMoves:["Tailwind", "Defog", "Trick", "HelpingHand", "Acrobatics", "Aeroblast", "DazzlingGleam", "VoltSwitch", "ShadowBall", "IcyWind"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	magmardelta: {
+		randomDoubleBattleMoves:["RainDance", "Autotomize", "HelpingHand", "AfterYou", "FirstImpression", "Liquidation", "FlipTurn", "IronHead", "KnockOff", "CrushClaw"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
+	},
+	electabuzzdelta: {
+		randomDoubleBattleMoves:["protect", "JetStream", "SwordsDance", "Acrobatics", "Accelerock", "Explosion", "StoneEdge", "Ironhead", "FirePunch", "BreakingSwipe"],
+		randomDoubleBattleLevel: 80,
+		doublesTier: "(DUU)",
 	},
 	missingno: {
 		isNonstandard: "Custom",
