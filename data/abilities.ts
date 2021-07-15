@@ -4348,7 +4348,7 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 	},
 	shadowdance: {
 		onModifySpe(spe, pokemon) {
-			if (['newmoon'].includes(pokemon.effectiveWeather())) {
+			if (this.field.isWeather('newmoon')) {
 				return this.chainModify(2);
 			}
 		},
