@@ -439,6 +439,20 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: 171,
 	},
+	castlemoat: {
+		onTryHit(target, source, move) {
+			if (target !== source && move.type === 'Water') {
+				if (!this.boost({spd: 1})) {
+					this.add('-immune', target, '[from] ability: Castle Moat');
+					this.add(`c|${getName('PartMan')}|Om nom nom`);
+				}
+				return null;
+			}
+		},
+		name: "Castle Moat",
+		rating: 5,
+		num: 171,
+	},
 	cheekpouch: {
 		onEatItem(item, pokemon) {
 			this.heal(pokemon.baseMaxhp / 3);
